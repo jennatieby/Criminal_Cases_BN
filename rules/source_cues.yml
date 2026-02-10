@@ -1,0 +1,21 @@
+version: 1.0
+court_fact:
+  - "the judge found"
+  - "the jury were sure"
+  - "the court is satisfied"
+  - "it was accepted that"
+  - "the facts are these"
+prosecution_case:
+  - "the prosecution case was"
+  - "the crown alleged"
+  - "the respondent submitted"
+  - "the prosecution say"
+defence_case:
+  - "the defence contended"
+  - "the appellant said"
+  - "the defence argued"
+  - "the defendant maintained"
+uncertain:
+  - "it was argued that"
+  - "it appears that"
+  - "there was evidence that"

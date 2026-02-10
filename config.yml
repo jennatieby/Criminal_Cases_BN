@@ -1,0 +1,36 @@
+seed: 42
+
+paths:
+  raw_csv:        "data/raw/uk_cases_full.csv"
+  cleaned_csv:    "data/interim/uk_cases_full.cleaned.csv"
+  nodes_jsonl:    "data/interim/nodes.jsonl"
+  edges_jsonl:    "data/interim/edges.jsonl"
+  cases_csv:      "data/processed/cases.csv"
+  nodes_csv:      "data/processed/nodes.csv"
+  edges_csv:      "data/processed/edges.csv"
+  inventory_csv:  "data/processed/node_inventory.csv"
+
+rules:
+  ontology:       "rules/ontology.yml"
+  source_cues:    "rules/source_cues.yml"
+  regex_sections: "rules/regex_sections.yml"
+  idioms:         "rules/idioms.yml"
+
+thresholds:
+  min_clean_len:  1000
+  edge_keep:      0.45
+  factual_prob:   0.60
+
+weights:
+  section:
+    facts:        1.0
+    evidence:     1.0
+    analysis:     0.8
+    other:        0.7
+  type_prior:
+    narrative_to_evidence: 0.6
+    narrative_to_legal:    0.6
+    evidence_to_legal:     0.5
+  penalties:
+    negation:    -0.3
+    hedge:       -0.2

@@ -1,0 +1,239 @@
+version: 1.1
+
+# Idioms: how narrative/evidence nodes inform legal_facts.
+# - "parents": upstream nodes that influence this node.
+# - "prior": baseline probability when parents unknown (0..1).
+# - "monotonic": if true, more positive parents -> higher belief.
+# - "logic" or "decision.rule": optional boolean-style description (for documentation and tests).
+# - "effect": optional list of signed/conditional influences for specific parents.
+
+idioms:
+
+  # -------- Core elements --------
+
+  actus_reus_killing:
+    parents:
+      - assault_method_stabbing
+      - assault_method_shooting
+      - assault_method_blunt_force
+      - poisoning
+      - strangulation
+      - weapon_petrol_fire
+      - cctv_attack_visible
+      - dna_match_defendant_on_weapon
+      - fingerprint_match_on_weapon
+      - blood_spatter_pattern_consistent
+      - wound_sharp_force
+      - wound_blunt_force
+      - time_of_death_window_narrow
+    monotonic: true
+    notes: "Multiple direct-act and forensics cues push up causal actus reus."
+    prior: 0.50
+
+  unlawful_killing:
+    parents:
+      - actus_reus_killing
+      - self_defence_legal           # negative
+      - insanity                     # negative
+    logic: "unlawful_killing := actus_reus_killing AND NOT self_defence_legal AND NOT insanity"
+    effect:
+      - { parent: self_defence_legal, direction: negative }
+      - { parent: insanity,          direction: negative }
+    prior: 0.60
+
+  causation:
+    parents:
+      - actus_reus_killing
+      - blood_spatter_pattern_consistent
+      - expert_opinion_diminished_resp  # noise guard (no direct effect)
+    notes: "Link between conduct and death; evidence patterns support causal link."
+    prior: 0.55
+
+  mens_rea_intent_to_kill:
+    parents:
+      - planning_premeditation
+      - prior_threats
+      - messages_prior_threats
+      - search_history_weapons_or_poison
+      - purchase_record_weapon
+      - assault_method_stabbing
+      - assault_method_shooting
+      - weapon_petrol_fire
+      - wound_sharp_force
+      - wound_blunt_force
+      - abduction
+      - tied_restraint
+      - boasting_admissions
+    monotonic: true
+    notes: "Planning, threats, targeted lethal means, and restraint all increase intent likelihood."
+    prior: 0.40
+
+  mens_rea_intent_gbh:
+    parents:
+      - prior_conflict
+      - assault_method_blunt_force
+      - injury_defensive_wounds
+      - weapon_blunt
+      - weapon_sharp
+    monotonic: true
+    notes: "Severe violence without clear kill-specific indicators supports GBH intent."
+    prior: 0.45
+
+  self_defence_legal:
+    parents:
+      - witness_self_defence_statements
+      - cctv_attack_visible
+      - injury_defensive_wounds
+      - prior_threats        # negative (by defendant)
+    effect:
+      - { parent: cctv_attack_visible, direction: positive_if_defendant_retreats_or_attacked_first }
+      - { parent: injury_defensive_wounds, direction: positive }
+      - { parent: prior_threats, direction: negative_if_from_defendant }
+    notes: "Assessed on necessity/proportionality and honest belief in imminent attack."
+    prior: 0.10
+
+  diminished_responsibility:
+    parents:
+      - expert_opinion_diminished_resp
+      - medical_history_mental_impairment
+      - defendant_intoxicated
+    notes: "Requires abnormality of mental functioning causing substantial impairment; intoxication alone insufficient."
+    effect:
+      - { parent: defendant_intoxicated, direction: neutral_if_alone }
+    prior: 0.10
+
+  loss_of_control:
+    parents:
+      - prior_threats
+      - motive_jealousy_revenge
+      - messages_prior_threats
+    notes: "Modern partial defence with qualifying trigger (fear of serious violence or things said/done)."
+    prior: 0.10
+
+  insanity:
+    parents: []
+    notes: "M’Naghten rules; typically rare. Kept for completeness."
+    prior: 0.02
+
+  accessory_or_complicity:
+    parents:
+      - joint_enterprise_presence
+      - planning_premeditation
+      - withdrawal_from_joint_enterprise   # negative
+      - withdrawal_effective               # negative (overrides)
+    notes: "Presence + assistance/encouragement; timely unequivocal withdrawal negates."
+    effect:
+      - { parent: withdrawal_from_joint_enterprise, direction: negative }
+      - { parent: withdrawal_effective,             direction: strong_negative }
+    prior: 0.20
+
+  withdrawal_effective:
+    parents:
+      - withdrawal_from_joint_enterprise
+      - alibi_claim                       # weak negative if false
+    notes: "Explicit timely communication + steps to neutralise aid."
+    prior: 0.20
+
+  # -------- Aggravators / contextual inferences (useful for BN richness) --------
+
+  planning_aggravator:
+    parents:
+      - planning_premeditation
+      - concealment_actions
+      - disposal_of_weapon
+      - post_offence_burial
+      - purchase_record_weapon
+      - search_history_weapons_or_poison
+    monotonic: true
+    notes: "Used downstream for sentencing-aware analyses or as a parent to intent."
+    prior: 0.30
+
+  joint_enterprise_participation:
+    parents:
+      - joint_enterprise_presence
+      - prior_conflict
+      - call_logs_prior_contact
+      - phone_cell_site_near_scene
+      - cctv_presence
+    monotonic: true
+    notes: "Group coordination cues."
+    prior: 0.35
+
+  participation_proved:
+    parents:
+      - confession_or_admission
+      - boasting_admissions
+      - eyewitness_identification
+      - dna_match_victim_on_defendant
+      - dna_match_defendant_on_weapon
+      - fingerprint_match_on_weapon
+      - cctv_attack_visible
+      - inconsistent_statements          # negative if exculpatory; positive if lies about presence
+    notes: "Composite participation indicator to stabilize verdict nodes."
+    prior: 0.40
+
+  # -------- Verdict / disposition nodes --------
+
+  murder:
+    parents:
+      - unlawful_killing
+      - mens_rea_intent_to_kill
+      - mens_rea_intent_gbh
+      - self_defence_legal
+      - diminished_responsibility
+      - loss_of_control
+    decision:
+      rule: |
+        murder := unlawful_killing
+                  AND (mens_rea_intent_to_kill OR mens_rea_intent_gbh)
+                  AND NOT self_defence_legal
+                  AND NOT diminished_responsibility
+                  AND NOT loss_of_control
+    prior: 0.30
+    notes: "Intent to kill or cause GBH + unlawful killing; excludes self-defence and partial defences."
+
+  manslaughter_diminished_resp:
+    parents:
+      - unlawful_killing
+      - diminished_responsibility
+      - self_defence_legal
+    decision:
+      rule: "manslaughter_diminished_resp := unlawful_killing AND diminished_responsibility AND NOT self_defence_legal"
+    prior: 0.10
+
+  manslaughter_loss_of_control:
+    parents:
+      - unlawful_killing
+      - loss_of_control
+      - self_defence_legal
+    decision:
+      rule: "manslaughter_loss_of_control := unlawful_killing AND loss_of_control AND NOT self_defence_legal"
+    prior: 0.10
+
+  manslaughter_unlawful_act:
+    parents:
+      - actus_reus_killing
+      - mens_rea_intent_to_kill        # negative
+      - mens_rea_intent_gbh            # negative
+      - self_defence_legal             # negative
+    notes: "Constructive manslaughter where death results from unlawful act with no intent to kill/GBH."
+    effect:
+      - { parent: mens_rea_intent_to_kill, direction: negative }
+      - { parent: mens_rea_intent_gbh,     direction: negative }
+      - { parent: self_defence_legal,      direction: negative }
+    prior: 0.10
+
+  manslaughter_gross_negligence:
+    parents:
+      - unlawful_killing
+      - actus_reus_killing
+    notes: "Included for portability; typically outside intentional homicide fact patterns."
+    prior: 0.05
+
+  lawful_killing_self_defence:
+    parents:
+      - actus_reus_killing
+      - self_defence_legal
+    decision:
+      rule: "lawful_killing_self_defence := actus_reus_killing AND self_defence_legal"
+    prior: 0.05

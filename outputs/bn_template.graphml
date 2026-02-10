@@ -1,0 +1,3014 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d5" for="edge" attr.name="max_score" attr.type="double"/>
+<key id="d4" for="edge" attr.name="mean_score" attr.type="double"/>
+<key id="d3" for="edge" attr.name="obs_count" attr.type="long"/>
+<key id="d2" for="edge" attr.name="support_cases" attr.type="long"/>
+<key id="d1" for="node" attr.name="occurrences" attr.type="long"/>
+<key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="directed"><node id="abduction">
+  <data key="d0">narrative</data>
+  <data key="d1">9</data>
+</node>
+<node id="accessory_or_complicity">
+  <data key="d0">legal_facts</data>
+  <data key="d1">88</data>
+</node>
+<node id="actus_reus_killing">
+  <data key="d0">legal_facts</data>
+  <data key="d1">77</data>
+</node>
+<node id="alibi_claim">
+  <data key="d0">narrative</data>
+  <data key="d1">9</data>
+</node>
+<node id="assault_method_blunt_force">
+  <data key="d0">narrative</data>
+  <data key="d1">19</data>
+</node>
+<node id="assault_method_shooting">
+  <data key="d0">narrative</data>
+  <data key="d1">89</data>
+</node>
+<node id="assault_method_stabbing">
+  <data key="d0">narrative</data>
+  <data key="d1">96</data>
+</node>
+<node id="causation">
+  <data key="d0">legal_facts</data>
+  <data key="d1">34</data>
+</node>
+<node id="cctv_presence">
+  <data key="d0">evidence</data>
+  <data key="d1">1</data>
+</node>
+<node id="confession_or_admission">
+  <data key="d0">evidence</data>
+  <data key="d1">60</data>
+</node>
+<node id="confession_third_party">
+  <data key="d0">narrative</data>
+  <data key="d1">1</data>
+</node>
+<node id="defendant_intoxicated">
+  <data key="d0">narrative</data>
+  <data key="d1">10</data>
+</node>
+<node id="diminished_responsibility">
+  <data key="d0">legal_facts</data>
+  <data key="d1">100</data>
+</node>
+<node id="encounter">
+  <data key="d0">narrative</data>
+  <data key="d1">26</data>
+</node>
+<node id="flight_after_offence">
+  <data key="d0">narrative</data>
+  <data key="d1">7</data>
+</node>
+<node id="injury_defensive_wounds">
+  <data key="d0">evidence</data>
+  <data key="d1">3</data>
+</node>
+<node id="joint_enterprise_presence">
+  <data key="d0">narrative</data>
+  <data key="d1">32</data>
+</node>
+<node id="lawful_killing_self_defence">
+  <data key="d0">legal_facts</data>
+  <data key="d1">4</data>
+</node>
+<node id="location_private_dwelling">
+  <data key="d0">narrative</data>
+  <data key="d1">7</data>
+</node>
+<node id="location_public_space">
+  <data key="d0">narrative</data>
+  <data key="d1">197</data>
+</node>
+<node id="loss_of_control">
+  <data key="d0">legal_facts</data>
+  <data key="d1">23</data>
+</node>
+<node id="manslaughter_unlawful_act">
+  <data key="d0">legal_facts</data>
+  <data key="d1">2</data>
+</node>
+<node id="mens_rea_intent_to_kill">
+  <data key="d0">legal_facts</data>
+  <data key="d1">46</data>
+</node>
+<node id="motive_financial_gain">
+  <data key="d0">narrative</data>
+  <data key="d1">30</data>
+</node>
+<node id="motive_jealousy_revenge">
+  <data key="d0">narrative</data>
+  <data key="d1">20</data>
+</node>
+<node id="murder">
+  <data key="d0">legal_facts</data>
+  <data key="d1">915</data>
+</node>
+<node id="planning_premeditation">
+  <data key="d0">narrative</data>
+  <data key="d1">174</data>
+</node>
+<node id="poisoning">
+  <data key="d0">narrative</data>
+  <data key="d1">6</data>
+</node>
+<node id="prior_assault">
+  <data key="d0">narrative</data>
+  <data key="d1">3</data>
+</node>
+<node id="prior_conflict">
+  <data key="d0">narrative</data>
+  <data key="d1">7</data>
+</node>
+<node id="prior_threats">
+  <data key="d0">narrative</data>
+  <data key="d1">3</data>
+</node>
+<node id="search_history_weapons_or_poison">
+  <data key="d0">evidence</data>
+  <data key="d1">1</data>
+</node>
+<node id="self_defence_legal">
+  <data key="d0">legal_facts</data>
+  <data key="d1">66</data>
+</node>
+<node id="strangulation">
+  <data key="d0">narrative</data>
+  <data key="d1">19</data>
+</node>
+<node id="tied_restraint">
+  <data key="d0">narrative</data>
+  <data key="d1">1</data>
+</node>
+<node id="time_of_death_window_narrow">
+  <data key="d0">evidence</data>
+  <data key="d1">1</data>
+</node>
+<node id="unlawful_killing">
+  <data key="d0">legal_facts</data>
+  <data key="d1">21</data>
+</node>
+<node id="victim_intoxicated">
+  <data key="d0">narrative</data>
+  <data key="d1">6</data>
+</node>
+<node id="weapon_blunt">
+  <data key="d0">narrative</data>
+  <data key="d1">6</data>
+</node>
+<node id="weapon_firearm">
+  <data key="d0">narrative</data>
+  <data key="d1">157</data>
+</node>
+<node id="weapon_petrol_fire">
+  <data key="d0">narrative</data>
+  <data key="d1">11</data>
+</node>
+<node id="weapon_present">
+  <data key="d0">narrative</data>
+  <data key="d1">67</data>
+</node>
+<node id="weapon_sharp">
+  <data key="d0">narrative</data>
+  <data key="d1">244</data>
+</node>
+<node id="withdrawal_effective">
+  <data key="d0">legal_facts</data>
+  <data key="d1">1</data>
+</node>
+<node id="wound_blunt_force">
+  <data key="d0">evidence</data>
+  <data key="d1">1</data>
+</node>
+<node id="wound_sharp_force">
+  <data key="d0">evidence</data>
+  <data key="d1">8</data>
+</node>
+<edge source="abduction" target="murder">
+  <data key="d2">5</data>
+  <data key="d3">260</data>
+  <data key="d4">0.7120384615384615</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.7120384615384615</data>
+</edge>
+<edge source="abduction" target="actus_reus_killing">
+  <data key="d2">5</data>
+  <data key="d3">31</data>
+  <data key="d4">0.6176774193548387</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6176774193548387</data>
+</edge>
+<edge source="abduction" target="confession_or_admission">
+  <data key="d2">4</data>
+  <data key="d3">20</data>
+  <data key="d4">0.692</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.692</data>
+</edge>
+<edge source="abduction" target="mens_rea_intent_to_kill">
+  <data key="d2">4</data>
+  <data key="d3">12</data>
+  <data key="d4">0.6388333333333334</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6388333333333334</data>
+</edge>
+<edge source="abduction" target="wound_sharp_force">
+  <data key="d2">3</data>
+  <data key="d3">6</data>
+  <data key="d4">0.7200000000000001</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.7200000000000001</data>
+</edge>
+<edge source="abduction" target="accessory_or_complicity">
+  <data key="d2">2</data>
+  <data key="d3">13</data>
+  <data key="d4">0.746923076923077</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.746923076923077</data>
+</edge>
+<edge source="abduction" target="self_defence_legal">
+  <data key="d2">2</data>
+  <data key="d3">39</data>
+  <data key="d4">0.6892820512820513</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6892820512820513</data>
+</edge>
+<edge source="abduction" target="unlawful_killing">
+  <data key="d2">2</data>
+  <data key="d3">7</data>
+  <data key="d4">0.6842857142857143</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6842857142857143</data>
+</edge>
+<edge source="abduction" target="injury_defensive_wounds">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="abduction" target="causation">
+  <data key="d2">1</data>
+  <data key="d3">52</data>
+  <data key="d4">0.6258461538461538</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6258461538461538</data>
+</edge>
+<edge source="abduction" target="diminished_responsibility">
+  <data key="d2">1</data>
+  <data key="d3">6</data>
+  <data key="d4">0.57</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.57</data>
+</edge>
+<edge source="abduction" target="manslaughter_unlawful_act">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.47</data>
+  <data key="d5">0.47</data>
+  <data key="d6">0.47</data>
+</edge>
+<edge source="alibi_claim" target="murder">
+  <data key="d2">5</data>
+  <data key="d3">144</data>
+  <data key="d4">0.6880972222222222</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.6880972222222222</data>
+</edge>
+<edge source="alibi_claim" target="confession_or_admission">
+  <data key="d2">4</data>
+  <data key="d3">31</data>
+  <data key="d4">0.6197419354838709</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.6197419354838709</data>
+</edge>
+<edge source="alibi_claim" target="mens_rea_intent_to_kill">
+  <data key="d2">3</data>
+  <data key="d3">6</data>
+  <data key="d4">0.7200000000000001</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.7200000000000001</data>
+</edge>
+<edge source="alibi_claim" target="loss_of_control">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.77</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.77</data>
+</edge>
+<edge source="alibi_claim" target="self_defence_legal">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.77</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.77</data>
+</edge>
+<edge source="alibi_claim" target="unlawful_killing">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.77</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.77</data>
+</edge>
+<edge source="alibi_claim" target="wound_blunt_force">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="alibi_claim" target="accessory_or_complicity">
+  <data key="d2">1</data>
+  <data key="d3">6</data>
+  <data key="d4">0.6765</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6765</data>
+</edge>
+<edge source="alibi_claim" target="injury_defensive_wounds">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.6325000000000001</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.6325000000000001</data>
+</edge>
+<edge source="alibi_claim" target="wound_sharp_force">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.6325000000000001</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.6325000000000001</data>
+</edge>
+<edge source="alibi_claim" target="actus_reus_killing">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.5125</data>
+  <data key="d5">0.583</data>
+  <data key="d6">0.5125</data>
+</edge>
+<edge source="alibi_claim" target="prior_assault">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="alibi_claim" target="abduction">
+  <data key="d2">1</data>
+  <data key="d3">8</data>
+  <data key="d4">0.37</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.37</data>
+</edge>
+<edge source="alibi_claim" target="assault_method_blunt_force">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.37</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.37</data>
+</edge>
+<edge source="assault_method_blunt_force" target="murder">
+  <data key="d2">12</data>
+  <data key="d3">399</data>
+  <data key="d4">0.6355664160401002</data>
+  <data key="d5">0.79</data>
+  <data key="d6">0.6355664160401002</data>
+</edge>
+<edge source="assault_method_blunt_force" target="actus_reus_killing">
+  <data key="d2">9</data>
+  <data key="d3">45</data>
+  <data key="d4">0.6442222222222221</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6442222222222221</data>
+</edge>
+<edge source="assault_method_blunt_force" target="confession_or_admission">
+  <data key="d2">7</data>
+  <data key="d3">27</data>
+  <data key="d4">0.6985925925925925</data>
+  <data key="d5">0.87</data>
+  <data key="d6">0.6985925925925925</data>
+</edge>
+<edge source="assault_method_blunt_force" target="mens_rea_intent_to_kill">
+  <data key="d2">6</data>
+  <data key="d3">29</data>
+  <data key="d4">0.4873793103448276</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.4873793103448276</data>
+</edge>
+<edge source="assault_method_blunt_force" target="unlawful_killing">
+  <data key="d2">5</data>
+  <data key="d3">19</data>
+  <data key="d4">0.5905263157894737</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5905263157894737</data>
+</edge>
+<edge source="assault_method_blunt_force" target="accessory_or_complicity">
+  <data key="d2">4</data>
+  <data key="d3">114</data>
+  <data key="d4">0.6002982456140351</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6002982456140351</data>
+</edge>
+<edge source="assault_method_blunt_force" target="lawful_killing_self_defence">
+  <data key="d2">3</data>
+  <data key="d3">8</data>
+  <data key="d4">0.606</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.606</data>
+</edge>
+<edge source="assault_method_blunt_force" target="causation">
+  <data key="d2">2</data>
+  <data key="d3">4</data>
+  <data key="d4">0.77</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.77</data>
+</edge>
+<edge source="assault_method_blunt_force" target="self_defence_legal">
+  <data key="d2">2</data>
+  <data key="d3">4</data>
+  <data key="d4">0.62</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.62</data>
+</edge>
+<edge source="assault_method_blunt_force" target="diminished_responsibility">
+  <data key="d2">2</data>
+  <data key="d3">88</data>
+  <data key="d4">0.6100681818181818</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6100681818181818</data>
+</edge>
+<edge source="assault_method_blunt_force" target="injury_defensive_wounds">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="assault_method_blunt_force" target="wound_sharp_force">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="assault_method_blunt_force" target="loss_of_control">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.583</data>
+  <data key="d5">0.583</data>
+  <data key="d6">0.583</data>
+</edge>
+<edge source="assault_method_blunt_force" target="abduction">
+  <data key="d2">1</data>
+  <data key="d3">8</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="assault_method_shooting" target="murder">
+  <data key="d2">12</data>
+  <data key="d3">2730</data>
+  <data key="d4">0.6372567765567766</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.6372567765567766</data>
+</edge>
+<edge source="assault_method_shooting" target="confession_or_admission">
+  <data key="d2">10</data>
+  <data key="d3">155</data>
+  <data key="d4">0.610516129032258</data>
+  <data key="d5">0.87</data>
+  <data key="d6">0.610516129032258</data>
+</edge>
+<edge source="assault_method_shooting" target="actus_reus_killing">
+  <data key="d2">8</data>
+  <data key="d3">417</data>
+  <data key="d4">0.5751127098321343</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.5751127098321343</data>
+</edge>
+<edge source="assault_method_shooting" target="causation">
+  <data key="d2">5</data>
+  <data key="d3">827</data>
+  <data key="d4">0.5663966142684401</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5663966142684401</data>
+</edge>
+<edge source="assault_method_shooting" target="unlawful_killing">
+  <data key="d2">4</data>
+  <data key="d3">123</data>
+  <data key="d4">0.6137398373983739</data>
+  <data key="d5">0.79</data>
+  <data key="d6">0.6137398373983739</data>
+</edge>
+<edge source="assault_method_shooting" target="self_defence_legal">
+  <data key="d2">3</data>
+  <data key="d3">563</data>
+  <data key="d4">0.6148703374777975</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.6148703374777975</data>
+</edge>
+<edge source="assault_method_shooting" target="wound_sharp_force">
+  <data key="d2">3</data>
+  <data key="d3">8</data>
+  <data key="d4">0.611875</data>
+  <data key="d5">0.87</data>
+  <data key="d6">0.611875</data>
+</edge>
+<edge source="assault_method_shooting" target="mens_rea_intent_to_kill">
+  <data key="d2">3</data>
+  <data key="d3">167</data>
+  <data key="d4">0.5462994011976048</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5462994011976048</data>
+</edge>
+<edge source="assault_method_shooting" target="assault_method_blunt_force">
+  <data key="d2">3</data>
+  <data key="d3">11</data>
+  <data key="d4">0.4336363636363636</data>
+  <data key="d5">0.57</data>
+  <data key="d6">0.4336363636363636</data>
+</edge>
+<edge source="assault_method_shooting" target="lawful_killing_self_defence">
+  <data key="d2">2</data>
+  <data key="d3">5</data>
+  <data key="d4">0.65</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.65</data>
+</edge>
+<edge source="assault_method_shooting" target="accessory_or_complicity">
+  <data key="d2">2</data>
+  <data key="d3">81</data>
+  <data key="d4">0.587358024691358</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.587358024691358</data>
+</edge>
+<edge source="assault_method_shooting" target="abduction">
+  <data key="d2">2</data>
+  <data key="d3">63</data>
+  <data key="d4">0.3768253968253968</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.3768253968253968</data>
+</edge>
+<edge source="assault_method_shooting" target="cctv_presence">
+  <data key="d2">1</data>
+  <data key="d3">16</data>
+  <data key="d4">0.6675</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.6675</data>
+</edge>
+<edge source="assault_method_shooting" target="flight_after_offence">
+  <data key="d2">1</data>
+  <data key="d3">18</data>
+  <data key="d4">0.4097222222222222</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.4097222222222222</data>
+</edge>
+<edge source="assault_method_shooting" target="prior_conflict">
+  <data key="d2">1</data>
+  <data key="d3">72</data>
+  <data key="d4">0.4097222222222222</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.4097222222222222</data>
+</edge>
+<edge source="assault_method_shooting" target="prior_threats">
+  <data key="d2">1</data>
+  <data key="d3">31</data>
+  <data key="d4">0.37870967741935485</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.37870967741935485</data>
+</edge>
+<edge source="assault_method_shooting" target="alibi_claim">
+  <data key="d2">1</data>
+  <data key="d3">18</data>
+  <data key="d4">0.3733333333333333</data>
+  <data key="d5">0.46</data>
+  <data key="d6">0.3733333333333333</data>
+</edge>
+<edge source="assault_method_stabbing" target="murder">
+  <data key="d2">29</data>
+  <data key="d3">1755</data>
+  <data key="d4">0.668105982905983</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.668105982905983</data>
+</edge>
+<edge source="assault_method_stabbing" target="confession_or_admission">
+  <data key="d2">13</data>
+  <data key="d3">104</data>
+  <data key="d4">0.6624230769230769</data>
+  <data key="d5">0.87</data>
+  <data key="d6">0.6624230769230769</data>
+</edge>
+<edge source="assault_method_stabbing" target="actus_reus_killing">
+  <data key="d2">11</data>
+  <data key="d3">90</data>
+  <data key="d4">0.6246666666666667</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.6246666666666667</data>
+</edge>
+<edge source="assault_method_stabbing" target="accessory_or_complicity">
+  <data key="d2">8</data>
+  <data key="d3">166</data>
+  <data key="d4">0.6298614457831325</data>
+  <data key="d5">0.79</data>
+  <data key="d6">0.6298614457831325</data>
+</edge>
+<edge source="assault_method_stabbing" target="mens_rea_intent_to_kill">
+  <data key="d2">8</data>
+  <data key="d3">54</data>
+  <data key="d4">0.48522222222222217</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.48522222222222217</data>
+</edge>
+<edge source="assault_method_stabbing" target="wound_sharp_force">
+  <data key="d2">7</data>
+  <data key="d3">37</data>
+  <data key="d4">0.697027027027027</data>
+  <data key="d5">0.87</data>
+  <data key="d6">0.697027027027027</data>
+</edge>
+<edge source="assault_method_stabbing" target="unlawful_killing">
+  <data key="d2">7</data>
+  <data key="d3">57</data>
+  <data key="d4">0.6729649122807018</data>
+  <data key="d5">0.98</data>
+  <data key="d6">0.6729649122807018</data>
+</edge>
+<edge source="assault_method_stabbing" target="self_defence_legal">
+  <data key="d2">6</data>
+  <data key="d3">92</data>
+  <data key="d4">0.5905434782608695</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5905434782608695</data>
+</edge>
+<edge source="assault_method_stabbing" target="causation">
+  <data key="d2">4</data>
+  <data key="d3">14</data>
+  <data key="d4">0.6656428571428571</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6656428571428571</data>
+</edge>
+<edge source="assault_method_stabbing" target="strangulation">
+  <data key="d2">3</data>
+  <data key="d3">18</data>
+  <data key="d4">0.4263888888888889</data>
+  <data key="d5">0.445</data>
+  <data key="d6">0.4263888888888889</data>
+</edge>
+<edge source="assault_method_stabbing" target="abduction">
+  <data key="d2">3</data>
+  <data key="d3">43</data>
+  <data key="d4">0.4069767441860465</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.4069767441860465</data>
+</edge>
+<edge source="assault_method_stabbing" target="alibi_claim">
+  <data key="d2">3</data>
+  <data key="d3">24</data>
+  <data key="d4">0.359375</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.359375</data>
+</edge>
+<edge source="assault_method_stabbing" target="injury_defensive_wounds">
+  <data key="d2">2</data>
+  <data key="d3">10</data>
+  <data key="d4">0.7024999999999999</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.7024999999999999</data>
+</edge>
+<edge source="assault_method_stabbing" target="diminished_responsibility">
+  <data key="d2">2</data>
+  <data key="d3">72</data>
+  <data key="d4">0.6773611111111112</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6773611111111112</data>
+</edge>
+<edge source="assault_method_stabbing" target="loss_of_control">
+  <data key="d2">2</data>
+  <data key="d3">42</data>
+  <data key="d4">0.43833333333333335</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.43833333333333335</data>
+</edge>
+<edge source="assault_method_stabbing" target="prior_assault">
+  <data key="d2">2</data>
+  <data key="d3">9</data>
+  <data key="d4">0.3611111111111111</data>
+  <data key="d5">0.57</data>
+  <data key="d6">0.3611111111111111</data>
+</edge>
+<edge source="assault_method_stabbing" target="cctv_presence">
+  <data key="d2">1</data>
+  <data key="d3">6</data>
+  <data key="d4">0.6266666666666666</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.6266666666666666</data>
+</edge>
+<edge source="assault_method_stabbing" target="lawful_killing_self_defence">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.62</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.62</data>
+</edge>
+<edge source="assault_method_stabbing" target="withdrawal_effective">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.47</data>
+  <data key="d5">0.47</data>
+  <data key="d6">0.47</data>
+</edge>
+<edge source="assault_method_stabbing" target="manslaughter_unlawful_act">
+  <data key="d2">1</data>
+  <data key="d3">7</data>
+  <data key="d4">0.4442857142857143</data>
+  <data key="d5">0.47</data>
+  <data key="d6">0.4442857142857143</data>
+</edge>
+<edge source="assault_method_stabbing" target="tied_restraint">
+  <data key="d2">1</data>
+  <data key="d3">8</data>
+  <data key="d4">0.4075</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.4075</data>
+</edge>
+<edge source="assault_method_stabbing" target="confession_third_party">
+  <data key="d2">1</data>
+  <data key="d3">6</data>
+  <data key="d4">0.3933333333333333</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.3933333333333333</data>
+</edge>
+<edge source="assault_method_stabbing" target="prior_threats">
+  <data key="d2">1</data>
+  <data key="d3">6</data>
+  <data key="d4">0.3933333333333333</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.3933333333333333</data>
+</edge>
+<edge source="cctv_presence" target="causation">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.67</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.67</data>
+</edge>
+<edge source="cctv_presence" target="murder">
+  <data key="d2">1</data>
+  <data key="d3">18</data>
+  <data key="d4">0.6443333333333334</data>
+  <data key="d5">0.708</data>
+  <data key="d6">0.6443333333333334</data>
+</edge>
+<edge source="cctv_presence" target="confession_or_admission">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="confession_or_admission" target="murder">
+  <data key="d2">28</data>
+  <data key="d3">1165</data>
+  <data key="d4">0.5622695278969957</data>
+  <data key="d5">0.82</data>
+  <data key="d6">0.5622695278969957</data>
+</edge>
+<edge source="confession_or_admission" target="actus_reus_killing">
+  <data key="d2">13</data>
+  <data key="d3">109</data>
+  <data key="d4">0.5066146788990826</data>
+  <data key="d5">0.82</data>
+  <data key="d6">0.5066146788990826</data>
+</edge>
+<edge source="confession_or_admission" target="mens_rea_intent_to_kill">
+  <data key="d2">10</data>
+  <data key="d3">28</data>
+  <data key="d4">0.4262142857142857</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.4262142857142857</data>
+</edge>
+<edge source="confession_or_admission" target="unlawful_killing">
+  <data key="d2">8</data>
+  <data key="d3">27</data>
+  <data key="d4">0.5567037037037037</data>
+  <data key="d5">0.69</data>
+  <data key="d6">0.5567037037037037</data>
+</edge>
+<edge source="confession_or_admission" target="accessory_or_complicity">
+  <data key="d2">8</data>
+  <data key="d3">150</data>
+  <data key="d4">0.5456133333333333</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.5456133333333333</data>
+</edge>
+<edge source="confession_or_admission" target="self_defence_legal">
+  <data key="d2">5</data>
+  <data key="d3">36</data>
+  <data key="d4">0.5076111111111111</data>
+  <data key="d5">0.82</data>
+  <data key="d6">0.5076111111111111</data>
+</edge>
+<edge source="confession_or_admission" target="causation">
+  <data key="d2">5</data>
+  <data key="d3">37</data>
+  <data key="d4">0.4215135135135135</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.4215135135135135</data>
+</edge>
+<edge source="confession_or_admission" target="diminished_responsibility">
+  <data key="d2">3</data>
+  <data key="d3">54</data>
+  <data key="d4">0.5304444444444445</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.5304444444444445</data>
+</edge>
+<edge source="confession_or_admission" target="lawful_killing_self_defence">
+  <data key="d2">2</data>
+  <data key="d3">4</data>
+  <data key="d4">0.605</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.605</data>
+</edge>
+<edge source="confession_or_admission" target="loss_of_control">
+  <data key="d2">2</data>
+  <data key="d3">6</data>
+  <data key="d4">0.5619999999999999</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.5619999999999999</data>
+</edge>
+<edge source="confession_or_admission" target="manslaughter_unlawful_act">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.41</data>
+  <data key="d5">0.41</data>
+  <data key="d6">0.41</data>
+</edge>
+<edge source="confession_third_party" target="self_defence_legal">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.77</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.77</data>
+</edge>
+<edge source="confession_third_party" target="murder">
+  <data key="d2">1</data>
+  <data key="d3">8</data>
+  <data key="d4">0.746625</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.746625</data>
+</edge>
+<edge source="confession_third_party" target="wound_sharp_force">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="confession_third_party" target="location_public_space">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="defendant_intoxicated" target="murder">
+  <data key="d2">9</data>
+  <data key="d3">136</data>
+  <data key="d4">0.6379705882352941</data>
+  <data key="d5">0.79</data>
+  <data key="d6">0.6379705882352941</data>
+</edge>
+<edge source="defendant_intoxicated" target="confession_or_admission">
+  <data key="d2">6</data>
+  <data key="d3">15</data>
+  <data key="d4">0.6639999999999999</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.6639999999999999</data>
+</edge>
+<edge source="defendant_intoxicated" target="actus_reus_killing">
+  <data key="d2">4</data>
+  <data key="d3">16</data>
+  <data key="d4">0.6658125</data>
+  <data key="d5">0.783</data>
+  <data key="d6">0.6658125</data>
+</edge>
+<edge source="defendant_intoxicated" target="unlawful_killing">
+  <data key="d2">4</data>
+  <data key="d3">6</data>
+  <data key="d4">0.5788333333333333</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5788333333333333</data>
+</edge>
+<edge source="defendant_intoxicated" target="joint_enterprise_presence">
+  <data key="d2">4</data>
+  <data key="d3">5</data>
+  <data key="d4">0.45</data>
+  <data key="d5">0.57</data>
+  <data key="d6">0.45</data>
+</edge>
+<edge source="defendant_intoxicated" target="strangulation">
+  <data key="d2">3</data>
+  <data key="d3">14</data>
+  <data key="d4">0.3814285714285714</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.3814285714285714</data>
+</edge>
+<edge source="defendant_intoxicated" target="self_defence_legal">
+  <data key="d2">2</data>
+  <data key="d3">10</data>
+  <data key="d4">0.6426000000000001</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.6426000000000001</data>
+</edge>
+<edge source="defendant_intoxicated" target="accessory_or_complicity">
+  <data key="d2">2</data>
+  <data key="d3">9</data>
+  <data key="d4">0.6158888888888889</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6158888888888889</data>
+</edge>
+<edge source="defendant_intoxicated" target="wound_sharp_force">
+  <data key="d2">2</data>
+  <data key="d3">2</data>
+  <data key="d4">0.58</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.58</data>
+</edge>
+<edge source="defendant_intoxicated" target="lawful_killing_self_defence">
+  <data key="d2">2</data>
+  <data key="d3">2</data>
+  <data key="d4">0.53</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.53</data>
+</edge>
+<edge source="defendant_intoxicated" target="causation">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.77</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.77</data>
+</edge>
+<edge source="defendant_intoxicated" target="withdrawal_effective">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.47</data>
+  <data key="d5">0.47</data>
+  <data key="d6">0.47</data>
+</edge>
+<edge source="defendant_intoxicated" target="encounter">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="defendant_intoxicated" target="weapon_petrol_fire">
+  <data key="d2">1</data>
+  <data key="d3">8</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="defendant_intoxicated" target="diminished_responsibility">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.358</data>
+  <data key="d5">0.358</data>
+  <data key="d6">0.358</data>
+</edge>
+<edge source="diminished_responsibility" target="self_defence_legal">
+  <data key="d2">1</data>
+  <data key="d3">36</data>
+  <data key="d4">0.36666666666666664</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.36666666666666664</data>
+</edge>
+<edge source="encounter" target="murder">
+  <data key="d2">13</data>
+  <data key="d3">393</data>
+  <data key="d4">0.6863689567430026</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.6863689567430026</data>
+</edge>
+<edge source="encounter" target="confession_or_admission">
+  <data key="d2">8</data>
+  <data key="d3">18</data>
+  <data key="d4">0.6480555555555555</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.6480555555555555</data>
+</edge>
+<edge source="encounter" target="actus_reus_killing">
+  <data key="d2">5</data>
+  <data key="d3">27</data>
+  <data key="d4">0.6217037037037038</data>
+  <data key="d5">0.845</data>
+  <data key="d6">0.6217037037037038</data>
+</edge>
+<edge source="encounter" target="mens_rea_intent_to_kill">
+  <data key="d2">4</data>
+  <data key="d3">12</data>
+  <data key="d4">0.614</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.614</data>
+</edge>
+<edge source="encounter" target="accessory_or_complicity">
+  <data key="d2">4</data>
+  <data key="d3">21</data>
+  <data key="d4">0.6013809523809523</data>
+  <data key="d5">0.79</data>
+  <data key="d6">0.6013809523809523</data>
+</edge>
+<edge source="encounter" target="self_defence_legal">
+  <data key="d2">3</data>
+  <data key="d3">12</data>
+  <data key="d4">0.77</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.77</data>
+</edge>
+<edge source="encounter" target="diminished_responsibility">
+  <data key="d2">3</data>
+  <data key="d3">78</data>
+  <data key="d4">0.6786923076923077</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6786923076923077</data>
+</edge>
+<edge source="encounter" target="wound_sharp_force">
+  <data key="d2">2</data>
+  <data key="d3">3</data>
+  <data key="d4">0.6266666666666666</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.6266666666666666</data>
+</edge>
+<edge source="encounter" target="unlawful_killing">
+  <data key="d2">2</data>
+  <data key="d3">6</data>
+  <data key="d4">0.48100000000000004</data>
+  <data key="d5">0.583</data>
+  <data key="d6">0.48100000000000004</data>
+</edge>
+<edge source="encounter" target="loss_of_control">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.77</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.77</data>
+</edge>
+<edge source="encounter" target="search_history_weapons_or_poison">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="encounter" target="wound_blunt_force">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="encounter" target="manslaughter_unlawful_act">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.47</data>
+  <data key="d5">0.47</data>
+  <data key="d6">0.47</data>
+</edge>
+<edge source="encounter" target="withdrawal_effective">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.47</data>
+  <data key="d5">0.47</data>
+  <data key="d6">0.47</data>
+</edge>
+<edge source="encounter" target="abduction">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="encounter" target="alibi_claim">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="encounter" target="prior_assault">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="flight_after_offence" target="murder">
+  <data key="d2">4</data>
+  <data key="d3">154</data>
+  <data key="d4">0.576512987012987</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.576512987012987</data>
+</edge>
+<edge source="flight_after_offence" target="actus_reus_killing">
+  <data key="d2">2</data>
+  <data key="d3">5</data>
+  <data key="d4">0.65</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.65</data>
+</edge>
+<edge source="flight_after_offence" target="accessory_or_complicity">
+  <data key="d2">2</data>
+  <data key="d3">33</data>
+  <data key="d4">0.4461212121212121</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.4461212121212121</data>
+</edge>
+<edge source="flight_after_offence" target="confession_or_admission">
+  <data key="d2">2</data>
+  <data key="d3">9</data>
+  <data key="d4">0.4454444444444445</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.4454444444444445</data>
+</edge>
+<edge source="flight_after_offence" target="self_defence_legal">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.77</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.77</data>
+</edge>
+<edge source="flight_after_offence" target="wound_sharp_force">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="flight_after_offence" target="mens_rea_intent_to_kill">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.489</data>
+  <data key="d5">0.508</data>
+  <data key="d6">0.489</data>
+</edge>
+<edge source="flight_after_offence" target="unlawful_killing">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.43524999999999997</data>
+  <data key="d5">0.583</data>
+  <data key="d6">0.43524999999999997</data>
+</edge>
+<edge source="flight_after_offence" target="confession_third_party">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="flight_after_offence" target="joint_enterprise_presence">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="flight_after_offence" target="prior_conflict">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="flight_after_offence" target="withdrawal_effective">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.352</data>
+  <data key="d5">0.47</data>
+  <data key="d6">0.352</data>
+</edge>
+<edge source="injury_defensive_wounds" target="murder">
+  <data key="d2">3</data>
+  <data key="d3">34</data>
+  <data key="d4">0.6404117647058823</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.6404117647058823</data>
+</edge>
+<edge source="injury_defensive_wounds" target="actus_reus_killing">
+  <data key="d2">2</data>
+  <data key="d3">2</data>
+  <data key="d4">0.589</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.589</data>
+</edge>
+<edge source="injury_defensive_wounds" target="accessory_or_complicity">
+  <data key="d2">1</data>
+  <data key="d3">3</data>
+  <data key="d4">0.67</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.67</data>
+</edge>
+<edge source="injury_defensive_wounds" target="diminished_responsibility">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.67</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.67</data>
+</edge>
+<edge source="injury_defensive_wounds" target="confession_or_admission">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="injury_defensive_wounds" target="wound_sharp_force">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="joint_enterprise_presence" target="murder">
+  <data key="d2">22</data>
+  <data key="d3">752</data>
+  <data key="d4">0.6230039893617022</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.6230039893617022</data>
+</edge>
+<edge source="joint_enterprise_presence" target="confession_or_admission">
+  <data key="d2">15</data>
+  <data key="d3">46</data>
+  <data key="d4">0.6437826086956522</data>
+  <data key="d5">0.76</data>
+  <data key="d6">0.6437826086956522</data>
+</edge>
+<edge source="joint_enterprise_presence" target="actus_reus_killing">
+  <data key="d2">12</data>
+  <data key="d3">98</data>
+  <data key="d4">0.604204081632653</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.604204081632653</data>
+</edge>
+<edge source="joint_enterprise_presence" target="mens_rea_intent_to_kill">
+  <data key="d2">8</data>
+  <data key="d3">29</data>
+  <data key="d4">0.5112413793103449</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5112413793103449</data>
+</edge>
+<edge source="joint_enterprise_presence" target="accessory_or_complicity">
+  <data key="d2">7</data>
+  <data key="d3">218</data>
+  <data key="d4">0.5702798165137615</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.5702798165137615</data>
+</edge>
+<edge source="joint_enterprise_presence" target="unlawful_killing">
+  <data key="d2">6</data>
+  <data key="d3">32</data>
+  <data key="d4">0.5778125</data>
+  <data key="d5">0.79</data>
+  <data key="d6">0.5778125</data>
+</edge>
+<edge source="joint_enterprise_presence" target="diminished_responsibility">
+  <data key="d2">4</data>
+  <data key="d3">100</data>
+  <data key="d4">0.5969599999999999</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.5969599999999999</data>
+</edge>
+<edge source="joint_enterprise_presence" target="wound_sharp_force">
+  <data key="d2">3</data>
+  <data key="d3">4</data>
+  <data key="d4">0.67625</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.67625</data>
+</edge>
+<edge source="joint_enterprise_presence" target="self_defence_legal">
+  <data key="d2">3</data>
+  <data key="d3">64</data>
+  <data key="d4">0.538390625</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.538390625</data>
+</edge>
+<edge source="joint_enterprise_presence" target="causation">
+  <data key="d2">3</data>
+  <data key="d3">86</data>
+  <data key="d4">0.48622093023255814</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.48622093023255814</data>
+</edge>
+<edge source="joint_enterprise_presence" target="injury_defensive_wounds">
+  <data key="d2">3</data>
+  <data key="d3">3</data>
+  <data key="d4">0.47500000000000003</data>
+  <data key="d5">0.545</data>
+  <data key="d6">0.47500000000000003</data>
+</edge>
+<edge source="joint_enterprise_presence" target="weapon_blunt">
+  <data key="d2">3</data>
+  <data key="d3">9</data>
+  <data key="d4">0.426</data>
+  <data key="d5">0.63</data>
+  <data key="d6">0.426</data>
+</edge>
+<edge source="joint_enterprise_presence" target="prior_assault">
+  <data key="d2">2</data>
+  <data key="d3">4</data>
+  <data key="d4">0.43</data>
+  <data key="d5">0.46</data>
+  <data key="d6">0.43</data>
+</edge>
+<edge source="joint_enterprise_presence" target="alibi_claim">
+  <data key="d2">2</data>
+  <data key="d3">4</data>
+  <data key="d4">0.36125</data>
+  <data key="d5">0.46</data>
+  <data key="d6">0.36125</data>
+</edge>
+<edge source="joint_enterprise_presence" target="lawful_killing_self_defence">
+  <data key="d2">1</data>
+  <data key="d3">8</data>
+  <data key="d4">0.582625</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.582625</data>
+</edge>
+<edge source="joint_enterprise_presence" target="loss_of_control">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.358</data>
+  <data key="d5">0.358</data>
+  <data key="d6">0.358</data>
+</edge>
+<edge source="lawful_killing_self_defence" target="causation">
+  <data key="d2">2</data>
+  <data key="d3">3</data>
+  <data key="d4">0.3666666666666667</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.3666666666666667</data>
+</edge>
+<edge source="location_private_dwelling" target="murder">
+  <data key="d2">6</data>
+  <data key="d3">64</data>
+  <data key="d4">0.6205625</data>
+  <data key="d5">0.79</data>
+  <data key="d6">0.6205625</data>
+</edge>
+<edge source="location_private_dwelling" target="confession_or_admission">
+  <data key="d2">4</data>
+  <data key="d3">7</data>
+  <data key="d4">0.5519999999999999</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.5519999999999999</data>
+</edge>
+<edge source="location_private_dwelling" target="encounter">
+  <data key="d2">4</data>
+  <data key="d3">7</data>
+  <data key="d4">0.39714285714285713</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.39714285714285713</data>
+</edge>
+<edge source="location_private_dwelling" target="weapon_sharp">
+  <data key="d2">4</data>
+  <data key="d3">18</data>
+  <data key="d4">0.3844444444444444</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.3844444444444444</data>
+</edge>
+<edge source="location_private_dwelling" target="accessory_or_complicity">
+  <data key="d2">2</data>
+  <data key="d3">5</data>
+  <data key="d4">0.5982000000000001</data>
+  <data key="d5">0.79</data>
+  <data key="d6">0.5982000000000001</data>
+</edge>
+<edge source="location_private_dwelling" target="actus_reus_killing">
+  <data key="d2">2</data>
+  <data key="d3">2</data>
+  <data key="d4">0.53</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.53</data>
+</edge>
+<edge source="location_private_dwelling" target="mens_rea_intent_to_kill">
+  <data key="d2">2</data>
+  <data key="d3">8</data>
+  <data key="d4">0.5</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5</data>
+</edge>
+<edge source="location_private_dwelling" target="diminished_responsibility">
+  <data key="d2">1</data>
+  <data key="d3">12</data>
+  <data key="d4">0.6888333333333333</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6888333333333333</data>
+</edge>
+<edge source="location_private_dwelling" target="assault_method_shooting">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="location_public_space" target="murder">
+  <data key="d2">55</data>
+  <data key="d3">4031</data>
+  <data key="d4">0.6551669560903002</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.6551669560903002</data>
+</edge>
+<edge source="location_public_space" target="confession_or_admission">
+  <data key="d2">27</data>
+  <data key="d3">279</data>
+  <data key="d4">0.6358673835125448</data>
+  <data key="d5">0.76</data>
+  <data key="d6">0.6358673835125448</data>
+</edge>
+<edge source="location_public_space" target="actus_reus_killing">
+  <data key="d2">24</data>
+  <data key="d3">328</data>
+  <data key="d4">0.6076798780487804</data>
+  <data key="d5">0.783</data>
+  <data key="d6">0.6076798780487804</data>
+</edge>
+<edge source="location_public_space" target="mens_rea_intent_to_kill">
+  <data key="d2">16</data>
+  <data key="d3">155</data>
+  <data key="d4">0.5563612903225806</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5563612903225806</data>
+</edge>
+<edge source="location_public_space" target="self_defence_legal">
+  <data key="d2">10</data>
+  <data key="d3">209</data>
+  <data key="d4">0.6736985645933015</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6736985645933015</data>
+</edge>
+<edge source="location_public_space" target="unlawful_killing">
+  <data key="d2">10</data>
+  <data key="d3">116</data>
+  <data key="d4">0.6494827586206897</data>
+  <data key="d5">0.98</data>
+  <data key="d6">0.6494827586206897</data>
+</edge>
+<edge source="location_public_space" target="accessory_or_complicity">
+  <data key="d2">10</data>
+  <data key="d3">511</data>
+  <data key="d4">0.5450293542074364</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.5450293542074364</data>
+</edge>
+<edge source="location_public_space" target="wound_sharp_force">
+  <data key="d2">7</data>
+  <data key="d3">37</data>
+  <data key="d4">0.7012162162162162</data>
+  <data key="d5">0.76</data>
+  <data key="d6">0.7012162162162162</data>
+</edge>
+<edge source="location_public_space" target="diminished_responsibility">
+  <data key="d2">6</data>
+  <data key="d3">202</data>
+  <data key="d4">0.6534356435643565</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6534356435643565</data>
+</edge>
+<edge source="location_public_space" target="causation">
+  <data key="d2">6</data>
+  <data key="d3">219</data>
+  <data key="d4">0.6331415525114155</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.6331415525114155</data>
+</edge>
+<edge source="location_public_space" target="loss_of_control">
+  <data key="d2">3</data>
+  <data key="d3">41</data>
+  <data key="d4">0.49351219512195116</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.49351219512195116</data>
+</edge>
+<edge source="location_public_space" target="injury_defensive_wounds">
+  <data key="d2">2</data>
+  <data key="d3">6</data>
+  <data key="d4">0.6733333333333333</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.6733333333333333</data>
+</edge>
+<edge source="location_public_space" target="lawful_killing_self_defence">
+  <data key="d2">2</data>
+  <data key="d3">10</data>
+  <data key="d4">0.602</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.602</data>
+</edge>
+<edge source="location_public_space" target="manslaughter_unlawful_act">
+  <data key="d2">2</data>
+  <data key="d3">11</data>
+  <data key="d4">0.5525454545454545</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5525454545454545</data>
+</edge>
+<edge source="location_public_space" target="prior_assault">
+  <data key="d2">2</data>
+  <data key="d3">16</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="location_public_space" target="cctv_presence">
+  <data key="d2">1</data>
+  <data key="d3">11</data>
+  <data key="d4">0.7336363636363636</data>
+  <data key="d5">0.87</data>
+  <data key="d6">0.7336363636363636</data>
+</edge>
+<edge source="location_public_space" target="search_history_weapons_or_poison">
+  <data key="d2">1</data>
+  <data key="d3">8</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="location_public_space" target="wound_blunt_force">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="location_public_space" target="withdrawal_effective">
+  <data key="d2">1</data>
+  <data key="d3">6</data>
+  <data key="d4">0.47</data>
+  <data key="d5">0.47</data>
+  <data key="d6">0.47</data>
+</edge>
+<edge source="location_public_space" target="time_of_death_window_narrow">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.44</data>
+  <data key="d5">0.44</data>
+  <data key="d6">0.44</data>
+</edge>
+<edge source="location_public_space" target="tied_restraint">
+  <data key="d2">1</data>
+  <data key="d3">3</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="motive_financial_gain" target="murder">
+  <data key="d2">9</data>
+  <data key="d3">648</data>
+  <data key="d4">0.6203024691358024</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.6203024691358024</data>
+</edge>
+<edge source="motive_financial_gain" target="actus_reus_killing">
+  <data key="d2">8</data>
+  <data key="d3">65</data>
+  <data key="d4">0.5992923076923077</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.5992923076923077</data>
+</edge>
+<edge source="motive_financial_gain" target="mens_rea_intent_to_kill">
+  <data key="d2">6</data>
+  <data key="d3">41</data>
+  <data key="d4">0.49819512195121946</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.49819512195121946</data>
+</edge>
+<edge source="motive_financial_gain" target="self_defence_legal">
+  <data key="d2">2</data>
+  <data key="d3">76</data>
+  <data key="d4">0.5456578947368421</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5456578947368421</data>
+</edge>
+<edge source="motive_financial_gain" target="unlawful_killing">
+  <data key="d2">2</data>
+  <data key="d3">3</data>
+  <data key="d4">0.5076666666666666</data>
+  <data key="d5">0.583</data>
+  <data key="d6">0.5076666666666666</data>
+</edge>
+<edge source="motive_financial_gain" target="wound_sharp_force">
+  <data key="d2">1</data>
+  <data key="d3">7</data>
+  <data key="d4">0.6399999999999999</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.6399999999999999</data>
+</edge>
+<edge source="motive_financial_gain" target="loss_of_control">
+  <data key="d2">1</data>
+  <data key="d3">76</data>
+  <data key="d4">0.5012105263157894</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5012105263157894</data>
+</edge>
+<edge source="motive_financial_gain" target="confession_or_admission">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.44</data>
+  <data key="d5">0.44</data>
+  <data key="d6">0.44</data>
+</edge>
+<edge source="motive_financial_gain" target="time_of_death_window_narrow">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.44</data>
+  <data key="d5">0.44</data>
+  <data key="d6">0.44</data>
+</edge>
+<edge source="motive_financial_gain" target="defendant_intoxicated">
+  <data key="d2">1</data>
+  <data key="d3">12</data>
+  <data key="d4">0.3933333333333333</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.3933333333333333</data>
+</edge>
+<edge source="motive_financial_gain" target="encounter">
+  <data key="d2">1</data>
+  <data key="d3">25</data>
+  <data key="d4">0.38116</data>
+  <data key="d5">0.533</data>
+  <data key="d6">0.38116</data>
+</edge>
+<edge source="motive_financial_gain" target="weapon_blunt">
+  <data key="d2">1</data>
+  <data key="d3">7</data>
+  <data key="d4">0.3742857142857143</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.3742857142857143</data>
+</edge>
+<edge source="motive_financial_gain" target="weapon_petrol_fire">
+  <data key="d2">1</data>
+  <data key="d3">7</data>
+  <data key="d4">0.3742857142857143</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.3742857142857143</data>
+</edge>
+<edge source="motive_jealousy_revenge" target="murder">
+  <data key="d2">11</data>
+  <data key="d3">313</data>
+  <data key="d4">0.704520766773163</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.704520766773163</data>
+</edge>
+<edge source="motive_jealousy_revenge" target="confession_or_admission">
+  <data key="d2">6</data>
+  <data key="d3">28</data>
+  <data key="d4">0.6828571428571429</data>
+  <data key="d5">0.76</data>
+  <data key="d6">0.6828571428571429</data>
+</edge>
+<edge source="motive_jealousy_revenge" target="actus_reus_killing">
+  <data key="d2">4</data>
+  <data key="d3">10</data>
+  <data key="d4">0.6103</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.6103</data>
+</edge>
+<edge source="motive_jealousy_revenge" target="accessory_or_complicity">
+  <data key="d2">3</data>
+  <data key="d3">7</data>
+  <data key="d4">0.7032857142857143</data>
+  <data key="d5">0.79</data>
+  <data key="d6">0.7032857142857143</data>
+</edge>
+<edge source="motive_jealousy_revenge" target="mens_rea_intent_to_kill">
+  <data key="d2">3</data>
+  <data key="d3">5</data>
+  <data key="d4">0.526</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.526</data>
+</edge>
+<edge source="motive_jealousy_revenge" target="unlawful_killing">
+  <data key="d2">2</data>
+  <data key="d3">6</data>
+  <data key="d4">0.7233333333333333</data>
+  <data key="d5">0.79</data>
+  <data key="d6">0.7233333333333333</data>
+</edge>
+<edge source="motive_jealousy_revenge" target="wound_sharp_force">
+  <data key="d2">2</data>
+  <data key="d3">2</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="motive_jealousy_revenge" target="manslaughter_unlawful_act">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.77</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.77</data>
+</edge>
+<edge source="motive_jealousy_revenge" target="injury_defensive_wounds">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="motive_jealousy_revenge" target="weapon_blunt">
+  <data key="d2">1</data>
+  <data key="d3">3</data>
+  <data key="d4">0.5166666666666667</data>
+  <data key="d5">0.63</data>
+  <data key="d6">0.5166666666666667</data>
+</edge>
+<edge source="motive_jealousy_revenge" target="abduction">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="motive_jealousy_revenge" target="tied_restraint">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="motive_jealousy_revenge" target="diminished_responsibility">
+  <data key="d2">1</data>
+  <data key="d3">42</data>
+  <data key="d4">0.37685714285714284</data>
+  <data key="d5">0.47</data>
+  <data key="d6">0.37685714285714284</data>
+</edge>
+<edge source="planning_premeditation" target="murder">
+  <data key="d2">34</data>
+  <data key="d3">4176</data>
+  <data key="d4">0.6008091475095785</data>
+  <data key="d5">1.0</data>
+  <data key="d6">0.6008091475095785</data>
+</edge>
+<edge source="planning_premeditation" target="actus_reus_killing">
+  <data key="d2">18</data>
+  <data key="d3">303</data>
+  <data key="d4">0.5641782178217821</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.5641782178217821</data>
+</edge>
+<edge source="planning_premeditation" target="confession_or_admission">
+  <data key="d2">15</data>
+  <data key="d3">122</data>
+  <data key="d4">0.5899754098360656</data>
+  <data key="d5">0.745</data>
+  <data key="d6">0.5899754098360656</data>
+</edge>
+<edge source="planning_premeditation" target="mens_rea_intent_to_kill">
+  <data key="d2">13</data>
+  <data key="d3">227</data>
+  <data key="d4">0.488511013215859</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.488511013215859</data>
+</edge>
+<edge source="planning_premeditation" target="unlawful_killing">
+  <data key="d2">7</data>
+  <data key="d3">61</data>
+  <data key="d4">0.6308032786885246</data>
+  <data key="d5">0.79</data>
+  <data key="d6">0.6308032786885246</data>
+</edge>
+<edge source="planning_premeditation" target="diminished_responsibility">
+  <data key="d2">6</data>
+  <data key="d3">320</data>
+  <data key="d4">0.62885</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.62885</data>
+</edge>
+<edge source="planning_premeditation" target="self_defence_legal">
+  <data key="d2">6</data>
+  <data key="d3">109</data>
+  <data key="d4">0.6273853211009175</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.6273853211009175</data>
+</edge>
+<edge source="planning_premeditation" target="accessory_or_complicity">
+  <data key="d2">6</data>
+  <data key="d3">206</data>
+  <data key="d4">0.4260873786407767</data>
+  <data key="d5">0.79</data>
+  <data key="d6">0.4260873786407767</data>
+</edge>
+<edge source="planning_premeditation" target="wound_sharp_force">
+  <data key="d2">4</data>
+  <data key="d3">42</data>
+  <data key="d4">0.63</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.63</data>
+</edge>
+<edge source="planning_premeditation" target="causation">
+  <data key="d2">3</data>
+  <data key="d3">12</data>
+  <data key="d4">0.7200000000000001</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.7200000000000001</data>
+</edge>
+<edge source="planning_premeditation" target="injury_defensive_wounds">
+  <data key="d2">3</data>
+  <data key="d3">8</data>
+  <data key="d4">0.64125</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.64125</data>
+</edge>
+<edge source="planning_premeditation" target="lawful_killing_self_defence">
+  <data key="d2">2</data>
+  <data key="d3">10</data>
+  <data key="d4">0.584</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.584</data>
+</edge>
+<edge source="planning_premeditation" target="loss_of_control">
+  <data key="d2">2</data>
+  <data key="d3">33</data>
+  <data key="d4">0.5154545454545455</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5154545454545455</data>
+</edge>
+<edge source="planning_premeditation" target="manslaughter_unlawful_act">
+  <data key="d2">2</data>
+  <data key="d3">24</data>
+  <data key="d4">0.49533333333333335</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.49533333333333335</data>
+</edge>
+<edge source="planning_premeditation" target="prior_assault">
+  <data key="d2">2</data>
+  <data key="d3">5</data>
+  <data key="d4">0.42000000000000004</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42000000000000004</data>
+</edge>
+<edge source="planning_premeditation" target="cctv_presence">
+  <data key="d2">1</data>
+  <data key="d3">5</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="planning_premeditation" target="wound_blunt_force">
+  <data key="d2">1</data>
+  <data key="d3">7</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="planning_premeditation" target="search_history_weapons_or_poison">
+  <data key="d2">1</data>
+  <data key="d3">9</data>
+  <data key="d4">0.6744444444444445</data>
+  <data key="d5">0.795</data>
+  <data key="d6">0.6744444444444445</data>
+</edge>
+<edge source="planning_premeditation" target="time_of_death_window_narrow">
+  <data key="d2">1</data>
+  <data key="d3">3</data>
+  <data key="d4">0.38400000000000006</data>
+  <data key="d5">0.44</data>
+  <data key="d6">0.38400000000000006</data>
+</edge>
+<edge source="planning_premeditation" target="poisoning">
+  <data key="d2">1</data>
+  <data key="d3">12</data>
+  <data key="d4">0.375</data>
+  <data key="d5">0.445</data>
+  <data key="d6">0.375</data>
+</edge>
+<edge source="poisoning" target="confession_or_admission">
+  <data key="d2">1</data>
+  <data key="d3">6</data>
+  <data key="d4">0.5975</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.5975</data>
+</edge>
+<edge source="poisoning" target="murder">
+  <data key="d2">1</data>
+  <data key="d3">192</data>
+  <data key="d4">0.5402864583333333</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5402864583333333</data>
+</edge>
+<edge source="poisoning" target="actus_reus_killing">
+  <data key="d2">1</data>
+  <data key="d3">24</data>
+  <data key="d4">0.5150833333333333</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5150833333333333</data>
+</edge>
+<edge source="poisoning" target="diminished_responsibility">
+  <data key="d2">1</data>
+  <data key="d3">252</data>
+  <data key="d4">0.5107142857142857</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5107142857142857</data>
+</edge>
+<edge source="poisoning" target="mens_rea_intent_to_kill">
+  <data key="d2">1</data>
+  <data key="d3">12</data>
+  <data key="d4">0.3913333333333333</data>
+  <data key="d5">0.47</data>
+  <data key="d6">0.3913333333333333</data>
+</edge>
+<edge source="poisoning" target="assault_method_blunt_force">
+  <data key="d2">1</data>
+  <data key="d3">12</data>
+  <data key="d4">0.35000000000000003</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.35000000000000003</data>
+</edge>
+<edge source="poisoning" target="joint_enterprise_presence">
+  <data key="d2">1</data>
+  <data key="d3">12</data>
+  <data key="d4">0.35000000000000003</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.35000000000000003</data>
+</edge>
+<edge source="prior_assault" target="mens_rea_intent_to_kill">
+  <data key="d2">2</data>
+  <data key="d3">5</data>
+  <data key="d4">0.71</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.71</data>
+</edge>
+<edge source="prior_assault" target="murder">
+  <data key="d2">2</data>
+  <data key="d3">33</data>
+  <data key="d4">0.6962424242424242</data>
+  <data key="d5">0.79</data>
+  <data key="d6">0.6962424242424242</data>
+</edge>
+<edge source="prior_assault" target="confession_or_admission">
+  <data key="d2">2</data>
+  <data key="d3">5</data>
+  <data key="d4">0.608</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.608</data>
+</edge>
+<edge source="prior_assault" target="accessory_or_complicity">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.6865</data>
+  <data key="d5">0.79</data>
+  <data key="d6">0.6865</data>
+</edge>
+<edge source="prior_conflict" target="murder">
+  <data key="d2">2</data>
+  <data key="d3">207</data>
+  <data key="d4">0.6751400966183574</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.6751400966183574</data>
+</edge>
+<edge source="prior_conflict" target="actus_reus_killing">
+  <data key="d2">2</data>
+  <data key="d3">19</data>
+  <data key="d4">0.6515789473684211</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.6515789473684211</data>
+</edge>
+<edge source="prior_conflict" target="mens_rea_intent_to_kill">
+  <data key="d2">2</data>
+  <data key="d3">19</data>
+  <data key="d4">0.5333684210526316</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5333684210526316</data>
+</edge>
+<edge source="prior_conflict" target="location_public_space">
+  <data key="d2">2</data>
+  <data key="d3">35</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="prior_conflict" target="confession_or_admission">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.545</data>
+  <data key="d5">0.545</data>
+  <data key="d6">0.545</data>
+</edge>
+<edge source="prior_conflict" target="encounter">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="prior_conflict" target="joint_enterprise_presence">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="prior_conflict" target="weapon_sharp">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="prior_threats" target="murder">
+  <data key="d2">3</data>
+  <data key="d3">50</data>
+  <data key="d4">0.68978</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.68978</data>
+</edge>
+<edge source="prior_threats" target="self_defence_legal">
+  <data key="d2">2</data>
+  <data key="d3">22</data>
+  <data key="d4">0.6984545454545454</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6984545454545454</data>
+</edge>
+<edge source="prior_threats" target="actus_reus_killing">
+  <data key="d2">2</data>
+  <data key="d3">11</data>
+  <data key="d4">0.6336363636363637</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6336363636363637</data>
+</edge>
+<edge source="prior_threats" target="wound_sharp_force">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="prior_threats" target="mens_rea_intent_to_kill">
+  <data key="d2">1</data>
+  <data key="d3">3</data>
+  <data key="d4">0.6699999999999999</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6699999999999999</data>
+</edge>
+<edge source="prior_threats" target="unlawful_killing">
+  <data key="d2">1</data>
+  <data key="d3">3</data>
+  <data key="d4">0.6699999999999999</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6699999999999999</data>
+</edge>
+<edge source="prior_threats" target="causation">
+  <data key="d2">1</data>
+  <data key="d3">26</data>
+  <data key="d4">0.6258461538461538</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6258461538461538</data>
+</edge>
+<edge source="prior_threats" target="accessory_or_complicity">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.47</data>
+  <data key="d5">0.47</data>
+  <data key="d6">0.47</data>
+</edge>
+<edge source="prior_threats" target="confession_or_admission">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.44</data>
+  <data key="d5">0.44</data>
+  <data key="d6">0.44</data>
+</edge>
+<edge source="prior_threats" target="abduction">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="prior_threats" target="confession_third_party">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="search_history_weapons_or_poison" target="self_defence_legal">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.67</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.67</data>
+</edge>
+<edge source="search_history_weapons_or_poison" target="murder">
+  <data key="d2">1</data>
+  <data key="d3">17</data>
+  <data key="d4">0.6198823529411764</data>
+  <data key="d5">0.82</data>
+  <data key="d6">0.6198823529411764</data>
+</edge>
+<edge source="search_history_weapons_or_poison" target="diminished_responsibility">
+  <data key="d2">1</data>
+  <data key="d3">18</data>
+  <data key="d4">0.5833333333333334</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.5833333333333334</data>
+</edge>
+<edge source="search_history_weapons_or_poison" target="actus_reus_killing">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.54</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.54</data>
+</edge>
+<edge source="strangulation" target="unlawful_killing">
+  <data key="d2">5</data>
+  <data key="d3">21</data>
+  <data key="d4">0.7004285714285714</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.7004285714285714</data>
+</edge>
+<edge source="strangulation" target="murder">
+  <data key="d2">5</data>
+  <data key="d3">502</data>
+  <data key="d4">0.6588147410358566</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.6588147410358566</data>
+</edge>
+<edge source="strangulation" target="actus_reus_killing">
+  <data key="d2">4</data>
+  <data key="d3">69</data>
+  <data key="d4">0.5876376811594203</data>
+  <data key="d5">0.783</data>
+  <data key="d6">0.5876376811594203</data>
+</edge>
+<edge source="strangulation" target="confession_or_admission">
+  <data key="d2">3</data>
+  <data key="d3">81</data>
+  <data key="d4">0.6190617283950617</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.6190617283950617</data>
+</edge>
+<edge source="strangulation" target="mens_rea_intent_to_kill">
+  <data key="d2">2</data>
+  <data key="d3">10</data>
+  <data key="d4">0.5564</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5564</data>
+</edge>
+<edge source="strangulation" target="diminished_responsibility">
+  <data key="d2">2</data>
+  <data key="d3">16</data>
+  <data key="d4">0.555625</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.555625</data>
+</edge>
+<edge source="strangulation" target="accessory_or_complicity">
+  <data key="d2">1</data>
+  <data key="d3">8</data>
+  <data key="d4">0.596625</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.596625</data>
+</edge>
+<edge source="strangulation" target="withdrawal_effective">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.47</data>
+  <data key="d5">0.47</data>
+  <data key="d6">0.47</data>
+</edge>
+<edge source="strangulation" target="abduction">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="strangulation" target="encounter">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="strangulation" target="motive_jealousy_revenge">
+  <data key="d2">1</data>
+  <data key="d3">6</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="strangulation" target="lawful_killing_self_defence">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.414</data>
+  <data key="d5">0.47</data>
+  <data key="d6">0.414</data>
+</edge>
+<edge source="tied_restraint" target="injury_defensive_wounds">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.87</data>
+  <data key="d5">0.87</data>
+  <data key="d6">0.87</data>
+</edge>
+<edge source="tied_restraint" target="accessory_or_complicity">
+  <data key="d2">1</data>
+  <data key="d3">3</data>
+  <data key="d4">0.77</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.77</data>
+</edge>
+<edge source="tied_restraint" target="murder">
+  <data key="d2">1</data>
+  <data key="d3">20</data>
+  <data key="d4">0.77</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.77</data>
+</edge>
+<edge source="tied_restraint" target="confession_or_admission">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="tied_restraint" target="wound_sharp_force">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="tied_restraint" target="actus_reus_killing">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.583</data>
+  <data key="d5">0.583</data>
+  <data key="d6">0.583</data>
+</edge>
+<edge source="tied_restraint" target="abduction">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="tied_restraint" target="assault_method_blunt_force">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="tied_restraint" target="alibi_claim">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.37</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.37</data>
+</edge>
+<edge source="time_of_death_window_narrow" target="actus_reus_killing">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.41</data>
+  <data key="d5">0.41</data>
+  <data key="d6">0.41</data>
+</edge>
+<edge source="time_of_death_window_narrow" target="mens_rea_intent_to_kill">
+  <data key="d2">1</data>
+  <data key="d3">9</data>
+  <data key="d4">0.3753333333333333</data>
+  <data key="d5">0.41</data>
+  <data key="d6">0.3753333333333333</data>
+</edge>
+<edge source="time_of_death_window_narrow" target="murder">
+  <data key="d2">1</data>
+  <data key="d3">17</data>
+  <data key="d4">0.35047058823529414</data>
+  <data key="d5">0.41</data>
+  <data key="d6">0.35047058823529414</data>
+</edge>
+<edge source="victim_intoxicated" target="murder">
+  <data key="d2">5</data>
+  <data key="d3">83</data>
+  <data key="d4">0.6184337349397591</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6184337349397591</data>
+</edge>
+<edge source="victim_intoxicated" target="actus_reus_killing">
+  <data key="d2">3</data>
+  <data key="d3">14</data>
+  <data key="d4">0.6723571428571429</data>
+  <data key="d5">0.783</data>
+  <data key="d6">0.6723571428571429</data>
+</edge>
+<edge source="victim_intoxicated" target="joint_enterprise_presence">
+  <data key="d2">3</data>
+  <data key="d3">4</data>
+  <data key="d4">0.45749999999999996</data>
+  <data key="d5">0.57</data>
+  <data key="d6">0.45749999999999996</data>
+</edge>
+<edge source="victim_intoxicated" target="confession_or_admission">
+  <data key="d2">2</data>
+  <data key="d3">8</data>
+  <data key="d4">0.65</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.65</data>
+</edge>
+<edge source="victim_intoxicated" target="unlawful_killing">
+  <data key="d2">2</data>
+  <data key="d3">3</data>
+  <data key="d4">0.45</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.45</data>
+</edge>
+<edge source="victim_intoxicated" target="strangulation">
+  <data key="d2">2</data>
+  <data key="d3">13</data>
+  <data key="d4">0.37846153846153846</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.37846153846153846</data>
+</edge>
+<edge source="victim_intoxicated" target="self_defence_legal">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.47</data>
+  <data key="d5">0.47</data>
+  <data key="d6">0.47</data>
+</edge>
+<edge source="victim_intoxicated" target="wound_sharp_force">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.44</data>
+  <data key="d5">0.44</data>
+  <data key="d6">0.44</data>
+</edge>
+<edge source="victim_intoxicated" target="motive_financial_gain">
+  <data key="d2">1</data>
+  <data key="d3">12</data>
+  <data key="d4">0.3933333333333333</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.3933333333333333</data>
+</edge>
+<edge source="victim_intoxicated" target="diminished_responsibility">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.358</data>
+  <data key="d5">0.358</data>
+  <data key="d6">0.358</data>
+</edge>
+<edge source="weapon_blunt" target="murder">
+  <data key="d2">4</data>
+  <data key="d3">106</data>
+  <data key="d4">0.6113396226415095</data>
+  <data key="d5">0.81</data>
+  <data key="d6">0.6113396226415095</data>
+</edge>
+<edge source="weapon_blunt" target="mens_rea_intent_to_kill">
+  <data key="d2">3</data>
+  <data key="d3">7</data>
+  <data key="d4">0.42428571428571427</data>
+  <data key="d5">0.51</data>
+  <data key="d6">0.42428571428571427</data>
+</edge>
+<edge source="weapon_blunt" target="confession_or_admission">
+  <data key="d2">2</data>
+  <data key="d3">11</data>
+  <data key="d4">0.6799999999999999</data>
+  <data key="d5">0.76</data>
+  <data key="d6">0.6799999999999999</data>
+</edge>
+<edge source="weapon_blunt" target="actus_reus_killing">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.77</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.77</data>
+</edge>
+<edge source="weapon_blunt" target="wound_sharp_force">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="weapon_blunt" target="prior_assault">
+  <data key="d2">1</data>
+  <data key="d3">3</data>
+  <data key="d4">0.48333333333333334</data>
+  <data key="d5">0.57</data>
+  <data key="d6">0.48333333333333334</data>
+</edge>
+<edge source="weapon_blunt" target="alibi_claim">
+  <data key="d2">1</data>
+  <data key="d3">3</data>
+  <data key="d4">0.43333333333333335</data>
+  <data key="d5">0.46</data>
+  <data key="d6">0.43333333333333335</data>
+</edge>
+<edge source="weapon_blunt" target="abduction">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="weapon_blunt" target="accessory_or_complicity">
+  <data key="d2">1</data>
+  <data key="d3">10</data>
+  <data key="d4">0.41600000000000004</data>
+  <data key="d5">0.47</data>
+  <data key="d6">0.41600000000000004</data>
+</edge>
+<edge source="weapon_blunt" target="loss_of_control">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.358</data>
+  <data key="d5">0.358</data>
+  <data key="d6">0.358</data>
+</edge>
+<edge source="weapon_blunt" target="unlawful_killing">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.358</data>
+  <data key="d5">0.358</data>
+  <data key="d6">0.358</data>
+</edge>
+<edge source="weapon_firearm" target="murder">
+  <data key="d2">17</data>
+  <data key="d3">3995</data>
+  <data key="d4">0.6320801001251564</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.6320801001251564</data>
+</edge>
+<edge source="weapon_firearm" target="confession_or_admission">
+  <data key="d2">13</data>
+  <data key="d3">315</data>
+  <data key="d4">0.6258825396825397</data>
+  <data key="d5">0.87</data>
+  <data key="d6">0.6258825396825397</data>
+</edge>
+<edge source="weapon_firearm" target="actus_reus_killing">
+  <data key="d2">10</data>
+  <data key="d3">467</data>
+  <data key="d4">0.5964539614561027</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.5964539614561027</data>
+</edge>
+<edge source="weapon_firearm" target="mens_rea_intent_to_kill">
+  <data key="d2">8</data>
+  <data key="d3">207</data>
+  <data key="d4">0.5361835748792271</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5361835748792271</data>
+</edge>
+<edge source="weapon_firearm" target="accessory_or_complicity">
+  <data key="d2">6</data>
+  <data key="d3">124</data>
+  <data key="d4">0.46663709677419357</data>
+  <data key="d5">0.79</data>
+  <data key="d6">0.46663709677419357</data>
+</edge>
+<edge source="weapon_firearm" target="unlawful_killing">
+  <data key="d2">5</data>
+  <data key="d3">166</data>
+  <data key="d4">0.6256325301204819</data>
+  <data key="d5">0.79</data>
+  <data key="d6">0.6256325301204819</data>
+</edge>
+<edge source="weapon_firearm" target="causation">
+  <data key="d2">5</data>
+  <data key="d3">821</data>
+  <data key="d4">0.6081181485992692</data>
+  <data key="d5">0.845</data>
+  <data key="d6">0.6081181485992692</data>
+</edge>
+<edge source="weapon_firearm" target="wound_sharp_force">
+  <data key="d2">4</data>
+  <data key="d3">23</data>
+  <data key="d4">0.655</data>
+  <data key="d5">0.87</data>
+  <data key="d6">0.655</data>
+</edge>
+<edge source="weapon_firearm" target="self_defence_legal">
+  <data key="d2">3</data>
+  <data key="d3">548</data>
+  <data key="d4">0.6585985401459854</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6585985401459854</data>
+</edge>
+<edge source="weapon_firearm" target="prior_assault">
+  <data key="d2">2</data>
+  <data key="d3">13</data>
+  <data key="d4">0.41230769230769226</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.41230769230769226</data>
+</edge>
+<edge source="weapon_firearm" target="cctv_presence">
+  <data key="d2">1</data>
+  <data key="d3">36</data>
+  <data key="d4">0.6520833333333332</data>
+  <data key="d5">0.795</data>
+  <data key="d6">0.6520833333333332</data>
+</edge>
+<edge source="weapon_firearm" target="lawful_killing_self_defence">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.5</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5</data>
+</edge>
+<edge source="weapon_firearm" target="prior_threats">
+  <data key="d2">1</data>
+  <data key="d3">30</data>
+  <data key="d4">0.40599999999999997</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.40599999999999997</data>
+</edge>
+<edge source="weapon_firearm" target="loss_of_control">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.4</data>
+  <data key="d5">0.442</data>
+  <data key="d6">0.4</data>
+</edge>
+<edge source="weapon_firearm" target="flight_after_offence">
+  <data key="d2">1</data>
+  <data key="d3">21</data>
+  <data key="d4">0.3807142857142857</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.3807142857142857</data>
+</edge>
+<edge source="weapon_firearm" target="prior_conflict">
+  <data key="d2">1</data>
+  <data key="d3">84</data>
+  <data key="d4">0.3807142857142857</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.3807142857142857</data>
+</edge>
+<edge source="weapon_firearm" target="manslaughter_unlawful_act">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.358</data>
+  <data key="d5">0.358</data>
+  <data key="d6">0.358</data>
+</edge>
+<edge source="weapon_petrol_fire" target="murder">
+  <data key="d2">4</data>
+  <data key="d3">187</data>
+  <data key="d4">0.6747967914438503</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.6747967914438503</data>
+</edge>
+<edge source="weapon_petrol_fire" target="confession_or_admission">
+  <data key="d2">3</data>
+  <data key="d3">23</data>
+  <data key="d4">0.6274782608695653</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.6274782608695653</data>
+</edge>
+<edge source="weapon_petrol_fire" target="actus_reus_killing">
+  <data key="d2">2</data>
+  <data key="d3">17</data>
+  <data key="d4">0.6288235294117647</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6288235294117647</data>
+</edge>
+<edge source="weapon_petrol_fire" target="mens_rea_intent_to_kill">
+  <data key="d2">2</data>
+  <data key="d3">4</data>
+  <data key="d4">0.62</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.62</data>
+</edge>
+<edge source="weapon_petrol_fire" target="causation">
+  <data key="d2">1</data>
+  <data key="d3">8</data>
+  <data key="d4">0.77</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.77</data>
+</edge>
+<edge source="weapon_petrol_fire" target="lawful_killing_self_defence">
+  <data key="d2">1</data>
+  <data key="d3">8</data>
+  <data key="d4">0.77</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.77</data>
+</edge>
+<edge source="weapon_petrol_fire" target="unlawful_killing">
+  <data key="d2">1</data>
+  <data key="d3">16</data>
+  <data key="d4">0.77</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.77</data>
+</edge>
+<edge source="weapon_petrol_fire" target="wound_sharp_force">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="weapon_petrol_fire" target="accessory_or_complicity">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.6865</data>
+  <data key="d5">0.79</data>
+  <data key="d6">0.6865</data>
+</edge>
+<edge source="weapon_petrol_fire" target="abduction">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="weapon_petrol_fire" target="encounter">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="weapon_petrol_fire" target="prior_assault">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="weapon_petrol_fire" target="weapon_blunt">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="weapon_present" target="murder">
+  <data key="d2">25</data>
+  <data key="d3">1620</data>
+  <data key="d4">0.6274611111111111</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.6274611111111111</data>
+</edge>
+<edge source="weapon_present" target="actus_reus_killing">
+  <data key="d2">12</data>
+  <data key="d3">202</data>
+  <data key="d4">0.6167425742574257</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.6167425742574257</data>
+</edge>
+<edge source="weapon_present" target="confession_or_admission">
+  <data key="d2">11</data>
+  <data key="d3">60</data>
+  <data key="d4">0.6099</data>
+  <data key="d5">0.87</data>
+  <data key="d6">0.6099</data>
+</edge>
+<edge source="weapon_present" target="mens_rea_intent_to_kill">
+  <data key="d2">9</data>
+  <data key="d3">82</data>
+  <data key="d4">0.5759268292682926</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5759268292682926</data>
+</edge>
+<edge source="weapon_present" target="self_defence_legal">
+  <data key="d2">6</data>
+  <data key="d3">268</data>
+  <data key="d4">0.6368208955223881</data>
+  <data key="d5">0.845</data>
+  <data key="d6">0.6368208955223881</data>
+</edge>
+<edge source="weapon_present" target="wound_sharp_force">
+  <data key="d2">5</data>
+  <data key="d3">19</data>
+  <data key="d4">0.6668421052631579</data>
+  <data key="d5">0.795</data>
+  <data key="d6">0.6668421052631579</data>
+</edge>
+<edge source="weapon_present" target="unlawful_killing">
+  <data key="d2">5</data>
+  <data key="d3">73</data>
+  <data key="d4">0.5816438356164384</data>
+  <data key="d5">0.79</data>
+  <data key="d6">0.5816438356164384</data>
+</edge>
+<edge source="weapon_present" target="accessory_or_complicity">
+  <data key="d2">5</data>
+  <data key="d3">396</data>
+  <data key="d4">0.5213030303030303</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.5213030303030303</data>
+</edge>
+<edge source="weapon_present" target="diminished_responsibility">
+  <data key="d2">3</data>
+  <data key="d3">42</data>
+  <data key="d4">0.6610952380952381</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6610952380952381</data>
+</edge>
+<edge source="weapon_present" target="causation">
+  <data key="d2">3</data>
+  <data key="d3">244</data>
+  <data key="d4">0.6010204918032787</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6010204918032787</data>
+</edge>
+<edge source="weapon_present" target="loss_of_control">
+  <data key="d2">3</data>
+  <data key="d3">61</data>
+  <data key="d4">0.47124590163934427</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.47124590163934427</data>
+</edge>
+<edge source="weapon_present" target="manslaughter_unlawful_act">
+  <data key="d2">2</data>
+  <data key="d3">14</data>
+  <data key="d4">0.45185714285714285</data>
+  <data key="d5">0.545</data>
+  <data key="d6">0.45185714285714285</data>
+</edge>
+<edge source="weapon_present" target="injury_defensive_wounds">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="weapon_present" target="search_history_weapons_or_poison">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="weapon_present" target="wound_blunt_force">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.72</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.72</data>
+</edge>
+<edge source="weapon_present" target="lawful_killing_self_defence">
+  <data key="d2">1</data>
+  <data key="d3">18</data>
+  <data key="d4">0.5500555555555555</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5500555555555555</data>
+</edge>
+<edge source="weapon_present" target="flight_after_offence">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="weapon_sharp" target="murder">
+  <data key="d2">36</data>
+  <data key="d3">5285</data>
+  <data key="d4">0.596717880794702</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.596717880794702</data>
+</edge>
+<edge source="weapon_sharp" target="actus_reus_killing">
+  <data key="d2">18</data>
+  <data key="d3">370</data>
+  <data key="d4">0.5743297297297297</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.5743297297297297</data>
+</edge>
+<edge source="weapon_sharp" target="confession_or_admission">
+  <data key="d2">14</data>
+  <data key="d3">244</data>
+  <data key="d4">0.6089016393442623</data>
+  <data key="d5">0.87</data>
+  <data key="d6">0.6089016393442623</data>
+</edge>
+<edge source="weapon_sharp" target="accessory_or_complicity">
+  <data key="d2">10</data>
+  <data key="d3">1083</data>
+  <data key="d4">0.5283407202216066</data>
+  <data key="d5">0.92</data>
+  <data key="d6">0.5283407202216066</data>
+</edge>
+<edge source="weapon_sharp" target="mens_rea_intent_to_kill">
+  <data key="d2">10</data>
+  <data key="d3">183</data>
+  <data key="d4">0.46299453551912567</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.46299453551912567</data>
+</edge>
+<edge source="weapon_sharp" target="wound_sharp_force">
+  <data key="d2">8</data>
+  <data key="d3">107</data>
+  <data key="d4">0.6416355140186916</data>
+  <data key="d5">0.87</data>
+  <data key="d6">0.6416355140186916</data>
+</edge>
+<edge source="weapon_sharp" target="self_defence_legal">
+  <data key="d2">7</data>
+  <data key="d3">312</data>
+  <data key="d4">0.5671858974358974</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5671858974358974</data>
+</edge>
+<edge source="weapon_sharp" target="unlawful_killing">
+  <data key="d2">6</data>
+  <data key="d3">202</data>
+  <data key="d4">0.5767029702970297</data>
+  <data key="d5">0.98</data>
+  <data key="d6">0.5767029702970297</data>
+</edge>
+<edge source="weapon_sharp" target="diminished_responsibility">
+  <data key="d2">3</data>
+  <data key="d3">104</data>
+  <data key="d4">0.6722692307692307</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.6722692307692307</data>
+</edge>
+<edge source="weapon_sharp" target="injury_defensive_wounds">
+  <data key="d2">3</data>
+  <data key="d3">23</data>
+  <data key="d4">0.663695652173913</data>
+  <data key="d5">0.72</data>
+  <data key="d6">0.663695652173913</data>
+</edge>
+<edge source="weapon_sharp" target="causation">
+  <data key="d2">3</data>
+  <data key="d3">60</data>
+  <data key="d4">0.5520666666666667</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5520666666666667</data>
+</edge>
+<edge source="weapon_sharp" target="loss_of_control">
+  <data key="d2">2</data>
+  <data key="d3">234</data>
+  <data key="d4">0.4827350427350427</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.4827350427350427</data>
+</edge>
+<edge source="weapon_sharp" target="weapon_petrol_fire">
+  <data key="d2">2</data>
+  <data key="d3">15</data>
+  <data key="d4">0.4026666666666667</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.4026666666666667</data>
+</edge>
+<edge source="weapon_sharp" target="strangulation">
+  <data key="d2">2</data>
+  <data key="d3">23</data>
+  <data key="d4">0.3947826086956522</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.3947826086956522</data>
+</edge>
+<edge source="weapon_sharp" target="manslaughter_unlawful_act">
+  <data key="d2">2</data>
+  <data key="d3">20</data>
+  <data key="d4">0.3902</data>
+  <data key="d5">0.47</data>
+  <data key="d6">0.3902</data>
+</edge>
+<edge source="weapon_sharp" target="lawful_killing_self_defence">
+  <data key="d2">1</data>
+  <data key="d3">26</data>
+  <data key="d4">0.5161923076923076</data>
+  <data key="d5">0.77</data>
+  <data key="d6">0.5161923076923076</data>
+</edge>
+<edge source="weapon_sharp" target="time_of_death_window_narrow">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.44</data>
+  <data key="d5">0.44</data>
+  <data key="d6">0.44</data>
+</edge>
+<edge source="weapon_sharp" target="withdrawal_effective">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.414</data>
+  <data key="d5">0.47</data>
+  <data key="d6">0.414</data>
+</edge>
+<edge source="weapon_sharp" target="prior_assault">
+  <data key="d2">1</data>
+  <data key="d3">6</data>
+  <data key="d4">0.38666666666666666</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.38666666666666666</data>
+</edge>
+<edge source="weapon_sharp" target="tied_restraint">
+  <data key="d2">1</data>
+  <data key="d3">15</data>
+  <data key="d4">0.3813333333333333</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.3813333333333333</data>
+</edge>
+<edge source="weapon_sharp" target="confession_third_party">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.38</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.38</data>
+</edge>
+<edge source="wound_blunt_force" target="loss_of_control">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.67</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.67</data>
+</edge>
+<edge source="wound_blunt_force" target="mens_rea_intent_to_kill">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.67</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.67</data>
+</edge>
+<edge source="wound_blunt_force" target="self_defence_legal">
+  <data key="d2">1</data>
+  <data key="d3">2</data>
+  <data key="d4">0.67</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.67</data>
+</edge>
+<edge source="wound_blunt_force" target="murder">
+  <data key="d2">1</data>
+  <data key="d3">14</data>
+  <data key="d4">0.6514285714285715</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.6514285714285715</data>
+</edge>
+<edge source="wound_blunt_force" target="confession_or_admission">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.42</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.42</data>
+</edge>
+<edge source="wound_sharp_force" target="murder">
+  <data key="d2">8</data>
+  <data key="d3">167</data>
+  <data key="d4">0.6059880239520958</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.6059880239520958</data>
+</edge>
+<edge source="wound_sharp_force" target="actus_reus_killing">
+  <data key="d2">5</data>
+  <data key="d3">8</data>
+  <data key="d4">0.532</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.532</data>
+</edge>
+<edge source="wound_sharp_force" target="confession_or_admission">
+  <data key="d2">5</data>
+  <data key="d3">11</data>
+  <data key="d4">0.3963636363636363</data>
+  <data key="d5">0.42</data>
+  <data key="d6">0.3963636363636363</data>
+</edge>
+<edge source="wound_sharp_force" target="self_defence_legal">
+  <data key="d2">2</data>
+  <data key="d3">7</data>
+  <data key="d4">0.67</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.67</data>
+</edge>
+<edge source="wound_sharp_force" target="accessory_or_complicity">
+  <data key="d2">2</data>
+  <data key="d3">4</data>
+  <data key="d4">0.605</data>
+  <data key="d5">0.67</data>
+  <data key="d6">0.605</data>
+</edge>
+<edge source="wound_sharp_force" target="mens_rea_intent_to_kill">
+  <data key="d2">2</data>
+  <data key="d3">4</data>
+  <data key="d4">0.45899999999999996</data>
+  <data key="d5">0.508</data>
+  <data key="d6">0.45899999999999996</data>
+</edge>
+<edge source="wound_sharp_force" target="unlawful_killing">
+  <data key="d2">1</data>
+  <data key="d3">4</data>
+  <data key="d4">0.61</data>
+  <data key="d5">0.69</data>
+  <data key="d6">0.61</data>
+</edge>
+<edge source="wound_sharp_force" target="causation">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.41</data>
+  <data key="d5">0.41</data>
+  <data key="d6">0.41</data>
+</edge>
+<edge source="wound_sharp_force" target="manslaughter_unlawful_act">
+  <data key="d2">1</data>
+  <data key="d3">1</data>
+  <data key="d4">0.41</data>
+  <data key="d5">0.41</data>
+  <data key="d6">0.41</data>
+</edge>
+</graph></graphml>

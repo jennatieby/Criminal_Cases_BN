@@ -1,0 +1,314 @@
+version: 1.0
+
+# Canonical labels for homicide (England & Wales)
+# type ∈ {narrative, evidence, legal_facts}
+labels:
+
+  # ---------- Narrative (events/contexts) ----------
+  encounter:
+    type: narrative
+    synonyms: [meeting, rendezvous, arranged to meet, came across]
+
+  prior_conflict:
+    type: narrative
+    synonyms: [prior dispute, ongoing feud, animosity, bad blood]
+
+  prior_threats:
+    type: narrative
+    synonyms: [threatened to kill, uttered threats, menacing messages, threats of violence]
+
+  planning_premeditation:
+    type: narrative
+    synonyms: [premeditated, planned, lay in wait, reconnaissance, preparation, false alibi, procured weapon, researched methods]
+
+  weapon_present:
+    type: narrative
+    synonyms: [weapon available, armed, carried a weapon]
+
+  weapon_firearm:
+    type: narrative
+    synonyms: [gun, handgun, pistol, shotgun, firearm]
+
+  weapon_sharp:
+    type: narrative
+    synonyms: [knife, bladed article, sharp instrument]
+
+  weapon_blunt:
+    type: narrative
+    synonyms: [blunt instrument, baseball bat, blunt weapon]
+
+  poisoning:
+    type: narrative
+    synonyms: [poisoned, administered poison, toxic substance, antifreeze]
+
+  strangulation:
+    type: narrative
+    synonyms: [strangled, throttled, compression of neck, chokehold]
+
+  assault_method_stabbing:
+    type: narrative
+    synonyms: [stabbed, stabbing, knife attack]
+
+  assault_method_shooting:
+    type: narrative
+    synonyms: [shot, shooting, discharged firearm]
+
+  assault_method_blunt_force:
+    type: narrative
+    synonyms: [blunt force, beat, battered]
+
+  location_private_dwelling:
+    type: narrative
+    synonyms: [at home, private address, inside the house, domestic premises]
+
+  location_public_space:
+    type: narrative
+    synonyms: [street, public place, outside, in the road, park]
+
+  motive_financial_gain:
+    type: narrative
+    synonyms: [for gain, financial motive, insurance, robbery motive]
+
+  motive_jealousy_revenge:
+    type: narrative
+    synonyms: [jealousy, revenge, retaliation, tit-for-tat]
+
+  defendant_intoxicated:
+    type: narrative
+    synonyms: [intoxicated, under the influence, drunk, intoxication]
+
+  victim_intoxicated:
+    type: narrative
+    synonyms: [victim intoxicated, drunk victim, under the influence]
+
+  concealment_actions:
+    type: narrative
+    synonyms: [cleaned scene, disposed of clothes, burned evidence, destroyed evidence]
+
+  disposal_of_weapon:
+    type: narrative
+    synonyms: [discarded knife, hid gun, threw weapon, disposed of weapon]
+
+  flight_after_offence:
+    type: narrative
+    synonyms: [fled scene, evaded police, attempted escape, left the scene]
+
+  alibi_claim:
+    type: narrative
+    synonyms: [alibi, claimed to be elsewhere, false alibi]
+
+  joint_enterprise_presence:
+    type: narrative
+    synonyms: [with others, together with, acting in concert, group attack]
+
+  withdrawal_from_joint_enterprise:
+    type: narrative
+    synonyms: [withdrew from enterprise, disengaged, renunciation]
+
+  abduction:
+    type: narrative
+    synonyms: [kidnap, bundled into the boot, forced into the car]
+
+  tied_restraint:
+    type: narrative
+    synonyms: [tied to a tree, bound hands, gagged, restrained]
+
+  weapon_petrol_fire:
+    type: narrative
+    synonyms: [petrol, accelerant, set alight, doused in petrol, burned alive]
+
+  post_offence_burial:
+    type: narrative
+    synonyms: [buried the body, concealed remains, shallow grave]
+
+  boasting_admissions:
+    type: narrative
+    synonyms: [boasted, bragged, told friends he did it]
+
+  confession_third_party:
+    type: narrative
+    synonyms: [confessed to his mother, told his mother, told relative what happened]
+
+  prior_assault:
+    type: narrative
+    synonyms: [previous assault, earlier attack, day before attack]
+
+  # ---------- Evidence (observables) ----------
+  cctv_presence:
+    type: evidence
+    synonyms: [CCTV available, video footage]
+
+  cctv_attack_visible:
+    type: evidence
+    synonyms: [CCTV shows attack, captured on camera]
+
+  eyewitness_identification:
+    type: evidence
+    synonyms: [identified the defendant, recognised him, picked out in parade]
+
+  eyewitness_heard_threat:
+    type: evidence
+    synonyms: [heard threat, heard say "I will kill", heard threats]
+
+  dna_match_victim_on_defendant:
+    type: evidence
+    synonyms: [victim DNA on defendant, DNA transfer from victim]
+
+  dna_match_defendant_on_weapon:
+    type: evidence
+    synonyms: [defendant DNA on weapon, DNA on knife]
+
+  fingerprint_match_on_weapon:
+    type: evidence
+    synonyms: [fingerprints on weapon, latent prints match]
+
+  gunshot_residue_gsr:
+    type: evidence
+    synonyms: [GSR, gunshot residue detected]
+
+  blood_spatter_pattern_consistent:
+    type: evidence
+    synonyms: [blood spatter consistent, BPA supports scenario]
+
+  injury_defensive_wounds:
+    type: evidence
+    synonyms: [defensive wounds, defence-type injuries]
+
+  wound_sharp_force:
+    type: evidence
+    synonyms: [sharp force injuries, stab wounds, incised wounds]
+
+  wound_blunt_force:
+    type: evidence
+    synonyms: [blunt force injuries, contusions, lacerations]
+
+  time_of_death_window_narrow:
+    type: evidence
+    synonyms: [narrow time window, precise time of death, short PMI]
+
+  phone_cell_site_near_scene:
+    type: evidence
+    synonyms: [cell site near scene, mast data places phone nearby]
+
+  call_logs_prior_contact:
+    type: evidence
+    synonyms: [call records show contact, calls between parties]
+
+  messages_prior_threats:
+    type: evidence
+    synonyms: [text threats, messages threatening, WhatsApp threats]
+
+  search_history_weapons_or_poison:
+    type: evidence
+    synonyms: [internet search for weapons, searched for poison, Google search]
+
+  purchase_record_weapon:
+    type: evidence
+    synonyms: [bought knife, weapon purchase receipt, petrol can purchase]
+
+  financial_transactions_gain:
+    type: evidence
+    synonyms: [insurance, payment for killing, financial gain traces]
+
+  confession_or_admission:
+    type: evidence
+    synonyms: [admitted, confessed, told police "I did it"]
+
+  inconsistent_statements:
+    type: evidence
+    synonyms: [changed account, inconsistent version, conflicting statements]
+
+  witness_self_defence_statements:
+    type: evidence
+    synonyms: [witness says self-defence, claimed he was attacked]
+
+  expert_opinion_diminished_resp:
+    type: evidence
+    synonyms: [psychiatrist opined diminished, expert supports DR]
+
+  medical_history_mental_impairment:
+    type: evidence
+    synonyms: [history of mental illness, recognised medical condition]
+
+  paragraph_marker:
+    type: evidence
+    synonyms: []
+
+  # ---------- Legal facts (elements/outcomes) ----------
+  actus_reus_killing:
+    type: legal_facts
+    synonyms: [caused death, brought about death, killed]
+
+  unlawful_killing:
+    type: legal_facts
+    synonyms: [no lawful excuse, unlawful homicide, unlawful killing]
+
+  causation:
+    type: legal_facts
+    synonyms: [more than minimal cause, substantial cause, legal causation]
+
+  mens_rea_intent_to_kill:
+    type: legal_facts
+    synonyms: [intended to kill, intention to cause death, murderous intent, purpose to kill]
+
+  mens_rea_intent_gbh:
+    type: legal_facts
+    synonyms: [intent to cause GBH, serious harm intent]
+
+  self_defence_legal:
+    type: legal_facts
+    synonyms: [self-defence, self defense, reasonable force, honestly believed in imminent attack, necessary to defend, proportionate response]
+
+  insanity:
+    type: legal_facts
+    synonyms: [insane, disease of the mind, M’Naghten]
+
+  diminished_responsibility:
+    type: legal_facts
+    synonyms: [diminished responsibility, abnormality of mental functioning, substantial impairment, recognised medical condition]
+
+  loss_of_control:
+    type: legal_facts
+    synonyms: [loss of self-control, qualifying trigger, fear of serious violence, things said or done]
+
+  duress_not_available_murder:
+    type: legal_facts
+    synonyms: [duress not a defence to murder, duress unavailable]
+
+  accessory_or_complicity:
+    type: legal_facts
+    synonyms: [aiding and abetting, party to the offence, joint enterprise, secondary liability]
+
+  withdrawal_effective:
+    type: legal_facts
+    synonyms: [effective withdrawal, withdrew before the act]
+
+  murder:
+    type: legal_facts
+    synonyms: [convicted of murder, guilty of murder]
+
+  manslaughter_diminished_resp:
+    type: legal_facts
+    synonyms: [manslaughter by diminished responsibility]
+
+  manslaughter_loss_of_control:
+    type: legal_facts
+    synonyms: [manslaughter by loss of control]
+
+  manslaughter_unlawful_act:
+    type: legal_facts
+    synonyms: [unlawful act manslaughter, constructive manslaughter]
+
+  manslaughter_gross_negligence:
+    type: legal_facts
+    synonyms: [gross negligence manslaughter]
+
+  lawful_killing_self_defence:
+    type: legal_facts
+    synonyms: [lawful killing, acquitted on self-defence]
+
+# -------- Section header hints (soft guidance for tagger) --------
+sections:
+  facts: ["Facts", "Background", "The Evidence", "Factual Background"]
+  analysis: ["Discussion", "Analysis", "Legal Framework", "Reasons", "Consideration"]
+  conclusion: ["Conclusion", "Disposition", "Result", "Decision", "Order"]
