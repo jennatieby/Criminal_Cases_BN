@@ -1,5 +1,11 @@
+from pathlib import Path
+
 import pandas as pd, re
-df = pd.read_csv("uk_cases_full.cleaned.csv")
+
+ROOT = Path(__file__).resolve().parent
+CLEANED_CSV = ROOT / "data" / "interim" / "uk_cases_full.cleaned.csv"
+
+df = pd.read_csv(CLEANED_CSV)
 
 # show before/after for a random case
 i = 5

@@ -2,8 +2,13 @@ import re
 import pandas as pd
 from pathlib import Path
 
-INPUT = "/Users/jennatieby/Desktop/IEU/Year 5/Thesis/DBA/uk_cases_full.csv"
-OUTPUT = "/Users/jennatieby/Desktop/Criminal_Cases_BN/uk_cases_full.cleaned.csv"
+ROOT = Path(__file__).resolve().parent
+DATA_RAW = ROOT / "data" / "raw" / "uk_cases_full.csv"
+DATA_INTERIM = ROOT / "data" / "interim"
+DATA_INTERIM.mkdir(parents=True, exist_ok=True)
+
+INPUT = DATA_RAW
+OUTPUT = DATA_INTERIM / "uk_cases_full.cleaned.csv"
 
 def clean_bailii_text(text: str) -> str:
     if not isinstance(text, str):
