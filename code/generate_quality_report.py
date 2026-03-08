@@ -115,9 +115,11 @@ def main() -> None:
     )
     case_summary["num_edges"] = case_summary["num_edges"].fillna(0).astype(int)
     case_summary["num_label_edges"] = case_summary["num_label_edges"].fillna(0).astype(int)
+    total_labels = len(all_labels)
     case_summary["labels_present_pct"] = (
-        case_summary["num_unique_labels"] / len(all_labels) * 100
+        case_summary["num_unique_labels"] / total_labels * 100
     ).round(1)
+    case_summary["num_missing_labels"] = total_labels - case_summary["num_unique_labels"]
     case_summary.to_csv(QUALITY / "case_summary.csv", index=False)
     print(f"  → {QUALITY.name}/case_summary.csv")
 
@@ -228,6 +230,24 @@ def main() -> None:
         print(f"  → {QUALITY.name}/never_seen_edges.csv ({len(never_seen_edges)} edges)")
     else:
         print(f"  → {QUALITY.name}/never_seen_edges.csv (all template edges seen)")
+
+    # ---- 11. quality_overview.csv (single per-case summary) ----
+    # How many template edges exist in total?
+    total_template_edges = len(template_edges)
+    # For each case, how many distinct template edges are actually present?
+    present_template_edges = (
+        edge_counts.groupby("case_id").size().rename("present_template_edges")
+        if not edge_counts.empty
+        else pd.Series(dtype="int64")
+    )
+
+    overview = case_summary.copy()
+    overview["total_template_edges"] = total_template_edges
+    overview["present_template_edges"] = overview["case_id"].map(present_template_edges).fillna(0).astype(int)
+    overview["missing_template_edges"] = overview["total_template_edges"] - overview["present_template_edges"]
+
+    overview.to_csv(QUALITY / "quality_overview.csv", index=False)
+    print(f"  → {QUALITY.name}/quality_overview.csv")
 
     print(f"\n✅ Quality report complete: {QUALITY}")
 

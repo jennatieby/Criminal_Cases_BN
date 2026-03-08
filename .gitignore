@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Logs / one-off run outputs
+llm_annotate_log.txt
+diagnose_output.txt
+
+# Optional: uncomment to avoid committing large data (re-run pipeline to regenerate)
+# data/processed/
+# data/interim/*.csv
+# data/interim/*.jsonl

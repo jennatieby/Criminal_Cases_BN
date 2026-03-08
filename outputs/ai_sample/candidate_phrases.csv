@@ -1,0 +1,3724 @@
+phrase_type,phrase,cases_with,occurrences
+noun_chunk,he,33,284
+noun_chunk,murder,35,275
+noun_chunk,which,35,198
+noun_chunk,it,29,166
+noun_chunk,manslaughter,19,109
+noun_chunk,the appellant,26,89
+noun_chunk,they,21,86
+noun_chunk,him,22,78
+noun_chunk,she,14,76
+noun_chunk,the jury,17,71
+noun_chunk,He,22,64
+noun_chunk,you,14,64
+noun_chunk,that,23,62
+noun_chunk,the murder,22,59
+noun_chunk,I,14,50
+noun_chunk,It,24,50
+noun_chunk,who,16,48
+noun_chunk,them,20,46
+noun_chunk,the killing,19,43
+noun_chunk,the time,19,39
+noun_chunk,we,15,31
+noun_chunk,attempted murder,8,29
+noun_chunk,her,11,26
+noun_chunk,the victim,11,26
+noun_chunk,death,10,24
+noun_chunk,the evidence,12,23
+noun_chunk,the case,15,22
+noun_chunk,the murders,3,22
+noun_chunk,the shooting,6,22
+noun_chunk,relation,9,20
+noun_chunk,the defendant,6,20
+noun_chunk,this,13,20
+noun_chunk,the basis,8,19
+noun_chunk,the stairs,1,19
+noun_chunk,what,12,19
+noun_chunk,the judge,10,18
+noun_chunk,The appellant,11,17
+noun_chunk,We,11,17
+noun_chunk,evidence,11,17
+noun_chunk,the appellants,6,16
+noun_chunk,the direction,10,16
+noun_chunk,part,6,15
+noun_chunk,the course,10,15
+noun_chunk,Stephen Lewis,1,14
+noun_chunk,a jury,13,14
+noun_chunk,the offence,12,14
+noun_chunk,Craig,1,13
+noun_chunk,She,8,13
+noun_chunk,Sherwood,1,13
+noun_chunk,a man,11,13
+noun_chunk,life imprisonment,12,13
+noun_chunk,me,8,13
+noun_chunk,page,5,13
+noun_chunk,the breakfast room,1,13
+noun_chunk,the death,7,13
+noun_chunk,the police,9,13
+noun_chunk,this case,12,13
+noun_chunk,us,10,13
+noun_chunk,Mr Martin,1,12
+noun_chunk,You,5,12
+noun_chunk,intent,8,12
+noun_chunk,section,6,12
+noun_chunk,suicide,3,12
+noun_chunk,the Court,10,12
+noun_chunk,-,8,11
+noun_chunk,Hall,1,11
+noun_chunk,Mr Saunders,1,11
+noun_chunk,Wearmouth,1,11
+noun_chunk,count,6,11
+noun_chunk,himself,6,11
+noun_chunk,the shots,3,11
+noun_chunk,Bachan,1,10
+noun_chunk,Becerra,1,10
+noun_chunk,Squeaky,1,10
+noun_chunk,They,7,10
+noun_chunk,a verdict,5,10
+noun_chunk,both,7,10
+noun_chunk,cases,5,10
+noun_chunk,conspiracy,2,10
+noun_chunk,mind,8,10
+noun_chunk,place,8,10
+noun_chunk,the Crown Court,10,10
+noun_chunk,the attack,3,10
+noun_chunk,the conviction,8,10
+noun_chunk,the gun,4,10
+noun_chunk,Lewis,1,9
+noun_chunk,Surjit,1,9
+noun_chunk,a charge,7,9
+noun_chunk,an act,3,9
+noun_chunk,grievous bodily harm,6,9
+noun_chunk,"the
+appellant",5,9
+noun_chunk,the Crown,8,9
+noun_chunk,the defence,6,9
+noun_chunk,the indictment,6,9
+noun_chunk,the man,6,9
+noun_chunk,the prosecution,7,9
+noun_chunk,trial,7,9
+noun_chunk,Bangy,1,8
+noun_chunk,Errol Jones,1,8
+noun_chunk,Gail,1,8
+noun_chunk,Mr Dada,1,8
+noun_chunk,a joint enterprise,2,8
+noun_chunk,another,4,8
+noun_chunk,behalf,7,8
+noun_chunk,diminished responsibility,6,8
+noun_chunk,example,5,8
+noun_chunk,joint enterprise,4,8
+noun_chunk,provocation,5,8
+noun_chunk,sentence,3,8
+noun_chunk,the Jury,1,8
+noun_chunk,the act,4,8
+noun_chunk,the circumstances,7,8
+noun_chunk,the facts,6,8
+noun_chunk,the law,7,8
+noun_chunk,the point,4,8
+noun_chunk,the robbers,2,8
+noun_chunk,the scene,5,8
+noun_chunk,the use,5,8
+noun_chunk,this Court,5,8
+noun_chunk,those,5,8
+noun_chunk,whom,7,8
+noun_chunk,Alison Lewis,1,7
+noun_chunk,Barry Schofield,1,7
+noun_chunk,English,1,7
+noun_chunk,Heather Stewart,1,7
+noun_chunk,a conviction,6,7
+noun_chunk,a party,2,7
+noun_chunk,a result,6,7
+noun_chunk,appeal,7,7
+noun_chunk,course,6,7
+noun_chunk,really serious harm,3,7
+noun_chunk,respect,6,7
+noun_chunk,the Tree Cathedral,1,7
+noun_chunk,the crime,5,7
+noun_chunk,the fatal shot,3,7
+noun_chunk,the first shot,2,7
+noun_chunk,the lay,1,7
+noun_chunk,the others,2,7
+noun_chunk,the river,1,7
+noun_chunk,the shot,4,7
+noun_chunk,the trial,5,7
+noun_chunk,the trial judge,6,7
+noun_chunk,time,5,7
+noun_chunk,Anderson,2,6
+noun_chunk,Azam,1,6
+noun_chunk,India,1,6
+noun_chunk,Lincoln,1,6
+noun_chunk,Lyons,1,6
+noun_chunk,Wayne Lambert,1,6
+noun_chunk,What,6,6
+noun_chunk,a case,3,6
+noun_chunk,a knife,5,6
+noun_chunk,a person,4,6
+noun_chunk,a trial,6,6
+noun_chunk,another person,1,6
+noun_chunk,circumstances,5,6
+noun_chunk,his co,5,6
+noun_chunk,homicide,4,6
+noun_chunk,law,3,6
+noun_chunk,nothing,4,6
+noun_chunk,order,5,6
+noun_chunk,others,5,6
+noun_chunk,robbery,1,6
+noun_chunk,serious injury,3,6
+noun_chunk,someone,4,6
+noun_chunk,the Central Criminal Court,6,6
+noun_chunk,the baby,2,6
+noun_chunk,the body,3,6
+noun_chunk,the charge,4,6
+noun_chunk,the conclusion,4,6
+noun_chunk,the count,3,6
+noun_chunk,the court,4,6
+noun_chunk,the events,5,6
+noun_chunk,the house,5,6
+noun_chunk,the intention,5,6
+noun_chunk,the knife,3,6
+noun_chunk,the light,6,6
+noun_chunk,the night,5,6
+noun_chunk,the police officers,2,6
+noun_chunk,the question,4,6
+noun_chunk,the sentence,3,6
+noun_chunk,the shotgun,2,6
+noun_chunk,the view,6,6
+noun_chunk,the weapon,2,6
+noun_chunk,this court,4,6
+noun_chunk,Appeal,5,5
+noun_chunk,Caffrey,1,5
+noun_chunk,Cooper,1,5
+noun_chunk,Count,5,5
+noun_chunk,D. C. Richards,1,5
+noun_chunk,D. S. Sartain,1,5
+noun_chunk,D.C. Fairfax,1,5
+noun_chunk,Evans,1,5
+noun_chunk,July,5,5
+noun_chunk,King,1,5
+noun_chunk,Morris,1,5
+noun_chunk,O'Brien,2,5
+noun_chunk,P.C. Miles,1,5
+noun_chunk,Robinson,2,5
+noun_chunk,That,5,5
+noun_chunk,The judge,3,5
+noun_chunk,a gun,3,5
+noun_chunk,a life sentence,5,5
+noun_chunk,a matter,5,5
+noun_chunk,a number,3,5
+noun_chunk,a piece,2,5
+noun_chunk,a police officer,3,5
+noun_chunk,a sentence,3,5
+noun_chunk,all,2,5
+noun_chunk,bar,1,5
+noun_chunk,blood,5,5
+noun_chunk,conviction,4,5
+noun_chunk,duress,2,5
+noun_chunk,each,4,5
+noun_chunk,events,5,5
+noun_chunk,fact,5,5
+noun_chunk,her body,4,5
+noun_chunk,life,4,5
+noun_chunk,self-defence,2,5
+noun_chunk,some,4,5
+noun_chunk,the common design,2,5
+noun_chunk,the conspiracy,2,5
+noun_chunk,the directions,3,5
+noun_chunk,the effect,4,5
+noun_chunk,the fact,4,5
+noun_chunk,the ground,5,5
+noun_chunk,the learned judge,4,5
+noun_chunk,the moment,3,5
+noun_chunk,the person,4,5
+noun_chunk,the present case,4,5
+noun_chunk,the prosecution case,3,5
+noun_chunk,the two men,1,5
+noun_chunk,the words,4,5
+noun_chunk,violence,4,5
+noun_chunk,Amanda Power,1,4
+noun_chunk,Barras,1,4
+noun_chunk,Bicester,1,4
+noun_chunk,Commonwealth,1,4
+noun_chunk,Dr Renshaw,1,4
+noun_chunk,Fearon,1,4
+noun_chunk,Gary Nelson,1,4
+noun_chunk,James Hanratty,1,4
+noun_chunk,Karelius Smith,1,4
+noun_chunk,Lord Gifford,1,4
+noun_chunk,Mark Sharp,1,4
+noun_chunk,Michael Gregsten,1,4
+noun_chunk,Moore,2,4
+noun_chunk,Mrs. Nott,1,4
+noun_chunk,P2,1,4
+noun_chunk,Reg,1,4
+noun_chunk,Russell,1,4
+noun_chunk,The Court,3,4
+noun_chunk,The jury,4,4
+noun_chunk,The question,4,4
+noun_chunk,This,4,4
+noun_chunk,Wyatt,1,4
+noun_chunk,a count,3,4
+noun_chunk,a position,2,4
+noun_chunk,a shield,1,4
+noun_chunk,a weapon,2,4
+noun_chunk,account,4,4
+noun_chunk,acts,2,4
+noun_chunk,an offence,4,4
+noun_chunk,anyone,3,4
+noun_chunk,causation,2,4
+noun_chunk,defendants,2,4
+noun_chunk,effect,3,4
+noun_chunk,fatal injury,3,4
+noun_chunk,his account,4,4
+noun_chunk,his evidence,3,4
+noun_chunk,his head,3,4
+noun_chunk,his shotgun,1,4
+noun_chunk,his wife,2,4
+noun_chunk,killing,3,4
+noun_chunk,liability,2,4
+noun_chunk,murders,2,4
+noun_chunk,no reason,4,4
+noun_chunk,offences,4,4
+noun_chunk,other words,3,4
+noun_chunk,our judgment,4,4
+noun_chunk,our view,3,4
+noun_chunk,practice,4,4
+noun_chunk,really serious bodily harm,4,4
+noun_chunk,regard,4,4
+noun_chunk,schedule,2,4
+noun_chunk,sentences,3,4
+noun_chunk,shot,1,4
+noun_chunk,shots,3,4
+noun_chunk,some harm,3,4
+noun_chunk,something,4,4
+noun_chunk,that basis,4,4
+noun_chunk,"the
+jury",4,4
+noun_chunk,the Homicide Act,3,4
+noun_chunk,the United Kingdom,2,4
+noun_chunk,the back,3,4
+noun_chunk,the car,2,4
+noun_chunk,the door,3,4
+noun_chunk,the gap,1,4
+noun_chunk,the grounds,4,4
+noun_chunk,the hall,1,4
+noun_chunk,the investigation,2,4
+noun_chunk,the joint criminal enterprise,1,4
+noun_chunk,the lift shaft,1,4
+noun_chunk,the minimum term,2,4
+noun_chunk,the period,3,4
+noun_chunk,the risk,3,4
+noun_chunk,the secondary party,2,4
+noun_chunk,the specific intent,2,4
+noun_chunk,the trial Judge,2,4
+noun_chunk,the way,3,4
+noun_chunk,two shots,4,4
+noun_chunk,4 October,3,3
+noun_chunk,A,1,3
+noun_chunk,A person,2,3
+noun_chunk,B,1,3
+noun_chunk,Betty,1,3
+noun_chunk,Carl Bridgewater,1,3
+noun_chunk,Criminal Appeal,3,3
+noun_chunk,Darshan,1,3
+noun_chunk,Domachevo,1,3
+noun_chunk,Dr Arnold,1,3
+noun_chunk,Evan Berry,1,3
+noun_chunk,Gail Kinchen,1,3
+noun_chunk,Gail's death,1,3
+noun_chunk,Hyde,2,3
+noun_chunk,Ian Stuart Lewis,1,3
+noun_chunk,Iftikhar Naz,1,3
+noun_chunk,J.S.,1,3
+noun_chunk,Judgment,3,3
+noun_chunk,Kenneth Cross,1,3
+noun_chunk,London,3,3
+noun_chunk,Mr Stewart,1,3
+noun_chunk,Mr. Wood,1,3
+noun_chunk,Reiss,1,3
+noun_chunk,Roper,1,3
+noun_chunk,Scott,1,3
+noun_chunk,Section,3,3
+noun_chunk,The Crown,3,3
+noun_chunk,The Crown's case,3,3
+noun_chunk,The case,2,3
+noun_chunk,The murders,3,3
+noun_chunk,Valerie Storie,1,3
+noun_chunk,a cause,2,3
+noun_chunk,a defence,3,3
+noun_chunk,a defendant,3,3
+noun_chunk,a direction,2,3
+noun_chunk,a majority,3,3
+noun_chunk,a reasonable man,1,3
+noun_chunk,a secondary party,3,3
+noun_chunk,a shotgun,3,3
+noun_chunk,a statement,3,3
+noun_chunk,a type,2,3
+noun_chunk,a violation,1,3
+noun_chunk,an accused person,1,3
+noun_chunk,an indictment,3,3
+noun_chunk,an intent,2,3
+noun_chunk,an intention,2,3
+noun_chunk,an unlawful act,1,3
+noun_chunk,"attempted
+murder",2,3
+noun_chunk,capital murder,1,3
+noun_chunk,concert,2,3
+noun_chunk,constructive malice,2,3
+noun_chunk,customs,1,3
+noun_chunk,damage,1,3
+noun_chunk,defendant,2,3
+noun_chunk,drink,2,3
+noun_chunk,drugs,2,3
+noun_chunk,fatal injuries,1,3
+noun_chunk,force,3,3
+noun_chunk,her death,2,3
+noun_chunk,his confession,2,3
+noun_chunk,his conviction,3,3
+noun_chunk,his direction,3,3
+noun_chunk,his movements,2,3
+noun_chunk,his view,3,3
+noun_chunk,instance,3,3
+noun_chunk,leave,3,3
+noun_chunk,"life
+imprisonment",3,3
+noun_chunk,no case,2,3
+noun_chunk,number,2,3
+noun_chunk,one participant,2,3
+noun_chunk,parties,3,3
+noun_chunk,party,3,3
+noun_chunk,police officers,2,3
+noun_chunk,principle,3,3
+noun_chunk,secondary parties,2,3
+noun_chunk,sentencing,2,3
+noun_chunk,serious harm,3,3
+noun_chunk,sight,1,3
+noun_chunk,some bodily injury,1,3
+noun_chunk,suspicion,2,3
+noun_chunk,that act,3,3
+noun_chunk,that case,3,3
+noun_chunk,"the
+shooting",1,3
+noun_chunk,"the 
+ killing",1,3
+noun_chunk,the actions,1,3
+noun_chunk,the alternative,3,3
+noun_chunk,the alternative count,1,3
+noun_chunk,the assault,2,3
+noun_chunk,the attackers,2,3
+noun_chunk,the bag,2,3
+noun_chunk,the bedroom,2,3
+noun_chunk,the bottom,1,3
+noun_chunk,the commencement,2,3
+noun_chunk,the conduct,3,3
+noun_chunk,the day,2,3
+noun_chunk,the decision,3,3
+noun_chunk,the doorway,2,3
+noun_chunk,the end,3,3
+noun_chunk,the farm,1,3
+noun_chunk,the flat,2,3
+noun_chunk,the full offence,1,3
+noun_chunk,the gunmen,1,3
+noun_chunk,the immediate cause,1,3
+noun_chunk,the intent,3,3
+noun_chunk,the joint enterprise,2,3
+noun_chunk,the killings,1,3
+noun_chunk,the laws,1,3
+noun_chunk,the living room,1,3
+noun_chunk,the mens rea,2,3
+noun_chunk,the murder charge,2,3
+noun_chunk,the murder count,3,3
+noun_chunk,the murder trial,1,3
+noun_chunk,the opinion,3,3
+noun_chunk,the other hand,3,3
+noun_chunk,the part,2,3
+noun_chunk,the participants,1,3
+noun_chunk,the possibility,3,3
+noun_chunk,the present,2,3
+noun_chunk,the purpose,3,3
+noun_chunk,the report,2,3
+noun_chunk,the room,2,3
+noun_chunk,the same time,2,3
+noun_chunk,the scope,3,3
+noun_chunk,the section,3,3
+noun_chunk,the sentences,3,3
+noun_chunk,the shout,2,3
+noun_chunk,the verdict,3,3
+noun_chunk,the window,2,3
+noun_chunk,things,2,3
+noun_chunk,this evidence,3,3
+noun_chunk,this man,2,3
+noun_chunk,truth,3,3
+noun_chunk,two counts,3,3
+noun_chunk,wait,1,3
+noun_chunk,war,1,3
+noun_chunk,what extent,3,3
+noun_chunk,whose case,1,3
+noun_chunk,"""encouragement",1,2
+noun_chunk,(second transcript,1,2
+noun_chunk,100ml,1,2
+noun_chunk,15 years' imprisonment,2,2
+noun_chunk,24 December,1,2
+noun_chunk,27th June,2,2
+noun_chunk,30th April,2,2
+noun_chunk,6 November,1,2
+noun_chunk,Abdul Shahid,1,2
+noun_chunk,Abdul Tahid,1,2
+noun_chunk,Actual Bodily Harm,2,2
+noun_chunk,Almeida,1,2
+noun_chunk,Any right-thinking member,2,2
+noun_chunk,April,2,2
+noun_chunk,Ashley Road,1,2
+noun_chunk,Assault,2,2
+noun_chunk,August,2,2
+noun_chunk,Bala,1,2
+noun_chunk,Beard's case,1,2
+noun_chunk,Belorussia,1,2
+noun_chunk,Bernard Clark,1,2
+noun_chunk,Brian Robinson,1,2
+noun_chunk,Bristol,2,2
+noun_chunk,Burglary,2,2
+noun_chunk,Cher,1,2
+noun_chunk,Cr App R,1,2
+noun_chunk,David Morris,1,2
+noun_chunk,Derek Jones,1,2
+noun_chunk,Dr Bond,1,2
+noun_chunk,Dr Wood,1,2
+noun_chunk,Edmeads,1,2
+noun_chunk,Eire,1,2
+noun_chunk,Elenor,1,2
+noun_chunk,England,1,2
+noun_chunk,English law,1,2
+noun_chunk,Evidence,2,2
+noun_chunk,Forid Miah,1,2
+noun_chunk,German occupation,1,2
+noun_chunk,Gunn,1,2
+noun_chunk,HMP Pentonville,1,2
+noun_chunk,Hui Chi Ming,1,2
+noun_chunk,January,2,2
+noun_chunk,Jomir Miah,1,2
+noun_chunk,June,2,2
+noun_chunk,Lord Hope,1,2
+noun_chunk,Louise Wan's evidence,1,2
+noun_chunk,Luton,2,2
+noun_chunk,Lyons' boot,1,2
+noun_chunk,Mansingh,1,2
+noun_chunk,Manslaughter,1,2
+noun_chunk,McNee,1,2
+noun_chunk,Miles,1,2
+noun_chunk,"Mr
+Kentridge",1,2
+noun_chunk,"Mr
+Saunders",1,2
+noun_chunk,Mr Barras,1,2
+noun_chunk,Mr Denyer,1,2
+noun_chunk,Mr Harris,2,2
+noun_chunk,Mr Horwell's primary submission,2,2
+noun_chunk,Mr Justice Owen,2,2
+noun_chunk,Mr Mumford,1,2
+noun_chunk,"Mr and Mrs
+Stirland",1,2
+noun_chunk,Mr Martin,1,2
+noun_chunk,Murder,2,2
+noun_chunk,Nazi policy,1,2
+noun_chunk,Nottingham,2,2
+noun_chunk,Patrick Molloy,1,2
+noun_chunk,Pordage,1,2
+noun_chunk,Rattigan,1,2
+noun_chunk,Redline,1,2
+noun_chunk,Reid,1,2
+noun_chunk,Rex,2,2
+noun_chunk,Rukhsana,1,2
+noun_chunk,Schedule,1,2
+noun_chunk,Scott-Baker J.,2,2
+noun_chunk,Sharpe,1,2
+noun_chunk,Shazad,1,2
+noun_chunk,Sheehan,1,2
+noun_chunk,Smith,2,2
+noun_chunk,The appellants,2,2
+noun_chunk,The court,2,2
+noun_chunk,The defence,2,2
+noun_chunk,The evidence,2,2
+noun_chunk,The indictment,2,2
+noun_chunk,The learned judge,2,2
+noun_chunk,The prosecution case,2,2
+noun_chunk,The shotgun,2,2
+noun_chunk,This appellant,2,2
+noun_chunk,Victor Dinall,1,2
+noun_chunk,a brutal murder,2,2
+noun_chunk,a bullet,2,2
+noun_chunk,a car,1,2
+noun_chunk,a conclusion,2,2
+noun_chunk,a conversation,2,2
+noun_chunk,a day,2,2
+noun_chunk,a fact,2,2
+noun_chunk,a firearm,1,2
+noun_chunk,a killing,2,2
+noun_chunk,a lesser offence,2,2
+noun_chunk,a manslaughter verdict,1,2
+noun_chunk,a murder charge,2,2
+noun_chunk,a murderous act,2,2
+noun_chunk,a passage,2,2
+noun_chunk,a possibility,1,2
+noun_chunk,a pre-arranged plan,1,2
+noun_chunk,a proportionate discount,1,2
+noun_chunk,a re,1,2
+noun_chunk,"a real
+possibility",1,2
+noun_chunk,a real possibility,1,2
+noun_chunk,a robbery,2,2
+noun_chunk,a series,1,2
+noun_chunk,a victim,2,2
+noun_chunk,a way,2,2
+noun_chunk,accordance,2,2
+noun_chunk,admissions,2,2
+noun_chunk,alcohol,1,2
+noun_chunk,all the circumstances,2,2
+noun_chunk,an abnormality,1,2
+noun_chunk,an acquittal,1,2
+noun_chunk,an agreement,2,2
+noun_chunk,an area,2,2
+noun_chunk,an individual defendant,1,2
+noun_chunk,an objectionable disparity,2,2
+noun_chunk,an unlawful killing,2,2
+noun_chunk,any,2,2
+noun_chunk,any evidence,2,2
+noun_chunk,any shot,2,2
+noun_chunk,anything,2,2
+noun_chunk,appropriate cases,2,2
+noun_chunk,approximately 300mg,1,2
+noun_chunk,area,1,2
+noun_chunk,armed robbery,2,2
+noun_chunk,arrest,1,2
+noun_chunk,both appellants,2,2
+noun_chunk,both hands,2,2
+noun_chunk,both sides,2,2
+noun_chunk,close range,2,2
+noun_chunk,counts,2,2
+noun_chunk,custody,2,2
+noun_chunk,doubt,2,2
+noun_chunk,drunkenness,1,2
+noun_chunk,either,2,2
+noun_chunk,everything,2,2
+noun_chunk,examination,2,2
+noun_chunk,excessive force,1,2
+noun_chunk,felony-murder,1,2
+noun_chunk,front,2,2
+noun_chunk,furtherance,2,2
+noun_chunk,her manslaughter,2,2
+noun_chunk,herself,1,2
+noun_chunk,his act,1,2
+noun_chunk,his acts,2,2
+noun_chunk,his appeal,2,2
+noun_chunk,his arrest,1,2
+noun_chunk,his case,2,2
+noun_chunk,his death,1,2
+noun_chunk,his directions,1,2
+noun_chunk,his friend,2,2
+noun_chunk,his mental responsibility,2,2
+noun_chunk,his own guilt,1,2
+noun_chunk,his role,1,2
+noun_chunk,his self-control,1,2
+noun_chunk,his son,1,2
+noun_chunk,his state,2,2
+noun_chunk,his trial,2,2
+noun_chunk,i,2,2
+noun_chunk,information,2,2
+noun_chunk,injury,2,2
+noun_chunk,intention,2,2
+noun_chunk,itself,2,2
+noun_chunk,justice,2,2
+noun_chunk,length,2,2
+noun_chunk,malice,1,2
+noun_chunk,material,2,2
+noun_chunk,mens rea,2,2
+noun_chunk,murder cases,1,2
+noun_chunk,no evidence,2,2
+noun_chunk,no intent,2,2
+noun_chunk,non,1,2
+noun_chunk,none,2,2
+noun_chunk,one,2,2
+noun_chunk,one count,1,2
+noun_chunk,opening,2,2
+noun_chunk,paragraph,1,2
+noun_chunk,policy,1,2
+noun_chunk,possession,2,2
+noun_chunk,prison,2,2
+noun_chunk,process,1,2
+noun_chunk,question,1,2
+noun_chunk,re,2,2
+noun_chunk,reality,2,2
+noun_chunk,"really serious
+injury",1,2
+noun_chunk,really serious injury,2,2
+noun_chunk,remand,2,2
+noun_chunk,room,1,2
+noun_chunk,seriousness,2,2
+noun_chunk,similar effect,1,2
+noun_chunk,some injury,2,2
+noun_chunk,some other person,1,2
+noun_chunk,some point,1,2
+noun_chunk,somebody,2,2
+noun_chunk,specific intention,2,2
+noun_chunk,starting point,1,2
+noun_chunk,such an approach,2,2
+noun_chunk,such injury,2,2
+noun_chunk,summary,2,2
+noun_chunk,tension,1,2
+noun_chunk,terms,2,2
+noun_chunk,that count,2,2
+noun_chunk,that date,2,2
+noun_chunk,that death,1,2
+noun_chunk,that intent,2,2
+noun_chunk,that person,1,2
+noun_chunk,that time,2,2
+noun_chunk,"the
+appellants",1,2
+noun_chunk,"the
+defence",2,2
+noun_chunk,"the
+defendant",2,2
+noun_chunk,"the
+intention",2,2
+noun_chunk,"the
+judge",2,2
+noun_chunk,"the
+murder",2,2
+noun_chunk,the 12 th July,2,2
+noun_chunk,the 30 year,1,2
+noun_chunk,the Common Serjeant,1,2
+noun_chunk,the Criminal Justice Act,2,2
+noun_chunk,the DNA sample,2,2
+noun_chunk,the Indictment,1,2
+noun_chunk,the Judge,2,2
+noun_chunk,the Offences,2,2
+noun_chunk,the Pennsylvanian court,1,2
+noun_chunk,the Person Act,2,2
+noun_chunk,"the Tree
+Cathedral",1,2
+noun_chunk,the Vienna Hotel,1,2
+noun_chunk,the War Crimes Act,1,2
+noun_chunk,the abolition,2,2
+noun_chunk,the absence,2,2
+noun_chunk,the accused's behaviour,1,2
+noun_chunk,the acts,2,2
+noun_chunk,the aggravated burglary,2,2
+noun_chunk,the allegation,2,2
+noun_chunk,the alleged offence,2,2
+noun_chunk,the appeal,2,2
+noun_chunk,the appellant's conviction,2,2
+noun_chunk,the applicant,2,2
+noun_chunk,the appropriate sentence,2,2
+noun_chunk,the area,2,2
+noun_chunk,the argument,2,2
+noun_chunk,the background,2,2
+noun_chunk,the banister,2,2
+noun_chunk,the battery,1,2
+noun_chunk,the beginning,2,2
+noun_chunk,the burglary,2,2
+noun_chunk,the cartridges,2,2
+noun_chunk,the cases,2,2
+noun_chunk,the close,1,2
+noun_chunk,the co,1,2
+noun_chunk,the compelling evidence,2,2
+noun_chunk,the context,1,2
+noun_chunk,the danger,2,2
+noun_chunk,the defendants,1,2
+noun_chunk,the early hours,2,2
+noun_chunk,the elements,1,2
+noun_chunk,the evening,2,2
+noun_chunk,the excitement,1,2
+noun_chunk,the execution,2,2
+noun_chunk,the existing levels,2,2
+noun_chunk,the extent,2,2
+noun_chunk,the fatal injuries,2,2
+noun_chunk,the felony-murder doctrine,1,2
+noun_chunk,the first sample,2,2
+noun_chunk,the following direction,2,2
+noun_chunk,the following terms,2,2
+noun_chunk,the gunman,2,2
+noun_chunk,the head,2,2
+noun_chunk,the heat,1,2
+noun_chunk,the infliction,2,2
+noun_chunk,the information,2,2
+noun_chunk,the injuries,2,2
+noun_chunk,the interval,1,2
+noun_chunk,the intruders,1,2
+noun_chunk,the issue,2,2
+noun_chunk,the issues,2,2
+noun_chunk,the joint venture,2,2
+noun_chunk,the judgment,2,2
+noun_chunk,the kitchen,1,2
+noun_chunk,the lay-by,1,2
+noun_chunk,the line,2,2
+noun_chunk,the matter,2,2
+noun_chunk,the middle,2,2
+noun_chunk,the mini,1,2
+noun_chunk,the murder scene,1,2
+noun_chunk,the murder weapon,1,2
+noun_chunk,the murderer,2,2
+noun_chunk,the muzzle,1,2
+noun_chunk,the nature,2,2
+noun_chunk,the necessary intent,2,2
+noun_chunk,"the new
+regime",2,2
+noun_chunk,the newspaper boy,1,2
+noun_chunk,the number,2,2
+noun_chunk,the occasion,1,2
+noun_chunk,the organisation,1,2
+noun_chunk,the other offences,1,2
+noun_chunk,the other party,1,2
+noun_chunk,the other side,2,2
+noun_chunk,the party,1,2
+noun_chunk,the piece,1,2
+noun_chunk,the place,2,2
+noun_chunk,the plea,1,2
+noun_chunk,the police officer,1,2
+noun_chunk,the police station,2,2
+noun_chunk,the position,2,2
+noun_chunk,the presence,1,2
+noun_chunk,the principal,1,2
+noun_chunk,the principles,2,2
+noun_chunk,the profile,2,2
+noun_chunk,the proposition,1,2
+noun_chunk,the provisions,2,2
+noun_chunk,the proviso,2,2
+noun_chunk,the public,2,2
+noun_chunk,the range,2,2
+noun_chunk,the requisite intent,2,2
+noun_chunk,the result,2,2
+noun_chunk,the right,1,2
+noun_chunk,the sentencing decision,1,2
+noun_chunk,the sentencing judge,2,2
+noun_chunk,the side,2,2
+noun_chunk,the single judge,2,2
+noun_chunk,the spent cartridge,1,2
+noun_chunk,the spread,1,2
+noun_chunk,the staircase,1,2
+noun_chunk,the store,1,2
+noun_chunk,the test,2,2
+noun_chunk,"the trial
+process",2,2
+noun_chunk,the two defendants,2,2
+noun_chunk,the two police officers,1,2
+noun_chunk,the verdicts,2,2
+noun_chunk,the victim's death,1,2
+noun_chunk,the wall,1,2
+noun_chunk,the woman,1,2
+noun_chunk,their verdict,2,2
+noun_chunk,themselves,2,2
+noun_chunk,these,2,2
+noun_chunk,these appellants,1,2
+noun_chunk,these circumstances,2,2
+noun_chunk,these two areas,1,2
+noun_chunk,this appeal,2,2
+noun_chunk,this point,2,2
+noun_chunk,this question,2,2
+noun_chunk,those cases,1,2
+noun_chunk,times,2,2
+noun_chunk,upward adjustment,2,2
+noun_chunk,use,2,2
+noun_chunk,very serious injury,1,2
+noun_chunk,violent disorder,1,2
+noun_chunk,weapons,2,2
+noun_chunk,whatever,2,2
+noun_chunk,whoever,2,2
+noun_chunk,years,2,2
+noun_chunk,""" a passage",1,1
+noun_chunk,"""The legal situation",1,1
+noun_chunk,"""incited
+Craig",1,1
+noun_chunk,"""preparation",1,1
+noun_chunk,"""the appellant",1,1
+noun_chunk,"""withdrawal",1,1
+noun_chunk,'s,1,1
+noun_chunk,(3) SA1,1,1
+noun_chunk,(A,1,1
+noun_chunk,(B,1,1
+noun_chunk,(Bangy,1,1
+noun_chunk,(Squeaky,1,1
+noun_chunk,(a) criminal negligence,1,1
+noun_chunk,(b,1,1
+noun_chunk,(b) provocation,1,1
+noun_chunk,(c,1,1
+noun_chunk,(d,1,1
+noun_chunk,(supra,1,1
+noun_chunk,) personal safety,1,1
+noun_chunk,", ""a person",1,1
+noun_chunk,", then failure",1,1
+noun_chunk,- (a,1,1
+noun_chunk,- Judgment,1,1
+noun_chunk,-- two murders,1,1
+noun_chunk,.,1,1
+noun_chunk,"1
+AB",1,1
+noun_chunk,1 April,1,1
+noun_chunk,1 September,1,1
+noun_chunk,1 WLR,1,1
+noun_chunk,1.3 metres,1,1
+noun_chunk,10th April,1,1
+noun_chunk,11 September,1,1
+noun_chunk,11th July,1,1
+noun_chunk,11th June,1,1
+noun_chunk,11th September,1,1
+noun_chunk,12 months' imprisonment concurrent,1,1
+noun_chunk,12 or 13 cartridges,1,1
+noun_chunk,12 years,1,1
+noun_chunk,12 years' imprisonment,1,1
+noun_chunk,121 Ky.,1,1
+noun_chunk,12th November,1,1
+noun_chunk,12th October,1,1
+noun_chunk,13 January,1,1
+noun_chunk,14 October,1,1
+noun_chunk,140 Clarence Road,1,1
+noun_chunk,15 January,1,1
+noun_chunk,16 Cox CC,1,1
+noun_chunk,16th November,1,1
+noun_chunk,17 February,1,1
+noun_chunk,18 January 2000 JUDGMENT LORD CHIEF JUSTICE,1,1
+noun_chunk,"18),this Court",1,1
+noun_chunk,"18th
+December",1,1
+noun_chunk,18th February,1,1
+noun_chunk,19 April,1,1
+noun_chunk,19 September,1,1
+noun_chunk,1963] AC,1,1
+noun_chunk,19th June,1,1
+noun_chunk,1A,1,1
+noun_chunk,1st January,1,1
+noun_chunk,2 November,1,1
+noun_chunk,2 Plowden,1,1
+noun_chunk,2.30 pm,1,1
+noun_chunk,2/3 June,1,1
+noun_chunk,20 years,1,1
+noun_chunk,22 and 26 August,1,1
+noun_chunk,22 years,1,1
+noun_chunk,22nd,1,1
+noun_chunk,25 th May,1,1
+noun_chunk,25 years,1,1
+noun_chunk,26 July,1,1
+noun_chunk,26 th March,1,1
+noun_chunk,27 September,1,1
+noun_chunk,27th January,1,1
+noun_chunk,27th March,1,1
+noun_chunk,28th June,1,1
+noun_chunk,29 Criminal Appeal Reports,1,1
+noun_chunk,29th,1,1
+noun_chunk,29th February,1,1
+noun_chunk,29th June,1,1
+noun_chunk,2A,1,1
+noun_chunk,2nd January,1,1
+noun_chunk,3 April,1,1
+noun_chunk,3 July,1,1
+noun_chunk,30 July,1,1
+noun_chunk,30 years,1,1
+noun_chunk,30 years' imprisonment,1,1
+noun_chunk,"30th
+August",1,1
+noun_chunk,30th July,1,1
+noun_chunk,31 July,1,1
+noun_chunk,3rd July,1,1
+noun_chunk,4 April,1,1
+noun_chunk,4.00 a.m.,1,1
+noun_chunk,4.1 metres,1,1
+noun_chunk,4.30 pm,1,1
+noun_chunk,4th July,1,1
+noun_chunk,4th November,1,1
+noun_chunk,5 June,1,1
+noun_chunk,5th December,1,1
+noun_chunk,"6
+November",1,1
+noun_chunk,7 April,1,1
+noun_chunk,7 November,1,1
+noun_chunk,7.00 am,1,1
+noun_chunk,7th May,1,1
+noun_chunk,8 March,1,1
+noun_chunk,8 th December,1,1
+noun_chunk,"8th
+August",1,1
+noun_chunk,8th August,1,1
+noun_chunk,8th February,1,1
+noun_chunk,8th ed,1,1
+noun_chunk,9 Kelvin Road,1,1
+noun_chunk,"9.35 
+ pm",1,1
+noun_chunk,90 Willow Tree Lane,1,1
+noun_chunk,9F - 10C,1,1
+noun_chunk,9pm,1,1
+noun_chunk,9 November,1,1
+noun_chunk,A C,1,1
+noun_chunk,A deliberate act,1,1
+noun_chunk,A further complaint,1,1
+noun_chunk,A majority,1,1
+noun_chunk,A martial arts expert,1,1
+noun_chunk,A police car,1,1
+noun_chunk,A separate indictment,1,1
+noun_chunk,A shotgun barrel,1,1
+noun_chunk,A submission,1,1
+noun_chunk,AC,1,1
+noun_chunk,Abolition,1,1
+noun_chunk,Act,1,1
+noun_chunk,Alison,1,1
+noun_chunk,Alison Lewis' husband,1,1
+noun_chunk,All,1,1
+noun_chunk,All four counts,1,1
+noun_chunk,All the experts,1,1
+noun_chunk,Andrew Cook,1,1
+noun_chunk,Anstee Court,1,1
+noun_chunk,"Anwar
+Mohammed",1,1
+noun_chunk,Anybody,1,1
+noun_chunk,Archbold,1,1
+noun_chunk,Archer,1,1
+noun_chunk,Attempted murder,1,1
+noun_chunk,Azam impotent,1,1
+noun_chunk,Azam's food,1,1
+noun_chunk,Azam's solicitors,1,1
+noun_chunk,"Bachan's 
+ return",1,1
+noun_chunk,Bachan's return,1,1
+noun_chunk,Baron Vaughn,1,1
+noun_chunk,Barras's body,1,1
+noun_chunk,Barras's leg,1,1
+noun_chunk,Barry Schofield's case,1,1
+noun_chunk,Becerra's hand,1,1
+noun_chunk,Bedford,1,1
+noun_chunk,Bentley,1,1
+noun_chunk,Berkshire Assizes,1,1
+noun_chunk,Bhajan,1,1
+noun_chunk,Bleak House,1,1
+noun_chunk,Boreman Otton LJ,1,1
+noun_chunk,Both appellants,1,1
+noun_chunk,Both counsel,1,1
+noun_chunk,Both men,1,1
+noun_chunk,Bradley,1,1
+noun_chunk,Bradshaw's murder,1,1
+noun_chunk,Bratty -v- Attorney-General,1,1
+noun_chunk,Brendan Fearon,1,1
+noun_chunk,Brian Robinson's account,1,1
+noun_chunk,British subjects,1,1
+noun_chunk,Butler,1,1
+noun_chunk,Butterfield J,1,1
+noun_chunk,Caffrey's blood,1,1
+noun_chunk,Campbell 89 Mass,1,1
+noun_chunk,Carl Bridgewater’s body,1,1
+noun_chunk,Carrington,1,1
+noun_chunk,Chan Wing Sui,1,1
+noun_chunk,Chelmsford Crown Court,1,1
+noun_chunk,Chick,1,1
+noun_chunk,Chris,1,1
+noun_chunk,Christopher Chick,1,1
+noun_chunk,Christopher Craig,1,1
+noun_chunk,Christopher Sherwood,1,1
+noun_chunk,Church,1,1
+noun_chunk,"Clare
+Miller",1,1
+noun_chunk,Clare Miller,1,1
+noun_chunk,Clydach,1,1
+noun_chunk,Cook,1,1
+noun_chunk,Courvoisier brandy,1,1
+noun_chunk,"Craig's
+evidence",1,1
+noun_chunk,Craig's defence,1,1
+noun_chunk,Criminal Law,1,1
+noun_chunk,Croydon,1,1
+noun_chunk,D. P. P.,1,1
+noun_chunk,DC Buttle,1,1
+noun_chunk,DPP,1,1
+noun_chunk,Darshan's friend,1,1
+noun_chunk,"David 
+ Morris",1,1
+noun_chunk,David George Morris,1,1
+noun_chunk,David Keith Pagett,1,1
+noun_chunk,Dawn Mapp,1,1
+noun_chunk,Death Penalty,1,1
+noun_chunk,December,1,1
+noun_chunk,Defence counsel,1,1
+noun_chunk,Denbigh Street,1,1
+noun_chunk,Derby,1,1
+noun_chunk,"Derek
+William Bentley",1,1
+noun_chunk,"Detective Constable
+McGrath",1,1
+noun_chunk,Detective Constable Fairfax,1,1
+noun_chunk,Director,1,1
+noun_chunk,"Donald
+Pendleton",1,1
+noun_chunk,Dr Arnold Dr Renshaw's first scenario,1,1
+noun_chunk,Dr Arnold's evidence,1,1
+noun_chunk,Dr Arnold's opinion,1,1
+noun_chunk,Dr David Thomas,1,1
+noun_chunk,Dr Kennedy,1,1
+noun_chunk,Dr Lipsedge,1,1
+noun_chunk,Dr Mughal,1,1
+noun_chunk,Dr Patel,1,1
+noun_chunk,Dr. Glanville Williams' view,1,1
+noun_chunk,Dr Renshaw's view,1,1
+noun_chunk,Dunbar,1,1
+noun_chunk,EWCA Crim,1,1
+noun_chunk,Each,1,1
+noun_chunk,Each denied murder,1,1
+noun_chunk,East London,1,1
+noun_chunk,Eastern Avenue,1,1
+noun_chunk,Emily,1,1
+noun_chunk,Encouragement,1,1
+noun_chunk,English Lord Hutton,1,1
+noun_chunk,"Evan
+Berry",1,1
+noun_chunk,Exhibit,1,1
+noun_chunk,Factors,1,1
+noun_chunk,Fearon's evidence,1,1
+noun_chunk,"First, a subjective question",1,1
+noun_chunk,Forde,1,1
+noun_chunk,Forensic examination,1,1
+noun_chunk,Freddie Barras,1,1
+noun_chunk,French J,1,1
+noun_chunk,Friday,1,1
+noun_chunk,Friday 21st,1,1
+noun_chunk,Further Grounds,1,1
+noun_chunk,Further statements,1,1
+noun_chunk,Gail ,1,1
+noun_chunk,Gallagher,1,1
+noun_chunk,Gallimore,1,1
+noun_chunk,"Gants 
+ Hill",1,1
+noun_chunk,"Gary
+Nelson",1,1
+noun_chunk,Gentleman's Magazine,1,1
+noun_chunk,Germany,1,1
+noun_chunk,Gibbs,1,1
+noun_chunk,Gibbs J,1,1
+noun_chunk,Goliath,1,1
+noun_chunk,Grendon Prison,1,1
+noun_chunk,Grounds,1,1
+noun_chunk,Guida,1,1
+noun_chunk,"Harold 
+ Percival Williams",1,1
+noun_chunk,Hastings,1,1
+noun_chunk,Heather Stewart's case,1,1
+noun_chunk,Her Majesty’s pleasure,1,1
+noun_chunk,"His Honour Judge Francis
+Allen",1,1
+noun_chunk,His Honour Judge Goldsack QC,1,1
+noun_chunk,His Honour Judge Hutchinson,1,1
+noun_chunk,His Honour Judge Lockett,1,1
+noun_chunk,His Honour Judge Sir Lawrence Verney,1,1
+noun_chunk,"His attendance 
+ note",1,1
+noun_chunk,His counsel,1,1
+noun_chunk,His defence,1,1
+noun_chunk,His evidence,1,1
+noun_chunk,His first account,1,1
+noun_chunk,His mate,1,1
+noun_chunk,His shooting,1,1
+noun_chunk,Hogan,1,1
+noun_chunk,Hyam,1,1
+noun_chunk,Hyde 92 Cr App R,1,1
+noun_chunk,"Ian Stuart 
+ Lewis",1,1
+noun_chunk,Iftikhar,1,1
+noun_chunk,"Iftikhar Naz's
+admissions",1,1
+noun_chunk,Ivy Newman,1,1
+noun_chunk,JC,1,1
+noun_chunk,"James
+Robinson",1,1
+noun_chunk,James Edward Robinson,1,1
+noun_chunk,James Robinson,1,1
+noun_chunk,Jewish men,1,1
+noun_chunk,Jill Robinson,1,1
+noun_chunk,John Thorpe,1,1
+noun_chunk,K,1,1
+noun_chunk,Katie,1,1
+noun_chunk,Keene J,1,1
+noun_chunk,Kilburn Police Station,1,1
+noun_chunk,Kimber,1,1
+noun_chunk,King's Bench,1,1
+noun_chunk,Kingsbury,1,1
+noun_chunk,"Ladley's
+assurance",1,1
+noun_chunk,Lambert,1,1
+noun_chunk,Larkin,1,1
+noun_chunk,Leading counsel,1,1
+noun_chunk,Leeds,1,1
+noun_chunk,Lewes,1,1
+noun_chunk,Lewis's shoulder,1,1
+noun_chunk,Lincoln's plea,1,1
+noun_chunk,Lord Hutton,1,1
+noun_chunk,Lord Lane CJ,1,1
+noun_chunk,Lord Lowry,1,1
+noun_chunk,Lord Mustill,1,1
+noun_chunk,Lord Steyn,1,1
+noun_chunk,Louise Pugh,1,1
+noun_chunk,Louise Wan,1,1
+noun_chunk,Lovesey,1,1
+noun_chunk,Lyons' activity,1,1
+noun_chunk,Maida Vale,1,1
+noun_chunk,Maidstone Crown Court,1,1
+noun_chunk,Manchester,1,1
+noun_chunk,Margaret Davies,1,1
+noun_chunk,"Marvyn
+Bradshaw",1,1
+noun_chunk,May,1,1
+noun_chunk,McCullough J,1,1
+noun_chunk,Medical Evidence,1,1
+noun_chunk,Michael Hickey,1,1
+noun_chunk,Michael Joseph Hickey,1,1
+noun_chunk,Michael O'Brien,1,1
+noun_chunk,Microscopic examination,1,1
+noun_chunk,Mir Aslam,1,1
+noun_chunk,Miss McCoy's conduct,1,1
+noun_chunk,Miss Robinson,1,1
+noun_chunk,Molloy,1,1
+noun_chunk,Monday,1,1
+noun_chunk,Morland J.,1,1
+noun_chunk,Morris' appeal,1,1
+noun_chunk,"Mr
+Barrett",1,1
+noun_chunk,Mr Anthony Edward Martin,1,1
+noun_chunk,Mr Batten,1,1
+noun_chunk,Mr Bevan QC,1,1
+noun_chunk,Mr Blunt,1,1
+noun_chunk,Mr C Stephenson,1,1
+noun_chunk,Mr Eric Williams,1,1
+noun_chunk,Mr Farrer QC,1,1
+noun_chunk,Mr Fearon,1,1
+noun_chunk,Mr Fitzgerald,1,1
+noun_chunk,Mr Griffiths,1,1
+noun_chunk,Mr Hall Senior,1,1
+noun_chunk,Mr Hall's parents,1,1
+noun_chunk,Mr Hutchison,1,1
+noun_chunk,Mr Hutchison's entire approach,1,1
+noun_chunk,Mr J Foy QC,1,1
+noun_chunk,Mr Jimmy Adams,1,1
+noun_chunk,Mr Justice Stephen Brown,1,1
+noun_chunk,Mr Kentridge,1,1
+noun_chunk,Mr Kentridge's position,1,1
+noun_chunk,Mr Latham QC,1,1
+noun_chunk,Mr MacDonald,1,1
+noun_chunk,Mr Maloney,1,1
+noun_chunk,Mr Mansfield,1,1
+noun_chunk,Mr Martin's account,1,1
+noun_chunk,Mr Martin's defence,1,1
+noun_chunk,Mr Rees,1,1
+noun_chunk,Mr Roberts QC,1,1
+noun_chunk,Mr Saunders's garden,1,1
+noun_chunk,Mr Saunders's murder,1,1
+noun_chunk,Mr Saunders's neighbours,1,1
+noun_chunk,Mr Sherwood's trial,1,1
+noun_chunk,Mr Sidney Kentridge QC,1,1
+noun_chunk,Mr Stirland,1,1
+noun_chunk,Mr Tetlow,1,1
+noun_chunk,Mr Tugendhat,1,1
+noun_chunk,Mr Wakelam,1,1
+noun_chunk,Mr Wolkind's argument,1,1
+noun_chunk,Mr. Justice Caulfield,1,1
+noun_chunk,Mr. Justice Glyn-Jones,1,1
+noun_chunk,Mr. Justice Mars Jones,1,1
+noun_chunk,Mr. Justice Park,1,1
+noun_chunk,Mr. Justice Parker,1,1
+noun_chunk,Mr. Owen's argument,1,1
+noun_chunk,"Mrs 
+ Doris Dawson",1,1
+noun_chunk,Mrs Brannan's visit,1,1
+noun_chunk,Mrs Hall,1,1
+noun_chunk,"Mrs Lynne
+Kyte",1,1
+noun_chunk,Mrs Stirland,1,1
+noun_chunk,Mrs Tunstall,1,1
+noun_chunk,Mrs. Francis,1,1
+noun_chunk,Mrs. Wood,1,1
+noun_chunk,Mr Alphon,1,1
+noun_chunk,Naseem,1,1
+noun_chunk,Newbury,1,1
+noun_chunk,No 6 shot,1,1
+noun_chunk,No express motive,1,1
+noun_chunk,No witness,1,1
+noun_chunk,Normanton,1,1
+noun_chunk,Northern Ireland,1,1
+noun_chunk,Norwich,1,1
+noun_chunk,Nottingham Assizesm,1,1
+noun_chunk,November,1,1
+noun_chunk,Officer Ingling's death,1,1
+noun_chunk,Others,1,1
+noun_chunk,P,1,1
+noun_chunk,"P.C.
+Harrison",1,1
+noun_chunk,P.C. Harrison,1,1
+noun_chunk,P.C. McDonald,1,1
+noun_chunk,Parkhurst Prison,1,1
+noun_chunk,Parliament,1,1
+noun_chunk,Patrick Molloy’s assertion,1,1
+noun_chunk,Paynes,1,1
+noun_chunk,Penfold,1,1
+noun_chunk,Pennsylvania,1,1
+noun_chunk,Peter Alphon,1,1
+noun_chunk,Peterson,1,1
+noun_chunk,Plowden,1,1
+noun_chunk,Police Constable,1,1
+noun_chunk,Police Constable Harrison,1,1
+noun_chunk,Potts J,1,1
+noun_chunk,Powell,1,1
+noun_chunk,Preston,1,1
+noun_chunk,Professor Gudjonsson,1,1
+noun_chunk,Professor Williams,1,1
+noun_chunk,Public Prosecutions,1,1
+noun_chunk,Purchas J.,1,1
+noun_chunk,R,1,1
+noun_chunk,"R
+v Jones",1,1
+noun_chunk,R v Brown,1,1
+noun_chunk,R v Sullivan,1,1
+noun_chunk,R. 21 and (1975) A. C.,1,1
+noun_chunk,Rafferty J,1,1
+noun_chunk,Reg -v- Doherty,1,1
+noun_chunk,Reg -v- Lipman,1,1
+noun_chunk,Reg -v- Moore,1,1
+noun_chunk,Rejan Uddin,1,1
+noun_chunk,Robinson’s arrest,1,1
+noun_chunk,Rose LJ,1,1
+noun_chunk,Rukhsana Naz,1,1
+noun_chunk,Rukhsana's death,1,1
+noun_chunk,Rukhsana's home,1,1
+noun_chunk,Rukhsana's house,1,1
+noun_chunk,Rukhsana's legs,1,1
+noun_chunk,Rukhsana's neck,1,1
+noun_chunk,Rumpff J.,1,1
+noun_chunk,SELF-DEFENCE,1,1
+noun_chunk,Sarbjit,1,1
+noun_chunk,Saunders,1,1
+noun_chunk,Schofield,1,1
+noun_chunk,Sean,1,1
+noun_chunk,Sentences,1,1
+noun_chunk,Shakeela Naz,1,1
+noun_chunk,Sharp,1,1
+noun_chunk,"Shazad
+Naz",1,1
+noun_chunk,Shazad Naz,1,1
+noun_chunk,Sheffield,1,1
+noun_chunk,Sherwood's account,1,1
+noun_chunk,Sherwood's sister,1,1
+noun_chunk,Sidney Miles,1,1
+noun_chunk,Slough,1,1
+noun_chunk,Smith's death,1,1
+noun_chunk,So encouragement,1,1
+noun_chunk,Some support,1,1
+noun_chunk,Sooklal,1,1
+noun_chunk,Squeaky fall,1,1
+noun_chunk,Squeaky's shoulder,1,1
+noun_chunk,St Albans,1,1
+noun_chunk,"Stephen 
+ Lewis",1,1
+noun_chunk,Stephen J,1,1
+noun_chunk,Stewart,1,1
+noun_chunk,Such a conclusion,1,1
+noun_chunk,Sukhdave,1,1
+noun_chunk,"Sukhdave's 
+ wife",1,1
+noun_chunk,Sullivan,1,1
+noun_chunk,Sunday 23rd,1,1
+noun_chunk,Sutherland Avenue,1,1
+noun_chunk,Swansea,1,1
+noun_chunk,Swansea Crown Court,1,1
+noun_chunk,Sylvia Jeannette Nott,1,1
+noun_chunk,THE FORENSIC EVIDENCE Dr Arnold,1,1
+noun_chunk,THE LAW,1,1
+noun_chunk,THE LORD CHIEF JUSTICE,1,1
+noun_chunk,"Tasties
+Restaurant",1,1
+noun_chunk,Tasties Restaurant,1,1
+noun_chunk,Thabo Meli,1,1
+noun_chunk,That exchange,1,1
+noun_chunk,That level,1,1
+noun_chunk,That passage,1,1
+noun_chunk,That recommendation,1,1
+noun_chunk,That relatively elaborate structure,1,1
+noun_chunk,That shot,1,1
+noun_chunk,That spread,1,1
+noun_chunk,That withdrawal,1,1
+noun_chunk,"The
+Convictions",1,1
+noun_chunk,"The
+Crown case",1,1
+noun_chunk,"The
+case",1,1
+noun_chunk,"The
+particulars",1,1
+noun_chunk,"The
+second",1,1
+noun_chunk,"The
+significance",1,1
+noun_chunk,"The
+maximum sentence",1,1
+noun_chunk,"The 
+ Court",1,1
+noun_chunk,"The 
+ prosecution",1,1
+noun_chunk,The Crown case,1,1
+noun_chunk,The Homicide Act,1,1
+noun_chunk,The Jewish population,1,1
+noun_chunk,The Jury,1,1
+noun_chunk,The Lewis brothers,1,1
+noun_chunk,The People,1,1
+noun_chunk,The Prosecution's case,1,1
+noun_chunk,The Prosecutions' case,1,1
+noun_chunk,The Queen,1,1
+noun_chunk,The United States authorities,1,1
+noun_chunk,The allegation,1,1
+noun_chunk,The analysis,1,1
+noun_chunk,The answer,1,1
+noun_chunk,The appeal,1,1
+noun_chunk,The appellant appeals,1,1
+noun_chunk,The application,1,1
+noun_chunk,The approach,1,1
+noun_chunk,The basis,1,1
+noun_chunk,The charge,1,1
+noun_chunk,The choice,1,1
+noun_chunk,The complaint,1,1
+noun_chunk,The constituents,1,1
+noun_chunk,The courts,1,1
+noun_chunk,The criticism,1,1
+noun_chunk,The defendants,1,1
+noun_chunk,The difficulty,1,1
+noun_chunk,The dispersed shot,1,1
+noun_chunk,The essential thrust,1,1
+noun_chunk,The fatal blow,1,1
+noun_chunk,The features,1,1
+noun_chunk,The felonious acts,1,1
+noun_chunk,The first ground,1,1
+noun_chunk,The first question,1,1
+noun_chunk,The first sentence,1,1
+noun_chunk,The incitement,1,1
+noun_chunk,The issue,1,1
+noun_chunk,The killing,1,1
+noun_chunk,The killings,1,1
+noun_chunk,The label,1,1
+noun_chunk,The latest case,1,1
+noun_chunk,The lesser injury,1,1
+noun_chunk,The level,1,1
+noun_chunk,The life sentence,1,1
+noun_chunk,The main discussion,1,1
+noun_chunk,The main point,1,1
+noun_chunk,The mere coincidence,1,1
+noun_chunk,The murder weapon,1,1
+noun_chunk,The next case,1,1
+noun_chunk,The obvious tensions,1,1
+noun_chunk,The only other piece,1,1
+noun_chunk,"The only scientific 
+ evidence",1,1
+noun_chunk,The order,1,1
+noun_chunk,The other possibility,1,1
+noun_chunk,The other significant feature,1,1
+noun_chunk,The other witness,1,1
+noun_chunk,The particulars,1,1
+noun_chunk,The passage,1,1
+noun_chunk,The pathological evidence,1,1
+noun_chunk,The plans,1,1
+noun_chunk,The point,1,1
+noun_chunk,The possible infliction,1,1
+noun_chunk,The present appeal,1,1
+noun_chunk,The problem,1,1
+noun_chunk,The proceedings,1,1
+noun_chunk,The prosecution,1,1
+noun_chunk,The prosecution's case,1,1
+noun_chunk,The questions,1,1
+noun_chunk,The reason,1,1
+noun_chunk,The report,1,1
+noun_chunk,The requirement,1,1
+noun_chunk,The second aspect,1,1
+noun_chunk,The second ground,1,1
+noun_chunk,The second question,1,1
+noun_chunk,The second shot,1,1
+noun_chunk,The sentences,1,1
+noun_chunk,The statutory provisions,1,1
+noun_chunk,The submission,1,1
+noun_chunk,The test,1,1
+noun_chunk,The three defendants,1,1
+noun_chunk,The three robbers,1,1
+noun_chunk,The trial,1,1
+noun_chunk,"The trial
+judge's ruling",1,1
+noun_chunk,The two counts,1,1
+noun_chunk,The upper end,1,1
+noun_chunk,The upshot,1,1
+noun_chunk,The victims,1,1
+noun_chunk,The way,1,1
+noun_chunk,"These
+groups",1,1
+noun_chunk,These directions,1,1
+noun_chunk,This case,1,1
+noun_chunk,This degree,1,1
+noun_chunk,This offence,1,1
+noun_chunk,Those,1,1
+noun_chunk,Thursday,1,1
+noun_chunk,"Tracy
+Kyte's trial",1,1
+noun_chunk,Tracy Kyte,1,1
+noun_chunk,Treacy J,1,1
+noun_chunk,Trial,1,1
+noun_chunk,Trustthorpe,1,1
+noun_chunk,Tucker J.,1,1
+noun_chunk,Tuesday 19th September,1,1
+noun_chunk,Two areas,1,1
+noun_chunk,Two men,1,1
+noun_chunk,"Valerie 
+ Storie",1,1
+noun_chunk,Valley,1,1
+noun_chunk,"Victor
+Dinall",1,1
+noun_chunk,"Vincent
+James Hickey",1,1
+noun_chunk,Vincent Hickey,1,1
+noun_chunk,"Vincent Hickey’s
+cousin",1,1
+noun_chunk,Wayne,1,1
+noun_chunk,Weddle,1,1
+noun_chunk,Weddle’s part,1,1
+noun_chunk,Wednesday,1,1
+noun_chunk,Wendy Bruin,1,1
+noun_chunk,West Glamorgan,1,1
+noun_chunk,What my learned friend,1,1
+noun_chunk,Whenever reduction,1,1
+noun_chunk,Widgery LJ,1,1
+noun_chunk,Wight,1,1
+noun_chunk,William Scott,1,1
+noun_chunk,Wordsley,1,1
+noun_chunk,Wormwood Scrubs,1,1
+noun_chunk,Wormwood Scrubs Prison,1,1
+noun_chunk,"Yew
+Tree Farm",1,1
+noun_chunk,Yew Tree Farm,1,1
+noun_chunk,Zoora Ghulam Shah,1,1
+noun_chunk,[1991] 1 QB,1,1
+noun_chunk,[2006] 1 Cr App,1,1
+noun_chunk,a,1,1
+noun_chunk,"a
+case",1,1
+noun_chunk,"a
+charge",1,1
+noun_chunk,"a
+christening",1,1
+noun_chunk,"a
+defence",1,1
+noun_chunk,"a
+fatal wound",1,1
+noun_chunk,"a
+finding",1,1
+noun_chunk,"a
+gun fight",1,1
+noun_chunk,"a
+log",1,1
+noun_chunk,"a
+lookout",1,1
+noun_chunk,"a
+matter",1,1
+noun_chunk,"a
+more favourable direction",1,1
+noun_chunk,"a
+named Jewish victim",1,1
+noun_chunk,"a
+partisan attack",1,1
+noun_chunk,"a
+person",1,1
+noun_chunk,"a
+reasonable young Asian male act",1,1
+noun_chunk,"a
+reduction",1,1
+noun_chunk,"a
+report",1,1
+noun_chunk,"a
+result",1,1
+noun_chunk,"a
+retrial",1,1
+noun_chunk,"a
+robbery",1,1
+noun_chunk,"a
+specific intent",1,1
+noun_chunk,"a
+verdict",1,1
+noun_chunk,"a
+conspiracy",1,1
+noun_chunk,"a
+deliberate attempt",1,1
+noun_chunk,"a
+minimum period",1,1
+noun_chunk,"a
+trial",1,1
+noun_chunk,"a 
+ black fibreglass pole",1,1
+noun_chunk,"a 
+ catastrophic injury",1,1
+noun_chunk,"a 
+ written statement",1,1
+noun_chunk,a .38 Enfield revolver,1,1
+noun_chunk,a 12 bore,1,1
+noun_chunk,a 12-bore Winchester pump-action shotgun,1,1
+noun_chunk,"a 16 year old 
+ schoolgirl",1,1
+noun_chunk,a 30 year minimum term,1,1
+noun_chunk,a British subject,1,1
+noun_chunk,a Jewess,1,1
+noun_chunk,a Jury's verdict,1,1
+noun_chunk,"a Morris 
+ Minor",1,1
+noun_chunk,a baby,1,1
+noun_chunk,a baseball bat,1,1
+noun_chunk,a basic misdirection,1,1
+noun_chunk,a blood alcohol reading,1,1
+noun_chunk,a blow,1,1
+noun_chunk,a body,1,1
+noun_chunk,a bottle,1,1
+noun_chunk,a brick,1,1
+noun_chunk,"a car
+battery",1,1
+noun_chunk,a cell,1,1
+noun_chunk,a certificate,1,1
+noun_chunk,a chance intruder,1,1
+noun_chunk,"a classic ""unlawful act"" manslaughter",1,1
+noun_chunk,"a clear
+misdirection",1,1
+noun_chunk,a clear case.,1,1
+noun_chunk,a clicking sound,1,1
+noun_chunk,a co,1,1
+noun_chunk,a common intention,1,1
+noun_chunk,a comparable rule,1,1
+noun_chunk,a complete defence,1,1
+noun_chunk,a completely different type,1,1
+noun_chunk,a concerted attack,1,1
+noun_chunk,a conflict,1,1
+noun_chunk,a consequence,1,1
+noun_chunk,a consultant psychiatrist,1,1
+noun_chunk,a contact,1,1
+noun_chunk,a convenient way,1,1
+noun_chunk,a cord,1,1
+noun_chunk,"a corresponding
+increase",1,1
+noun_chunk,a court,1,1
+noun_chunk,"a criminal
+record",1,1
+noun_chunk,a crying child,1,1
+noun_chunk,a cupboard,1,1
+noun_chunk,a curious fact,1,1
+noun_chunk,a deadly weapon,1,1
+noun_chunk,a decision,1,1
+noun_chunk,a defence case statement,1,1
+noun_chunk,a defendant's act,1,1
+noun_chunk,a degree,1,1
+noun_chunk,a deliberate act,1,1
+noun_chunk,a deliberate failure,1,1
+noun_chunk,a deliberate incitement,1,1
+noun_chunk,a deliberate non-accidental killing,1,1
+noun_chunk,a devastating effect,1,1
+noun_chunk,a different weapon,1,1
+noun_chunk,a differently constituted division,1,1
+noun_chunk,a discount,1,1
+noun_chunk,a discretionary life sentence,1,1
+noun_chunk,a door,1,1
+noun_chunk,a doorway,1,1
+noun_chunk,a drunken man,1,1
+noun_chunk,a drunken nurse,1,1
+noun_chunk,a dying man,1,1
+noun_chunk,a fatal dose,1,1
+noun_chunk,a fatal injury,1,1
+noun_chunk,a felon,1,1
+noun_chunk,a felony,1,1
+noun_chunk,a felony-murder,1,1
+noun_chunk,a fight,1,1
+noun_chunk,a fingerprint,1,1
+noun_chunk,"a five
+judge constitution",1,1
+noun_chunk,a five judge court,1,1
+noun_chunk,a forensic scientist,1,1
+noun_chunk,a foundation,1,1
+noun_chunk,a fresh cartridge,1,1
+noun_chunk,a further indication,1,1
+noun_chunk,a further retirement,1,1
+noun_chunk,a further two shots,1,1
+noun_chunk,a genuine concern,1,1
+noun_chunk,"a good
+hiding",1,1
+noun_chunk,a grand gesture,1,1
+noun_chunk,"a greater
+distance",1,1
+noun_chunk,a greater distance,1,1
+noun_chunk,a group attack,1,1
+noun_chunk,a gun battle,1,1
+noun_chunk,a hand-gun,1,1
+noun_chunk,a homicide,1,1
+noun_chunk,a house,1,1
+noun_chunk,a human being,1,1
+noun_chunk,a hurried departure,1,1
+noun_chunk,a jet,1,1
+noun_chunk,a joint offence,1,1
+noun_chunk,a joint venture,1,1
+noun_chunk,a jury verdict,1,1
+noun_chunk,a kick,1,1
+noun_chunk,a kitchen knife,1,1
+noun_chunk,a ladder,1,1
+noun_chunk,a large fire,1,1
+noun_chunk,a large part,1,1
+noun_chunk,a later destruction,1,1
+noun_chunk,a later occasion,1,1
+noun_chunk,a lay-by south,1,1
+noun_chunk,a lethal weapon,1,1
+noun_chunk,a liability,1,1
+noun_chunk,a light,1,1
+noun_chunk,a long trial,1,1
+noun_chunk,a major wound,1,1
+noun_chunk,"a mandatory life
+sentence",1,1
+noun_chunk,a minimum,1,1
+noun_chunk,a minimum recommendation,1,1
+noun_chunk,a minute,1,1
+noun_chunk,a misdirection,1,1
+noun_chunk,a motor accident,1,1
+noun_chunk,a murder,1,1
+noun_chunk,a murder trial,1,1
+noun_chunk,a murderess,1,1
+noun_chunk,a naked and unarmed man,1,1
+noun_chunk,a negligent act,1,1
+noun_chunk,a new Count,1,1
+noun_chunk,a non violent crime,1,1
+noun_chunk,a noose,1,1
+noun_chunk,a note,1,1
+noun_chunk,"a pale 
+ face",1,1
+noun_chunk,"a paranoid psychotic
+illness",1,1
+noun_chunk,a part,1,1
+noun_chunk,a participant,1,1
+noun_chunk,a particular crime,1,1
+noun_chunk,a particular defendant,1,1
+noun_chunk,"a particularly high
+degree",1,1
+noun_chunk,a particularly high degree,1,1
+noun_chunk,a pistol,1,1
+noun_chunk,a place,1,1
+noun_chunk,a plea,1,1
+noun_chunk,a point,1,1
+noun_chunk,a port,1,1
+noun_chunk,a powerful argument,1,1
+noun_chunk,a pre,1,1
+noun_chunk,a previous tenant,1,1
+noun_chunk,a principal,1,1
+noun_chunk,a prisoner,1,1
+noun_chunk,a proportion,1,1
+noun_chunk,a prowler,1,1
+noun_chunk,a pulp,1,1
+noun_chunk,a purpose,1,1
+noun_chunk,a raid,1,1
+noun_chunk,a railway embankment,1,1
+noun_chunk,a rather roundabout journey,1,1
+noun_chunk,a reading,1,1
+noun_chunk,a reasonable jury,1,1
+noun_chunk,a reasonable person,1,1
+noun_chunk,a recommendation,1,1
+noun_chunk,a record 21 days,1,1
+noun_chunk,a relationship,1,1
+noun_chunk,a relatively small amount,1,1
+noun_chunk,a remarkable degree,1,1
+noun_chunk,a report,1,1
+noun_chunk,a response,1,1
+noun_chunk,a responsible jury,1,1
+noun_chunk,a retrospective increase,1,1
+noun_chunk,a rib pattern,1,1
+noun_chunk,a rule,1,1
+noun_chunk,a ruling,1,1
+noun_chunk,a scheme,1,1
+noun_chunk,a second gun,1,1
+noun_chunk,a second line,1,1
+noun_chunk,a sense,1,1
+noun_chunk,a serious offence,1,1
+noun_chunk,a shooting incident,1,1
+noun_chunk,a shot,1,1
+noun_chunk,a similar incident,1,1
+noun_chunk,a sine,1,1
+noun_chunk,a single barrelled sawn-off shotgun,1,1
+noun_chunk,a single count,1,1
+noun_chunk,a single offence,1,1
+noun_chunk,a single shot,1,1
+noun_chunk,a situation,1,1
+noun_chunk,a sober person,1,1
+noun_chunk,a sofa,1,1
+noun_chunk,a spectator,1,1
+noun_chunk,a stabbing movement,1,1
+noun_chunk,a stained handkerchief,1,1
+noun_chunk,"a starting
+point",1,1
+noun_chunk,a stone,1,1
+noun_chunk,a struggle,1,1
+noun_chunk,a substantial increase,1,1
+noun_chunk,a substitution,1,1
+noun_chunk,a sufficient basis,1,1
+noun_chunk,a sufficient mental element,1,1
+noun_chunk,a suicide pact,1,1
+noun_chunk,a suitable case,1,1
+noun_chunk,a sustained attack,1,1
+noun_chunk,a synopsis,1,1
+noun_chunk,a test,1,1
+noun_chunk,a theatrical dummy,1,1
+noun_chunk,a time,1,1
+noun_chunk,a total,1,1
+noun_chunk,a town,1,1
+noun_chunk,a tragedy,1,1
+noun_chunk,a transformation,1,1
+noun_chunk,a unanimous jury,1,1
+noun_chunk,"a very
+striking set",1,1
+noun_chunk,a very dangerous man,1,1
+noun_chunk,a very detailed account,1,1
+noun_chunk,a very serious case,1,1
+noun_chunk,a victim murder,1,1
+noun_chunk,a violent and frenzied killing,1,1
+noun_chunk,"a virtual
+certainty",1,1
+noun_chunk,a visit,1,1
+noun_chunk,a vital member,1,1
+noun_chunk,a vivid account,1,1
+noun_chunk,a volte-face,1,1
+noun_chunk,a voluntary act,1,1
+noun_chunk,a wall,1,1
+noun_chunk,a warehouse,1,1
+noun_chunk,a well-grounded fear,1,1
+noun_chunk,"a white
+VW Golf car",1,1
+noun_chunk,a wholly docile manner,1,1
+noun_chunk,a willing executioner,1,1
+noun_chunk,a willing participant,1,1
+noun_chunk,a window,1,1
+noun_chunk,a wooden post,1,1
+noun_chunk,a wound,1,1
+noun_chunk,a written statement,1,1
+noun_chunk,a young man,1,1
+noun_chunk,a) Criminal Negligence,1,1
+noun_chunk,abetting murder,1,1
+noun_chunk,"about 30
+years",1,1
+noun_chunk,about 30 years,1,1
+noun_chunk,about 45 degrees,1,1
+noun_chunk,about 45°,1,1
+noun_chunk,about 7am,1,1
+noun_chunk,about five inches,1,1
+noun_chunk,about nine inches,1,1
+noun_chunk,about seven-and-a-half inches,1,1
+noun_chunk,about the time,1,1
+noun_chunk,abuse,1,1
+noun_chunk,"accessory
+liability",1,1
+noun_chunk,accident,1,1
+noun_chunk,accused John Thorpe,1,1
+noun_chunk,accused Michael Lyons,1,1
+noun_chunk,acquit,1,1
+noun_chunk,acquittal,1,1
+noun_chunk,actions,1,1
+noun_chunk,active participants,1,1
+noun_chunk,acute mental disturbance,1,1
+noun_chunk,addition,1,1
+noun_chunk,advice,1,1
+noun_chunk,affirmative resolution,1,1
+noun_chunk,all crime,1,1
+noun_chunk,"all material
+times",1,1
+noun_chunk,all members,1,1
+noun_chunk,"all previous
+occasions",1,1
+noun_chunk,all probability,1,1
+noun_chunk,all reason,1,1
+noun_chunk,all reasonable doubt,1,1
+noun_chunk,all three appellants,1,1
+noun_chunk,all three shotgun cartridges,1,1
+noun_chunk,all times,1,1
+noun_chunk,amicus,1,1
+noun_chunk,"an
+accident",1,1
+noun_chunk,"an
+argument",1,1
+noun_chunk,"an
+entirely clear indication",1,1
+noun_chunk,"an
+extremely narrow window",1,1
+noun_chunk,"an
+intent",1,1
+noun_chunk,"an
+offence",1,1
+noun_chunk,"an 
+ accessory",1,1
+noun_chunk,an English court,1,1
+noun_chunk,an abuse,1,1
+noun_chunk,an accomplice,1,1
+noun_chunk,an action,1,1
+noun_chunk,an active part,1,1
+noun_chunk,an addendum,1,1
+noun_chunk,an agreed fact,1,1
+noun_chunk,an air pistol,1,1
+noun_chunk,an alternative,1,1
+noun_chunk,"an alternative
+possibility",1,1
+noun_chunk,an alternative ground,1,1
+noun_chunk,an alternative offence,1,1
+noun_chunk,an alternative verdict,1,1
+noun_chunk,an amendment,1,1
+noun_chunk,an angle,1,1
+noun_chunk,an answer,1,1
+noun_chunk,an apparent disparity,1,1
+noun_chunk,an application,1,1
+noun_chunk,an appreciable time,1,1
+noun_chunk,an appreciable time lag,1,1
+noun_chunk,an armed man,1,1
+noun_chunk,an assault,1,1
+noun_chunk,an attack,1,1
+noun_chunk,an earlier decision,1,1
+noun_chunk,an earlier trial,1,1
+noun_chunk,an early stage,1,1
+noun_chunk,an enterprise,1,1
+noun_chunk,"an extensive police 
+ investigation",1,1
+noun_chunk,an immediate shot,1,1
+noun_chunk,"an impeccable summing up
+and lengthy deliberations",1,1
+noun_chunk,an incitement,1,1
+noun_chunk,an increase,1,1
+noun_chunk,an inevitable consequence,1,1
+noun_chunk,an insult,1,1
+noun_chunk,an involuntary death,1,1
+noun_chunk,an offender,1,1
+noun_chunk,an unarmed and defenceless woman,1,1
+noun_chunk,an undertaking,1,1
+noun_chunk,an unsatisfactory conviction,1,1
+noun_chunk,anger,1,1
+noun_chunk,"another
+man",1,1
+noun_chunk,another 3 shots,1,1
+noun_chunk,another acquaintance,1,1
+noun_chunk,another act,1,1
+noun_chunk,another chain,1,1
+noun_chunk,another credible scenario,1,1
+noun_chunk,another defendant,1,1
+noun_chunk,another ground,1,1
+noun_chunk,another man,1,1
+noun_chunk,another officer,1,1
+noun_chunk,another part,1,1
+noun_chunk,another participant,1,1
+noun_chunk,another party,1,1
+noun_chunk,another place,1,1
+noun_chunk,another prisoner,1,1
+noun_chunk,another shot,1,1
+noun_chunk,another shotgun blast,1,1
+noun_chunk,another way,1,1
+noun_chunk,another's death,1,1
+noun_chunk,"any
+doubt",1,1
+noun_chunk,"any
+involvement",1,1
+noun_chunk,"any
+verdict",1,1
+noun_chunk,any Jew,1,1
+noun_chunk,any Jews,1,1
+noun_chunk,any basis,1,1
+noun_chunk,any charge,1,1
+noun_chunk,any conversation,1,1
+noun_chunk,any difference,1,1
+noun_chunk,any different approach,1,1
+noun_chunk,any direction,1,1
+noun_chunk,any event,1,1
+noun_chunk,any finding,1,1
+noun_chunk,any incitement,1,1
+noun_chunk,any involvement,1,1
+noun_chunk,any offence,1,1
+noun_chunk,any other course,1,1
+noun_chunk,any other signs,1,1
+noun_chunk,any other verdict,1,1
+noun_chunk,any plan,1,1
+noun_chunk,any qualification,1,1
+noun_chunk,any rate,1,1
+noun_chunk,any restriction,1,1
+noun_chunk,any shooting,1,1
+noun_chunk,any shots,1,1
+noun_chunk,any struggle,1,1
+noun_chunk,any such rule,1,1
+noun_chunk,any unlawful act,1,1
+noun_chunk,any view,1,1
+noun_chunk,any warehouse,1,1
+noun_chunk,any warning,1,1
+noun_chunk,any way,1,1
+noun_chunk,apparent approval,1,1
+noun_chunk,appellant's Counsel,1,1
+noun_chunk,approximately seven bullets,1,1
+noun_chunk,armed terrorists,1,1
+noun_chunk,around 20 years,1,1
+noun_chunk,aspects,1,1
+noun_chunk,association,1,1
+noun_chunk,at least 18 years,1,1
+noun_chunk,at least three shots,1,1
+noun_chunk,attempt,1,1
+noun_chunk,"attempted
+murders",1,1
+noun_chunk,attempted murders,1,1
+noun_chunk,authority,1,1
+noun_chunk,b,1,1
+noun_chunk,bail,1,1
+noun_chunk,banister post,1,1
+noun_chunk,baseball bats,1,1
+noun_chunk,between 19 September,1,1
+noun_chunk,birth,1,1
+noun_chunk,both Alison,1,1
+noun_chunk,both Alison Lewis,1,1
+noun_chunk,both Houses,1,1
+noun_chunk,both Vincent Hickey,1,1
+noun_chunk,both cases,1,1
+noun_chunk,both counsel,1,1
+noun_chunk,both counts,1,1
+noun_chunk,both inmates,1,1
+noun_chunk,both legs,1,1
+noun_chunk,both men,1,1
+noun_chunk,both those witnesses,1,1
+noun_chunk,both victims,1,1
+noun_chunk,bullets,1,1
+noun_chunk,burglary,1,1
+noun_chunk,c,1,1
+noun_chunk,c) Stuart Lewis,1,1
+noun_chunk,capital punishment,1,1
+noun_chunk,car,1,1
+noun_chunk,careful consideration,1,1
+noun_chunk,cartridges,1,1
+noun_chunk,case,1,1
+noun_chunk,cash,1,1
+noun_chunk,chance,1,1
+noun_chunk,children,1,1
+noun_chunk,civilian members,1,1
+noun_chunk,civilised society,1,1
+noun_chunk,"clear
+evidence",1,1
+noun_chunk,clear evidence,1,1
+noun_chunk,clubs,1,1
+noun_chunk,cold blood,1,1
+noun_chunk,common ground,1,1
+noun_chunk,common intent,1,1
+noun_chunk,comparison,1,1
+noun_chunk,complaint,1,1
+noun_chunk,completely different acts,1,1
+noun_chunk,completeness,1,1
+noun_chunk,compulsion,1,1
+noun_chunk,condition,1,1
+noun_chunk,conduct,1,1
+noun_chunk,connection,1,1
+noun_chunk,consequence,1,1
+noun_chunk,considerable doubt,1,1
+noun_chunk,consideration,1,1
+noun_chunk,conspiracy murder,1,1
+noun_chunk,consultation,1,1
+noun_chunk,convict,1,1
+noun_chunk,counsel,1,1
+noun_chunk,counsel's words,1,1
+noun_chunk,criminal liability,1,1
+noun_chunk,criminal negligence,1,1
+noun_chunk,criminal offences,1,1
+noun_chunk,cross,1,1
+noun_chunk,cross-examination Wyatt,1,1
+noun_chunk,culpability,1,1
+noun_chunk,danger,1,1
+noun_chunk,debate,1,1
+noun_chunk,decision,1,1
+noun_chunk,defence,1,1
+noun_chunk,depression,1,1
+noun_chunk,detail,1,1
+noun_chunk,detention,1,1
+noun_chunk,determinant sentence,1,1
+noun_chunk,different periods,1,1
+noun_chunk,different times,1,1
+noun_chunk,differentiated verdicts,1,1
+noun_chunk,"diminished
+responsibility",1,1
+noun_chunk,dinner,1,1
+noun_chunk,dirty work,1,1
+noun_chunk,disgrace,1,1
+noun_chunk,dishonesty,1,1
+noun_chunk,distress,1,1
+noun_chunk,downstairs,1,1
+noun_chunk,drug dealing,1,1
+noun_chunk,due course,1,1
+noun_chunk,e.g. a stab wound,1,1
+noun_chunk,"each
+robbery",1,1
+noun_chunk,each appellant,1,1
+noun_chunk,each member,1,1
+noun_chunk,earlier authorities,1,1
+noun_chunk,effective admissions,1,1
+noun_chunk,eight years imprisonment,1,1
+noun_chunk,either Schofield,1,1
+noun_chunk,either Sheehan,1,1
+noun_chunk,either appellant,1,1
+noun_chunk,either death,1,1
+noun_chunk,either defendant,1,1
+noun_chunk,either murder,1,1
+noun_chunk,electrical wire,1,1
+noun_chunk,emotion,1,1
+noun_chunk,enactment,1,1
+noun_chunk,encouragement,1,1
+noun_chunk,enquiries,1,1
+noun_chunk,enquiry,1,1
+noun_chunk,enterprise,1,1
+noun_chunk,entry,1,1
+noun_chunk,especially Alison,1,1
+noun_chunk,essential help,1,1
+noun_chunk,even a tort,1,1
+noun_chunk,even the halfway point,1,1
+noun_chunk,even the main cause,1,1
+noun_chunk,excessive violence,1,1
+noun_chunk,expert evidence,1,1
+noun_chunk,express statement,1,1
+noun_chunk,express statutory language,1,1
+noun_chunk,extermination,1,1
+noun_chunk,faces,1,1
+noun_chunk,facts,1,1
+noun_chunk,"fake
+suicide",1,1
+noun_chunk,fear,1,1
+noun_chunk,felony,1,1
+noun_chunk,firearms,1,1
+noun_chunk,five primer residue particles,1,1
+noun_chunk,five years imprisonment,1,1
+noun_chunk,five years imprisonment concurrent,1,1
+noun_chunk,five years' imprisonment,1,1
+noun_chunk,food,1,1
+noun_chunk,forensic evidence,1,1
+noun_chunk,foresight,1,1
+noun_chunk,four beds,1,1
+noun_chunk,four men,1,1
+noun_chunk,four offences,1,1
+noun_chunk,fresh grounds,1,1
+noun_chunk,"fundamentally
+self-exculpatory",1,1
+noun_chunk,further enquires,1,1
+noun_chunk,further evidence,1,1
+noun_chunk,further interviews,1,1
+noun_chunk,further physical harassment,1,1
+noun_chunk,game keepers,1,1
+noun_chunk,gangland shooting,1,1
+noun_chunk,"good
+character",1,1
+noun_chunk,good Bala,1,1
+noun_chunk,good health,1,1
+noun_chunk,"grievous bodily
+harm",1,1
+noun_chunk,guilt,1,1
+noun_chunk,hair,1,1
+noun_chunk,hatred,1,1
+noun_chunk,hence the charge,1,1
+noun_chunk,"her
+legs",1,1
+noun_chunk,"her
+murder",1,1
+noun_chunk,her 19 year old daughter,1,1
+noun_chunk,her GP,1,1
+noun_chunk,her acquaintance,1,1
+noun_chunk,her acts,1,1
+noun_chunk,her bedspread,1,1
+noun_chunk,her conviction,1,1
+noun_chunk,her daughters,1,1
+noun_chunk,her family,1,1
+noun_chunk,her good character,1,1
+noun_chunk,her grandson,1,1
+noun_chunk,her home,1,1
+noun_chunk,her home address,1,1
+noun_chunk,her initial injuries,1,1
+noun_chunk,her medical history,1,1
+noun_chunk,her mental responsibility,1,1
+noun_chunk,her mother,1,1
+noun_chunk,her name,1,1
+noun_chunk,her neck,1,1
+noun_chunk,her personality,1,1
+noun_chunk,her pulse,1,1
+noun_chunk,her really serious bodily harm,1,1
+noun_chunk,her right hand,1,1
+noun_chunk,her sexual relationship,1,1
+noun_chunk,her solicitors,1,1
+noun_chunk,her sons,1,1
+noun_chunk,her title,1,1
+noun_chunk,her two sons,1,1
+noun_chunk,her will,1,1
+noun_chunk,his,1,1
+noun_chunk,"his
+actions",1,1
+noun_chunk,"his
+conviction",1,1
+noun_chunk,"his
+father",1,1
+noun_chunk,"his
+grandmother",1,1
+noun_chunk,"his
+individual act",1,1
+noun_chunk,"his
+nationality",1,1
+noun_chunk,"his
+plea",1,1
+noun_chunk,"his
+speech",1,1
+noun_chunk,"his 
+ conviction",1,1
+noun_chunk,"his 
+ evidence",1,1
+noun_chunk,"his 
+ later movements",1,1
+noun_chunk,"his (not
+Rattigan's) movements",1,1
+noun_chunk,his [the appellant's] instructions,1,1
+noun_chunk,his address,1,1
+noun_chunk,his admission,1,1
+noun_chunk,his admissions,1,1
+noun_chunk,his approach,1,1
+noun_chunk,his arrival,1,1
+noun_chunk,his attempts,1,1
+noun_chunk,his attention,1,1
+noun_chunk,his beaten state,1,1
+noun_chunk,his bed,1,1
+noun_chunk,his blows,1,1
+noun_chunk,his body,1,1
+noun_chunk,his brother,1,1
+noun_chunk,his brother's shotgun,1,1
+noun_chunk,his cellmate,1,1
+noun_chunk,his clear indication,1,1
+noun_chunk,his client,1,1
+noun_chunk,his companions,1,1
+noun_chunk,his co defendant,1,1
+noun_chunk,his decision,1,1
+noun_chunk,his deliberate and unlawful acts,1,1
+noun_chunk,his duty,1,1
+noun_chunk,his escape,1,1
+noun_chunk,his feet,1,1
+noun_chunk,his felony,1,1
+noun_chunk,his first argument,1,1
+noun_chunk,his flat,1,1
+noun_chunk,his girlfriend,1,1
+noun_chunk,his gun,1,1
+noun_chunk,his heart,1,1
+noun_chunk,his innocent account,1,1
+noun_chunk,his instructions,1,1
+noun_chunk,his intent or (ii) P2,1,1
+noun_chunk,his killer,1,1
+noun_chunk,his left hand,1,1
+noun_chunk,his left leg,1,1
+noun_chunk,his legs,1,1
+noun_chunk,his letter,1,1
+noun_chunk,his lower face,1,1
+noun_chunk,his mate,1,1
+noun_chunk,his mind,1,1
+noun_chunk,his murder,1,1
+noun_chunk,his offence,1,1
+noun_chunk,his opinion,1,1
+noun_chunk,his own life,1,1
+noun_chunk,his own safety,1,1
+noun_chunk,his parents,1,1
+noun_chunk,his part,1,1
+noun_chunk,his possession,1,1
+noun_chunk,his presence,1,1
+noun_chunk,"his previous
+convictions",1,1
+noun_chunk,his rear left thigh,1,1
+noun_chunk,his report,1,1
+noun_chunk,his right,1,1
+noun_chunk,his right arm,1,1
+noun_chunk,his right thigh,1,1
+noun_chunk,his ruling,1,1
+noun_chunk,his sentence,1,1
+noun_chunk,his shotgun certificate,1,1
+noun_chunk,his sister's mini,1,1
+noun_chunk,his skeleton argument,1,1
+noun_chunk,his speech,1,1
+noun_chunk,his statement,1,1
+noun_chunk,his summing,1,1
+noun_chunk,his summing-up,1,1
+noun_chunk,his temper,1,1
+noun_chunk,his tiny baby,1,1
+noun_chunk,"his trial
+solicitor",1,1
+noun_chunk,his unlawful and deliberate acts,1,1
+noun_chunk,his victim,1,1
+noun_chunk,his victims,1,1
+noun_chunk,home,1,1
+noun_chunk,how relatively little authority,1,1
+noun_chunk,i.e. some,1,1
+noun_chunk,if anything,1,1
+noun_chunk,if that offence,1,1
+noun_chunk,immersion,1,1
+noun_chunk,impact,1,1
+noun_chunk,implication,1,1
+noun_chunk,incarceration,1,1
+noun_chunk,incitement,1,1
+noun_chunk,increased level,1,1
+noun_chunk,increased resources,1,1
+noun_chunk,"individual
+names",1,1
+noun_chunk,innocent purposes,1,1
+noun_chunk,insults,1,1
+noun_chunk,intent conviction,1,1
+noun_chunk,interest,1,1
+noun_chunk,interview,1,1
+noun_chunk,interviews,1,1
+noun_chunk,intoxication,1,1
+noun_chunk,issue,1,1
+noun_chunk,"its
+hiding place",1,1
+noun_chunk,its objective,1,1
+noun_chunk,its original form,1,1
+noun_chunk,its rationale,1,1
+noun_chunk,its right,1,1
+noun_chunk,its use,1,1
+noun_chunk,"joint
+enterprise",1,1
+noun_chunk,judges,1,1
+noun_chunk,judicial opinion,1,1
+noun_chunk,juries,1,1
+noun_chunk,justifiable self-defence,1,1
+noun_chunk,kidnapping,1,1
+noun_chunk,kills,1,1
+noun_chunk,known criminals,1,1
+noun_chunk,l8l,1,1
+noun_chunk,lack,1,1
+noun_chunk,last occasion,1,1
+noun_chunk,late December,1,1
+noun_chunk,later over 100 pellets,1,1
+noun_chunk,later release,1,1
+noun_chunk,leading counsel,1,1
+noun_chunk,legitimate self-defence,1,1
+noun_chunk,length counsel,1,1
+noun_chunk,"life
+imprisonment",1,1
+noun_chunk,life's losers,1,1
+noun_chunk,limb,1,1
+noun_chunk,local police,1,1
+noun_chunk,"long
+interviews",1,1
+noun_chunk,manslaughter must,1,1
+noun_chunk,manslaughter or unlawful wounding,1,1
+noun_chunk,manslaughter ,1,1
+noun_chunk,"manslaughter, not murder",1,1
+noun_chunk,many hours,1,1
+noun_chunk,"many, perhaps most categories",1,1
+noun_chunk,many-acts,1,1
+noun_chunk,martial arts,1,1
+noun_chunk,means,1,1
+noun_chunk,members,1,1
+noun_chunk,mere preparation,1,1
+noun_chunk,"minimum
+recommendations",1,1
+noun_chunk,minimum tariffs,1,1
+noun_chunk,minimum terms,1,1
+noun_chunk,minor harm,1,1
+noun_chunk,minutes,1,1
+noun_chunk,misdirection,1,1
+noun_chunk,moderate injury,1,1
+noun_chunk,more guidance,1,1
+noun_chunk,more than one occasion,1,1
+noun_chunk,"much 
+ the same evidence",1,1
+noun_chunk,multiple blunt impact injuries,1,1
+noun_chunk,"murder
+cases",1,1
+noun_chunk,murderous intent,1,1
+noun_chunk,"my
+mind",1,1
+noun_chunk,"my 
+ clients",1,1
+noun_chunk,my direction,1,1
+noun_chunk,my discharge,1,1
+noun_chunk,my first command,1,1
+noun_chunk,my interview,1,1
+noun_chunk,my invitation,1,1
+noun_chunk,my opinion,1,1
+noun_chunk,my private repentance,1,1
+noun_chunk,my wife,1,1
+noun_chunk,name,1,1
+noun_chunk,namely the direction,1,1
+noun_chunk,namely the intent,1,1
+noun_chunk,necessity,1,1
+noun_chunk,neither a crime,1,1
+noun_chunk,neither the fact,1,1
+noun_chunk,no,1,1
+noun_chunk,"no
+such need",1,1
+noun_chunk,no answer,1,1
+noun_chunk,no assistance,1,1
+noun_chunk,no charge,1,1
+noun_chunk,no comment,1,1
+noun_chunk,no criminal liability,1,1
+noun_chunk,no defence,1,1
+noun_chunk,no discussion,1,1
+noun_chunk,no dispute,1,1
+noun_chunk,no doubt,1,1
+noun_chunk,no effort,1,1
+noun_chunk,"no general
+increase",1,1
+noun_chunk,no general increase,1,1
+noun_chunk,no ground,1,1
+noun_chunk,no grounds,1,1
+noun_chunk,no injustice,1,1
+noun_chunk,no knowledge,1,1
+noun_chunk,no man,1,1
+noun_chunk,no murderess,1,1
+noun_chunk,no necessity,1,1
+noun_chunk,no objection,1,1
+noun_chunk,no obvious motives,1,1
+noun_chunk,no one,1,1
+noun_chunk,no other basis,1,1
+noun_chunk,no other count,1,1
+noun_chunk,no part,1,1
+noun_chunk,no party,1,1
+noun_chunk,no proceedings,1,1
+noun_chunk,no provision,1,1
+noun_chunk,no shot,1,1
+noun_chunk,no sign,1,1
+noun_chunk,no specific intent,1,1
+noun_chunk,no talk,1,1
+noun_chunk,not murder,1,1
+noun_chunk,not the act,1,1
+noun_chunk,not the whole staircase,1,1
+noun_chunk,omissions,1,1
+noun_chunk,"one
+participant",1,1
+noun_chunk,"one Susan
+Bennett",1,1
+noun_chunk,one defendant,1,1
+noun_chunk,one party,1,1
+noun_chunk,one side allegations,1,1
+noun_chunk,one thing,1,1
+noun_chunk,one time,1,1
+noun_chunk,one's involvement,1,1
+noun_chunk,one-half,1,1
+noun_chunk,only a few minutes,1,1
+noun_chunk,only a third,1,1
+noun_chunk,only an attempt,1,1
+noun_chunk,only he,1,1
+noun_chunk,only one count,1,1
+noun_chunk,only that participant,1,1
+noun_chunk,only the appellant,1,1
+noun_chunk,only two further shots,1,1
+noun_chunk,only two people,1,1
+noun_chunk,"only two possible explanations -
+death",1,1
+noun_chunk,only two scenarios,1,1
+noun_chunk,only two verdicts,1,1
+noun_chunk,opportunity,1,1
+noun_chunk,oppression,1,1
+noun_chunk,oral evidence,1,1
+noun_chunk,ordinary language,1,1
+noun_chunk,ordinary parlance,1,1
+noun_chunk,"other
+things",1,1
+noun_chunk,other characteristics,1,1
+noun_chunk,other direct evidence,1,1
+noun_chunk,other offences,1,1
+noun_chunk,other police officers,1,1
+noun_chunk,other possible aspects,1,1
+noun_chunk,other possible explanations,1,1
+noun_chunk,other serious professional crime,1,1
+noun_chunk,our decision,1,1
+noun_chunk,outline,1,1
+noun_chunk,overwhelming or clear evidence,1,1
+noun_chunk,oxyacetylene equipment,1,1
+noun_chunk,pages,1,1
+noun_chunk,paralysis,1,1
+noun_chunk,participation,1,1
+noun_chunk,particular Commonwealth,1,1
+noun_chunk,"particularly 
+ the subsequent activity",1,1
+noun_chunk,particularly high seriousness,1,1
+noun_chunk,particularly murder,1,1
+noun_chunk,passion,1,1
+noun_chunk,penalty,1,1
+noun_chunk,photographs,1,1
+noun_chunk,physical injury,1,1
+noun_chunk,physical terms,1,1
+noun_chunk,piping,1,1
+noun_chunk,plain terms,1,1
+noun_chunk,point,1,1
+noun_chunk,poison,1,1
+noun_chunk,police,1,1
+noun_chunk,police inquiries,1,1
+noun_chunk,precisely this category,1,1
+noun_chunk,premises,1,1
+noun_chunk,presence,1,1
+noun_chunk,proof,1,1
+noun_chunk,proportionality,1,1
+noun_chunk,prosecuting counsel,1,1
+noun_chunk,providence,1,1
+noun_chunk,"psychiatric
+or psychological evidence",1,1
+noun_chunk,purposes,1,1
+noun_chunk,"quick 
+ succession",1,1
+noun_chunk,quick succession,1,1
+noun_chunk,"quite different
+accounts",1,1
+noun_chunk,random killings,1,1
+noun_chunk,range,1,1
+noun_chunk,"really
+serious harm",1,1
+noun_chunk,"really serious
+harm",1,1
+noun_chunk,"really serious bodily
+harm",1,1
+noun_chunk,really serious bodily injury,1,1
+noun_chunk,reason,1,1
+noun_chunk,reasonable firmness,1,1
+noun_chunk,reasons,1,1
+noun_chunk,recommended minimum terms,1,1
+noun_chunk,regards,1,1
+noun_chunk,reliance,1,1
+noun_chunk,repetition,1,1
+noun_chunk,reporting,1,1
+noun_chunk,resentment,1,1
+noun_chunk,responsibility,1,1
+noun_chunk,retreat,1,1
+noun_chunk,rigor mortis,1,1
+noun_chunk,rise,1,1
+noun_chunk,robbing,1,1
+noun_chunk,"routine
+questioning",1,1
+noun_chunk,sado-masochistic tendencies,1,1
+noun_chunk,samples,1,1
+noun_chunk,"self-defence and
+accident",1,1
+noun_chunk,"self-induced
+intoxication",1,1
+noun_chunk,sentencing levels,1,1
+noun_chunk,serious bodily harm,1,1
+noun_chunk,serious bodily injury,1,1
+noun_chunk,serious physical injury,1,1
+noun_chunk,seven years imprisonment concurrent,1,1
+noun_chunk,several persons,1,1
+noun_chunk,severe head injuries,1,1
+noun_chunk,sex,1,1
+noun_chunk,sexual propensities,1,1
+noun_chunk,shooting,1,1
+noun_chunk,short range,1,1
+noun_chunk,shortened billiard cues,1,1
+noun_chunk,shot damage,1,1
+noun_chunk,"shotgun
+cartridges",1,1
+noun_chunk,significant admissions,1,1
+noun_chunk,similar duties,1,1
+noun_chunk,simple charges,1,1
+noun_chunk,solicitors,1,1
+noun_chunk,"some
+grand gesture",1,1
+noun_chunk,"some
+injury",1,1
+noun_chunk,"some
+relevant feature",1,1
+noun_chunk,"some 
+ time",1,1
+noun_chunk,some 100 yards,1,1
+noun_chunk,some 3 or 4 minutes,1,1
+noun_chunk,some degree,1,1
+noun_chunk,some dispute,1,1
+noun_chunk,some diversity,1,1
+noun_chunk,some evidence,1,1
+noun_chunk,some eye-witness,1,1
+noun_chunk,some future time,1,1
+noun_chunk,some helpful examples,1,1
+noun_chunk,some lesser crime,1,1
+noun_chunk,some money,1,1
+noun_chunk,some other party,1,1
+noun_chunk,some part,1,1
+noun_chunk,some really serious bodily injury,1,1
+noun_chunk,some reason,1,1
+noun_chunk,some stones,1,1
+noun_chunk,some support,1,1
+noun_chunk,some time,1,1
+noun_chunk,some uncertain period,1,1
+noun_chunk,"some unforeseen
+intervention",1,1
+noun_chunk,some unknown third party,1,1
+noun_chunk,specific evidence,1,1
+noun_chunk,specific intent,1,1
+noun_chunk,spirits,1,1
+noun_chunk,stabbing,1,1
+noun_chunk,stone,1,1
+noun_chunk,straight forward denials,1,1
+noun_chunk,strangulation,1,1
+noun_chunk,strict logic,1,1
+noun_chunk,strong evidence,1,1
+noun_chunk,subjective provocation,1,1
+noun_chunk,submission,1,1
+noun_chunk,submissions,1,1
+noun_chunk,such a defendant,1,1
+noun_chunk,such a direction,1,1
+noun_chunk,such a misdirection,1,1
+noun_chunk,such a shot,1,1
+noun_chunk,such a strong duress,1,1
+noun_chunk,such an abnormality,1,1
+noun_chunk,such cases,1,1
+noun_chunk,such conduct,1,1
+noun_chunk,such considerations,1,1
+noun_chunk,such defences,1,1
+noun_chunk,such factors,1,1
+noun_chunk,such words,1,1
+noun_chunk,support,1,1
+noun_chunk,supra,1,1
+noun_chunk,suspects,1,1
+noun_chunk,suspicions,1,1
+noun_chunk,tape,1,1
+noun_chunk,tears,1,1
+noun_chunk,temper,1,1
+noun_chunk,ten years' imprisonment concurrent,1,1
+noun_chunk,territoriality,1,1
+noun_chunk,"that
+evening",1,1
+noun_chunk,"that 
+ last possibility",1,1
+noun_chunk,that argument,1,1
+noun_chunk,that background,1,1
+noun_chunk,that bag up. Michael Gregsten,1,1
+noun_chunk,that common agreement,1,1
+noun_chunk,that common design,1,1
+noun_chunk,that common sense,1,1
+noun_chunk,that condition,1,1
+noun_chunk,that context,1,1
+noun_chunk,that conviction,1,1
+noun_chunk,that deadly weapon,1,1
+noun_chunk,that evening,1,1
+noun_chunk,that evidence,1,1
+noun_chunk,that expression,1,1
+noun_chunk,that footing,1,1
+noun_chunk,that incitement,1,1
+noun_chunk,that intention,1,1
+noun_chunk,that interview,1,1
+noun_chunk,that knowledge,1,1
+noun_chunk,that lesser crime,1,1
+noun_chunk,that man,1,1
+noun_chunk,that matter,1,1
+noun_chunk,that meaning,1,1
+noun_chunk,that murder,1,1
+noun_chunk,that night,1,1
+noun_chunk,that offence,1,1
+noun_chunk,that particular intention,1,1
+noun_chunk,that plea,1,1
+noun_chunk,that provision,1,1
+noun_chunk,that proviso,1,1
+noun_chunk,that question,1,1
+noun_chunk,that range,1,1
+noun_chunk,that referral,1,1
+noun_chunk,that room,1,1
+noun_chunk,that task,1,1
+noun_chunk,that team,1,1
+noun_chunk,that unlawful and grievous bodily harm,1,1
+noun_chunk,that violence,1,1
+noun_chunk,that window,1,1
+noun_chunk,the,1,1
+noun_chunk,"the
+10th November",1,1
+noun_chunk,"the
+British police",1,1
+noun_chunk,"the
+Court",1,1
+noun_chunk,"the
+act",1,1
+noun_chunk,"the
+actual time",1,1
+noun_chunk,"the
+admissibility",1,1
+noun_chunk,"the
+alternative",1,1
+noun_chunk,"the
+appellant accepted responsibility",1,1
+noun_chunk,"the
+appellant submits",1,1
+noun_chunk,"the
+appellant's case",1,1
+noun_chunk,"the
+assumption",1,1
+noun_chunk,"the
+attack",1,1
+noun_chunk,"the
+blood spots",1,1
+noun_chunk,"the
+case",1,1
+noun_chunk,"the
+conclusion",1,1
+noun_chunk,"the
+conviction",1,1
+noun_chunk,"the
+course",1,1
+noun_chunk,"the
+difference",1,1
+noun_chunk,"the
+direction",1,1
+noun_chunk,"the
+evidence",1,1
+noun_chunk,"the
+exercise",1,1
+noun_chunk,"the
+fatal blow",1,1
+noun_chunk,"the
+firing line",1,1
+noun_chunk,"the
+first police officer",1,1
+noun_chunk,"the
+fucking lot",1,1
+noun_chunk,"the
+ghetto",1,1
+noun_chunk,"the
+intent",1,1
+noun_chunk,"the
+killing",1,1
+noun_chunk,"the
+main massacres",1,1
+noun_chunk,"the
+necessary intent",1,1
+noun_chunk,"the
+offence",1,1
+noun_chunk,"the
+other man",1,1
+noun_chunk,"the
+participants",1,1
+noun_chunk,"the
+passage",1,1
+noun_chunk,"the
+person",1,1
+noun_chunk,"the
+possibility",1,1
+noun_chunk,"the
+primary defence",1,1
+noun_chunk,"the
+reliability",1,1
+noun_chunk,"the
+remaining defendants",1,1
+noun_chunk,"the
+roof",1,1
+noun_chunk,"the
+scene",1,1
+noun_chunk,"the
+secondary party",1,1
+noun_chunk,"the
+sentence",1,1
+noun_chunk,"the
+shovel",1,1
+noun_chunk,"the
+sofa",1,1
+noun_chunk,"the
+stairhead",1,1
+noun_chunk,"the
+statement",1,1
+noun_chunk,"the
+summing-up (11D - G",1,1
+noun_chunk,"the
+terms",1,1
+noun_chunk,"the
+three men",1,1
+noun_chunk,"the
+trial",1,1
+noun_chunk,"the
+unlawful act",1,1
+noun_chunk,"the
+venture",1,1
+noun_chunk,"the
+victims",1,1
+noun_chunk,"the
+witness",1,1
+noun_chunk,"the
+wounding",1,1
+noun_chunk,"the
+written document",1,1
+noun_chunk,"the
+Criminal Justice Act",1,1
+noun_chunk,"the
+Stirlands",1,1
+noun_chunk,"the
+appellant",1,1
+noun_chunk,"the
+appropriate starting point",1,1
+noun_chunk,"the
+conspiracy",1,1
+noun_chunk,"the
+conspirators",1,1
+noun_chunk,"the
+judge",1,1
+noun_chunk,"the
+killing",1,1
+noun_chunk,"the
+sentence",1,1
+noun_chunk,"the
+statutory framework",1,1
+noun_chunk,"the
+submissions",1,1
+noun_chunk,"the
+view",1,1
+noun_chunk,"the 
+ Worcester Crown Court",1,1
+noun_chunk,"the 
+ alleged murder",1,1
+noun_chunk,"the 
+ appeal",1,1
+noun_chunk,"the 
+ blood",1,1
+noun_chunk,"the 
+ cause",1,1
+noun_chunk,"the 
+ defence team",1,1
+noun_chunk,"the 
+ gun",1,1
+noun_chunk,"the 
+ investigation",1,1
+noun_chunk,"the 
+ jury",1,1
+noun_chunk,"the 
+ killings",1,1
+noun_chunk,"the 
+ murders",1,1
+noun_chunk,"the 
+ premises",1,1
+noun_chunk,"the 
+ prosecution",1,1
+noun_chunk,"the 
+ week",1,1
+noun_chunk,"the 
+ weekend",1,1
+noun_chunk,the 'Lane' formulation,1,1
+noun_chunk,the 15th October,1,1
+noun_chunk,the 16th February,1,1
+noun_chunk,the 1997 Act,1,1
+noun_chunk,the 19th September,1,1
+noun_chunk,"the 2003
+Act",1,1
+noun_chunk,the 21st September,1,1
+noun_chunk,the 27th June Hall,1,1
+noun_chunk,the 30 year starting point,1,1
+noun_chunk,the 8th October,1,1
+noun_chunk,the 9th November,1,1
+noun_chunk,the A6,1,1
+noun_chunk,the Appellant Rattigan,1,1
+noun_chunk,the Applicant Wyatt,1,1
+noun_chunk,the Attorney-General,1,1
+noun_chunk,the Board,1,1
+noun_chunk,"the Carl Bridgewater
+murder",1,1
+noun_chunk,the Clydach murder enquiry,1,1
+noun_chunk,the Criminal Appeal Act,1,1
+noun_chunk,"the Crown
+Court",1,1
+noun_chunk,"the Crown 
+ Court",1,1
+noun_chunk,"the Crown Court
+Birmingham",1,1
+noun_chunk,the Crown's burden,1,1
+noun_chunk,the Crown's case,1,1
+noun_chunk,the English law,1,1
+noun_chunk,the Forensic Science Service,1,1
+noun_chunk,the German invasion,1,1
+noun_chunk,the Isle,1,1
+noun_chunk,the Jewess,1,1
+noun_chunk,"the Jewish
+population",1,1
+noun_chunk,the Jewish population,1,1
+noun_chunk,"the Judicial
+Studies Board Specimen Directions",1,1
+noun_chunk,the Judicial Committee,1,1
+noun_chunk,the Jury simpliciter,1,1
+noun_chunk,the Lewis brothers,1,1
+noun_chunk,the Lewises,1,1
+noun_chunk,the Millionaires Club,1,1
+noun_chunk,the Murder,1,1
+noun_chunk,the Northwest outer suburbs,1,1
+noun_chunk,the Ontario Court,1,1
+noun_chunk,the Oxford Crown Court,1,1
+noun_chunk,the Police and Criminal Evidence Act,1,1
+noun_chunk,the Privy Council,1,1
+noun_chunk,the Recorder,1,1
+noun_chunk,the Registrar,1,1
+noun_chunk,the Respondent,1,1
+noun_chunk,the S chmutzarbeit,1,1
+noun_chunk,the Stirlands,1,1
+noun_chunk,the Sunday,1,1
+noun_chunk,the Supreme Court,1,1
+noun_chunk,the Sussex Police Force,1,1
+noun_chunk,the Treasury Solicitor,1,1
+noun_chunk,the above-mentioned officers,1,1
+noun_chunk,the accessory,1,1
+noun_chunk,the account,1,1
+noun_chunk,the accurate way,1,1
+noun_chunk,the accused's state,1,1
+noun_chunk,the action,1,1
+noun_chunk,"the actual
+shot",1,1
+noun_chunk,the actual killer,1,1
+noun_chunk,the actual shooting,1,1
+noun_chunk,the advice,1,1
+noun_chunk,the affair,1,1
+noun_chunk,the age,1,1
+noun_chunk,the aggravating features,1,1
+noun_chunk,the agreed plan,1,1
+noun_chunk,the alleged conspiracy,1,1
+noun_chunk,the alterations,1,1
+noun_chunk,the amount,1,1
+noun_chunk,the answer,1,1
+noun_chunk,the apparent intention,1,1
+noun_chunk,the appeals,1,1
+noun_chunk,the appellant Hall,1,1
+noun_chunk,the appellant Sherwood,1,1
+noun_chunk,"the appellant's 
+ submissions",1,1
+noun_chunk,the appellant's 59 page statement,1,1
+noun_chunk,the appellant's arrest,1,1
+noun_chunk,the appellant's behalf,1,1
+noun_chunk,the appellant's case,1,1
+noun_chunk,the appellant's defence case,1,1
+noun_chunk,the appellant's expert evidence,1,1
+noun_chunk,the appellant's mental responsibility,1,1
+noun_chunk,the appellant's presence,1,1
+noun_chunk,the appellant's reach,1,1
+noun_chunk,the appellant's relationship,1,1
+noun_chunk,the appellant's trial,1,1
+noun_chunk,the appellants' principal submission,1,1
+noun_chunk,the appellants’ trial,1,1
+noun_chunk,the appellant’s case,1,1
+noun_chunk,the applicable specific direction,1,1
+noun_chunk,the applications,1,1
+noun_chunk,the approach,1,1
+noun_chunk,"the appropriate
+custodial term",1,1
+noun_chunk,the appropriate course,1,1
+noun_chunk,the appropriate penalty,1,1
+noun_chunk,the arguments,1,1
+noun_chunk,the armwrestling,1,1
+noun_chunk,the arranged murders,1,1
+noun_chunk,"the attempted
+suicide",1,1
+noun_chunk,the attempted murder,1,1
+noun_chunk,the attempted suicide,1,1
+noun_chunk,the available line,1,1
+noun_chunk,the bar,1,1
+noun_chunk,the basic direction,1,1
+noun_chunk,the basic question,1,1
+noun_chunk,the beating,1,1
+noun_chunk,the birth,1,1
+noun_chunk,the blanket restriction,1,1
+noun_chunk,the blow,1,1
+noun_chunk,the book,1,1
+noun_chunk,the boot,1,1
+noun_chunk,the bottom surviving tread,1,1
+noun_chunk,the bottom-most surviving stair tread,1,1
+noun_chunk,the boy’s arrival,1,1
+noun_chunk,the bracket,1,1
+noun_chunk,the breathing apparatus,1,1
+noun_chunk,the breech,1,1
+noun_chunk,the brutal treatment,1,1
+noun_chunk,the building trade,1,1
+noun_chunk,the burglars,1,1
+noun_chunk,the carrying,1,1
+noun_chunk,the cartridge,1,1
+noun_chunk,the causing,1,1
+noun_chunk,the ceiling,1,1
+noun_chunk,the characteristics,1,1
+noun_chunk,the children,1,1
+noun_chunk,the chronology,1,1
+noun_chunk,the close professional relationship,1,1
+noun_chunk,the coming,1,1
+noun_chunk,the commander,1,1
+noun_chunk,"the common
+design",1,1
+noun_chunk,the common enterprise,1,1
+noun_chunk,the common intention,1,1
+noun_chunk,the common purpose,1,1
+noun_chunk,the common sense,1,1
+noun_chunk,the company,1,1
+noun_chunk,the concepts,1,1
+noun_chunk,the concerted actions,1,1
+noun_chunk,the concerted attack,1,1
+noun_chunk,the conspirators,1,1
+noun_chunk,the content,1,1
+noun_chunk,the contention,1,1
+noun_chunk,the controversial evidence,1,1
+noun_chunk,the convictions,1,1
+noun_chunk,the correspondingly graver cases,1,1
+noun_chunk,the credibility,1,1
+noun_chunk,the criminal culpability,1,1
+noun_chunk,the criminal venture,1,1
+noun_chunk,the current allegation,1,1
+noun_chunk,the days,1,1
+noun_chunk,the deaths,1,1
+noun_chunk,the deceased robber,1,1
+noun_chunk,the deceased's body,1,1
+noun_chunk,the deceased's own hand,1,1
+noun_chunk,"the defence 
+ statement",1,1
+noun_chunk,the defence statement,1,1
+noun_chunk,the defence team,1,1
+noun_chunk,the degree,1,1
+noun_chunk,"the deliberate
+preparation",1,1
+noun_chunk,the deliberate administration,1,1
+noun_chunk,the deliberate stabbing,1,1
+noun_chunk,the design,1,1
+noun_chunk,the details,1,1
+noun_chunk,the difficulties,1,1
+noun_chunk,the direct line,1,1
+noun_chunk,the discharge,1,1
+noun_chunk,the discount,1,1
+noun_chunk,the distance,1,1
+noun_chunk,the doctrine,1,1
+noun_chunk,the downward direction,1,1
+noun_chunk,the drink,1,1
+noun_chunk,the drunken man,1,1
+noun_chunk,the earlier cases,1,1
+noun_chunk,the earlier directions,1,1
+noun_chunk,the editors,1,1
+noun_chunk,the effects,1,1
+noun_chunk,the eighteenth year,1,1
+noun_chunk,the ensuing death,1,1
+noun_chunk,the essential elements,1,1
+noun_chunk,the estimate,1,1
+noun_chunk,the event,1,1
+noun_chunk,the exception,1,1
+noun_chunk,the existence,1,1
+noun_chunk,the expert,1,1
+noun_chunk,the expert evidence,1,1
+noun_chunk,the expression,1,1
+noun_chunk,the exterior door,1,1
+noun_chunk,the extreme gravity,1,1
+noun_chunk,the eyes,1,1
+noun_chunk,the fabric,1,1
+noun_chunk,the factual submission,1,1
+noun_chunk,the far side,1,1
+noun_chunk,the far wall,1,1
+noun_chunk,the farm house,1,1
+noun_chunk,the fatal acts,1,1
+noun_chunk,the fatal blow,1,1
+noun_chunk,the fate,1,1
+noun_chunk,the felonious undertaking,1,1
+noun_chunk,the felony murder doctrine,1,1
+noun_chunk,the fight,1,1
+noun_chunk,the final touches,1,1
+noun_chunk,the finding,1,1
+noun_chunk,the firearms expert,1,1
+noun_chunk,the fireplace,1,1
+noun_chunk,the firer,1,1
+noun_chunk,the firing Gail,1,1
+noun_chunk,the first Queen Elizabeth,1,1
+noun_chunk,the first act,1,1
+noun_chunk,the first cartridge,1,1
+noun_chunk,the first contention,1,1
+noun_chunk,the first degree,1,1
+noun_chunk,the first four counts,1,1
+noun_chunk,the first time,1,1
+noun_chunk,the first two grounds,1,1
+noun_chunk,the flat roof,1,1
+noun_chunk,the floor,1,1
+noun_chunk,the following days,1,1
+noun_chunk,the following morning,1,1
+noun_chunk,the following passage,1,1
+noun_chunk,the following words,1,1
+noun_chunk,the foot,1,1
+noun_chunk,the footing,1,1
+noun_chunk,the force,1,1
+noun_chunk,the form,1,1
+noun_chunk,"the former
+Sentencing Advisory Panel's Advice",1,1
+noun_chunk,the foundation,1,1
+noun_chunk,the fresh evidence,1,1
+noun_chunk,the full definition,1,1
+noun_chunk,the further evidence,1,1
+noun_chunk,the garage,1,1
+noun_chunk,the gates,1,1
+noun_chunk,the guidelines,1,1
+noun_chunk,the halfway point,1,1
+noun_chunk,the hallway,1,1
+noun_chunk,the handgun,1,1
+noun_chunk,the hands,1,1
+noun_chunk,the head note,1,1
+noun_chunk,the hearing,1,1
+noun_chunk,"the heavy
+battery",1,1
+noun_chunk,the home,1,1
+noun_chunk,the identification,1,1
+noun_chunk,the implication,1,1
+noun_chunk,the inadmissibility,1,1
+noun_chunk,the increases,1,1
+noun_chunk,the inference,1,1
+noun_chunk,the influence,1,1
+noun_chunk,the ingredients,1,1
+noun_chunk,the injured people,1,1
+noun_chunk,the inner aspect,1,1
+noun_chunk,the innocence,1,1
+noun_chunk,the interests,1,1
+noun_chunk,the interior,1,1
+noun_chunk,the interviews,1,1
+noun_chunk,the introduction,1,1
+noun_chunk,"the joint
+enterprise",1,1
+noun_chunk,the judge's conclusion,1,1
+noun_chunk,the judge's decision,1,1
+noun_chunk,the judge's direction,1,1
+noun_chunk,the judge's directions,1,1
+noun_chunk,the judge’s direction,1,1
+noun_chunk,"the jury's
+acquittal",1,1
+noun_chunk,the jury's verdicts,1,1
+noun_chunk,the kitchen end,1,1
+noun_chunk,the know,1,1
+noun_chunk,the laced gagrella,1,1
+noun_chunk,the lack,1,1
+noun_chunk,the later conversation,1,1
+noun_chunk,the later trial,1,1
+noun_chunk,the lavatory door,1,1
+noun_chunk,"the lay-by
+and the appellant",1,1
+noun_chunk,the learned Judge,1,1
+noun_chunk,the learned Judge's decision,1,1
+noun_chunk,the learned judge's direction,1,1
+noun_chunk,the leave,1,1
+noun_chunk,the left hand side,1,1
+noun_chunk,the left side,1,1
+noun_chunk,the legs,1,1
+noun_chunk,the lengths,1,1
+noun_chunk,the lengthy interviews,1,1
+noun_chunk,the lesbian relationship,1,1
+noun_chunk,the liability,1,1
+noun_chunk,the life,1,1
+noun_chunk,the life sentence,1,1
+noun_chunk,the lines,1,1
+noun_chunk,the lookout,1,1
+noun_chunk,the lower part,1,1
+noun_chunk,the main grounds,1,1
+noun_chunk,the majority,1,1
+noun_chunk,the malicious mind,1,1
+noun_chunk,the manager,1,1
+noun_chunk,the manner,1,1
+noun_chunk,the manslaughter,1,1
+noun_chunk,the manslaughter conviction,1,1
+noun_chunk,the manslaughter verdict call,1,1
+noun_chunk,the material time,1,1
+noun_chunk,the maximum support,1,1
+noun_chunk,the mechanism,1,1
+noun_chunk,the media,1,1
+noun_chunk,the meeting,1,1
+noun_chunk,the men,1,1
+noun_chunk,the mental illness,1,1
+noun_chunk,the mercy,1,1
+noun_chunk,the mind,1,1
+noun_chunk,the more serious aggravating factors,1,1
+noun_chunk,the most serious crimes,1,1
+noun_chunk,"the murder
+count",1,1
+noun_chunk,"the murder
+trial",1,1
+noun_chunk,the natural episodes,1,1
+noun_chunk,the necessary common intention,1,1
+noun_chunk,the necessary ingredients,1,1
+noun_chunk,the neck,1,1
+noun_chunk,the need,1,1
+noun_chunk,the neighbour Mrs Jones,1,1
+noun_chunk,"the new
+sentencing statutory structure",1,1
+noun_chunk,the new levels,1,1
+noun_chunk,the new regime,1,1
+noun_chunk,"the new starting
+point",1,1
+noun_chunk,the new starting point,1,1
+noun_chunk,the normal course,1,1
+noun_chunk,the notion,1,1
+noun_chunk,the objective,1,1
+noun_chunk,the obtaining,1,1
+noun_chunk,the obvious human response,1,1
+noun_chunk,the offences,1,1
+noun_chunk,the old lady,1,1
+noun_chunk,the old law,1,1
+noun_chunk,the one side,1,1
+noun_chunk,the opening,1,1
+noun_chunk,the opinions,1,1
+noun_chunk,the order,1,1
+noun_chunk,the orders,1,1
+noun_chunk,the ordinary principles,1,1
+noun_chunk,the ordinary rule,1,1
+noun_chunk,the original aggressor,1,1
+noun_chunk,the other attackers,1,1
+noun_chunk,the other conspirators,1,1
+noun_chunk,the other information,1,1
+noun_chunk,the other man,1,1
+noun_chunk,the other members,1,1
+noun_chunk,the other officers,1,1
+noun_chunk,the other person,1,1
+noun_chunk,the outcome,1,1
+noun_chunk,the outset,1,1
+noun_chunk,the outside wall,1,1
+noun_chunk,the pact,1,1
+noun_chunk,the partial defences,1,1
+noun_chunk,the participation,1,1
+noun_chunk,the particular participant,1,1
+noun_chunk,the particulars,1,1
+noun_chunk,the passage,1,1
+noun_chunk,the pavement,1,1
+noun_chunk,the people,1,1
+noun_chunk,the perceived shame,1,1
+noun_chunk,the percolator,1,1
+noun_chunk,the performance,1,1
+noun_chunk,the perimeter fence,1,1
+noun_chunk,the plain fact,1,1
+noun_chunk,the plan,1,1
+noun_chunk,the planning,1,1
+noun_chunk,the planning stage,1,1
+noun_chunk,the plug,1,1
+noun_chunk,the police inquiries,1,1
+noun_chunk,the policemen,1,1
+noun_chunk,the pool cue,1,1
+noun_chunk,the possible infliction,1,1
+noun_chunk,the possible spread,1,1
+noun_chunk,the pre-2003 Act guidelines,1,1
+noun_chunk,the precise terms,1,1
+noun_chunk,the premises,1,1
+noun_chunk,the press,1,1
+noun_chunk,the previous sentencing levels,1,1
+noun_chunk,"the previously 
+ amended conspiracy Count",1,1
+noun_chunk,the primary party,1,1
+noun_chunk,the prison hospital,1,1
+noun_chunk,the probability,1,1
+noun_chunk,the promenade,1,1
+noun_chunk,the property,1,1
+noun_chunk,the prosecution's case,1,1
+noun_chunk,the prosecution's suggestion,1,1
+noun_chunk,the provocation,1,1
+noun_chunk,the proximate cause,1,1
+noun_chunk,the purely factual matters,1,1
+noun_chunk,the pursuance,1,1
+noun_chunk,the reality,1,1
+noun_chunk,the reasoning,1,1
+noun_chunk,the recovery,1,1
+noun_chunk,the relevance,1,1
+noun_chunk,the relevant mens rea,1,1
+noun_chunk,the remark,1,1
+noun_chunk,the reporting,1,1
+noun_chunk,the requirement,1,1
+noun_chunk,the requisite intention,1,1
+noun_chunk,the respiratory organs,1,1
+noun_chunk,the response,1,1
+noun_chunk,the right arm,1,1
+noun_chunk,the right ventricle,1,1
+noun_chunk,the robbery,1,1
+noun_chunk,the robbing,1,1
+noun_chunk,the roof,1,1
+noun_chunk,the rule,1,1
+noun_chunk,the ruling,1,1
+noun_chunk,the same action,1,1
+noun_chunk,the same date,1,1
+noun_chunk,the same duress,1,1
+noun_chunk,the same indictment,1,1
+noun_chunk,the same murder,1,1
+noun_chunk,the same occasion,1,1
+noun_chunk,the same position,1,1
+noun_chunk,the sandhills,1,1
+noun_chunk,the schedule,1,1
+noun_chunk,the search,1,1
+noun_chunk,the seat,1,1
+noun_chunk,"the second
+defendant",1,1
+noun_chunk,the second certified question,1,1
+noun_chunk,the second ground,1,1
+noun_chunk,the second principle,1,1
+noun_chunk,the senior officer,1,1
+noun_chunk,the shootings,1,1
+noun_chunk,the shot-gun,1,1
+noun_chunk,the significance,1,1
+noun_chunk,the single ground,1,1
+noun_chunk,"the so-called
+""dirty mobile 'phones",1,1
+noun_chunk,the sofa,1,1
+noun_chunk,the sole cause,1,1
+noun_chunk,the sole issue,1,1
+noun_chunk,the specific intention,1,1
+noun_chunk,the speech,1,1
+noun_chunk,the speeches,1,1
+noun_chunk,"the spent 
+ cartridges",1,1
+noun_chunk,the spent cartridges,1,1
+noun_chunk,the stab wounds,1,1
+noun_chunk,the stairway area,1,1
+noun_chunk,the start,1,1
+noun_chunk,the state,1,1
+noun_chunk,the statistical evidence,1,1
+noun_chunk,the subject,1,1
+noun_chunk,the submission,1,1
+noun_chunk,the submissions,1,1
+noun_chunk,the substantive allegation,1,1
+noun_chunk,the substantive law,1,1
+noun_chunk,the substitution,1,1
+noun_chunk,the summing-up,1,1
+noun_chunk,the supposed corpse,1,1
+noun_chunk,the survivor,1,1
+noun_chunk,the sweeping changes,1,1
+noun_chunk,the tariff,1,1
+noun_chunk,the taxi office,1,1
+noun_chunk,the tee-shirt,1,1
+noun_chunk,the telephones,1,1
+noun_chunk,the term,1,1
+noun_chunk,the the new levels,1,1
+noun_chunk,the then practice,1,1
+noun_chunk,the thing,1,1
+noun_chunk,the third,1,1
+noun_chunk,the third man,1,1
+noun_chunk,the threat,1,1
+noun_chunk,the threatened party,1,1
+noun_chunk,the three appellants,1,1
+noun_chunk,the three black men,1,1
+noun_chunk,the three co,1,1
+noun_chunk,the three men,1,1
+noun_chunk,the three senior officers,1,1
+noun_chunk,the three shots,1,1
+noun_chunk,the throwing,1,1
+noun_chunk,the title,1,1
+noun_chunk,the toe,1,1
+noun_chunk,the top,1,1
+noun_chunk,the torch,1,1
+noun_chunk,the town,1,1
+noun_chunk,"the trial judge's
+ruling",1,1
+noun_chunk,the trigger,1,1
+noun_chunk,the trouble,1,1
+noun_chunk,the trousers,1,1
+noun_chunk,the truth,1,1
+noun_chunk,the two areas,1,1
+noun_chunk,the two burglars,1,1
+noun_chunk,the two people,1,1
+noun_chunk,the two possible means,1,1
+noun_chunk,the two principal witnesses,1,1
+noun_chunk,the two unlawful acts,1,1
+noun_chunk,the two women,1,1
+noun_chunk,the ultimate question,1,1
+noun_chunk,the undoubted murderer,1,1
+noun_chunk,the unfocussed prejudice,1,1
+noun_chunk,the unforeseen use,1,1
+noun_chunk,the unlawful act,1,1
+noun_chunk,the unlawful acts,1,1
+noun_chunk,the unlawful killing,1,1
+noun_chunk,the upmost gravity,1,1
+noun_chunk,the upper end,1,1
+noun_chunk,the various injuries,1,1
+noun_chunk,the venture,1,1
+noun_chunk,the very bottom,1,1
+noun_chunk,the very point,1,1
+noun_chunk,the very serious danger,1,1
+noun_chunk,the vicinity,1,1
+noun_chunk,the victim’s death,1,1
+noun_chunk,the video,1,1
+noun_chunk,the video interview,1,1
+noun_chunk,the violence,1,1
+noun_chunk,the vital and second shot,1,1
+noun_chunk,the water,1,1
+noun_chunk,the weekend,1,1
+noun_chunk,the whole,1,1
+noun_chunk,the whole course,1,1
+noun_chunk,the wide range,1,1
+noun_chunk,the wider public,1,1
+noun_chunk,the wife,1,1
+noun_chunk,the windpipe,1,1
+noun_chunk,the witness box,1,1
+noun_chunk,the witness-box,1,1
+noun_chunk,the witnesses,1,1
+noun_chunk,"the words
+""preparation",1,1
+noun_chunk,the works department,1,1
+noun_chunk,the worst case,1,1
+noun_chunk,the young women,1,1
+noun_chunk,the J Ryan.,1,1
+noun_chunk,their aims,1,1
+noun_chunk,"their apparently utterly
+carefree attitude",1,1
+noun_chunk,their calls,1,1
+noun_chunk,their case,1,1
+noun_chunk,their client,1,1
+noun_chunk,their conviction,1,1
+noun_chunk,their convictions,1,1
+noun_chunk,their duty,1,1
+noun_chunk,their escape,1,1
+noun_chunk,their evidence,1,1
+noun_chunk,their fire,1,1
+noun_chunk,their first question,1,1
+noun_chunk,their home,1,1
+noun_chunk,their initial assumption,1,1
+noun_chunk,their involvement,1,1
+noun_chunk,their killing,1,1
+noun_chunk,their opinion,1,1
+noun_chunk,their own trial,1,1
+noun_chunk,their point,1,1
+noun_chunk,their presence,1,1
+noun_chunk,their property,1,1
+noun_chunk,"their respective
+life sentences",1,1
+noun_chunk,their safety,1,1
+noun_chunk,their self-control,1,1
+noun_chunk,their tracks,1,1
+noun_chunk,their weapons,1,1
+noun_chunk,theirs,1,1
+noun_chunk,then a pause,1,1
+noun_chunk,then evidence,1,1
+noun_chunk,theory,1,1
+noun_chunk,therapy,1,1
+noun_chunk,thereabouts,1,1
+noun_chunk,therefore any verdict,1,1
+noun_chunk,therefore no case,1,1
+noun_chunk,these applicants,1,1
+noun_chunk,these defendants,1,1
+noun_chunk,these difficulties,1,1
+noun_chunk,these principles,1,1
+noun_chunk,these statements,1,1
+noun_chunk,these terms,1,1
+noun_chunk,these three defendants,1,1
+noun_chunk,these times,1,1
+noun_chunk,these words,1,1
+noun_chunk,"this
+principle",1,1
+noun_chunk,"this
+conclusion",1,1
+noun_chunk,"this
+offence",1,1
+noun_chunk,this State,1,1
+noun_chunk,this appellant,1,1
+noun_chunk,this assertion,1,1
+noun_chunk,this branch,1,1
+noun_chunk,this common agreement,1,1
+noun_chunk,this common design,1,1
+noun_chunk,this country,1,1
+noun_chunk,this defence,1,1
+noun_chunk,this direction,1,1
+noun_chunk,this evening,1,1
+noun_chunk,this interview,1,1
+noun_chunk,this judgment,1,1
+noun_chunk,this kind,1,1
+noun_chunk,this knife,1,1
+noun_chunk,this matter,1,1
+noun_chunk,this morning,1,1
+noun_chunk,this mother,1,1
+noun_chunk,this murder,1,1
+noun_chunk,this occasion,1,1
+noun_chunk,this offence,1,1
+noun_chunk,this particular case,1,1
+noun_chunk,this particularly serious kind,1,1
+noun_chunk,this purpose,1,1
+noun_chunk,this remark,1,1
+noun_chunk,this section,1,1
+noun_chunk,this shooting,1,1
+noun_chunk,this task,1,1
+noun_chunk,this type,1,1
+noun_chunk,this version,1,1
+noun_chunk,this way,1,1
+noun_chunk,this wound,1,1
+noun_chunk,thoroughness,1,1
+noun_chunk,"those
+circumstances",1,1
+noun_chunk,"those
+findings",1,1
+noun_chunk,"those
+injuries",1,1
+noun_chunk,"those
+interviews",1,1
+noun_chunk,"those
+submissions",1,1
+noun_chunk,those acts,1,1
+noun_chunk,those cartridges,1,1
+noun_chunk,those circumstances,1,1
+noun_chunk,those doubts,1,1
+noun_chunk,those ingredients,1,1
+noun_chunk,those issues,1,1
+noun_chunk,those measurements,1,1
+noun_chunk,those passages,1,1
+noun_chunk,those provisions,1,1
+noun_chunk,those shots,1,1
+noun_chunk,those terms,1,1
+noun_chunk,those words,1,1
+noun_chunk,three cartridge cases,1,1
+noun_chunk,three children,1,1
+noun_chunk,three counts,1,1
+noun_chunk,three defendants,1,1
+noun_chunk,three freshly fired 12-bore shotgun cartridges,1,1
+noun_chunk,three times,1,1
+noun_chunk,three years imprisonment,1,1
+noun_chunk,three years imprisonment concurrent,1,1
+noun_chunk,transfer,1,1
+noun_chunk,treason,1,1
+noun_chunk,twin brother,1,1
+noun_chunk,"two
+shots",1,1
+noun_chunk,"two
+counts",1,1
+noun_chunk,two applications,1,1
+noun_chunk,two burglars,1,1
+noun_chunk,two cartridge cases,1,1
+noun_chunk,two further counts,1,1
+noun_chunk,two further shots,1,1
+noun_chunk,two innocent lives,1,1
+noun_chunk,two men,1,1
+noun_chunk,two more shots,1,1
+noun_chunk,two or more people,1,1
+noun_chunk,two or three shots,1,1
+noun_chunk,two other witnesses,1,1
+noun_chunk,two police officers,1,1
+noun_chunk,two political appointments,1,1
+noun_chunk,two problems,1,1
+noun_chunk,two professional criminals,1,1
+noun_chunk,two questions,1,1
+noun_chunk,two things,1,1
+noun_chunk,two very material particulars,1,1
+noun_chunk,two weeks,1,1
+noun_chunk,two-thirds,1,1
+noun_chunk,unaware Smith,1,1
+noun_chunk,unidentified witnesses,1,1
+noun_chunk,unlawful act manslaughter,1,1
+noun_chunk,unusual features,1,1
+noun_chunk,up to 10 years,1,1
+noun_chunk,up to five cartridges,1,1
+noun_chunk,urgent review,1,1
+noun_chunk,verdicts,1,1
+noun_chunk,very large numbers,1,1
+noun_chunk,very serious offences,1,1
+noun_chunk,view,1,1
+noun_chunk,"violent
+disorder",1,1
+noun_chunk,virtue,1,1
+noun_chunk,"voluntary
+intoxication",1,1
+noun_chunk,way,1,1
+noun_chunk,weeks,1,1
+noun_chunk,well-settled law,1,1
+noun_chunk,what common enterprise,1,1
+noun_chunk,whatever Cooper,1,1
+noun_chunk,whatever dispute,1,1
+noun_chunk,which act,1,1
+noun_chunk,which case participation,1,1
+noun_chunk,which section,1,1
+noun_chunk,which the learned judge,1,1
+noun_chunk,whose argument,1,1
+noun_chunk,whose death,1,1
+noun_chunk,whose name,1,1
+noun_chunk,witnesses,1,1
+noun_chunk,women,1,1
+noun_chunk,wood,1,1
+noun_chunk,work,1,1
+noun_chunk,written submissions,1,1
+noun_chunk,yesterday afternoon,1,1
+noun_chunk,you?.,1,1
+noun_chunk,your approach,1,1
+noun_chunk,your proper verdict,1,1
+noun_chunk,your self-control,1,1
+noun_chunk,your task,1,1
+noun_chunk,yourselves,1,1
+noun_chunk,We,1,1
+noun_chunk,What,1,1
+noun_chunk,You,1,1
+noun_chunk,blue eyes,1,1
+noun_chunk,brown hair. Valerie Storie,1,1
+noun_chunk,,1,1
+noun_chunk,,1,1
+root_verb,say,19,44
+root_verb,convict,25,41
+root_verb,be,14,17
+root_verb,shoot,9,11
+root_verb,make,9,10
+root_verb,state,6,10
+root_verb,submit,9,10
+root_verb,charge,8,9
+root_verb,tell,7,9
+root_verb,deny,8,8
+root_verb,find,6,8
+root_verb,follow,7,8
+root_verb,give,8,8
+root_verb,have,5,8
+root_verb,suggest,7,8
+root_verb,acquit,4,7
+root_verb,ask,3,7
+root_verb,fire,3,7
+root_verb,leave,6,7
+root_verb,think,6,7
+root_verb,describe,3,6
+root_verb,direct,4,6
+root_verb,seem,6,6
+root_verb,urge,5,6
+root_verb,come,5,5
+root_verb,go,5,5
+root_verb,see,4,5
+root_verb,sentence,5,5
+root_verb,take,5,5
+root_verb,accept,4,4
+root_verb,allow,4,4
+root_verb,arise,4,4
+root_verb,cause,3,4
+root_verb,conclude,4,4
+root_verb,explain,3,4
+root_verb,hear,3,4
+root_verb,kill,4,4
+root_verb,know,4,4
+root_verb,murder,4,4
+root_verb,plead,3,4
+root_verb,stab,3,4
+root_verb,stand,4,4
+root_verb,strike,3,4
+root_verb,appear,3,3
+root_verb,arrest,3,3
+root_verb,carry,2,3
+root_verb,commit,2,3
+root_verb,consider,3,3
+root_verb,establish,3,3
+root_verb,invite,3,3
+root_verb,involve,3,3
+root_verb,lead,3,3
+root_verb,note,3,3
+root_verb,point,2,3
+root_verb,reach,3,3
+root_verb,record,2,3
+root_verb,understand,2,3
+root_verb,add,2,2
+root_verb,address,2,2
+root_verb,admit,2,2
+root_verb,agree,2,2
+root_verb,allege,2,2
+root_verb,amount,2,2
+root_verb,apply,2,2
+root_verb,argue,2,2
+root_verb,arm,2,2
+root_verb,become,2,2
+root_verb,call,2,2
+root_verb,cite,2,2
+root_verb,concede,2,2
+root_verb,concern,2,2
+root_verb,decide,2,2
+root_verb,do,2,2
+root_verb,entitle,2,2
+root_verb,escape,2,2
+root_verb,examine,2,2
+root_verb,express,2,2
+root_verb,feel,2,2
+root_verb,indict,2,2
+root_verb,insist,1,2
+root_verb,let,1,2
+root_verb,line,2,2
+root_verb,mean,2,2
+root_verb,mount,1,2
+root_verb,quash,2,2
+root_verb,read,2,2
+root_verb,recognise,2,2
+root_verb,rely,2,2
+root_verb,remind,1,2
+root_verb,remove,2,2
+root_verb,repeat,2,2
+root_verb,return,2,2
+root_verb,reveal,2,2
+root_verb,seek,2,2
+root_verb,serve,2,2
+root_verb,start,2,2
+root_verb,try,2,2
+root_verb,turn,2,2
+root_verb,use,2,2
+root_verb,abrogate,1,1
+root_verb,accompany,1,1
+root_verb,accord,1,1
+root_verb,adopt,1,1
+root_verb,advise,1,1
+root_verb,age,1,1
+root_verb,aim,1,1
+root_verb,alert,1,1
+root_verb,angle,1,1
+root_verb,answer,1,1
+root_verb,anticipate,1,1
+root_verb,approach,1,1
+root_verb,ascertain,1,1
+root_verb,assert,1,1
+root_verb,assist,1,1
+root_verb,attack,1,1
+root_verb,attempt,1,1
+root_verb,attribute,1,1
+root_verb,base,1,1
+root_verb,bear,1,1
+root_verb,burgle,1,1
+root_verb,cast,1,1
+root_verb,challenge,1,1
+root_verb,change,1,1
+root_verb,claim,1,1
+root_verb,confirm,1,1
+root_verb,contend,1,1
+root_verb,continue,1,1
+root_verb,contradict,1,1
+root_verb,count,1,1
+root_verb,cover,1,1
+root_verb,deal,1,1
+root_verb,delegate,1,1
+root_verb,demonstrate,1,1
+root_verb,depend,1,1
+root_verb,derive,1,1
+root_verb,determine,1,1
+root_verb,die,1,1
+root_verb,eject,1,1
+root_verb,emerge,1,1
+root_verb,emphasise,1,1
+root_verb,empower,1,1
+root_verb,enable,1,1
+root_verb,endorse,1,1
+root_verb,enter,1,1
+root_verb,err,1,1
+root_verb,fail,1,1
+root_verb,fall,1,1
+root_verb,force,1,1
+root_verb,form,1,1
+root_verb,gather,1,1
+root_verb,get,1,1
+root_verb,help,1,1
+root_verb,hold,1,1
+root_verb,hope,1,1
+root_verb,impose,1,1
+root_verb,indicate,1,1
+root_verb,intend,1,1
+root_verb,intervene,1,1
+root_verb,interview,1,1
+root_verb,introduce,1,1
+root_verb,join,1,1
+root_verb,law,1,1
+root_verb,lay,1,1
+root_verb,learn,1,1
+root_verb,marshal,1,1
+root_verb,miss,1,1
+root_verb,move,1,1
+root_verb,obtain,1,1
+root_verb,open,1,1
+root_verb,participate,1,1
+root_verb,pass,1,1
+root_verb,pause,1,1
+root_verb,pick,1,1
+root_verb,place,1,1
+root_verb,play,1,1
+root_verb,poke,1,1
+root_verb,prepare,1,1
+root_verb,press,1,1
+root_verb,proclaim,1,1
+root_verb,produce,1,1
+root_verb,put,1,1
+root_verb,qualify,1,1
+root_verb,reduce,1,1
+root_verb,refer,1,1
+root_verb,refuse,1,1
+root_verb,refute,1,1
+root_verb,reject,1,1
+root_verb,relate,1,1
+root_verb,release,1,1
+root_verb,remain,1,1
+root_verb,render,1,1
+root_verb,reply,1,1
+root_verb,represent,1,1
+root_verb,require,1,1
+root_verb,result,1,1
+root_verb,revoke,1,1
+root_verb,risk,1,1
+root_verb,satisfy,1,1
+root_verb,scream,1,1
+root_verb,shout,1,1
+root_verb,show,1,1
+root_verb,slide,1,1
+root_verb,sound,1,1
+root_verb,speak,1,1
+root_verb,stress,1,1
+root_verb,succeed,1,1
+root_verb,suffer,1,1
+root_verb,sum,1,1
+root_verb,supply,1,1
+root_verb,tend,1,1
+root_verb,treat,1,1
+root_verb,uphold,1,1
+root_verb,venture,1,1
+root_verb,wrap,1,1
+root_verb,write,1,1

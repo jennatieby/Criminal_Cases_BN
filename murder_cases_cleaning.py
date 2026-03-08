@@ -25,10 +25,10 @@ def clean_bailii_text(text: str) -> str:
     t = re.sub(r"You are here:.*?(?:EWCA|EWHC).*?(html|rtf|pdf)", " ", t, flags=re.I)
     t = re.sub(r"URL:\s*https?://\S+", " ", t, flags=re.I)
 
-    # remove meta lines: Cite as, Neutral Citation, Case No
-    t = re.sub(r"Cite as:.*?(EWCA|EWHC).*?\d{4}", " ", t, flags=re.I)
-    t = re.sub(r"Neutral Citation Number:.*", " ", t, flags=re.I)
-    t = re.sub(r"Case No:.*", " ", t, flags=re.I)
+    # remove meta lines: Cite as, Neutral Citation, Case No (line-limited)
+    t = re.sub(r"Cite as:[^\n]*", " ", t, flags=re.I)
+    t = re.sub(r"Neutral Citation Number:[^\n]*", " ", t, flags=re.I)
+    t = re.sub(r"Case No:[^\n]*", " ", t, flags=re.I)
 
     # remove uppercase court boilerplate blocks
     t = re.sub(r"IN THE COURT OF APPEAL.*?DIVISION", " ", t, flags=re.I)
@@ -56,8 +56,8 @@ df = pd.read_csv(INPUT)
 text_col = "CaseText" if "CaseText" in df.columns else "text"
 df["CleanText"] = df[text_col].apply(clean_bailii_text)
 
-# Drop empty or trivially short texts
-df = df[df["CleanText"].str.len() > 1000]
+# Drop empty or trivially short texts (after diagnostics, 300 is safer)
+df = df[df["CleanText"].str.len() > 300]
 
 # Save cleaned file
 df.to_csv(OUTPUT, index=False)
