@@ -2,19 +2,17 @@
 """
 extract_nodes_from_cases.py
 
-Densified node extractor:
-- Uses rules/ontology.yml (labels with type + synonyms)
-- Optional source cues from rules/idioms.yml (key: source_cues) or rules/source_cues.yml
-- Lemma & regex matching
-- Section tagging (facts/analysis/conclusion) + paragraph_id
-- Polarity with negation/uncertainty cues
-- Outputs: data/interim/nodes.jsonl and data/processed/nodes.csv
+Node extractor: turns case text into structured nodes using ontology and rules.
+Supports positive (BAILII) and negative (CCRC) runs via CLI arguments.
 
-Run from repo root (so relative paths resolve):
-    conda activate legalnlp
+Usage:
+  Positive (defaults):
     python code/extract_nodes_from_cases.py
+  Negative:
+    python code/extract_nodes_from_cases.py --input data/interim/negative_cases_cleaned.csv --output-csv data/processed/negative_nodes.csv --provenance negative --case-id-prefix NEG_
 """
 
+import argparse
 import json
 import re
 from pathlib import Path
@@ -23,19 +21,10 @@ import pandas as pd
 import spacy
 import yaml
 
-# -------------------------- Paths --------------------------
 ROOT = Path(__file__).resolve().parents[1]
-INPUT = ROOT / "data" / "interim" / "uk_cases_full.cleaned.csv"
-OUT_JSONL = ROOT / "data" / "interim" / "nodes.jsonl"
-OUT_CSV = ROOT / "data" / "processed" / "nodes.csv"
 ONTO_PATH = ROOT / "rules" / "ontology.yml"
 IDIOMS_PATH = ROOT / "rules" / "idioms.yml"
 SOURCE_CUES_FALLBACK = ROOT / "rules" / "source_cues.yml"
-
-OUT_JSONL.parent.mkdir(parents=True, exist_ok=True)
-OUT_CSV.parent.mkdir(parents=True, exist_ok=True)
-
-# -------------------------- Load models & rules --------------------------
 nlp = spacy.load("en_core_web_sm", disable=["ner"])
 
 with open(ONTO_PATH, "r", encoding="utf-8") as f:
@@ -212,12 +201,59 @@ def match_labels(sentence_lower: str):
     return hits
 
 # -------------------------- Main --------------------------
-def main():
-    if not INPUT.exists():
-        raise FileNotFoundError(f"Missing input CSV: {INPUT}")
+def parse_args():
+    p = argparse.ArgumentParser(description="Extract nodes from case text using ontology and rules.")
+    p.add_argument(
+        "--input",
+        type=Path,
+        default=ROOT / "data" / "interim" / "uk_cases_full.cleaned.csv",
+        help="Input CSV with case text (must have CleanText, CaseText, or text column).",
+    )
+    p.add_argument(
+        "--output-csv",
+        type=Path,
+        default=ROOT / "data" / "processed" / "nodes.csv",
+        help="Output CSV path for nodes.",
+    )
+    p.add_argument(
+        "--output-jsonl",
+        type=Path,
+        default=None,
+        help="Output JSONL path for nodes. If omitted, derived from output-csv (same dir, .jsonl).",
+    )
+    p.add_argument(
+        "--provenance",
+        type=str,
+        default="real",
+        help="Provenance label for all extracted nodes (e.g. 'real' for positive, 'negative' for CCRC).",
+    )
+    p.add_argument(
+        "--case-id-prefix",
+        type=str,
+        default="CASE_",
+        help="Prefix for generated case_id when column is missing (e.g. CASE_ or NEG_).",
+    )
+    args = p.parse_args()
+    if args.output_jsonl is None:
+        args.output_jsonl = args.output_csv.parent / (args.output_csv.stem + ".jsonl")
+    return args
 
-    df = pd.read_csv(INPUT)
-    # robustly pick text column
+
+def main():
+    args = parse_args()
+    input_path = args.input.resolve()
+    output_csv = args.output_csv.resolve()
+    output_jsonl = args.output_jsonl.resolve()
+    provenance = args.provenance
+    case_id_prefix = args.case_id_prefix.rstrip("_") + "_"
+
+    output_csv.parent.mkdir(parents=True, exist_ok=True)
+    output_jsonl.parent.mkdir(parents=True, exist_ok=True)
+
+    if not input_path.exists():
+        raise FileNotFoundError(f"Missing input CSV: {input_path}")
+
+    df = pd.read_csv(input_path, encoding="utf-8-sig")
     text_col = None
     for cand in ["CleanText", "CaseText", "text", "body", "content"]:
         if cand in df.columns:
@@ -226,9 +262,8 @@ def main():
     if not text_col:
         raise ValueError(f"No text column found! Columns present: {list(df.columns)}")
 
-    # derive case_id if not present
     if "case_id" not in df.columns:
-        df["case_id"] = [f"CASE_{i:05d}" for i in range(len(df))]
+        df["case_id"] = [f"{case_id_prefix}{i:05d}" for i in range(len(df))]
 
     records = []
     total_cases = 0
@@ -242,7 +277,6 @@ def main():
         paragraphs = iter_paragraphs(raw)
         for p_idx, para in enumerate(paragraphs, start=1):
             section = tag_section(paragraphs, p_idx - 1)
-            # sentence segmentation
             doc = nlp(para)
             for sent in doc.sents:
                 s = sent.text.strip()
@@ -262,18 +296,17 @@ def main():
                         "section": section,
                         "sent_text": s,
                         "paragraph_id": p_idx,
-                        "provenance": "real",
-                        "match_how": how,  # synonym | regex (debug)
+                        "provenance": provenance,
+                        "match_how": how,
                     })
 
-    # write JSONL
-    with open(OUT_JSONL, "w", encoding="utf-8") as f:
+    with open(output_jsonl, "w", encoding="utf-8") as f:
         for r in records:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
 
-    # write CSV
-    pd.DataFrame.from_records(records).to_csv(OUT_CSV, index=False)
-    print(f"Extracted {len(records):,} nodes from {total_cases:,} cases -> {OUT_CSV}")
+    pd.DataFrame.from_records(records).to_csv(output_csv, index=False)
+    print(f"Extracted {len(records):,} nodes from {total_cases:,} cases -> {output_csv} (provenance={provenance})")
+
 
 if __name__ == "__main__":
     main()
