@@ -173,5 +173,5 @@ inv_df = (
 )
 inv_df.to_csv(INV_CSV, index=False)
 
-print(f"✅ Built {len(edges_df):,} edges across {edges_df['case_id'].nunique()} cases → {EDGES_CSV}")
-print(f"📦 Node inventory saved → {INV_CSV}")
+print(f"Built {len(edges_df):,} edges across {edges_df['case_id'].nunique()} cases -> {EDGES_CSV}")
+print(f"Node inventory saved -> {INV_CSV}")

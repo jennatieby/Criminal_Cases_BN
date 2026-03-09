@@ -273,7 +273,7 @@ def main():
 
     # write CSV
     pd.DataFrame.from_records(records).to_csv(OUT_CSV, index=False)
-    print(f"✅ Extracted {len(records):,} nodes from {total_cases:,} cases → {OUT_CSV}")
+    print(f"Extracted {len(records):,} nodes from {total_cases:,} cases -> {OUT_CSV}")
 
 if __name__ == "__main__":
     main()

@@ -1,33 +1,4 @@
 #!/usr/bin/env python3
-"""
-generate_quality_report.py — Data quality assessment before parameterising the BN
-
-Produces CSVs you can open in Excel to inspect:
-  • Nodes and edges per case
-  • Which ontology labels / BN template edges are present vs missing per case
-  • Global stats (coverage %, never-seen labels/edges)
-
-Inputs:
-  data/processed/nodes.csv
-  data/processed/edges.csv
-  outputs/bn_edges_aggregated.csv (BN template)
-  rules/ontology.yml (canonical labels)
-
-Outputs (in outputs/quality/):
-  case_summary.csv           — one row per case: counts, coverage %
-  label_coverage.csv         — long: case_id, label, count (pivot in Excel for case×label)
-  label_matrix_wide.csv      — wide: case_id × label with counts (direct matrix)
-  edge_coverage.csv          — long: case_id, src_label, dst_label, count
-  missing_labels_per_case.csv — case_id, label (ontology labels missing in that case)
-  missing_edges_per_case.csv   — case_id, src_label, dst_label (template edges missing)
-  global_label_stats.csv     — label, cases_with, pct, total_occurrences
-  global_edge_stats.csv      — src, dst, cases_with, pct
-  never_seen_labels.csv      — labels in ontology that appear in 0 cases
-  never_seen_edges.csv       — template edges that appear in 0 cases
-
-Run from repo root:
-  python code/generate_quality_report.py
-"""
 from __future__ import annotations
 
 from pathlib import Path
@@ -121,11 +92,11 @@ def main() -> None:
     ).round(1)
     case_summary["num_missing_labels"] = total_labels - case_summary["num_unique_labels"]
     case_summary.to_csv(QUALITY / "case_summary.csv", index=False)
-    print(f"  → {QUALITY.name}/case_summary.csv")
+    print(f"  -> {QUALITY.name}/case_summary.csv")
 
     # ---- 2. label_coverage.csv (long) ----
     label_counts.to_csv(QUALITY / "label_coverage.csv", index=False)
-    print(f"  → {QUALITY.name}/label_coverage.csv")
+    print(f"  -> {QUALITY.name}/label_coverage.csv")
 
     # ---- 3. label_matrix_wide.csv ----
     pivot = label_counts.pivot_table(
@@ -137,11 +108,11 @@ def main() -> None:
             pivot[lbl] = 0
     pivot = pivot.reindex(columns=sorted(pivot.columns))
     pivot.to_csv(QUALITY / "label_matrix_wide.csv")
-    print(f"  → {QUALITY.name}/label_matrix_wide.csv")
+    print(f"  -> {QUALITY.name}/label_matrix_wide.csv")
 
     # ---- 4. edge_coverage.csv ----
     edge_counts.to_csv(QUALITY / "edge_coverage.csv", index=False)
-    print(f"  → {QUALITY.name}/edge_coverage.csv")
+    print(f"  -> {QUALITY.name}/edge_coverage.csv")
 
     # ---- 5. missing_labels_per_case.csv ----
     labels_per_case = set(zip(label_counts["case_id"], label_counts["label"]))
@@ -154,9 +125,9 @@ def main() -> None:
         pd.DataFrame(missing_labels).to_csv(
             QUALITY / "missing_labels_per_case.csv", index=False
         )
-        print(f"  → {QUALITY.name}/missing_labels_per_case.csv ({len(missing_labels)} rows)")
+        print(f"  -> {QUALITY.name}/missing_labels_per_case.csv ({len(missing_labels)} rows)")
     else:
-        print(f"  → {QUALITY.name}/missing_labels_per_case.csv (none missing)")
+        print(f"  -> {QUALITY.name}/missing_labels_per_case.csv (none missing)")
 
     # ---- 6. missing_edges_per_case.csv ----
     edges_per_case = set(
@@ -179,9 +150,9 @@ def main() -> None:
         pd.DataFrame(missing_edges).to_csv(
             QUALITY / "missing_edges_per_case.csv", index=False
         )
-        print(f"  → {QUALITY.name}/missing_edges_per_case.csv ({len(missing_edges)} rows)")
+        print(f"  -> {QUALITY.name}/missing_edges_per_case.csv ({len(missing_edges)} rows)")
     else:
-        print(f"  → {QUALITY.name}/missing_edges_per_case.csv (none missing)")
+        print(f"  -> {QUALITY.name}/missing_edges_per_case.csv (none missing)")
 
     # ---- 7. global_label_stats.csv ----
     glb = (
@@ -194,7 +165,7 @@ def main() -> None:
     glb["pct_cases"] = (glb["cases_with"] / n_cases * 100).round(1)
     glb = glb.sort_values("cases_with", ascending=False)
     glb.to_csv(QUALITY / "global_label_stats.csv", index=False)
-    print(f"  → {QUALITY.name}/global_label_stats.csv")
+    print(f"  -> {QUALITY.name}/global_label_stats.csv")
 
     # ---- 8. global_edge_stats.csv ----
     geb = (
@@ -204,7 +175,7 @@ def main() -> None:
     geb["pct_cases"] = (geb["cases_with"] / n_cases * 100).round(1)
     geb = geb.sort_values("cases_with", ascending=False)
     geb.to_csv(QUALITY / "global_edge_stats.csv", index=False)
-    print(f"  → {QUALITY.name}/global_edge_stats.csv")
+    print(f"  -> {QUALITY.name}/global_edge_stats.csv")
 
     # ---- 9. never_seen_labels.csv ----
     seen_labels = set(label_counts["label"].unique())
@@ -213,9 +184,9 @@ def main() -> None:
         pd.DataFrame({"label": never_seen}).to_csv(
             QUALITY / "never_seen_labels.csv", index=False
         )
-        print(f"  → {QUALITY.name}/never_seen_labels.csv ({len(never_seen)} labels)")
+        print(f"  -> {QUALITY.name}/never_seen_labels.csv ({len(never_seen)} labels)")
     else:
-        print(f"  → {QUALITY.name}/never_seen_labels.csv (all labels seen)")
+        print(f"  -> {QUALITY.name}/never_seen_labels.csv (all labels seen)")
 
     # ---- 10. never_seen_edges.csv ----
     seen_edges = set(
@@ -227,9 +198,9 @@ def main() -> None:
             never_seen_edges,
             columns=["src_label", "dst_label"],
         ).to_csv(QUALITY / "never_seen_edges.csv", index=False)
-        print(f"  → {QUALITY.name}/never_seen_edges.csv ({len(never_seen_edges)} edges)")
+        print(f"  -> {QUALITY.name}/never_seen_edges.csv ({len(never_seen_edges)} edges)")
     else:
-        print(f"  → {QUALITY.name}/never_seen_edges.csv (all template edges seen)")
+        print(f"  -> {QUALITY.name}/never_seen_edges.csv (all template edges seen)")
 
     # ---- 11. quality_overview.csv (single per-case summary) ----
     # How many template edges exist in total?
@@ -247,9 +218,9 @@ def main() -> None:
     overview["missing_template_edges"] = overview["total_template_edges"] - overview["present_template_edges"]
 
     overview.to_csv(QUALITY / "quality_overview.csv", index=False)
-    print(f"  → {QUALITY.name}/quality_overview.csv")
+    print(f"  -> {QUALITY.name}/quality_overview.csv")
 
-    print(f"\n✅ Quality report complete: {QUALITY}")
+    print(f"\nQuality report complete: {QUALITY}")
 
 
 if __name__ == "__main__":

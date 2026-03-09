@@ -57,7 +57,7 @@ For EACH input sentence, respond with a SINGLE JSON object with these keys:
 - evidence_type: short string (e.g. witness, forensic, cctv, confession, digital, none, unknown)
 - summary_label: 3-6 word descriptive label you would use as an ontology node name, in lower_snake_case.
 
-Be conservative: if information is not clearly present in the sentence, use "unknown" or an empty list.
+Infer from clear evidence in the sentence: if the sentence describes or clearly implies a violent act, weapon, intent, legal concept, or type of evidence, choose the best-matching value. Use "unknown" only when the sentence does not contain or imply that information (e.g. sentencing-only or procedural sentences often have unknown act_type/means_or_weapon; that is correct).
 Return ONLY the JSON object, no prose. No markdown code blocks.
 """
 
@@ -181,10 +181,10 @@ def main() -> None:
 
         if (i + 1) % 100 == 0:
             pd.DataFrame(ann_rows).to_csv(OUT_CSV, index=False)
-            print(f"[checkpoint] wrote {len(ann_rows)} rows → {OUT_CSV}", flush=True)
+            print(f"[checkpoint] wrote {len(ann_rows)} rows -> {OUT_CSV}", flush=True)
 
     pd.DataFrame(ann_rows).to_csv(OUT_CSV, index=False)
-    print(f"✅ Wrote annotations to {OUT_CSV} ({len(ann_rows)} rows)", flush=True)
+    print(f"Wrote annotations to {OUT_CSV} ({len(ann_rows)} rows)", flush=True)
 
 
 if __name__ == "__main__":

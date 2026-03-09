@@ -61,5 +61,5 @@ df = df[df["CleanText"].str.len() > 300]
 
 # Save cleaned file
 df.to_csv(OUTPUT, index=False)
-print(f"✅ Cleaned file saved to: {OUTPUT}")
+print(f"Cleaned file saved to: {OUTPUT}")
 print(df[["URL", "CleanText"]].head(2))

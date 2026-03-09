@@ -1,29 +1,4 @@
 #!/usr/bin/env python
-"""
-generate_bn_template.py — Step 4 of the Legal BN Pipeline
----------------------------------------------------------
-Purpose:
-  • Aggregate edges across cases at the *concept (label)* level to build a BN-ready DAG.
-  • Prune weak/rare edges (by cross-case support and mean score).
-  • Break cycles greedily so the final graph is a DAG (BN requirement).
-  • Export GraphML/GML plus CSV summaries for auditability.
-
-Inputs:
-  data/processed/nodes.csv
-  data/processed/edges.csv
-
-Outputs:
-  outputs/bn_template.graphml
-  outputs/bn_template.gml
-  outputs/bn_edges_aggregated.csv
-  outputs/bn_nodes_summary.csv
-
-Run:
-  conda activate legalnlp
-  cd /Users/jennatieby/Desktop/Criminal_Cases_BN
-  python code/generate_bn_template.py
-  # or: make bn
-"""
 from __future__ import annotations
 from pathlib import Path
 import pandas as pd
@@ -206,7 +181,7 @@ H = break_cycles_greedily(G)
 nx.write_graphml(H, OUT_GRAPHML)
 nx.write_gml(H, OUT_GML)
 
-print(f"✅ BN template built with {H.number_of_nodes()} nodes and {H.number_of_edges()} edges")
-print(f"   • Saved graph → {OUT_GRAPHML.name} and {OUT_GML.name}")
-print(f"   • Edge audit  → {OUT_EDGES.name}")
-print(f"   • Node summary→ {OUT_NODES.name}")
+print(f"BN template built with {H.number_of_nodes()} nodes and {H.number_of_edges()} edges")
+print(f"   Saved graph -> {OUT_GRAPHML.name} and {OUT_GML.name}")
+print(f"   Edge audit  -> {OUT_EDGES.name}")
+print(f"   Node summary-> {OUT_NODES.name}")

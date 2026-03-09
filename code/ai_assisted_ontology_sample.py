@@ -177,7 +177,7 @@ def main() -> None:
         # still write empty file so you know it ran
         phrases_df.to_csv(OUT_DIR / "candidate_phrases.csv", index=False)
 
-    print(f"✅ Sampled {len(sample_df)} cases → {OUT_DIR}")
+    print(f"Sampled {len(sample_df)} cases -> {OUT_DIR}")
 
 
 if __name__ == "__main__":
