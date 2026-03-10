@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
+"""
+generate_quality_report.py: Quality report for extracted nodes and edges.
+Positive: python code/generate_quality_report.py
+Negative: python code/generate_quality_report.py --nodes data/processed/negative_nodes.csv --edges data/processed/negative_edges.csv --prefix negative_
+"""
 from __future__ import annotations
 
 from pathlib import Path
 
+import argparse
 import pandas as pd
 import yaml
 
@@ -20,14 +26,33 @@ ONTO_PATH = RULES / "ontology.yml"
 QUALITY.mkdir(parents=True, exist_ok=True)
 
 
-def main() -> None:
-    if not NODES_CSV.exists():
-        raise FileNotFoundError(f"Missing {NODES_CSV} — run extract_nodes_from_cases.py first.")
-    if not EDGES_CSV.exists():
-        raise FileNotFoundError(f"Missing {EDGES_CSV} — run build_edges_between_nodes.py first.")
+def parse_args():
+    p = argparse.ArgumentParser(description="Generate quality report from nodes and edges.")
+    p.add_argument("--nodes", type=Path, default=NODES_CSV, help="Input nodes CSV.")
+    p.add_argument("--edges", type=Path, default=EDGES_CSV, help="Input edges CSV.")
+    p.add_argument("--bn-edges", type=Path, default=None, help="BN edges CSV for template reference.")
+    p.add_argument("--prefix", type=str, default="", help="Output filename prefix (e.g. negative_).")
+    args = p.parse_args()
+    if args.bn_edges is None:
+        pfx = (args.prefix or "").strip()
+        args.bn_edges = OUTPUTS / (f"{pfx}bn_edges_aggregated.csv" if pfx else "bn_edges_aggregated.csv")
+    return args
 
-    nodes = pd.read_csv(NODES_CSV)
-    edges = pd.read_csv(EDGES_CSV)
+
+def main() -> None:
+    args = parse_args()
+    nodes_path = args.nodes.resolve()
+    edges_path = args.edges.resolve()
+    bn_edges_path = args.bn_edges.resolve()
+    prefix = (args.prefix or "").strip()
+
+    if not nodes_path.exists():
+        raise FileNotFoundError(f"Missing {nodes_path}")
+    if not edges_path.exists():
+        raise FileNotFoundError(f"Missing {edges_path}")
+
+    nodes = pd.read_csv(nodes_path, encoding="utf-8-sig")
+    edges = pd.read_csv(edges_path, encoding="utf-8-sig")
 
     # Resolve node_id -> label
     id2label = dict(zip(nodes["node_id"], nodes["label"]))
@@ -59,8 +84,8 @@ def main() -> None:
     else:
         all_labels = sorted(set(nodes["label"].dropna().unique()) | set(label_counts["label"].unique()))
 
-    if BN_EDGES_CSV.exists():
-        bn_edges = pd.read_csv(BN_EDGES_CSV)
+    if bn_edges_path.exists():
+        bn_edges = pd.read_csv(bn_edges_path)
         template_edges = set(
             zip(bn_edges["src_label"], bn_edges["dst_label"])
         )
@@ -91,12 +116,12 @@ def main() -> None:
         case_summary["num_unique_labels"] / total_labels * 100
     ).round(1)
     case_summary["num_missing_labels"] = total_labels - case_summary["num_unique_labels"]
-    case_summary.to_csv(QUALITY / "case_summary.csv", index=False)
-    print(f"  -> {QUALITY.name}/case_summary.csv")
+    case_summary.to_csv(QUALITY / f"{prefix}case_summary.csv", index=False)
+    print(f"  -> {QUALITY.name}/{prefix}case_summary.csv")
 
     # ---- 2. label_coverage.csv (long) ----
-    label_counts.to_csv(QUALITY / "label_coverage.csv", index=False)
-    print(f"  -> {QUALITY.name}/label_coverage.csv")
+    label_counts.to_csv(QUALITY / f"{prefix}label_coverage.csv", index=False)
+    print(f"  -> {QUALITY.name}/{prefix}label_coverage.csv")
 
     # ---- 3. label_matrix_wide.csv ----
     pivot = label_counts.pivot_table(
@@ -107,12 +132,12 @@ def main() -> None:
         if lbl not in pivot.columns:
             pivot[lbl] = 0
     pivot = pivot.reindex(columns=sorted(pivot.columns))
-    pivot.to_csv(QUALITY / "label_matrix_wide.csv")
-    print(f"  -> {QUALITY.name}/label_matrix_wide.csv")
+    pivot.to_csv(QUALITY / f"{prefix}label_matrix_wide.csv")
+    print(f"  -> {QUALITY.name}/{prefix}label_matrix_wide.csv")
 
     # ---- 4. edge_coverage.csv ----
-    edge_counts.to_csv(QUALITY / "edge_coverage.csv", index=False)
-    print(f"  -> {QUALITY.name}/edge_coverage.csv")
+    edge_counts.to_csv(QUALITY / f"{prefix}edge_coverage.csv", index=False)
+    print(f"  -> {QUALITY.name}/{prefix}edge_coverage.csv")
 
     # ---- 5. missing_labels_per_case.csv ----
     labels_per_case = set(zip(label_counts["case_id"], label_counts["label"]))
@@ -123,11 +148,11 @@ def main() -> None:
                 missing_labels.append({"case_id": cid, "label": lbl})
     if missing_labels:
         pd.DataFrame(missing_labels).to_csv(
-            QUALITY / "missing_labels_per_case.csv", index=False
+            QUALITY / f"{prefix}missing_labels_per_case.csv", index=False
         )
-        print(f"  -> {QUALITY.name}/missing_labels_per_case.csv ({len(missing_labels)} rows)")
+        print(f"  -> {QUALITY.name}/{prefix}missing_labels_per_case.csv ({len(missing_labels)} rows)")
     else:
-        print(f"  -> {QUALITY.name}/missing_labels_per_case.csv (none missing)")
+        print(f"  -> {QUALITY.name}/{prefix}missing_labels_per_case.csv (none missing)")
 
     # ---- 6. missing_edges_per_case.csv ----
     edges_per_case = set(
@@ -148,11 +173,11 @@ def main() -> None:
                 })
     if missing_edges:
         pd.DataFrame(missing_edges).to_csv(
-            QUALITY / "missing_edges_per_case.csv", index=False
+            QUALITY / f"{prefix}missing_edges_per_case.csv", index=False
         )
-        print(f"  -> {QUALITY.name}/missing_edges_per_case.csv ({len(missing_edges)} rows)")
+        print(f"  -> {QUALITY.name}/{prefix}missing_edges_per_case.csv ({len(missing_edges)} rows)")
     else:
-        print(f"  -> {QUALITY.name}/missing_edges_per_case.csv (none missing)")
+        print(f"  -> {QUALITY.name}/{prefix}missing_edges_per_case.csv (none missing)")
 
     # ---- 7. global_label_stats.csv ----
     glb = (
@@ -164,8 +189,8 @@ def main() -> None:
     )
     glb["pct_cases"] = (glb["cases_with"] / n_cases * 100).round(1)
     glb = glb.sort_values("cases_with", ascending=False)
-    glb.to_csv(QUALITY / "global_label_stats.csv", index=False)
-    print(f"  -> {QUALITY.name}/global_label_stats.csv")
+    glb.to_csv(QUALITY / f"{prefix}global_label_stats.csv", index=False)
+    print(f"  -> {QUALITY.name}/{prefix}global_label_stats.csv")
 
     # ---- 8. global_edge_stats.csv ----
     geb = (
@@ -174,19 +199,19 @@ def main() -> None:
     )
     geb["pct_cases"] = (geb["cases_with"] / n_cases * 100).round(1)
     geb = geb.sort_values("cases_with", ascending=False)
-    geb.to_csv(QUALITY / "global_edge_stats.csv", index=False)
-    print(f"  -> {QUALITY.name}/global_edge_stats.csv")
+    geb.to_csv(QUALITY / f"{prefix}global_edge_stats.csv", index=False)
+    print(f"  -> {QUALITY.name}/{prefix}global_edge_stats.csv")
 
     # ---- 9. never_seen_labels.csv ----
     seen_labels = set(label_counts["label"].unique())
     never_seen = [lbl for lbl in all_labels if lbl not in seen_labels]
     if never_seen:
         pd.DataFrame({"label": never_seen}).to_csv(
-            QUALITY / "never_seen_labels.csv", index=False
+            QUALITY / f"{prefix}never_seen_labels.csv", index=False
         )
-        print(f"  -> {QUALITY.name}/never_seen_labels.csv ({len(never_seen)} labels)")
+        print(f"  -> {QUALITY.name}/{prefix}never_seen_labels.csv ({len(never_seen)} labels)")
     else:
-        print(f"  -> {QUALITY.name}/never_seen_labels.csv (all labels seen)")
+        print(f"  -> {QUALITY.name}/{prefix}never_seen_labels.csv (all labels seen)")
 
     # ---- 10. never_seen_edges.csv ----
     seen_edges = set(
@@ -197,10 +222,10 @@ def main() -> None:
         pd.DataFrame(
             never_seen_edges,
             columns=["src_label", "dst_label"],
-        ).to_csv(QUALITY / "never_seen_edges.csv", index=False)
-        print(f"  -> {QUALITY.name}/never_seen_edges.csv ({len(never_seen_edges)} edges)")
+        ).to_csv(QUALITY / f"{prefix}never_seen_edges.csv", index=False)
+        print(f"  -> {QUALITY.name}/{prefix}never_seen_edges.csv ({len(never_seen_edges)} edges)")
     else:
-        print(f"  -> {QUALITY.name}/never_seen_edges.csv (all template edges seen)")
+        print(f"  -> {QUALITY.name}/{prefix}never_seen_edges.csv (all template edges seen)")
 
     # ---- 11. quality_overview.csv (single per-case summary) ----
     # How many template edges exist in total?
@@ -217,8 +242,8 @@ def main() -> None:
     overview["present_template_edges"] = overview["case_id"].map(present_template_edges).fillna(0).astype(int)
     overview["missing_template_edges"] = overview["total_template_edges"] - overview["present_template_edges"]
 
-    overview.to_csv(QUALITY / "quality_overview.csv", index=False)
-    print(f"  -> {QUALITY.name}/quality_overview.csv")
+    overview.to_csv(QUALITY / f"{prefix}quality_overview.csv", index=False)
+    print(f"  -> {QUALITY.name}/{prefix}quality_overview.csv")
 
     print(f"\nQuality report complete: {QUALITY}")
 
