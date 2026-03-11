@@ -3,6 +3,7 @@
 build_edges_between_nodes.py
 
 Builds directed edges between nodes (same case) using co-occurrence and type heuristics.
+Edges: same_sentence (strongest), same_section, same_case cross-section (weakest).
 Supports positive (BAILII) and negative (CCRC) runs via CLI arguments.
 
 Usage:
@@ -147,6 +148,29 @@ def main():
                     "rationale": rationale,
                     "provenance": g["provenance"].iloc[0] if "provenance" in g else "real"
                 })
+
+        # 3) Same-case cross-section (weak): link nodes in different sections so cases with 2+ nodes always get at least one edge
+        sections_list = list(by_section.keys())
+        for i, sect1 in enumerate(sections_list):
+            for sect2 in sections_list[i + 1:]:
+                for a in by_section[sect1]:
+                    for b in by_section[sect2]:
+                        if a.node_id == b.node_id:
+                            continue
+                        s = base_prior(a.type, b.type)
+                        s += 0.05
+                        s *= polarity_penalty(a.polarity) * polarity_penalty(b.polarity)
+                        s += 0.5 * source_adjustment(a.source) + 0.25 * source_adjustment(b.source)
+                        score = clamp01(s)
+                        rationale = "same_case|type_prior"
+                        records.append({
+                            "case_id": case_id,
+                            "src_node_id": a.node_id,
+                            "dst_node_id": b.node_id,
+                            "score": score,
+                            "rationale": rationale,
+                            "provenance": g["provenance"].iloc[0] if "provenance" in g else "real"
+                        })
 
     # ---------- Aggregate duplicate edges (case, src, dst) ----------
     bucket = defaultdict(lambda: {"sum":0.0, "cnt":0, "rationales":Counter(), "prov":None})

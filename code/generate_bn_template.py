@@ -3,6 +3,7 @@
 generate_bn_template.py: Build BN template (DAG of labels) from nodes/edges.
 Positive: python code/generate_bn_template.py
 Negative: python code/generate_bn_template.py --nodes data/processed/negative_nodes.csv --edges data/processed/negative_edges.csv --prefix negative_
+Unified (less greedy): python code/generate_bn_template.py --nodes data/processed/nodes_unified.csv --edges data/processed/edges_unified.csv --prefix unified_ --min-mean-score 0.2
 """
 from __future__ import annotations
 import argparse
@@ -22,6 +23,10 @@ def parse_args():
     p.add_argument("--nodes", type=Path, default=DATA / "nodes.csv", help="Input nodes CSV.")
     p.add_argument("--edges", type=Path, default=DATA / "edges.csv", help="Input edges CSV.")
     p.add_argument("--prefix", type=str, default="", help="Output filename prefix (e.g. negative_).")
+    p.add_argument("--min-support", type=int, default=1,
+                  help="Min number of cases an edge must appear in (default: 1).")
+    p.add_argument("--min-mean-score", type=float, default=0.35,
+                  help="Min mean score for an edge to be kept (default: 0.35). Lower = less greedy.")
     return p.parse_args()
 
 
@@ -87,8 +92,8 @@ def main():
     agg["dst_type"] = agg["dst_label"].map(label2type).fillna("narrative")
 
     TOTAL_CASES_WITH_EDGES = edges_df["case_id"].nunique()
-    min_case_support = 1
-    min_mean_score = 0.35
+    min_case_support = args.min_support
+    min_mean_score = args.min_mean_score
 
     print(f"[diag] edge-bearing cases: {TOTAL_CASES_WITH_EDGES}")
     print(f"[diag] raw labeled edge pairs: {len(agg)}")
