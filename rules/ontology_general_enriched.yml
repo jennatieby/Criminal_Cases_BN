@@ -1,0 +1,1967 @@
+version: 1.0
+labels:
+  encounter:
+    type: narrative
+    synonyms:
+    - meeting
+    - rendezvous
+    - arranged to meet
+    - came across
+    - came into contact
+    - crossed paths
+    - met up
+    - came together
+    - had an encounter
+    - ran into
+    - bumped into
+    - confronted each other
+    - engaged with
+    - found oneself with
+    - came face to face
+    - stumbled upon
+    - interacted with
+    - had a meeting
+    - encountered one another
+    - came across each other
+    - saw each other
+    - had a run-in
+    - met by chance
+    - had a brush with
+  prior_conflict:
+    type: narrative
+    synonyms:
+    - prior dispute
+    - ongoing feud
+    - animosity
+    - bad blood
+    - history of animosity
+    - previous altercation
+    - longstanding rivalry
+    - prior disagreements
+    - hostile relationship
+    - ongoing tension
+    - past confrontations
+    - feud between parties
+    - previous conflicts
+    - bad feelings
+    - grudge held
+    - prior hostility
+    - clash of personalities
+    - longstanding dispute
+    - bitter resentment
+    - previous quarrel
+    - ongoing discord
+    - strained relations
+    - past grievances
+    - unresolved issues
+  prior_threats:
+    type: narrative
+    synonyms:
+    - threatened to kill
+    - uttered threats
+    - menacing messages
+    - threats of violence
+    - made threats to harm
+    - threatened with violence
+    - expressed intent to kill
+    - threatened to take life
+    - communicated threats
+    - verbal threats made
+    - threats of death
+    - intimidating messages sent
+    - threatening behavior exhibited
+    - threats conveyed
+    - menacing statements
+    - threats of serious harm
+    - threatened physical violence
+    - warnings of violence
+    - hostile threats
+    - threatening remarks
+    - expressed threats
+    - threats of injury
+    - violent threats made
+    - threats communicated
+  planning_premeditation:
+    type: narrative
+    synonyms:
+    - premeditated
+    - planned
+    - lay in wait
+    - reconnaissance
+    - preparation
+    - false alibi
+    - procured weapon
+    - researched methods
+    - deliberate intent
+    - forethought
+    - carefully orchestrated
+    - methodical approach
+    - intentional design
+    - calculated act
+    - premeditated scheme
+    - advance planning
+    - covert operation
+    - strategic execution
+    - arranged meeting
+    - concealed intentions
+    - prepared in advance
+    - systematic plotting
+    - planned attack
+    - prior arrangement
+    - evidence of planning
+    - thought out in advance
+    - deliberate preparation
+    - premeditated design
+  weapon_present:
+    type: narrative
+    synonyms:
+    - weapon available
+    - armed
+    - carried a weapon
+    - in possession of a weapon
+    - had a firearm
+    - wielded a knife
+    - equipped with a weapon
+    - armed with a gun
+    - carrying a blade
+    - possessed a weapon
+    - held a weapon
+    - armed during the incident
+    - weapon in hand
+    - brandished a weapon
+    - carried a firearm
+    - had a deadly weapon
+    - armed and dangerous
+    - weapon at the scene
+    - access to a weapon
+    - weapon used in attack
+    - brought a weapon
+    - weapon involved in crime
+    - weapon present at the time
+  weapon_firearm:
+    type: narrative
+    synonyms:
+    - gun
+    - handgun
+    - pistol
+    - shotgun
+    - firearm
+    - firearm weapon
+    - automatic weapon
+    - revolver
+    - assault rifle
+    - handgun firearm
+    - shotgun blast
+    - gunshot wound
+    - firearm discharge
+    - illegally held firearm
+    - loaded gun
+    - gun possession
+    - deadly weapon
+    - firearm-related offense
+    - pistol grip
+    - sawed-off shotgun
+    - gun violence
+    - weapon used
+    - firearm in commission
+    - gun crime
+    - handgun violence
+  weapon_sharp:
+    type: narrative
+    synonyms:
+    - knife
+    - bladed article
+    - sharp instrument
+    - cutting weapon
+    - sharp object
+    - stabber
+    - blade
+    - sharpened tool
+    - kitchen knife
+    - folding knife
+    - combat knife
+    - dagger
+    - sword
+    - shank
+    - machete
+    - scalpel
+    - slicing instrument
+    - pointed object
+    - sharp-edged tool
+    - utility knife
+    - carving knife
+    - switchblade
+    - screwdriver
+  weapon_blunt:
+    type: narrative
+    synonyms:
+    - blunt instrument
+    - baseball bat
+    - blunt weapon
+    - heavy object
+    - metal pipe
+    - wooden club
+    - fist or foot
+    - crowbar
+    - baton
+    - brass knuckles
+    - stick or rod
+    - hammer
+    - bottle
+    - rock or stone
+    - shovel
+    - blunt end
+    - mace
+    - bludgeoning tool
+    - kitchen utensil
+    - hard surface
+    - improvised weapon
+    - solid object
+  poisoning:
+    type: narrative
+    synonyms:
+    - poisoned
+    - administered poison
+    - toxic substance
+    - antifreeze
+    - deliberate poisoning
+    - lethal substance
+    - administered toxic agent
+    - toxic chemical
+    - poisonous compound
+    - ingested poison
+    - poisoning method
+    - substance causing harm
+    - harmful agent
+    - fatal dose
+    - chemical poisoning
+    - toxicology report
+    - poisoning with intent
+    - administered harmful substance
+    - poisonous mixture
+    - deliberate administration of poison
+    - poisoning scheme
+    - poisoned drink
+    - toxic exposure
+    - antifreeze poisoning
+    - malicious poisoning
+  strangulation:
+    type: narrative
+    synonyms:
+    - strangled
+    - throttled
+    - compression of neck
+    - chokehold
+    - neck constriction
+    - manual strangulation
+    - pressure on throat
+    - suffocation by neck
+    - neck hold applied
+    - asphyxiation by choking
+    - gripped around the neck
+    - throat compression
+    - stranglehold used
+    - choking action
+    - force applied to neck
+    - strangled with hands
+    - throttling motion
+    - interference with breathing
+    - neck grasp
+    - choked to death
+    - strangulation method
+    - suffocating grip
+    - throat hold
+    - strangulation technique
+  assault_method_stabbing:
+    type: narrative
+    synonyms:
+    - stabbed
+    - stabbing
+    - knife attack
+    - inflicted with a knife
+    - knife wound
+    - stabbed with a blade
+    - assaulted with a knife
+    - knife-related injury
+    - stabbed in the chest
+    - stabbed multiple times
+    - attacked with a knife
+    - penetrating stab wound
+    - knife attack incident
+    - stabbed to death
+    - wounded with a knife
+    - fatal stabbing
+    - knife assault
+    - assault with a deadly weapon
+    - stabbed in a fit of rage
+    - deliberate stabbing
+    - violent knife attack
+    - stabbed during altercation
+    - knife-inflicted injuries
+  assault_method_shooting:
+    type: narrative
+    synonyms:
+    - shot
+    - shooting
+    - discharged firearm
+    - fired a gun
+    - gunfire
+    - opened fire
+    - shot at
+    - discharged a weapon
+    - hit by gunfire
+    - gunshot wounds
+    - shot dead
+    - fired shots
+    - used a firearm
+    - shooting incident
+    - shot with a pistol
+    - gun-related violence
+    - shot from a distance
+    - fired in self-defense
+    - pulled the trigger
+    - gun attack
+    - shot in the chest
+    - gun violence
+    - assault with a firearm
+  assault_method_blunt_force:
+    type: narrative
+    synonyms:
+    - blunt force
+    - beat
+    - battered
+    - struck with a heavy object
+    - hit with a blunt instrument
+    - pounded with fists
+    - attacked with a club
+    - bludgeoned to death
+    - beaten with a stick
+    - assaulted with a bat
+    - smashed with a brick
+    - thumped repeatedly
+    - whacked with a hammer
+    - blunt trauma injuries
+    - delivered a heavy blow
+    - brutally beaten
+    - hit hard
+    - struck forcefully
+    - violently assaulted
+    - sustained blunt force trauma
+    - pummeled with force
+    - crushed with an object
+  location_private_dwelling:
+    type: narrative
+    synonyms:
+    - at home
+    - private address
+    - inside the house
+    - domestic premises
+    - in the residence
+    - within the home
+    - domestic location
+    - private residence
+    - in the household
+    - inside the dwelling
+    - personal living space
+    - at the property
+    - within the premises
+    - in a private home
+    - inside the flat
+    - in a family home
+    - at the address
+    - in the living quarters
+    - in a domestic setting
+    - in the home environment
+    - at the private property
+    - inside the abode
+    - in a residential area
+    - within the household premises
+  location_public_space:
+    type: narrative
+    synonyms:
+    - street
+    - public place
+    - outside
+    - in the road
+    - park
+    - in a public area
+    - on the pavement
+    - in a crowded venue
+    - at a bus stop
+    - in a shopping district
+    - on the sidewalk
+    - in a recreational space
+    - at a train station
+    - in a town square
+    - in a public park
+    - on the street corner
+    - in an open space
+    - in a city center
+    - in a communal area
+    - on the high street
+    - in a public thoroughfare
+    - in the vicinity
+    - at a festival
+    - in a parking lot
+    - in a nightlife area
+  motive_financial_gain:
+    type: narrative
+    synonyms:
+    - for gain
+    - financial motive
+    - insurance
+    - robbery motive
+    - profit motive
+    - monetary gain
+    - financial incentive
+    - economic benefit
+    - greed-driven
+    - financially motivated
+    - gain from death
+    - insurance payout
+    - robbery-related
+    - financially beneficial
+    - lucrative outcome
+    - material gain
+    - financial reward
+    - money-driven
+    - cash incentive
+    - profit-driven
+    - wealth acquisition
+    - financial advantage
+    - economic gain
+    - financially incentivized
+  motive_jealousy_revenge:
+    type: narrative
+    synonyms:
+    - jealousy
+    - revenge
+    - retaliation
+    - tit-for-tat
+    - driven by jealousy
+    - act of revenge
+    - revenge killing
+    - jealous rage
+    - retaliatory attack
+    - jealous obsession
+    - payback for betrayal
+    - revengeful motive
+    - spiteful act
+    - retaliation for infidelity
+    - vengeful intent
+    - jealous heart
+    - tit-for-tat violence
+    - settling the score
+    - personal vendetta
+    - emotional turmoil
+    - anger over betrayal
+    - desire for retribution
+    - jealous outburst
+    - retribution for wrongs
+  defendant_intoxicated:
+    type: narrative
+    synonyms:
+    - intoxicated
+    - under the influence
+    - drunk
+    - intoxication
+    - impaired by alcohol
+    - in a drunken state
+    - consumed excessive alcohol
+    - under the influence of drink
+    - heavily intoxicated
+    - in a state of inebriation
+    - affected by substances
+    - drunk at the time
+    - intoxicated to the point of impairment
+    - substance-induced impairment
+    - having consumed alcohol
+    - under the influence of alcohol
+    - visibly intoxicated
+    - intoxicated beyond reason
+    - in a state of intoxication
+    - drunken behavior
+    - intoxicated condition
+    - affected by drink
+    - drunk and disorderly
+    - intoxicated during the incident
+  victim_intoxicated:
+    type: narrative
+    synonyms:
+    - drunk victim
+    - under the influence
+    - intoxicated victim
+    - victim was drinking
+    - victim had been drinking
+    - victim's alcohol consumption
+    - victim under the influence
+    - drunken state of the victim
+    - victim's impaired judgment
+    - victim affected by alcohol
+    - victim inebriated
+    - victim's intoxication level
+    - victim's blood alcohol content
+    - victim was tipsy
+    - victim was wasted
+    - victim's drunken behavior
+    - victim intoxicated at the time
+    - victim's state of inebriation
+    - victim's alcohol-fueled actions
+    - victim was slurring
+    - victim had consumed alcohol
+    - victim's intoxicated condition
+  concealment_actions:
+    type: narrative
+    synonyms:
+    - cleaned scene
+    - disposed of clothes
+    - burned evidence
+    - destroyed evidence
+    - hidden the body
+    - moved the remains
+    - concealed the evidence
+    - altered the crime scene
+    - washed away blood
+    - discarded the weapon
+    - covered up the crime
+    - staged the scene
+    - disposed of the body
+    - erased fingerprints
+    - masked the evidence
+    - obscured the truth
+    - destroyed crucial evidence
+    - concealed incriminating items
+    - removed traces of the crime
+    - cleaned up the aftermath
+    - threw away clothes
+    - buried the evidence
+    - misled the investigation
+    - tampered with evidence
+  disposal_of_weapon:
+    type: narrative
+    synonyms:
+    - discarded knife
+    - hid gun
+    - threw weapon
+    - disposed of weapon
+    - stashed firearm
+    - dumped blade
+    - hidden weapon
+    - cast away gun
+    - abandoned knife
+    - disposed of firearm
+    - got rid of weapon
+    - threw away knife
+    - concealed gun
+    - discarded firearm
+    - left behind weapon
+    - sought to hide knife
+    - buried gun
+    - tossed weapon
+    - relinquished blade
+    - sacrificed firearm
+    - hidden blade
+    - threw away weapon
+    - secreted gun
+    - discarded tool
+  flight_after_offence:
+    type: narrative
+    synonyms:
+    - fled scene
+    - evaded police
+    - attempted escape
+    - left the scene
+    - made off from the scene
+    - ran from the police
+    - absconded after the crime
+    - took flight
+    - escaped the area
+    - left hurriedly
+    - drove away quickly
+    - evaded capture
+    - fled the jurisdiction
+    - departed the location
+    - disappeared from sight
+    - bolted from the scene
+    - made a getaway
+    - sought to evade arrest
+    - vanished after the incident
+    - hastily exited
+    - retreated from the scene
+    - eluded law enforcement
+    - slipped away
+    - ran away
+  alibi_claim:
+    type: narrative
+    synonyms:
+    - alibi
+    - claimed to be elsewhere
+    - false alibi
+    - provided an alibi
+    - asserted he was not present
+    - claimed to be at another location
+    - denied involvement at the scene
+    - offered a false alibi
+    - maintained he was elsewhere
+    - claimed to have an alibi
+    - stated he was away
+    - presented an alibi defense
+    - testified to being elsewhere
+    - alibi witness corroborated
+    - claimed to be with friends
+    - argued he was not there
+    - asserted he was out of town
+    - denied being at the crime scene
+    - provided evidence of whereabouts
+    - testified about his location
+    - maintained he was not involved
+    - offered testimony of absence
+  joint_enterprise_presence:
+    type: narrative
+    synonyms:
+    - with others
+    - together with
+    - acting in concert
+    - group attack
+    - acting alongside others
+    - in collaboration with others
+    - in the company of others
+    - jointly engaged
+    - working together
+    - in concert with others
+    - participating with others
+    - together in the act
+    - collective action
+    - shared intent
+    - cooperating with accomplices
+    - acting as a group
+    - in association with others
+    - joint involvement
+    - acting in unison
+    - together as a group
+    - colluding with others
+    - conspiring with others
+    - group involvement
+    - acting as one
+  withdrawal_from_joint_enterprise:
+    type: narrative
+    synonyms:
+    - withdrew from enterprise
+    - disengaged
+    - renunciation
+    - distanced from the plan
+    - stepped back from involvement
+    - pulled away from the group
+    - exited the joint venture
+    - dissociated from the actions
+    - withdrew from participation
+    - renounced the agreement
+    - severed ties with co-defendants
+    - abandoned the enterprise
+    - declined to engage further
+    - opted out of the scheme
+    - disassociated from the crime
+    - refused to take part
+    - withdrew consent to act
+    - retreated from the conspiracy
+    - disengaged from the activity
+    - denied any further involvement
+    - retracted support for the plan
+    - distanced oneself from the crime
+    - chose not to participate
+  abduction:
+    type: narrative
+    synonyms:
+    - kidnap
+    - bundled into the boot
+    - forced into the car
+    - taken against their will
+    - forcibly removed
+    - unlawfully confined
+    - snatched away
+    - coerced into a vehicle
+    - held captive
+    - transported without consent
+    - abducted from the street
+    - dragged into the car
+    - seized by force
+    - taken by threat
+    - imprisoned unlawfully
+    - forced abduction
+    - taken under duress
+    - kidnapped from public view
+    - removed from their location
+    - taken forcibly
+    - held against their will
+    - taken without permission
+    - taken in a vehicle
+  tied_restraint:
+    type: narrative
+    synonyms:
+    - tied to a tree
+    - bound hands
+    - gagged
+    - restrained
+    - secured to a post
+    - fastened with rope
+    - chained to a location
+    - held against their will
+    - trussed up
+    - bound and gagged
+    - restricted movement
+    - confined to a spot
+    - tied up
+    - immobilized by restraints
+    - held captive
+    - secured with duct tape
+    - strapped down
+    - bound with cords
+    - tethered to an object
+    - gagged and bound
+    - physically restrained
+    - held in bondage
+    - constrained by ties
+    - affixed to a structure
+  weapon_petrol_fire:
+    type: narrative
+    synonyms:
+    - petrol
+    - accelerant
+    - set alight
+    - doused in petrol
+    - burned alive
+    - ignited with petrol
+    - petrol-soaked
+    - lit with accelerant
+    - set on fire
+    - firebombed
+    - gasoline used
+    - burnt with petrol
+    - petrol ignition
+    - flame-throwing
+    - fire started with petrol
+    - doused in accelerant
+    - arson with petrol
+    - petrol fire
+    - incendiary device
+    - burned with gasoline
+    - petrol explosion
+    - fire started deliberately
+    - petrol-fueled fire
+    - deliberate ignition
+    - set ablaze
+  post_offence_burial:
+    type: narrative
+    synonyms:
+    - buried the body
+    - concealed remains
+    - shallow grave
+    - disposed of the body
+    - interred the remains
+    - hidden the corpse
+    - buried in a remote location
+    - placed in a grave
+    - concealed the body
+    - secret burial site
+    - disposed of in a shallow grave
+    - covered the remains
+    - hidden in the woods
+    - buried in a garden
+    - dumped the body
+    - concealed in a ditch
+    - hidden under debris
+    - interred in an unmarked grave
+    - buried in a field
+    - disposed of in a river
+    - concealed in a cellar
+    - buried in a back garden
+    - hidden in a forest
+  boasting_admissions:
+    type: narrative
+    synonyms:
+    - boasted
+    - bragged
+    - told friends he did it
+    - claimed responsibility
+    - admitted to the act
+    - confessed to the crime
+    - proudly stated his involvement
+    - bragged about the killing
+    - told others he was guilty
+    - made a boastful admission
+    - spoke of his actions
+    - revealed his role in the murder
+    - shared details of the incident
+    - openly acknowledged his part
+    - discussed the crime with friends
+    - let slip his involvement
+    - bragged about what he did
+    - told people he was the one
+    - made light of the situation
+    - gloated over the act
+    - flaunted his actions
+    - casually mentioned the murder
+    - proudly recounted the event
+  confession_third_party:
+    type: narrative
+    synonyms:
+    - confessed to his mother
+    - told his mother
+    - told relative what happened
+    - admitted to his friend
+    - revealed to a family member
+    - spoke to his brother
+    - shared with his sister
+    - disclosed to a relative
+    - confided in a close friend
+    - told his partner
+    - mentioned to a neighbor
+    - related to his aunt
+    - informed his cousin
+    - acknowledged to his father
+    - expressed to a colleague
+    - talked to a family friend
+    - revealed to a confidant
+    - spoke openly to his mother
+    - confessed to a trusted friend
+    - told his spouse
+    - admitted to a workmate
+    - shared his story with family
+    - discussed with a close relative
+  prior_assault:
+    type: narrative
+    synonyms:
+    - previous assault
+    - earlier attack
+    - day before attack
+    - prior violence
+    - prior physical altercation
+    - previous violent incident
+    - earlier confrontation
+    - prior attack
+    - earlier physical assault
+    - previous aggression
+    - prior incident of violence
+    - previous assaultive behavior
+    - earlier violent encounter
+    - prior history of violence
+    - prior abusive behavior
+    - previously reported assault
+    - prior domestic violence
+    - earlier attack history
+    - previous physical conflict
+    - prior altercation
+    - previously documented assault
+    - prior threats of violence
+    - earlier violent behavior
+  cctv_presence:
+    type: evidence
+    synonyms:
+    - CCTV available
+    - video footage
+    - CCTV footage available
+    - CCTV evidence presented
+    - Video surveillance footage
+    - CCTV recordings submitted
+    - Surveillance camera footage
+    - Video evidence obtained
+    - CCTV images captured
+    - CCTV system operational
+    - Footage from security cameras
+    - Video clips reviewed
+    - CCTV data retrieved
+    - Surveillance video available
+    - Recorded video evidence
+    - CCTV visuals provided
+    - CCTV footage reviewed
+    - Video surveillance evidence
+    - CCTV footage analyzed
+    - Security footage accessible
+    - CCTV observation noted
+    - CCTV presence confirmed
+  cctv_attack_visible:
+    type: evidence
+    synonyms:
+    - CCTV shows attack
+    - captured on camera
+    - CCTV footage of assault
+    - Video evidence of attack
+    - Surveillance captures incident
+    - CCTV recording of event
+    - Camera footage shows violence
+    - Footage reveals the attack
+    - CCTV evidence of crime
+    - Video shows the confrontation
+    - Surveillance video of assault
+    - CCTV displays the attack
+    - Captured on surveillance
+    - CCTV reveals the incident
+    - Video captures the altercation
+    - CCTV shows the assault
+    - Footage of the attack
+    - CCTV footage of the crime
+    - Camera evidence of the attack
+    - Video evidence shows assault
+    - CCTV shows violent act
+    - Surveillance footage of the attack
+  eyewitness_identification:
+    type: evidence
+    synonyms:
+    - identified the defendant
+    - recognised him
+    - picked out in parade
+    - identified the suspect
+    - identified the accused
+    - recognized the defendant
+    - picked out the suspect
+    - identified in a lineup
+    - identified in a photo array
+    - pointed out the defendant
+    - singled out the accused
+    - selected from the lineup
+    - confirmed identity of the suspect
+    - testified to recognition
+    - identified in court
+    - made a positive identification
+    - identified during the investigation
+    - recognized during questioning
+    - identified at the scene
+    - picked out during police lineup
+    - identified by witness testimony
+    - recognized from previous encounters
+    - identified as the perpetrator
+  eyewitness_heard_threat:
+    type: evidence
+    synonyms:
+    - heard threat
+    - heard say "I will kill"
+    - heard threats
+    - overheard a threat
+    - witnessed a threat
+    - heard someone say "I'll kill"
+    - heard threats made
+    - listened to threats
+    - heard threats uttered
+    - overheard "I will kill you"
+    - heard violent threats
+    - heard someone threaten
+    - witnessed threats being made
+    - heard aggressive remarks
+    - heard someone shout threats
+    - overheard a violent threat
+    - heard a death threat
+    - heard threats of harm
+    - listened to someone threaten
+    - heard threats in conversation
+    - witnessed someone making threats
+    - heard threats directed at someone
+    - overheard a threatening statement
+  dna_match_victim_on_defendant:
+    type: evidence
+    synonyms:
+    - victim DNA on defendant
+    - DNA transfer from victim
+    - DNA evidence linking victim to defendant
+    - Victim's DNA found on defendant
+    - DNA profile matches victim
+    - Transfer of victim's DNA
+    - Victim's genetic material on defendant
+    - DNA from victim at crime scene
+    - Forensic DNA match with victim
+    - Victim's DNA traces on defendant
+    - DNA evidence implicating defendant
+    - Victim's biological evidence on defendant
+    - DNA connection between victim and defendant
+    - Victim's DNA presence on suspect
+    - Genetic link to victim
+    - Victim's DNA located on accused
+    - DNA analysis reveals victim's presence
+    - Victim's DNA found during investigation
+    - DNA evidence tying defendant to victim
+    - Victim's DNA discovered on suspect
+    - Forensic link to victim's DNA
+    - Victim's DNA identified on defendant
+  dna_match_defendant_on_weapon:
+    type: evidence
+    synonyms:
+    - defendant DNA on weapon
+    - DNA on knife
+    - DNA found on weapon
+    - DNA linked to defendant
+    - DNA evidence on knife
+    - Defendant's DNA on firearm
+    - DNA trace on weapon
+    - DNA sample from weapon
+    - DNA match to accused
+    - Forensic DNA on knife
+    - Defendant's genetic material on weapon
+    - DNA profile on murder weapon
+    - DNA recovered from knife
+    - DNA evidence connecting defendant
+    - Defendant's DNA profile on weapon
+    - DNA analysis of weapon
+    - DNA evidence found on blade
+    - DNA match from crime scene
+    - DNA presence on weapon
+    - Genetic evidence on knife
+    - DNA found at crime scene
+    - Defendant's DNA located on weapon
+  fingerprint_match_on_weapon:
+    type: evidence
+    synonyms:
+    - fingerprints on weapon
+    - latent prints match
+    - fingerprint evidence on weapon
+    - prints found on firearm
+    - fingerprints recovered from knife
+    - latent fingerprints on weapon
+    - matching prints on the object
+    - fingerprint analysis of weapon
+    - identifying prints on weapon
+    - fingerprint connection to crime
+    - forensic print match
+    - fingerprint trace on weapon
+    - evidence of prints on weapon
+    - fingerprint identification on knife
+    - weapon linked by fingerprints
+    - fingerprint recovery from scene
+    - prints discovered on murder weapon
+    - forensic evidence of fingerprints
+    - fingerprint match with suspect
+    - fingerprint presence on object
+    - fingerprint correlation with evidence
+    - fingerprints implicating suspect
+  gunshot_residue_gsr:
+    type: evidence
+    synonyms:
+    - GSR
+    - gunshot residue detected
+    - gunshot residue analysis
+    - firearm discharge residue
+    - GSR testing results
+    - gunshot residue found
+    - residue from firearm
+    - gunshot residue evidence
+    - GSR presence detected
+    - firearm residue analysis
+    - gunshot residue sample
+    - residue analysis report
+    - gunshot residue examination
+    - GSR positive result
+    - gunshot residue collection
+    - firearm discharge evidence
+    - gun residue findings
+    - GSR identification
+    - gunshot residue traces
+    - firearm-related residue
+    - gunshot residue tests
+    - GSR contamination detected
+  blood_spatter_pattern_consistent:
+    type: evidence
+    synonyms:
+    - blood spatter consistent
+    - BPA supports scenario
+    - blood spatter analysis aligns
+    - blood pattern corroborates evidence
+    - BPA matches the narrative
+    - blood spatter supports theory
+    - blood evidence consistent with events
+    - blood pattern fits scenario
+    - BPA is consistent
+    - blood spatter aligns with testimony
+    - blood evidence corroborates account
+    - blood spatter confirms sequence
+    - BPA aligns with findings
+    - blood pattern supports claim
+    - blood spatter matches circumstances
+    - BPA consistent with injuries
+    - blood evidence aligns with facts
+    - blood spatter corroborates story
+    - BPA supports the timeline
+    - blood pattern consistent with actions
+    - blood spatter analysis confirms
+    - BPA is in agreement
+  injury_defensive_wounds:
+    type: evidence
+    synonyms:
+    - defensive wounds
+    - defence-type injuries
+    - defensive injuries
+    - self-defense wounds
+    - injuries from defense
+    - wounds from defending oneself
+    - protection-related injuries
+    - marks of self-defense
+    - defensive cuts
+    - injuries indicative of defense
+    - self-protective wounds
+    - wounds sustained in defense
+    - defensive trauma
+    - injuries from a struggle
+    - defensive lacerations
+    - wounds from resisting attack
+    - self-defense marks
+    - injuries from countering assault
+    - defensive abrasions
+    - wounds acquired in protection
+    - injuries from evasion
+    - defensive slash wounds
+  wound_sharp_force:
+    type: evidence
+    synonyms:
+    - sharp force injuries
+    - stab wounds
+    - incised wounds
+    - sharp force trauma
+    - knife wounds
+    - cutting injuries
+    - lacerations
+    - stab injuries
+    - penetrating wounds
+    - sharp object injuries
+    - slashing wounds
+    - incisions
+    - blade injuries
+    - stab-related injuries
+    - sharp-edged wounds
+    - puncture wounds
+    - assault with a knife
+    - knife attack injuries
+    - sharp force assault
+    - wounds from a blade
+    - cut wounds
+    - knife-related injuries
+    - sharp force damage
+  wound_blunt_force:
+    type: evidence
+    synonyms:
+    - blunt force injuries
+    - contusions
+    - lacerations
+    - blunt trauma
+    - blunt force trauma
+    - soft tissue injuries
+    - bruising and swelling
+    - impact injuries
+    - blunt object injuries
+    - contused wounds
+    - traumatic injuries
+    - blunt force impact
+    - blunt force assault
+    - non-penetrating injuries
+    - external injuries
+    - forceful impact
+    - blunt force marks
+    - contusions and abrasions
+    - lacerated tissue
+    - bruises and cuts
+    - blunt force damage
+    - trauma from blunt objects
+    - blunt force evidence
+  time_of_death_window_narrow:
+    type: evidence
+    synonyms:
+    - narrow time window
+    - precise time of death
+    - short PMI
+    - specific time frame
+    - exact time of death
+    - limited time window
+    - defined time of death
+    - restricted time period
+    - narrow timeframe
+    - short time interval
+    - clear time of death
+    - tight time window
+    - precise death timing
+    - brief post-mortem interval
+    - specific death window
+    - constrained time frame
+    - narrow death window
+    - focused time of death
+    - shortened time frame
+    - limited death period
+    - exact timing of death
+    - narrowed time frame
+    - specific post-mortem window
+  phone_cell_site_near_scene:
+    type: evidence
+    synonyms:
+    - cell site near scene
+    - mast data places phone nearby
+    - cell tower location near crime
+    - mobile phone data near scene
+    - cellular evidence at location
+    - phone records near incident
+    - mast location close to scene
+    - cell site analysis for evidence
+    - mobile network data proximity
+    - phone signal near crime scene
+    - cellular mast data nearby
+    - location data from mobile phone
+    - phone activity near incident
+    - cell site evidence in case
+    - mobile phone location tracking
+    - signal strength near crime scene
+    - cellular data close to event
+    - phone geolocation evidence
+    - mast data indicating presence
+    - mobile signal near homicide
+    - cell tower evidence in trial
+    - phone location history relevant
+  call_logs_prior_contact:
+    type: evidence
+    synonyms:
+    - call records show contact
+    - calls between parties
+    - previous call history
+    - telephone communication records
+    - contact logs
+    - recorded phone conversations
+    - calls made prior
+    - call history evidence
+    - communication between parties
+    - prior contact details
+    - phone records indicate
+    - evidence of calls
+    - call data analysis
+    - history of phone calls
+    - documented communications
+    - previous interactions
+    - call transcripts
+    - telephonic exchanges
+    - contact evidence
+    - phone call evidence
+    - calls prior to incident
+    - communication logs
+  messages_prior_threats:
+    type: evidence
+    synonyms:
+    - text threats
+    - messages threatening
+    - WhatsApp threats
+    - threatening communications
+    - intimidating messages
+    - verbal threats
+    - threatening texts
+    - menacing messages
+    - hostile correspondence
+    - threatening social media posts
+    - aggressive messages
+    - threatening emails
+    - coercive communications
+    - violent threats
+    - threatening voice messages
+    - threatening DMs
+    - menacing texts
+    - threats via messaging
+    - threats on WhatsApp
+    - direct threats
+    - threatening remarks
+    - threatening notes
+    - online threats
+  search_history_weapons_or_poison:
+    type: evidence
+    synonyms:
+    - internet search for weapons
+    - searched for poison
+    - Google search
+    - searched online for weapons
+    - looked up poison
+    - internet queries for firearms
+    - search for lethal substances
+    - Googled methods of killing
+    - searched for murder tools
+    - online research for poisons
+    - investigated weapon options
+    - searched for toxic agents
+    - looked for ways to harm
+    - internet search for murder weapons
+    - explored poison options
+    - searched for deadly chemicals
+    - Googled weaponry
+    - searched for means of death
+    - looked into killing methods
+    - searched for firearms online
+    - internet search for lethal weapons
+    - searched for harmful substances
+    - looked up ways to kill
+  purchase_record_weapon:
+    type: evidence
+    synonyms:
+    - bought knife
+    - weapon purchase receipt
+    - petrol can purchase
+    - acquisition of firearm
+    - knife buying record
+    - purchase of a blade
+    - receipt for weapon
+    - transaction for knife
+    - firearm purchase documentation
+    - evidence of weapon buy
+    - purchase history for weapon
+    - buying a weapon
+    - proof of knife purchase
+    - purchase invoice for weapon
+    - transaction receipt for knife
+    - acquired a petrol can
+    - purchase log for firearm
+    - record of knife acquisition
+    - evidence of blade purchase
+    - buying a petrol can
+    - weapon acquisition record
+    - purchase evidence for weapon
+    - knife transaction receipt
+  financial_transactions_gain:
+    type: evidence
+    synonyms:
+    - insurance
+    - payment for killing
+    - financial gain traces
+    - monetary motive
+    - profit from crime
+    - financial incentive
+    - gain from murder
+    - insurance payout
+    - payment for death
+    - financial reward
+    - economic benefit
+    - remuneration for killing
+    - financially motivated
+    - lucrative arrangement
+    - cash for killing
+    - money trail
+    - financial advantage
+    - wealth from homicide
+    - economic gain
+    - financially driven
+    - profit motive
+    - compensation for death
+    - financial exploitation
+  confession_or_admission:
+    type: evidence
+    synonyms:
+    - admitted
+    - confessed
+    - told police "I did it"
+    - acknowledged involvement
+    - made a statement
+    - voluntarily confessed
+    - admitted to the crime
+    - said to officers
+    - own up to it
+    - came clean
+    - revealed the truth
+    - accepted responsibility
+    - told detectives
+    - made an admission
+    - spoke to the police
+    - disclosed actions
+    - admitted guilt
+    - confessed to the murder
+    - said he did it
+    - told the truth
+    - acknowledged wrongdoing
+    - gave a full account
+    - admitted to killing
+  inconsistent_statements:
+    type: evidence
+    synonyms:
+    - changed account
+    - inconsistent version
+    - conflicting statements
+    - contradictory evidence
+    - varying testimonies
+    - discrepancies in statements
+    - altered narrative
+    - shifting accounts
+    - inconsistent testimony
+    - conflicting accounts
+    - different versions
+    - incongruent statements
+    - mutually exclusive claims
+    - divergent recollections
+    - unreliable witness
+    - inconsistent recollections
+    - changing stories
+    - contradictory claims
+    - varying accounts
+    - inconsistent declarations
+    - shifting narratives
+    - conflicting evidence
+    - altered statements
+  witness_self_defence_statements:
+    type: evidence
+    synonyms:
+    - witness says self-defence
+    - claimed he was attacked
+    - asserted self-defense
+    - testified he acted in self-defense
+    - claimed he was defending himself
+    - stated he feared for his life
+    - said he was under attack
+    - reported he was threatened
+    - maintained he was provoked
+    - indicated he was in danger
+    - alleged he was assaulted first
+    - described a life-threatening situation
+    - explained his actions were defensive
+    - claimed he had no choice
+    - testified about imminent harm
+    - asserted he was protecting himself
+    - stated he was responding to aggression
+    - claimed he acted to save himself
+    - reported feeling threatened
+    - maintained he was in a fight for survival
+    - indicated he was defending against violence
+    - alleged he was forced to react
+  expert_opinion_diminished_resp:
+    type: evidence
+    synonyms:
+    - psychiatrist opined diminished
+    - expert supports DR
+    - psychiatric evaluation indicates diminished
+    - expert testimony on diminished responsibility
+    - mental health assessment supports DR
+    - psychiatrist's assessment of diminished
+    - expert witness on mental state
+    - opinion of mental impairment
+    - psychologist's report on responsibility
+    - expert analysis of diminished capacity
+    - professional assessment of DR
+    - mental health expert's opinion
+    - psychiatric insight into responsibility
+    - evaluation suggests diminished responsibility
+    - expert view on mental health
+    - clinical opinion on diminished
+    - psychiatrist's findings on culpability
+    - mental health expert supports DR
+    - expert evaluation of mental condition
+    - opinion on impaired judgment
+    - assessment of mental functioning
+    - expert insight into diminished responsibility
+  medical_history_mental_impairment:
+    type: evidence
+    synonyms:
+    - history of mental illness
+    - recognised medical condition
+    - history of psychiatric issues
+    - mental health diagnosis
+    - previous mental health treatment
+    - diagnosed mental disorder
+    - mental impairment history
+    - psychological condition
+    - history of depression
+    - bipolar disorder history
+    - schizophrenia diagnosis
+    - mental health problems
+    - cognitive impairment
+    - emotional instability
+    - mental illness background
+    - psychological issues
+    - mental health difficulties
+    - history of anxiety
+    - recognized psychiatric condition
+    - mental health concerns
+    - history of trauma
+    - neurodevelopmental disorder
+  paragraph_marker:
+    type: evidence
+    synonyms:
+    - paragraph break
+    - section divider
+    - textual segment
+    - judgment excerpt
+    - case paragraph
+    - evidence section
+    - court statement
+    - legal paragraph
+    - judicial segment
+    - document break
+    - case law paragraph
+    - opinion section
+    - finding paragraph
+    - ruling excerpt
+    - court's reasoning
+    - verdict segment
+    - legal analysis
+    - statement of facts
+    - summary paragraph
+    - decision section
+  actus_reus_killing:
+    type: legal_facts
+    synonyms:
+    - caused death
+    - brought about death
+    - killed
+    - resulted in death
+    - led to death
+    - took a life
+    - ended a life
+    - caused the victim's death
+    - inflicted fatal injuries
+    - brought about the demise
+    - resulted in the victim's demise
+    - caused fatal harm
+    - caused the death of
+    - terminated life
+    - effected death
+    - brought about fatality
+    - caused the loss of life
+    - ended the victim's life
+    - delivered a fatal blow
+    - caused lethal harm
+    - brought on death
+    - produced death
+  unlawful_killing:
+    type: legal_facts
+    synonyms:
+    - no lawful excuse
+    - unlawful homicide
+    - unlawful act
+    - intent to kill
+    - malice aforethought
+    - killing without justification
+    - intentional homicide
+    - killing with intent
+    - unlawful death
+    - murder without excuse
+    - killing unlawfully
+    - criminal homicide
+    - deliberate killing
+    - unlawful termination of life
+    - no legal justification
+    - homicide without lawful excuse
+    - intentional unlawful killing
+    - killing in cold blood
+    - premeditated murder
+    - unlawful taking of life
+    - killing with malice
+    - unlawful act manslaughter
+  causation:
+    type: legal_facts
+    synonyms:
+    - more than minimal cause
+    - substantial cause
+    - legal causation
+    - direct cause
+    - proximate cause
+    - but for test
+    - operative cause
+    - effective cause
+    - contributory cause
+    - causal link
+    - causal connection
+    - foreseeable consequence
+    - intervening cause
+    - legal responsibility
+    - sufficient cause
+    - material cause
+    - primary cause
+    - actual cause
+    - causal relationship
+    - chain of causation
+    - causal factor
+    - causal nexus
+    - resulting harm
+  mens_rea_intent_to_kill:
+    type: legal_facts
+    synonyms:
+    - intended to kill
+    - intention to cause death
+    - murderous intent
+    - purpose to kill
+    - desire to kill
+    - aimed to kill
+    - deliberate intention to kill
+    - planned to cause death
+    - willful intent to kill
+    - intended to take life
+    - conscious aim to kill
+    - desire for death
+    - premeditated intent
+    - intent to end life
+    - malicious intent to kill
+    - clear intention to kill
+    - purposeful act of killing
+    - knowing intent to kill
+    - determined to kill
+    - intentional act of murder
+    - foreknowledge of death
+    - intent to harm fatally
+    - willingness to kill
+    - desire to inflict fatal harm
+  mens_rea_intent_gbh:
+    type: legal_facts
+    synonyms:
+    - intent to cause GBH
+    - serious harm intent
+    - intent to inflict serious injury
+    - deliberate harm intention
+    - purpose to cause grievous bodily harm
+    - intention to cause serious injury
+    - malicious intent to harm
+    - willful intent to injure
+    - desire to cause serious harm
+    - intentional infliction of GBH
+    - premeditated intent to harm
+    - specific intent to cause injury
+    - intention to cause severe harm
+    - knowing intent to injure
+    - deliberate intent to cause GBH
+    - intent to seriously hurt
+    - malicious intent to cause harm
+    - intention to inflict injury
+    - purposeful harm intent
+    - intent to cause significant injury
+    - willful desire to harm
+    - intent to cause bodily harm
+  self_defence_legal:
+    type: legal_facts
+    synonyms:
+    - self-defence
+    - self defense
+    - reasonable force
+    - honestly believed in imminent attack
+    - necessary to defend
+    - proportionate response
+    - lawful self-defense
+    - justifiable use of force
+    - defensive action
+    - imminent threat
+    - fear for personal safety
+    - reasonable belief of danger
+    - proportionality in response
+    - right to protect oneself
+    - defensive necessity
+    - acting in self-preservation
+    - perceived threat
+    - reasonable apprehension of harm
+    - self-protective measures
+    - defense against aggression
+    - immediate danger
+    - self-defense claim
+    - asserting one's safety
+    - protecting oneself from harm
+    - acting to prevent attack
+    - reasonable response to threat
+  insanity:
+    type: legal_facts
+    synonyms:
+    - insane
+    - disease of the mind
+    - M’Naghten
+    - mental illness
+    - mental disorder
+    - lack of responsibility
+    - diminished capacity
+    - psychotic condition
+    - unfit to plead
+    - abnormality of mind
+    - cognitive impairment
+    - severe mental impairment
+    - insanity defense
+    - temporary insanity
+    - mental incapacity
+    - psychological disturbance
+    - insanity plea
+    - disease affecting the mind
+    - mental health issues
+    - insanity ruling
+    - mental state at the time
+    - insanity verdict
+    - defective reason
+  diminished_responsibility:
+    type: legal_facts
+    synonyms:
+    - abnormality of mental functioning
+    - substantial impairment
+    - recognised medical condition
+    - mental impairment
+    - mental disorder
+    - psychological abnormality
+    - reduced responsibility
+    - mental health issues
+    - substantial mental impairment
+    - diminished mental capacity
+    - recognised psychiatric condition
+    - serious mental illness
+    - cognitive dysfunction
+    - emotional disturbance
+    - psychological condition
+    - mental illness
+    - lack of self-control
+    - impaired judgment
+    - temporary insanity
+    - mental health defense
+    - psychological impairment
+    - abnormal mental state
+    - mental fitness
+  loss_of_control:
+    type: legal_facts
+    synonyms:
+    - loss of self-control
+    - qualifying trigger
+    - fear of serious violence
+    - things said or done
+    - loss of composure
+    - temporary loss of control
+    - emotional disturbance
+    - provocation
+    - triggering event
+    - sudden emotional outburst
+    - fear for personal safety
+    - reaction to aggression
+    - overwhelming stress
+    - loss of emotional control
+    - immediate provocation
+    - intense emotional response
+    - uncontrollable rage
+    - psychological trigger
+    - extreme emotional reaction
+    - loss of rationality
+    - violent provocation
+    - fear-induced response
+    - stressful confrontation
+    - unforeseen circumstances
+  duress_not_available_murder:
+    type: legal_facts
+    synonyms:
+    - duress not a defence to murder
+    - duress unavailable
+    - duress cannot excuse murder
+    - duress not applicable to murder
+    - defense of duress not permitted
+    - duress is no defense
+    - duress not a valid defense
+    - duress does not apply
+    - duress cannot justify killing
+    - duress is irrelevant to murder
+    - duress not recognized in homicide
+    - duress fails as a defense
+    - duress cannot absolve liability
+    - duress not a mitigating factor
+    - duress does not negate intent
+    - duress not a legal excuse
+    - duress insufficient for murder charge
+    - duress cannot reduce culpability
+    - duress is not a shield
+    - duress not a lawful defense
+    - duress does not exonerate
+    - duress cannot be invoked
+  accessory_or_complicity:
+    type: legal_facts
+    synonyms:
+    - aiding and abetting
+    - party to the offence
+    - joint enterprise
+    - secondary liability
+    - co-perpetrator
+    - accomplice liability
+    - collaborative crime
+    - criminal partnership
+    - assisting in the crime
+    - joint criminal enterprise
+    - shared intent
+    - acting in concert
+    - facilitating the offence
+    - criminal complicity
+    - aiding another
+    - acting as an accomplice
+    - participating in the crime
+    - helping the principal
+    - supporting the offence
+    - jointly engaged in crime
+    - conspiring with others
+    - involvement in the offence
+    - collusion in crime
+    - secondary participation
+  withdrawal_effective:
+    type: legal_facts
+    synonyms:
+    - effective withdrawal
+    - withdrew before the act
+    - valid retraction
+    - timely withdrawal
+    - withdrawal of intent
+    - retraction of participation
+    - abandonment of plan
+    - disengagement from crime
+    - effective retraction
+    - cessation of involvement
+    - withdrawn from conspiracy
+    - disavowal of actions
+    - revocation of agreement
+    - pulling back from crime
+    - renunciation of intent
+    - stepping back from act
+    - withdrawal prior to act
+    - non-participation declaration
+    - reversal of commitment
+    - termination of involvement
+    - exit from criminal plan
+    - discontinuation of intent
+  murder:
+    type: legal_facts
+    synonyms:
+    - convicted of murder
+    - guilty of murder
+    - found guilty of murder
+    - charged with murder
+    - convicted of homicide
+    - admitted to murder
+    - pleaded guilty to murder
+    - sentenced for murder
+    - determined to have killed
+    - proven to have murdered
+    - held responsible for murder
+    - deemed guilty of homicide
+    - established intent to kill
+    - convicted of unlawful killing
+    - found liable for murder
+    - ruled as murderer
+    - judged to have committed murder
+    - declared guilty of homicide
+    - charged with unlawful killing
+    - convicted of first-degree murder
+    - found culpable for murder
+    - acknowledged as murderer
+  manslaughter_diminished_resp:
+    type: legal_facts
+    synonyms:
+    - manslaughter by diminished responsibility
+    - diminished responsibility manslaughter
+    - manslaughter due to mental illness
+    - impaired mental state
+    - reduced culpability
+    - mental health defense
+    - diminished capacity
+    - temporary insanity
+    - loss of self-control
+    - psychological disturbance
+    - abnormality of mind
+    - mental impairment
+    - substantial impairment of mental functioning
+    - mental disorder defense
+    - unintentional killing
+    - manslaughter with diminished capacity
+    - lack of intent
+    - emotional disturbance
+    - psychological issues
+    - mitigating mental health factors
+    - diminished moral responsibility
+  manslaughter_loss_of_control:
+    type: legal_facts
+    synonyms:
+    - manslaughter by loss of control
+    - loss of control manslaughter
+    - manslaughter due to loss of control
+    - loss of self-control
+    - manslaughter by provocation
+    - provoked killing
+    - killing in the heat of the moment
+    - emotional disturbance manslaughter
+    - homicide with loss of control
+    - manslaughter from emotional upset
+    - killing under provocation
+    - loss of control defense
+    - manslaughter from rage
+    - sudden loss of control
+    - impulsive killing
+    - heat of passion manslaughter
+    - temporary insanity manslaughter
+    - killing without premeditation
+    - reactive homicide
+    - unintentional killing due to provocation
+    - manslaughter from extreme emotional disturbance
+  manslaughter_unlawful_act:
+    type: legal_facts
+    synonyms:
+    - unlawful act manslaughter
+    - constructive manslaughter
+    - unlawful act
+    - manslaughter by unlawful act
+    - unlawful killing
+    - manslaughter through unlawful act
+    - criminal act manslaughter
+    - manslaughter due to unlawful act
+    - unlawful act causing death
+    - manslaughter from illegal act
+    - homicide by unlawful act
+    - unlawful act leading to death
+    - manslaughter via unlawful conduct
+    - death caused by unlawful act
+    - unlawful act resulting in death
+    - manslaughter arising from unlawful act
+    - killing through unlawful means
+    - unlawful act homicide
+    - manslaughter from a crime
+    - death by unlawful means
+    - manslaughter in the course of a crime
+  manslaughter_gross_negligence:
+    type: legal_facts
+    synonyms:
+    - gross negligence manslaughter
+    - criminal negligence manslaughter
+    - negligent homicide
+    - grossly negligent conduct
+    - failure to act
+    - reckless disregard for life
+    - serious negligence
+    - unintentional killing
+    - careless actions leading to death
+    - culpable negligence
+    - breach of duty of care
+    - manslaughter by negligence
+    - death caused by negligence
+    - inadvertent killing
+    - failure to take precautions
+    - extreme negligence
+    - lack of reasonable care
+    - negligent behavior resulting in death
+    - grave negligence
+    - unlawful act manslaughter
+    - carelessness leading to fatality
+  lawful_killing_self_defence:
+    type: legal_facts
+    synonyms:
+    - lawful killing
+    - acquitted on self-defence
+    - justifiable homicide
+    - self-defence claim
+    - lawful use of force
+    - defensive action
+    - reasonable force
+    - acting in self-defence
+    - killing in self-defence
+    - self-preservation
+    - proportional response
+    - defensive killing
+    - justified killing
+    - acquitted on grounds of self-defence
+    - self-defence justification
+    - lawful self-protection
+    - necessary force
+    - defensive necessity
+    - imminent threat
+    - fear for life
+    - self-defence argument
+    - excessive force claim
+sections:
+  facts:
+  - Facts
+  - Background
+  - The Evidence
+  - Factual Background
+  analysis:
+  - Discussion
+  - Analysis
+  - Legal Framework
+  - Reasons
+  - Consideration
+  conclusion:
+  - Conclusion
+  - Disposition
+  - Result
+  - Decision
+  - Order

@@ -10,6 +10,8 @@ Usage:
     python code/extract_nodes_from_cases.py
   Negative:
     python code/extract_nodes_from_cases.py --input data/interim/negative_cases_cleaned.csv --output-csv data/processed/negative_nodes.csv --provenance negative --case-id-prefix NEG_
+  With enriched ontology (LLM-expanded synonyms):
+    python code/extract_nodes_from_cases.py --ontology rules/ontology_actus_mens_enriched.yml ...
 """
 
 import argparse
@@ -233,6 +235,12 @@ def parse_args():
         default="CASE_",
         help="Prefix for generated case_id when column is missing (e.g. CASE_ or NEG_).",
     )
+    p.add_argument(
+        "--ontology",
+        type=Path,
+        default=None,
+        help="Path to ontology YAML. If omitted, uses rules/ontology.yml. Use enriched ontology for LLM-expanded synonyms.",
+    )
     args = p.parse_args()
     if args.output_jsonl is None:
         args.output_jsonl = args.output_csv.parent / (args.output_csv.stem + ".jsonl")
@@ -240,7 +248,22 @@ def parse_args():
 
 
 def main():
+    global labels_cfg, LABEL_INDEX, SECTION_HEADERS
     args = parse_args()
+    onto_path = args.ontology.resolve() if args.ontology else ONTO_PATH
+    if onto_path != ONTO_PATH:
+        with open(onto_path, "r", encoding="utf-8") as f:
+            onto = yaml.safe_load(f)
+        labels_cfg = onto.get("labels", {})
+        if not labels_cfg:
+            raise ValueError(f"Ontology missing 'labels' map: {onto_path}")
+        LABEL_INDEX = compile_label_index(labels_cfg)
+        SECTION_HEADERS = onto.get("sections", {
+            "facts": ["Facts", "Background", "The Evidence", "Factual Background"],
+            "analysis": ["Discussion", "Analysis", "Legal Framework", "Reasons", "Consideration"],
+            "conclusion": ["Conclusion", "Disposition", "Result", "Decision", "Order"],
+        })
+
     input_path = args.input.resolve()
     output_csv = args.output_csv.resolve()
     output_jsonl = args.output_jsonl.resolve()

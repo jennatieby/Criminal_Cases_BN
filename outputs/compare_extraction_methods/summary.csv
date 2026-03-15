@@ -1,0 +1,4 @@
+method,n_cases_compared,total_nodes,n_cases,n_cases_with_nodes,n_cases_with_2_plus_nodes,unique_labels,label_actus_reus_killing,label_unlawful_killing,label_causation,label_mens_rea_intent_to_kill,label_mens_rea_intent_gbh
+rule_based_only,980,54499,980,980,971,61,1566,299,314,786,5
+rule_plus_actus_mens_enriched,980,56460,980,980,972,61,1986,710,1092,805,338
+rule_plus_general_enriched,980,63226,980,980,974,65,1668,910,391,800,14

@@ -308,9 +308,9 @@ graph [
     target 25
     support_cases 2
     obs_count 8
-    mean_score 0.72325
+    mean_score 0.64825
     max_score 0.77
-    weight 0.72325
+    weight 0.64825
   ]
   edge [
     source 0
@@ -398,27 +398,27 @@ graph [
     target 28
     support_cases 15
     obs_count 3820
-    mean_score 0.6065787958115183
+    mean_score 0.6076976439790577
     max_score 0.92
-    weight 0.6065787958115183
+    weight 0.6076976439790577
   ]
   edge [
     source 3
     target 9
     support_cases 14
     obs_count 1130
-    mean_score 0.5676238938053098
+    mean_score 0.5664415929203539
     max_score 0.87
-    weight 0.5676238938053098
+    weight 0.5664415929203539
   ]
   edge [
     source 3
     target 2
     support_cases 10
     obs_count 324
-    mean_score 0.5851111111111111
+    mean_score 0.5780740740740741
     max_score 0.77
-    weight 0.5851111111111111
+    weight 0.5780740740740741
   ]
   edge [
     source 3
@@ -434,9 +434,9 @@ graph [
     target 1
     support_cases 3
     obs_count 19
-    mean_score 0.5925789473684211
+    mean_score 0.5952105263157894
     max_score 0.77
-    weight 0.5925789473684211
+    weight 0.5952105263157894
   ]
   edge [
     source 3
@@ -506,36 +506,36 @@ graph [
     target 28
     support_cases 15
     obs_count 724
-    mean_score 0.6428314917127073
+    mean_score 0.6471560773480662
     max_score 0.92
-    weight 0.6428314917127073
+    weight 0.6471560773480662
   ]
   edge [
     source 4
     target 2
     support_cases 12
     obs_count 85
-    mean_score 0.5929764705882353
+    mean_score 0.6029882352941176
     max_score 0.77
-    weight 0.5929764705882353
+    weight 0.6029882352941176
   ]
   edge [
     source 4
     target 9
     support_cases 12
     obs_count 100
-    mean_score 0.58892
+    mean_score 0.5945199999999999
     max_score 0.87
-    weight 0.58892
+    weight 0.5945199999999999
   ]
   edge [
     source 4
     target 11
     support_cases 5
     obs_count 108
-    mean_score 0.6140185185185184
+    mean_score 0.6160925925925925
     max_score 0.77
-    weight 0.6140185185185184
+    weight 0.6160925925925925
   ]
   edge [
     source 4
@@ -578,9 +578,9 @@ graph [
     target 18
     support_cases 3
     obs_count 48
-    mean_score 0.628625
+    mean_score 0.6309583333333334
     max_score 0.77
-    weight 0.628625
+    weight 0.6309583333333334
   ]
   edge [
     source 4
@@ -649,28 +649,28 @@ graph [
     source 5
     target 28
     support_cases 28
-    obs_count 7914
-    mean_score 0.6137626990144048
+    obs_count 7929
+    mean_score 0.6175941480640685
     max_score 0.92
-    weight 0.6137626990144048
+    weight 0.6175941480640685
   ]
   edge [
     source 5
     target 2
     support_cases 17
     obs_count 1342
-    mean_score 0.6011065573770491
+    mean_score 0.6060760059612519
     max_score 0.92
-    weight 0.6011065573770491
+    weight 0.6060760059612519
   ]
   edge [
     source 5
     target 9
     support_cases 12
     obs_count 1626
-    mean_score 0.5826685116851168
+    mean_score 0.5887865928659286
     max_score 0.87
-    weight 0.5826685116851168
+    weight 0.5887865928659286
   ]
   edge [
     source 5
@@ -719,21 +719,21 @@ graph [
   ]
   edge [
     source 5
-    target 25
-    support_cases 2
-    obs_count 223
-    mean_score 0.6745201793721973
-    max_score 0.77
-    weight 0.6745201793721973
-  ]
-  edge [
-    source 5
     target 23
     support_cases 2
     obs_count 160
     mean_score 0.6570875
     max_score 0.77
     weight 0.6570875
+  ]
+  edge [
+    source 5
+    target 25
+    support_cases 2
+    obs_count 223
+    mean_score 0.6371210762331839
+    max_score 0.77
+    weight 0.6371210762331839
   ]
   edge [
     source 5
@@ -812,18 +812,18 @@ graph [
     target 28
     support_cases 17
     obs_count 1160
-    mean_score 0.6221620689655172
+    mean_score 0.6323353448275862
     max_score 0.92
-    weight 0.6221620689655172
+    weight 0.6323353448275862
   ]
   edge [
     source 6
     target 9
     support_cases 13
     obs_count 249
-    mean_score 0.5946144578313253
+    mean_score 0.5890722891566265
     max_score 0.87
-    weight 0.5946144578313253
+    weight 0.5890722891566265
   ]
   edge [
     source 6
@@ -839,18 +839,18 @@ graph [
     target 1
     support_cases 8
     obs_count 115
-    mean_score 0.6303652173913044
+    mean_score 0.6409739130434783
     max_score 0.77
-    weight 0.6303652173913044
+    weight 0.6409739130434783
   ]
   edge [
     source 6
     target 2
     support_cases 8
     obs_count 85
-    mean_score 0.5615882352941176
+    mean_score 0.5599294117647059
     max_score 0.92
-    weight 0.5615882352941176
+    weight 0.5599294117647059
   ]
   edge [
     source 6
@@ -962,15 +962,6 @@ graph [
   ]
   edge [
     source 6
-    target 14
-    support_cases 1
-    obs_count 3
-    mean_score 0.3333333333333333
-    max_score 0.42
-    weight 0.3333333333333333
-  ]
-  edge [
-    source 6
     target 31
     support_cases 1
     obs_count 1
@@ -983,27 +974,27 @@ graph [
     target 33
     support_cases 1
     obs_count 6
-    mean_score 0.23700000000000002
+    mean_score 0.26
     max_score 0.26
-    weight 0.23700000000000002
+    weight 0.26
   ]
   edge [
     source 7
     target 28
     support_cases 3
     obs_count 115
-    mean_score 0.6903652173913043
+    mean_score 0.6887391304347826
     max_score 0.77
-    weight 0.6903652173913043
+    weight 0.6887391304347826
   ]
   edge [
     source 7
     target 2
     support_cases 3
     obs_count 15
-    mean_score 0.6775333333333333
+    mean_score 0.6650666666666666
     max_score 0.77
-    weight 0.6775333333333333
+    weight 0.6650666666666666
   ]
   edge [
     source 7
@@ -1052,15 +1043,6 @@ graph [
   ]
   edge [
     source 8
-    target 25
-    support_cases 2
-    obs_count 90
-    mean_score 0.3256
-    max_score 0.42
-    weight 0.3256
-  ]
-  edge [
-    source 8
     target 11
     support_cases 2
     obs_count 62
@@ -1069,40 +1051,49 @@ graph [
     weight 0.3061935483870968
   ]
   edge [
+    source 8
+    target 25
+    support_cases 2
+    obs_count 90
+    mean_score 0.28826666666666667
+    max_score 0.42
+    weight 0.28826666666666667
+  ]
+  edge [
     source 9
     target 28
     support_cases 60
-    obs_count 5405
-    mean_score 0.5272865864939871
+    obs_count 5411
+    mean_score 0.5268410644982443
     max_score 0.82
-    weight 0.5272865864939871
+    weight 0.5268410644982443
   ]
   edge [
     source 9
     target 2
     support_cases 30
     obs_count 676
-    mean_score 0.5160014792899409
-    max_score 0.77
-    weight 0.5160014792899409
+    mean_score 0.5128609467455622
+    max_score 0.67
+    weight 0.5128609467455622
   ]
   edge [
     source 9
     target 1
     support_cases 13
     obs_count 169
-    mean_score 0.5452662721893492
+    mean_score 0.5448165680473372
     max_score 0.67
-    weight 0.5452662721893492
+    weight 0.5448165680473372
   ]
   edge [
     source 9
     target 25
     support_cases 9
     obs_count 40
-    mean_score 0.4997
+    mean_score 0.4958
     max_score 0.67
-    weight 0.4997
+    weight 0.4958
   ]
   edge [
     source 9
@@ -1190,54 +1181,54 @@ graph [
     target 28
     support_cases 11
     obs_count 1127
-    mean_score 0.5837799467613132
+    mean_score 0.579455190771961
     max_score 0.92
-    weight 0.5837799467613132
+    weight 0.579455190771961
   ]
   edge [
     source 10
     target 2
     support_cases 8
     obs_count 118
-    mean_score 0.6266271186440677
+    mean_score 0.6183728813559323
     max_score 0.92
-    weight 0.6266271186440677
+    weight 0.6183728813559323
   ]
   edge [
     source 10
     target 9
     support_cases 8
     obs_count 103
-    mean_score 0.5892912621359223
+    mean_score 0.5865728155339806
     max_score 0.72
-    weight 0.5892912621359223
+    weight 0.5865728155339806
   ]
   edge [
     source 10
     target 45
     support_cases 4
     obs_count 86
-    mean_score 0.5987209302325581
+    mean_score 0.5922093023255814
     max_score 0.72
-    weight 0.5987209302325581
+    weight 0.5922093023255814
   ]
   edge [
     source 10
     target 34
     support_cases 4
     obs_count 554
-    mean_score 0.5836407942238266
+    mean_score 0.5792003610108304
     max_score 0.92
-    weight 0.5836407942238266
+    weight 0.5792003610108304
   ]
   edge [
     source 10
     target 37
     support_cases 4
     obs_count 47
-    mean_score 0.423936170212766
+    mean_score 0.4201063829787233
     max_score 0.77
-    weight 0.423936170212766
+    weight 0.4201063829787233
   ]
   edge [
     source 10
@@ -1262,18 +1253,18 @@ graph [
     target 25
     support_cases 2
     obs_count 323
-    mean_score 0.5150402476780186
+    mean_score 0.5090959752321981
     max_score 0.92
-    weight 0.5150402476780186
+    weight 0.5090959752321981
   ]
   edge [
     source 10
     target 24
     support_cases 1
     obs_count 40
-    mean_score 0.637825
+    mean_score 0.630325
     max_score 0.77
-    weight 0.637825
+    weight 0.630325
   ]
   edge [
     source 10
@@ -1304,30 +1295,12 @@ graph [
   ]
   edge [
     source 10
-    target 32
-    support_cases 1
-    obs_count 13
-    mean_score 0.3676923076923077
-    max_score 0.42
-    weight 0.3676923076923077
-  ]
-  edge [
-    source 10
     target 11
     support_cases 1
     obs_count 2
     mean_score 0.358
     max_score 0.358
     weight 0.358
-  ]
-  edge [
-    source 10
-    target 36
-    support_cases 1
-    obs_count 1
-    mean_score 0.26
-    max_score 0.26
-    weight 0.26
   ]
   edge [
     source 11
@@ -1343,18 +1316,18 @@ graph [
     target 28
     support_cases 15
     obs_count 642
-    mean_score 0.6741869158878504
+    mean_score 0.679202492211838
     max_score 0.92
-    weight 0.6741869158878504
+    weight 0.679202492211838
   ]
   edge [
     source 12
     target 9
     support_cases 11
     obs_count 271
-    mean_score 0.6343542435424354
-    max_score 0.77
-    weight 0.6343542435424354
+    mean_score 0.6319188191881919
+    max_score 0.72
+    weight 0.6319188191881919
   ]
   edge [
     source 12
@@ -1379,9 +1352,9 @@ graph [
     target 1
     support_cases 3
     obs_count 23
-    mean_score 0.6059130434782609
+    mean_score 0.6102608695652174
     max_score 0.77
-    weight 0.6059130434782609
+    weight 0.6102608695652174
   ]
   edge [
     source 12
@@ -1475,25 +1448,16 @@ graph [
   ]
   edge [
     source 12
-    target 32
+    target 41
     support_cases 1
-    obs_count 21
-    mean_score 0.3666666666666667
+    obs_count 1
+    mean_score 0.42
     max_score 0.42
-    weight 0.3666666666666667
+    weight 0.42
   ]
   edge [
     source 12
     target 33
-    support_cases 1
-    obs_count 2
-    mean_score 0.26
-    max_score 0.26
-    weight 0.26
-  ]
-  edge [
-    source 12
-    target 36
     support_cases 1
     obs_count 2
     mean_score 0.26
@@ -1592,7 +1556,7 @@ graph [
   ]
   edge [
     source 14
-    target 35
+    target 6
     support_cases 1
     obs_count 3
     mean_score 0.3333333333333333
@@ -1601,12 +1565,12 @@ graph [
   ]
   edge [
     source 14
-    target 43
+    target 35
     support_cases 1
-    obs_count 6
-    mean_score 0.2941666666666667
+    obs_count 3
+    mean_score 0.3333333333333333
     max_score 0.42
-    weight 0.2941666666666667
+    weight 0.3333333333333333
   ]
   edge [
     source 14
@@ -1739,9 +1703,9 @@ graph [
     target 28
     support_cases 25
     obs_count 1502
-    mean_score 0.6298981358189081
+    mean_score 0.6300978695073236
     max_score 0.92
-    weight 0.6298981358189081
+    weight 0.6300978695073236
   ]
   edge [
     source 19
@@ -1793,9 +1757,9 @@ graph [
     target 25
     support_cases 6
     obs_count 27
-    mean_score 0.536037037037037
+    mean_score 0.5115925925925926
     max_score 0.77
-    weight 0.536037037037037
+    weight 0.5115925925925926
   ]
   edge [
     source 19
@@ -1898,30 +1862,12 @@ graph [
   ]
   edge [
     source 19
-    target 32
-    support_cases 1
-    obs_count 9
-    mean_score 0.36666666666666664
-    max_score 0.42
-    weight 0.36666666666666664
-  ]
-  edge [
-    source 19
     target 30
     support_cases 1
     obs_count 12
     mean_score 0.35000000000000003
     max_score 0.42
     weight 0.35000000000000003
-  ]
-  edge [
-    source 19
-    target 26
-    support_cases 1
-    obs_count 6
-    mean_score 0.34
-    max_score 0.42
-    weight 0.34
   ]
   edge [
     source 19
@@ -1937,18 +1883,18 @@ graph [
     target 2
     support_cases 3
     obs_count 17
-    mean_score 0.3296470588235294
+    mean_score 0.3237647058823529
     max_score 0.42
-    weight 0.3296470588235294
+    weight 0.3237647058823529
   ]
   edge [
     source 20
     target 28
     support_cases 3
     obs_count 134
-    mean_score 0.3106865671641791
+    mean_score 0.3099402985074627
     max_score 0.57
-    weight 0.3106865671641791
+    weight 0.3099402985074627
   ]
   edge [
     source 20
@@ -1990,28 +1936,28 @@ graph [
     source 21
     target 28
     support_cases 11
-    obs_count 393
-    mean_score 0.5354554707379134
+    obs_count 394
+    mean_score 0.5386624365482233
     max_score 0.77
-    weight 0.5354554707379134
+    weight 0.5386624365482233
   ]
   edge [
     source 21
     target 9
     support_cases 10
     obs_count 98
-    mean_score 0.5375816326530612
-    max_score 0.77
-    weight 0.5375816326530612
+    mean_score 0.5405408163265306
+    max_score 0.74
+    weight 0.5405408163265306
   ]
   edge [
     source 21
     target 2
     support_cases 10
     obs_count 78
-    mean_score 0.5095128205128204
+    mean_score 0.5125769230769232
     max_score 0.77
-    weight 0.5095128205128204
+    weight 0.5125769230769232
   ]
   edge [
     source 21
@@ -2116,46 +2062,46 @@ graph [
     source 22
     target 28
     support_cases 56
-    obs_count 5413
-    mean_score 0.6234758913726215
+    obs_count 5417
+    mean_score 0.6299582794904929
     max_score 0.92
-    weight 0.6234758913726215
+    weight 0.6299582794904929
   ]
   edge [
     source 22
     target 9
     support_cases 41
     obs_count 1466
-    mean_score 0.591744201909959
+    mean_score 0.5941132332878581
     max_score 0.87
-    weight 0.591744201909959
+    weight 0.5941132332878581
   ]
   edge [
     source 22
     target 2
     support_cases 35
     obs_count 618
-    mean_score 0.6291375404530745
+    mean_score 0.6324385113268608
     max_score 0.77
-    weight 0.6291375404530745
+    weight 0.6324385113268608
   ]
   edge [
     source 22
     target 1
     support_cases 14
     obs_count 400
-    mean_score 0.564385
+    mean_score 0.5786175
     max_score 0.92
-    weight 0.564385
+    weight 0.5786175
   ]
   edge [
     source 22
     target 11
     support_cases 10
     obs_count 162
-    mean_score 0.6322098765432098
+    mean_score 0.6207777777777778
     max_score 0.77
-    weight 0.6322098765432098
+    weight 0.6207777777777778
   ]
   edge [
     source 22
@@ -2171,18 +2117,18 @@ graph [
     target 37
     support_cases 9
     obs_count 80
-    mean_score 0.5969875
+    mean_score 0.6015625
     max_score 0.77
-    weight 0.5969875
+    weight 0.6015625
   ]
   edge [
     source 22
     target 25
     support_cases 9
     obs_count 87
-    mean_score 0.5712413793103448
+    mean_score 0.553816091954023
     max_score 0.77
-    weight 0.5712413793103448
+    weight 0.553816091954023
   ]
   edge [
     source 22
@@ -2234,9 +2180,9 @@ graph [
     target 23
     support_cases 2
     obs_count 26
-    mean_score 0.5070769230769231
+    mean_score 0.5352307692307693
     max_score 0.77
-    weight 0.5070769230769231
+    weight 0.5352307692307693
   ]
   edge [
     source 22
@@ -2273,6 +2219,15 @@ graph [
     mean_score 0.47
     max_score 0.47
     weight 0.47
+  ]
+  edge [
+    source 22
+    target 31
+    support_cases 1
+    obs_count 4
+    mean_score 0.42
+    max_score 0.42
+    weight 0.42
   ]
   edge [
     source 23
@@ -2402,6 +2357,15 @@ graph [
   ]
   edge [
     source 26
+    target 19
+    support_cases 1
+    obs_count 6
+    mean_score 0.34
+    max_score 0.42
+    weight 0.34
+  ]
+  edge [
+    source 26
     target 12
     support_cases 1
     obs_count 14
@@ -2435,15 +2399,6 @@ graph [
     mean_score 0.3133333333333333
     max_score 0.42
     weight 0.3133333333333333
-  ]
-  edge [
-    source 26
-    target 32
-    support_cases 1
-    obs_count 6
-    mean_score 0.29733333333333334
-    max_score 0.42
-    weight 0.29733333333333334
   ]
   edge [
     source 26
@@ -2570,15 +2525,6 @@ graph [
     mean_score 0.46
     max_score 0.46
     weight 0.46
-  ]
-  edge [
-    source 27
-    target 36
-    support_cases 1
-    obs_count 1
-    mean_score 0.42
-    max_score 0.42
-    weight 0.42
   ]
   edge [
     source 27
@@ -2771,15 +2717,6 @@ graph [
   ]
   edge [
     source 29
-    target 32
-    support_cases 1
-    obs_count 27
-    mean_score 0.33585185185185185
-    max_score 0.42
-    weight 0.33585185185185185
-  ]
-  edge [
-    source 29
     target 26
     support_cases 1
     obs_count 18
@@ -2905,15 +2842,6 @@ graph [
     weight 0.47
   ]
   edge [
-    source 31
-    target 22
-    support_cases 1
-    obs_count 4
-    mean_score 0.42
-    max_score 0.42
-    weight 0.42
-  ]
-  edge [
     source 32
     target 28
     support_cases 2
@@ -2969,6 +2897,24 @@ graph [
   ]
   edge [
     source 32
+    target 10
+    support_cases 1
+    obs_count 13
+    mean_score 0.3676923076923077
+    max_score 0.42
+    weight 0.3676923076923077
+  ]
+  edge [
+    source 32
+    target 12
+    support_cases 1
+    obs_count 21
+    mean_score 0.3666666666666667
+    max_score 0.42
+    weight 0.3666666666666667
+  ]
+  edge [
+    source 32
     target 21
     support_cases 1
     obs_count 3
@@ -2978,12 +2924,39 @@ graph [
   ]
   edge [
     source 32
+    target 19
+    support_cases 1
+    obs_count 9
+    mean_score 0.36666666666666664
+    max_score 0.42
+    weight 0.36666666666666664
+  ]
+  edge [
+    source 32
     target 35
     support_cases 1
     obs_count 9
     mean_score 0.3377777777777778
     max_score 0.42
     weight 0.3377777777777778
+  ]
+  edge [
+    source 32
+    target 29
+    support_cases 1
+    obs_count 27
+    mean_score 0.33585185185185185
+    max_score 0.42
+    weight 0.33585185185185185
+  ]
+  edge [
+    source 32
+    target 26
+    support_cases 1
+    obs_count 6
+    mean_score 0.29733333333333334
+    max_score 0.42
+    weight 0.29733333333333334
   ]
   edge [
     source 32
@@ -2999,36 +2972,18 @@ graph [
     target 28
     support_cases 3
     obs_count 44
-    mean_score 0.6060909090909091
+    mean_score 0.6280454545454546
     max_score 0.77
-    weight 0.6060909090909091
+    weight 0.6280454545454546
   ]
   edge [
     source 33
     target 9
     support_cases 2
     obs_count 2
-    mean_score 0.45499999999999996
-    max_score 0.47
-    weight 0.45499999999999996
-  ]
-  edge [
-    source 33
-    target 22
-    support_cases 2
-    obs_count 14
-    mean_score 0.35714285714285715
-    max_score 0.47
-    weight 0.35714285714285715
-  ]
-  edge [
-    source 33
-    target 25
-    support_cases 1
-    obs_count 3
-    mean_score 0.77
-    max_score 0.77
-    weight 0.77
+    mean_score 0.356
+    max_score 0.44
+    weight 0.356
   ]
   edge [
     source 33
@@ -3038,6 +2993,15 @@ graph [
     mean_score 0.6825555555555556
     max_score 0.77
     weight 0.6825555555555556
+  ]
+  edge [
+    source 33
+    target 25
+    support_cases 1
+    obs_count 3
+    mean_score 0.6699999999999999
+    max_score 0.77
+    weight 0.6699999999999999
   ]
   edge [
     source 33
@@ -3080,36 +3044,27 @@ graph [
     target 1
     support_cases 1
     obs_count 2
-    mean_score 0.365
+    mean_score 0.38
     max_score 0.47
-    weight 0.365
-  ]
-  edge [
-    source 33
-    target 43
-    support_cases 1
-    obs_count 6
-    mean_score 0.3
-    max_score 0.47
-    weight 0.3
+    weight 0.38
   ]
   edge [
     source 33
     target 3
     support_cases 1
     obs_count 5
-    mean_score 0.2828
-    max_score 0.47
-    weight 0.2828
+    mean_score 0.22160000000000002
+    max_score 0.26
+    weight 0.22160000000000002
   ]
   edge [
     source 34
     target 25
     support_cases 3
     obs_count 258
-    mean_score 0.3541550387596899
+    mean_score 0.3442945736434109
     max_score 0.42
-    weight 0.3541550387596899
+    weight 0.3442945736434109
   ]
   edge [
     source 34
@@ -3320,12 +3275,39 @@ graph [
   ]
   edge [
     source 36
+    target 27
+    support_cases 1
+    obs_count 1
+    mean_score 0.42
+    max_score 0.42
+    weight 0.42
+  ]
+  edge [
+    source 36
     target 8
     support_cases 1
     obs_count 1
     mean_score 0.29
     max_score 0.29
     weight 0.29
+  ]
+  edge [
+    source 36
+    target 10
+    support_cases 1
+    obs_count 1
+    mean_score 0.26
+    max_score 0.26
+    weight 0.26
+  ]
+  edge [
+    source 36
+    target 12
+    support_cases 1
+    obs_count 2
+    mean_score 0.26
+    max_score 0.26
+    weight 0.26
   ]
   edge [
     source 36
@@ -3511,28 +3493,28 @@ graph [
     source 40
     target 28
     support_cases 36
-    obs_count 13070
-    mean_score 0.6233699311400153
+    obs_count 13075
+    mean_score 0.6238369407265774
     max_score 0.92
-    weight 0.6233699311400153
+    weight 0.6238369407265774
   ]
   edge [
     source 40
     target 9
     support_cases 20
     obs_count 2718
-    mean_score 0.5929381898454746
+    mean_score 0.5934448123620308
     max_score 0.87
-    weight 0.5929381898454746
+    weight 0.5934448123620308
   ]
   edge [
     source 40
     target 2
     support_cases 16
     obs_count 1893
-    mean_score 0.5992488114104596
+    mean_score 0.6002028526148969
     max_score 0.92
-    weight 0.5992488114104596
+    weight 0.6002028526148969
   ]
   edge [
     source 40
@@ -3557,9 +3539,9 @@ graph [
     target 25
     support_cases 4
     obs_count 167
-    mean_score 0.6834550898203593
+    mean_score 0.6314491017964071
     max_score 0.77
-    weight 0.6834550898203593
+    weight 0.6314491017964071
   ]
   edge [
     source 40
@@ -3734,15 +3716,6 @@ graph [
   ]
   edge [
     source 41
-    target 12
-    support_cases 1
-    obs_count 1
-    mean_score 0.42
-    max_score 0.42
-    weight 0.42
-  ]
-  edge [
-    source 41
     target 27
     support_cases 1
     obs_count 1
@@ -3763,28 +3736,28 @@ graph [
     source 42
     target 28
     support_cases 20
-    obs_count 1963
-    mean_score 0.6124977075904229
+    obs_count 1965
+    mean_score 0.6139826972010177
     max_score 0.92
-    weight 0.6124977075904229
+    weight 0.6139826972010177
   ]
   edge [
     source 42
     target 2
     support_cases 12
     obs_count 369
-    mean_score 0.6069268292682927
+    mean_score 0.6092845528455284
     max_score 0.92
-    weight 0.6069268292682927
+    weight 0.6092845528455284
   ]
   edge [
     source 42
     target 9
     support_cases 11
     obs_count 316
-    mean_score 0.6090664556962025
+    mean_score 0.6118386075949367
     max_score 0.87
-    weight 0.6090664556962025
+    weight 0.6118386075949367
   ]
   edge [
     source 42
@@ -3800,9 +3773,9 @@ graph [
     target 25
     support_cases 5
     obs_count 43
-    mean_score 0.6858139534883722
+    mean_score 0.6258139534883721
     max_score 0.77
-    weight 0.6858139534883722
+    weight 0.6258139534883721
   ]
   edge [
     source 42
@@ -3943,37 +3916,37 @@ graph [
     source 43
     target 28
     support_cases 27
-    obs_count 4606
-    mean_score 0.5774735128093791
+    obs_count 4613
+    mean_score 0.5803667895079124
     max_score 0.92
-    weight 0.5774735128093791
+    weight 0.5803667895079124
   ]
   edge [
     source 43
     target 9
     support_cases 19
-    obs_count 728
-    mean_score 0.5677403846153846
-    max_score 0.77
-    weight 0.5677403846153846
+    obs_count 729
+    mean_score 0.5661056241426612
+    max_score 0.745
+    weight 0.5661056241426612
   ]
   edge [
     source 43
     target 2
     support_cases 16
     obs_count 489
-    mean_score 0.5903742331288343
+    mean_score 0.5843865030674846
     max_score 0.92
-    weight 0.5903742331288343
+    weight 0.5843865030674846
   ]
   edge [
     source 43
     target 1
     support_cases 13
-    obs_count 944
-    mean_score 0.5326091101694915
+    obs_count 946
+    mean_score 0.5354936575052854
     max_score 0.92
-    weight 0.5326091101694915
+    weight 0.5354936575052854
   ]
   edge [
     source 43
@@ -3998,9 +3971,9 @@ graph [
     target 37
     support_cases 6
     obs_count 143
-    mean_score 0.5304475524475525
+    mean_score 0.532020979020979
     max_score 0.77
-    weight 0.5304475524475525
+    weight 0.532020979020979
   ]
   edge [
     source 43
@@ -4025,9 +3998,9 @@ graph [
     target 25
     support_cases 3
     obs_count 270
-    mean_score 0.5405777777777777
+    mean_score 0.5419111111111111
     max_score 0.77
-    weight 0.5405777777777777
+    weight 0.5419111111111111
   ]
   edge [
     source 43
@@ -4043,9 +4016,9 @@ graph [
     target 23
     support_cases 2
     obs_count 104
-    mean_score 0.5549230769230769
+    mean_score 0.55925
     max_score 0.77
-    weight 0.5549230769230769
+    weight 0.55925
   ]
   edge [
     source 43
@@ -4084,6 +4057,24 @@ graph [
     weight 0.414
   ]
   edge [
+    source 43
+    target 14
+    support_cases 1
+    obs_count 6
+    mean_score 0.2941666666666667
+    max_score 0.42
+    weight 0.2941666666666667
+  ]
+  edge [
+    source 43
+    target 33
+    support_cases 1
+    obs_count 7
+    mean_score 0.2265714285714286
+    max_score 0.26
+    weight 0.2265714285714286
+  ]
+  edge [
     source 44
     target 28
     support_cases 1
@@ -4115,18 +4106,18 @@ graph [
     target 28
     support_cases 9
     obs_count 229
-    mean_score 0.5893668122270742
+    mean_score 0.5886593886462882
     max_score 0.67
-    weight 0.5893668122270742
+    weight 0.5886593886462882
   ]
   edge [
     source 45
     target 2
     support_cases 8
     obs_count 31
-    mean_score 0.531741935483871
+    mean_score 0.5265161290322581
     max_score 0.67
-    weight 0.531741935483871
+    weight 0.5265161290322581
   ]
   edge [
     source 45
