@@ -1,0 +1,25 @@
+Summary: Extracted labels -> DAG nodes
+======================================
+
+Unique extracted labels mapping to each DAG node:
+
+  VoluntaryAct: 16
+  DeathOfHumanBeing: 2
+  FactualCausation: 2
+  LegalCausation: 1
+  UnlawfulKilling: 2
+  IntentToKill: 1
+  IntentToCauseGBH: 1
+  MensReaIntent: 8
+  MaliceAforethought: 1
+  LossOfControl: 1
+  DiminishedResponsibility: 1
+  Defences: 2
+  Verdict: 6
+
+DAG nodes with no coverage in extraction output:
+  (none)
+
+Total unique extracted labels: 61
+Mapped: 44
+Unmapped: 17

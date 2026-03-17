@@ -1,0 +1,62 @@
+extracted_label,dag_node,confidence,notes
+abduction,VoluntaryAct,medium,abduction involves voluntary restraint/removal
+accessory_or_complicity,UNMAPPED,unmapped,no corresponding DAG node or ambiguous
+actus_reus_killing,UnlawfulKilling,high,physical element of killing; extraction does not split factual/legal causation
+alibi_claim,UNMAPPED,unmapped,no corresponding DAG node or ambiguous
+assault_method_blunt_force,VoluntaryAct,medium,blunt-force attack is voluntary conduct
+assault_method_shooting,VoluntaryAct,medium,shooting is voluntary conduct causing harm
+assault_method_stabbing,VoluntaryAct,medium,stabbing is voluntary conduct causing harm
+boasting_admissions,MensReaIntent,low,boasting about offence can evidence intent/state of mind
+causation,LegalCausation,medium,extraction does not distinguish factual vs legal causation; mapped to LegalCausation
+cctv_presence,UNMAPPED,unmapped,no corresponding DAG node or ambiguous
+concealment_actions,VoluntaryAct,low,post-offence concealment is voluntary conduct
+confession_or_admission,MensReaIntent,low,admissions can evidence intent or state of mind
+confession_third_party,UNMAPPED,unmapped,no corresponding DAG node or ambiguous
+defendant_intoxicated,UNMAPPED,unmapped,no corresponding DAG node or ambiguous
+diminished_responsibility,DiminishedResponsibility,high,direct match
+disposal_of_weapon,VoluntaryAct,low,disposing of weapon is voluntary act
+encounter,UNMAPPED,unmapped,no corresponding DAG node or ambiguous
+eyewitness_identification,UNMAPPED,unmapped,no corresponding DAG node or ambiguous
+financial_transactions_gain,UNMAPPED,unmapped,no corresponding DAG node or ambiguous
+flight_after_offence,VoluntaryAct,low,flight is voluntary conduct (post-offence)
+gunshot_residue_gsr,UNMAPPED,unmapped,no corresponding DAG node or ambiguous
+inconsistent_statements,UNMAPPED,unmapped,no corresponding DAG node or ambiguous
+injury_defensive_wounds,DeathOfHumanBeing,low,defensive wounds evidence fatal attack and thus death of human being
+insanity,Defences,high,M'Naghten-type defence
+joint_enterprise_presence,UNMAPPED,unmapped,no corresponding DAG node or ambiguous
+lawful_killing_self_defence,Verdict,high,acquittal outcome
+location_private_dwelling,UNMAPPED,unmapped,no corresponding DAG node or ambiguous
+location_public_space,UNMAPPED,unmapped,no corresponding DAG node or ambiguous
+loss_of_control,LossOfControl,high,direct match
+manslaughter_diminished_resp,Verdict,high,verdict variant
+manslaughter_gross_negligence,Verdict,high,verdict variant
+manslaughter_loss_of_control,Verdict,high,verdict variant
+manslaughter_unlawful_act,Verdict,high,verdict variant
+medical_history_mental_impairment,UNMAPPED,unmapped,no corresponding DAG node or ambiguous
+mens_rea_intent_gbh,IntentToCauseGBH,high,direct match
+mens_rea_intent_to_kill,IntentToKill,high,direct match
+motive_financial_gain,MensReaIntent,low,motive as evidence of mental state / intent
+motive_jealousy_revenge,MensReaIntent,low,motive as evidence of mental state / intent
+murder,Verdict,high,conviction outcome
+planning_premeditation,MaliceAforethought,medium,premeditation is a facet of malice aforethought under Coke's definition
+poisoning,VoluntaryAct,medium,administering poison is voluntary act
+post_offence_burial,VoluntaryAct,low,burial is voluntary post-offence conduct
+prior_assault,MensReaIntent,low,prior assault can evidence intent or propensity
+prior_conflict,MensReaIntent,low,prior conflict can contextualise intent
+prior_threats,MensReaIntent,medium,prior threats evidence intent or state of mind
+search_history_weapons_or_poison,MensReaIntent,low,search history can evidence foresight or intent to cause harm
+self_defence_legal,Defences,high,self-defence
+strangulation,VoluntaryAct,medium,strangulation is voluntary bodily act
+tied_restraint,VoluntaryAct,medium,tying/restraining is voluntary conduct
+time_of_death_window_narrow,DeathOfHumanBeing,medium,narrow time-of-death window evidences that death occurred
+unlawful_killing,UnlawfulKilling,high,direct match
+victim_intoxicated,UNMAPPED,unmapped,no corresponding DAG node or ambiguous
+weapon_blunt,VoluntaryAct,low,use of blunt weapon implies voluntary conduct
+weapon_firearm,VoluntaryAct,low,firearm use implies voluntary conduct
+weapon_petrol_fire,VoluntaryAct,low,use of petrol/fire implies voluntary conduct
+weapon_present,VoluntaryAct,low,carrying/using weapon implies voluntary conduct
+weapon_sharp,VoluntaryAct,low,use of sharp weapon implies voluntary conduct
+withdrawal_effective,UNMAPPED,unmapped,no corresponding DAG node or ambiguous
+withdrawal_from_joint_enterprise,UNMAPPED,unmapped,no corresponding DAG node or ambiguous
+wound_blunt_force,FactualCausation,low,blunt-force wounds evidence defendant's act was factual cause of harm/death
+wound_sharp_force,FactualCausation,low,sharp-force wounds evidence defendant's act was factual cause of harm/death
