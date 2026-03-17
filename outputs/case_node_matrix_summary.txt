@@ -1,0 +1,23 @@
+Input nodes CSV: data/processed/nodes_actus_mens.csv
+Input mapping CSV: outputs/label_to_dag_mapping.csv
+Cases: 980
+
+Node prevalence (% of cases with node=1):
+  VoluntaryAct: 87.7%
+  MensReaIntent: 73.4%
+  UnlawfulKilling: 72.6%
+  MaliceAforethought: 56.0%
+  LegalCausation: 31.1%
+  IntentToKill: 25.9%
+  Defences: 24.4%
+  FactualCausation: 20.6%
+  IntentToCauseGBH: 17.2%
+  DiminishedResponsibility: 16.6%
+  LossOfControl: 9.5%
+  DeathOfHumanBeing: 1.9%
+
+Verdict distribution (encoded: Murder=2, Manslaughter=1, Not Guilty=0; NaN=unknown):
+  2.0: 980
+Unknown verdicts (NaN): 0
+
+Structurally empty cases (all doctrinal nodes 0): 21

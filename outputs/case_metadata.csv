@@ -1,0 +1,1098 @@
+case_id,verdict_raw,verdict_encoded,death_established_raw,death_established
+CASE_00000,Not Guilty,0.0,No,0.0
+CASE_00001,Not Guilty,0.0,No,0.0
+CASE_00002,Murder,2.0,Yes,1.0
+CASE_00003,Murder,2.0,Yes,1.0
+CASE_00004,Murder,2.0,Yes,1.0
+CASE_00005,Murder,2.0,Yes,1.0
+CASE_00006,Not Guilty,0.0,No,0.0
+CASE_00007,Murder,2.0,Yes,1.0
+CASE_00008,Manslaughter,1.0,Yes,1.0
+CASE_00009,Murder,2.0,Yes,1.0
+CASE_00010,Murder,2.0,Yes,1.0
+CASE_00011,Not Guilty,0.0,No,0.0
+CASE_00012,Murder,2.0,Yes,1.0
+CASE_00013,Murder,2.0,Yes,1.0
+CASE_00014,Murder,2.0,Yes,1.0
+CASE_00015,Murder,2.0,Yes,1.0
+CASE_00016,Murder,2.0,Yes,1.0
+CASE_00017,Murder,2.0,Yes,1.0
+CASE_00018,Murder,2.0,Yes,1.0
+CASE_00019,Murder,2.0,Yes,1.0
+CASE_00020,Murder,2.0,Yes,1.0
+CASE_00021,Manslaughter,1.0,Yes,1.0
+CASE_00022,Murder,2.0,Yes,1.0
+CASE_00023,Murder,2.0,Yes,1.0
+CASE_00024,Manslaughter,1.0,Yes,1.0
+CASE_00025,Murder,2.0,Yes,1.0
+CASE_00026,Manslaughter,1.0,Yes,1.0
+CASE_00027,Murder,2.0,Yes,1.0
+CASE_00028,Murder,2.0,Yes,1.0
+CASE_00029,Murder,2.0,Yes,1.0
+CASE_00030,Murder,2.0,Yes,1.0
+CASE_00031,Not Guilty,0.0,Yes,1.0
+CASE_00032,Murder,2.0,Yes,1.0
+CASE_00033,Murder,2.0,Yes,1.0
+CASE_00034,Unknown,,No,0.0
+CASE_00035,Murder,2.0,Yes,1.0
+CASE_00036,Murder,2.0,Yes,1.0
+CASE_00037,Murder,2.0,Yes,1.0
+CASE_00038,Murder,2.0,Yes,1.0
+CASE_00039,Murder,2.0,Yes,1.0
+CASE_00040,Murder,2.0,Yes,1.0
+CASE_00041,Murder,2.0,Yes,1.0
+CASE_00042,Murder,2.0,Yes,1.0
+CASE_00043,Murder,2.0,Yes,1.0
+CASE_00044,Murder,2.0,Yes,1.0
+CASE_00045,Not Guilty,0.0,No,0.0
+CASE_00046,Manslaughter,1.0,Yes,1.0
+CASE_00047,Manslaughter,1.0,Yes,1.0
+CASE_00048,Murder,2.0,Yes,1.0
+CASE_00049,Murder,2.0,Yes,1.0
+CASE_00050,Murder,2.0,Yes,1.0
+CASE_00051,Manslaughter,1.0,Yes,1.0
+CASE_00052,Murder,2.0,Yes,1.0
+CASE_00053,Not Guilty,0.0,Yes,1.0
+CASE_00054,Murder,2.0,Yes,1.0
+CASE_00055,Murder,2.0,Yes,1.0
+CASE_00056,Murder,2.0,Yes,1.0
+CASE_00057,Murder,2.0,Yes,1.0
+CASE_00058,Murder,2.0,Yes,1.0
+CASE_00059,Not Guilty,0.0,Yes,1.0
+CASE_00060,Murder,2.0,No,0.0
+CASE_00061,Murder,2.0,Yes,1.0
+CASE_00062,Manslaughter,1.0,Yes,1.0
+CASE_00063,Murder,2.0,Yes,1.0
+CASE_00064,Murder,2.0,Yes,1.0
+CASE_00065,Unknown,,Yes,1.0
+CASE_00066,Murder,2.0,Yes,1.0
+CASE_00067,Murder,2.0,Yes,1.0
+CASE_00068,Murder,2.0,Yes,1.0
+CASE_00069,Unknown,,No,0.0
+CASE_00070,Murder,2.0,Yes,1.0
+CASE_00071,Not Guilty,0.0,Yes,1.0
+CASE_00072,Unknown,,Yes,1.0
+CASE_00073,Murder,2.0,Yes,1.0
+CASE_00074,Murder,2.0,Yes,1.0
+CASE_00075,Murder,2.0,Yes,1.0
+CASE_00076,Murder,2.0,Yes,1.0
+CASE_00077,Murder,2.0,Yes,1.0
+CASE_00078,Manslaughter,1.0,Yes,1.0
+CASE_00079,Not Guilty,0.0,No,0.0
+CASE_00080,Murder,2.0,Yes,1.0
+CASE_00081,Murder,2.0,Yes,1.0
+CASE_00082,Murder,2.0,Yes,1.0
+CASE_00083,Murder,2.0,Yes,1.0
+CASE_00084,Not Guilty,0.0,No,0.0
+CASE_00085,Murder,2.0,Yes,1.0
+CASE_00086,Murder,2.0,Yes,1.0
+CASE_00087,Murder,2.0,Yes,1.0
+CASE_00088,Murder,2.0,Yes,1.0
+CASE_00089,Murder,2.0,Yes,1.0
+CASE_00090,Murder,2.0,Yes,1.0
+CASE_00091,Murder,2.0,Yes,1.0
+CASE_00092,Murder,2.0,Yes,1.0
+CASE_00093,Murder,2.0,Yes,1.0
+CASE_00094,Murder,2.0,Yes,1.0
+CASE_00095,Murder,2.0,Yes,1.0
+CASE_00096,Murder,2.0,Yes,1.0
+CASE_00097,Murder,2.0,Yes,1.0
+CASE_00098,Murder,2.0,Yes,1.0
+CASE_00099,Murder,2.0,Yes,1.0
+CASE_00100,Not Guilty,0.0,Yes,1.0
+CASE_00101,Murder,2.0,Yes,1.0
+CASE_00102,Manslaughter,1.0,Yes,1.0
+CASE_00103,Murder,2.0,Yes,1.0
+CASE_00104,Manslaughter,1.0,Yes,1.0
+CASE_00105,Manslaughter,1.0,Yes,1.0
+CASE_00106,Murder,2.0,Yes,1.0
+CASE_00107,Murder,2.0,Yes,1.0
+CASE_00108,Murder,2.0,Yes,1.0
+CASE_00109,Manslaughter,1.0,Yes,1.0
+CASE_00110,Not Guilty,0.0,No,0.0
+CASE_00111,Murder,2.0,Yes,1.0
+CASE_00112,Murder,2.0,Yes,1.0
+CASE_00113,Not Guilty,0.0,Yes,1.0
+CASE_00114,Murder,2.0,Yes,1.0
+CASE_00115,Murder,2.0,Yes,1.0
+CASE_00116,Murder,2.0,Yes,1.0
+CASE_00117,Murder,2.0,Yes,1.0
+CASE_00118,Murder,2.0,Yes,1.0
+CASE_00119,Murder,2.0,Yes,1.0
+CASE_00120,Murder,2.0,Yes,1.0
+CASE_00121,Manslaughter,1.0,Yes,1.0
+CASE_00122,Not Guilty,0.0,Yes,1.0
+CASE_00123,Murder,2.0,Yes,1.0
+CASE_00124,Murder,2.0,Yes,1.0
+CASE_00125,Manslaughter,1.0,Yes,1.0
+CASE_00126,Murder,2.0,Yes,1.0
+CASE_00127,Murder,2.0,Yes,1.0
+CASE_00128,Murder,2.0,Yes,1.0
+CASE_00129,Murder,2.0,Yes,1.0
+CASE_00130,Murder,2.0,Yes,1.0
+CASE_00131,Murder,2.0,Yes,1.0
+CASE_00132,Manslaughter,1.0,Yes,1.0
+CASE_00133,Manslaughter,1.0,Yes,1.0
+CASE_00134,Murder,2.0,Yes,1.0
+CASE_00135,Murder,2.0,Yes,1.0
+CASE_00136,Manslaughter,1.0,Yes,1.0
+CASE_00137,Murder,2.0,Yes,1.0
+CASE_00138,Murder,2.0,Yes,1.0
+CASE_00139,Murder,2.0,Yes,1.0
+CASE_00140,Murder,2.0,Yes,1.0
+CASE_00141,Murder,2.0,Yes,1.0
+CASE_00142,Murder,2.0,Yes,1.0
+CASE_00143,Murder,2.0,Yes,1.0
+CASE_00144,Murder,2.0,Yes,1.0
+CASE_00145,Unknown,,Yes,1.0
+CASE_00146,Murder,2.0,Yes,1.0
+CASE_00147,Manslaughter,1.0,Yes,1.0
+CASE_00148,Not Guilty,0.0,Yes,1.0
+CASE_00149,Unknown,,Yes,1.0
+CASE_00150,Murder,2.0,Yes,1.0
+CASE_00151,Murder,2.0,Yes,1.0
+CASE_00152,Murder,2.0,Yes,1.0
+CASE_00153,Manslaughter,1.0,Yes,1.0
+CASE_00154,Murder,2.0,Yes,1.0
+CASE_00155,Murder,2.0,Yes,1.0
+CASE_00156,Murder,2.0,Yes,1.0
+CASE_00157,Manslaughter,1.0,Yes,1.0
+CASE_00158,Murder,2.0,Yes,1.0
+CASE_00159,Murder,2.0,Yes,1.0
+CASE_00160,Murder,2.0,Yes,1.0
+CASE_00161,Manslaughter,1.0,Yes,1.0
+CASE_00162,Murder,2.0,Yes,1.0
+CASE_00163,Not Guilty,0.0,No,0.0
+CASE_00164,Murder,2.0,Yes,1.0
+CASE_00165,Murder,2.0,Yes,1.0
+CASE_00166,Murder,2.0,Yes,1.0
+CASE_00167,Manslaughter,1.0,Yes,1.0
+CASE_00168,Murder,2.0,Yes,1.0
+CASE_00169,Murder,2.0,Yes,1.0
+CASE_00170,Murder,2.0,Yes,1.0
+CASE_00171,Murder,2.0,Yes,1.0
+CASE_00172,Murder,2.0,Yes,1.0
+CASE_00173,Manslaughter,1.0,Yes,1.0
+CASE_00174,Murder,2.0,Yes,1.0
+CASE_00175,Murder,2.0,Yes,1.0
+CASE_00176,Murder,2.0,Yes,1.0
+CASE_00177,Manslaughter,1.0,Yes,1.0
+CASE_00178,Murder,2.0,Yes,1.0
+CASE_00179,Murder,2.0,Yes,1.0
+CASE_00180,Not Guilty,0.0,Yes,1.0
+CASE_00181,Murder,2.0,Yes,1.0
+CASE_00182,Murder,2.0,Yes,1.0
+CASE_00183,Manslaughter,1.0,Yes,1.0
+CASE_00184,Not Guilty,0.0,No,0.0
+CASE_00185,Murder,2.0,Yes,1.0
+CASE_00186,Manslaughter,1.0,No,0.0
+CASE_00187,Murder,2.0,Yes,1.0
+CASE_00188,Murder,2.0,Yes,1.0
+CASE_00189,Murder,2.0,Yes,1.0
+CASE_00190,Unknown,,Yes,1.0
+CASE_00191,Murder,2.0,Yes,1.0
+CASE_00192,Murder,2.0,Yes,1.0
+CASE_00193,Murder,2.0,Yes,1.0
+CASE_00194,Murder,2.0,Yes,1.0
+CASE_00195,Murder,2.0,Yes,1.0
+CASE_00196,Not Guilty,0.0,Yes,1.0
+CASE_00197,Murder,2.0,Yes,1.0
+CASE_00198,Murder,2.0,Yes,1.0
+CASE_00199,Murder,2.0,Yes,1.0
+CASE_00200,Murder,2.0,Yes,1.0
+CASE_00201,Not Guilty,0.0,Yes,1.0
+CASE_00202,Manslaughter,1.0,Yes,1.0
+CASE_00203,Manslaughter,1.0,Yes,1.0
+CASE_00204,Manslaughter,1.0,Yes,1.0
+CASE_00205,Murder,2.0,Yes,1.0
+CASE_00206,Murder,2.0,Yes,1.0
+CASE_00207,Murder,2.0,Yes,1.0
+CASE_00208,Murder,2.0,Yes,1.0
+CASE_00209,Murder,2.0,Yes,1.0
+CASE_00210,Unknown,,No,0.0
+CASE_00211,Manslaughter,1.0,Yes,1.0
+CASE_00212,Murder,2.0,Yes,1.0
+CASE_00213,Murder,2.0,Yes,1.0
+CASE_00214,Manslaughter,1.0,Yes,1.0
+CASE_00215,Manslaughter,1.0,Yes,1.0
+CASE_00216,Unknown,,Unclear,
+CASE_00217,Not Guilty,0.0,Yes,1.0
+CASE_00218,Murder,2.0,Yes,1.0
+CASE_00219,Manslaughter,1.0,Yes,1.0
+CASE_00220,Murder,2.0,Yes,1.0
+CASE_00221,Manslaughter,1.0,Yes,1.0
+CASE_00222,Murder,2.0,Yes,1.0
+CASE_00223,Not Guilty,0.0,Yes,1.0
+CASE_00224,Murder,2.0,Yes,1.0
+CASE_00225,Murder,2.0,Yes,1.0
+CASE_00226,Murder,2.0,Yes,1.0
+CASE_00227,Murder,2.0,Yes,1.0
+CASE_00228,Murder,2.0,Yes,1.0
+CASE_00229,Manslaughter,1.0,Yes,1.0
+CASE_00230,Murder,2.0,Yes,1.0
+CASE_00231,Murder,2.0,Yes,1.0
+CASE_00232,Not Guilty,0.0,No,0.0
+CASE_00233,Murder,2.0,Yes,1.0
+CASE_00234,Murder,2.0,Yes,1.0
+CASE_00235,Murder,2.0,Yes,1.0
+CASE_00236,Murder,2.0,Yes,1.0
+CASE_00237,Murder,2.0,Yes,1.0
+CASE_00238,Murder,2.0,Yes,1.0
+CASE_00239,Manslaughter,1.0,Yes,1.0
+CASE_00240,Murder,2.0,Yes,1.0
+CASE_00241,Not Guilty,0.0,Yes,1.0
+CASE_00242,Murder,2.0,Yes,1.0
+CASE_00243,Murder,2.0,Yes,1.0
+CASE_00244,Murder,2.0,Yes,1.0
+CASE_00245,Murder,2.0,Yes,1.0
+CASE_00246,Murder,2.0,Yes,1.0
+CASE_00247,Murder,2.0,Yes,1.0
+CASE_00248,Murder,2.0,Yes,1.0
+CASE_00249,Murder,2.0,Yes,1.0
+CASE_00250,Not Guilty,0.0,Yes,1.0
+CASE_00251,Murder,2.0,Yes,1.0
+CASE_00252,Not Guilty,0.0,No,0.0
+CASE_00253,Manslaughter,1.0,Yes,1.0
+CASE_00254,Murder,2.0,Yes,1.0
+CASE_00255,Manslaughter,1.0,Yes,1.0
+CASE_00256,Murder,2.0,Yes,1.0
+CASE_00257,Not Guilty,0.0,Yes,1.0
+CASE_00258,Unknown,,No,0.0
+CASE_00259,Manslaughter,1.0,No,0.0
+CASE_00260,Murder,2.0,Yes,1.0
+CASE_00261,Murder,2.0,Yes,1.0
+CASE_00262,Manslaughter,1.0,Yes,1.0
+CASE_00263,Murder,2.0,Yes,1.0
+CASE_00264,Unknown,,Unclear,
+CASE_00265,Murder,2.0,Yes,1.0
+CASE_00266,Manslaughter,1.0,Yes,1.0
+CASE_00267,Murder,2.0,Yes,1.0
+CASE_00268,Not Guilty,0.0,Yes,1.0
+CASE_00269,Manslaughter,1.0,Yes,1.0
+CASE_00270,Murder,2.0,Yes,1.0
+CASE_00271,Murder,2.0,Yes,1.0
+CASE_00272,Murder,2.0,Yes,1.0
+CASE_00273,Unknown,,Unclear,
+CASE_00274,Murder,2.0,Yes,1.0
+CASE_00275,Murder,2.0,Yes,1.0
+CASE_00276,Murder,2.0,Yes,1.0
+CASE_00277,Murder,2.0,Yes,1.0
+CASE_00278,Murder,2.0,Yes,1.0
+CASE_00279,Murder,2.0,Yes,1.0
+CASE_00280,Murder,2.0,Yes,1.0
+CASE_00281,Murder,2.0,Yes,1.0
+CASE_00282,Murder,2.0,Yes,1.0
+CASE_00283,Murder,2.0,Yes,1.0
+CASE_00284,Murder,2.0,Yes,1.0
+CASE_00285,Murder,2.0,Yes,1.0
+CASE_00286,Murder,2.0,Yes,1.0
+CASE_00287,Murder,2.0,Yes,1.0
+CASE_00288,Murder,2.0,Yes,1.0
+CASE_00289,Manslaughter,1.0,Yes,1.0
+CASE_00290,Murder,2.0,Yes,1.0
+CASE_00291,Murder,2.0,Yes,1.0
+CASE_00292,Murder,2.0,Yes,1.0
+CASE_00293,Murder,2.0,Yes,1.0
+CASE_00294,Murder,2.0,Yes,1.0
+CASE_00295,Murder,2.0,Yes,1.0
+CASE_00296,Murder,2.0,Yes,1.0
+CASE_00297,Murder,2.0,Yes,1.0
+CASE_00298,Manslaughter,1.0,Yes,1.0
+CASE_00299,Murder,2.0,Yes,1.0
+CASE_00300,Manslaughter,1.0,Yes,1.0
+CASE_00301,Murder,2.0,Yes,1.0
+CASE_00302,Manslaughter,1.0,Yes,1.0
+CASE_00303,Murder,2.0,Yes,1.0
+CASE_00304,Murder,2.0,Yes,1.0
+CASE_00305,Unknown,,Yes,1.0
+CASE_00306,Murder,2.0,Yes,1.0
+CASE_00307,Murder,2.0,Yes,1.0
+CASE_00308,Murder,2.0,Yes,1.0
+CASE_00309,Murder,2.0,Yes,1.0
+CASE_00310,Murder,2.0,Yes,1.0
+CASE_00311,Murder,2.0,Yes,1.0
+CASE_00312,Not Guilty,0.0,Yes,1.0
+CASE_00313,Murder,2.0,Yes,1.0
+CASE_00314,Murder,2.0,Yes,1.0
+CASE_00315,Not Guilty,0.0,Yes,1.0
+CASE_00316,Murder,2.0,Yes,1.0
+CASE_00317,Murder,2.0,Yes,1.0
+CASE_00318,Not Guilty,0.0,Yes,1.0
+CASE_00319,Murder,2.0,Yes,1.0
+CASE_00320,Manslaughter,1.0,Yes,1.0
+CASE_00321,Murder,2.0,Yes,1.0
+CASE_00322,Murder,2.0,Yes,1.0
+CASE_00323,Manslaughter,1.0,No,0.0
+CASE_00324,Murder,2.0,Yes,1.0
+CASE_00325,Murder,2.0,Yes,1.0
+CASE_00326,Murder,2.0,Yes,1.0
+CASE_00327,Murder,2.0,Yes,1.0
+CASE_00328,Murder,2.0,Yes,1.0
+CASE_00329,Manslaughter,1.0,Yes,1.0
+CASE_00330,Murder,2.0,Yes,1.0
+CASE_00331,Murder,2.0,Yes,1.0
+CASE_00332,Murder,2.0,Yes,1.0
+CASE_00333,Not Guilty,0.0,Yes,1.0
+CASE_00334,Manslaughter,1.0,Yes,1.0
+CASE_00335,Manslaughter,1.0,Yes,1.0
+CASE_00336,Murder,2.0,Yes,1.0
+CASE_00337,Murder,2.0,Yes,1.0
+CASE_00338,Murder,2.0,Yes,1.0
+CASE_00339,Murder,2.0,Yes,1.0
+CASE_00340,Not Guilty,0.0,Yes,1.0
+CASE_00341,Murder,2.0,Yes,1.0
+CASE_00342,Not Guilty,0.0,No,0.0
+CASE_00343,Murder,2.0,Yes,1.0
+CASE_00344,Murder,2.0,Yes,1.0
+CASE_00345,Murder,2.0,Yes,1.0
+CASE_00346,Not Guilty,0.0,Yes,1.0
+CASE_00347,Murder,2.0,Yes,1.0
+CASE_00348,Murder,2.0,Yes,1.0
+CASE_00349,Murder,2.0,Yes,1.0
+CASE_00350,Murder,2.0,Yes,1.0
+CASE_00351,Murder,2.0,Yes,1.0
+CASE_00352,Murder,2.0,Yes,1.0
+CASE_00353,Murder,2.0,Yes,1.0
+CASE_00354,Murder,2.0,Yes,1.0
+CASE_00355,Murder,2.0,Yes,1.0
+CASE_00356,Murder,2.0,Yes,1.0
+CASE_00357,Murder,2.0,Yes,1.0
+CASE_00358,Manslaughter,1.0,Yes,1.0
+CASE_00359,Murder,2.0,Yes,1.0
+CASE_00360,Murder,2.0,Yes,1.0
+CASE_00361,Murder,2.0,Yes,1.0
+CASE_00362,Murder,2.0,Yes,1.0
+CASE_00363,Murder,2.0,Yes,1.0
+CASE_00364,Murder,2.0,Yes,1.0
+CASE_00365,Murder,2.0,Yes,1.0
+CASE_00366,Murder,2.0,Yes,1.0
+CASE_00367,Murder,2.0,Yes,1.0
+CASE_00368,Murder,2.0,Yes,1.0
+CASE_00369,Murder,2.0,Yes,1.0
+CASE_00370,Murder,2.0,Yes,1.0
+CASE_00371,Murder,2.0,Yes,1.0
+CASE_00372,Murder,2.0,Yes,1.0
+CASE_00373,Murder,2.0,Yes,1.0
+CASE_00374,Not Guilty,0.0,Yes,1.0
+CASE_00375,Murder,2.0,Yes,1.0
+CASE_00376,Murder,2.0,Yes,1.0
+CASE_00377,Murder,2.0,Yes,1.0
+CASE_00378,Murder,2.0,Yes,1.0
+CASE_00379,Murder,2.0,Yes,1.0
+CASE_00380,Murder,2.0,Yes,1.0
+CASE_00381,Murder,2.0,Yes,1.0
+CASE_00382,Manslaughter,1.0,Yes,1.0
+CASE_00383,Manslaughter,1.0,Yes,1.0
+CASE_00384,Manslaughter,1.0,Yes,1.0
+CASE_00385,Manslaughter,1.0,Yes,1.0
+CASE_00386,Unknown,,Yes,1.0
+CASE_00387,Not Guilty,0.0,Yes,1.0
+CASE_00388,Murder,2.0,Yes,1.0
+CASE_00389,Murder,2.0,Yes,1.0
+CASE_00390,Murder,2.0,Yes,1.0
+CASE_00391,Murder,2.0,Yes,1.0
+CASE_00392,Murder,2.0,Yes,1.0
+CASE_00393,Unknown,,No,0.0
+CASE_00394,Murder,2.0,Yes,1.0
+CASE_00395,Murder,2.0,Yes,1.0
+CASE_00396,Not Guilty,0.0,Yes,1.0
+CASE_00397,Murder,2.0,Yes,1.0
+CASE_00398,Murder,2.0,Yes,1.0
+CASE_00399,Murder,2.0,Yes,1.0
+CASE_00400,Murder,2.0,Yes,1.0
+CASE_00401,Unknown,,No,0.0
+CASE_00402,Manslaughter,1.0,Yes,1.0
+CASE_00403,Murder,2.0,Yes,1.0
+CASE_00404,Murder,2.0,Yes,1.0
+CASE_00405,Murder,2.0,Yes,1.0
+CASE_00406,Murder,2.0,Yes,1.0
+CASE_00407,Murder,2.0,Yes,1.0
+CASE_00408,Murder,2.0,Yes,1.0
+CASE_00409,Murder,2.0,Yes,1.0
+CASE_00410,Murder,2.0,Yes,1.0
+CASE_00411,Murder,2.0,Yes,1.0
+CASE_00412,Murder,2.0,Yes,1.0
+CASE_00413,Murder,2.0,Yes,1.0
+CASE_00414,Murder,2.0,Yes,1.0
+CASE_00415,Murder,2.0,Yes,1.0
+CASE_00416,Murder,2.0,Yes,1.0
+CASE_00417,Murder,2.0,Yes,1.0
+CASE_00418,Manslaughter,1.0,Yes,1.0
+CASE_00419,Murder,2.0,Yes,1.0
+CASE_00420,Unknown,,No,0.0
+CASE_00421,Murder,2.0,Yes,1.0
+CASE_00422,Murder,2.0,Yes,1.0
+CASE_00423,Murder,2.0,Yes,1.0
+CASE_00424,Murder,2.0,Yes,1.0
+CASE_00425,Murder,2.0,Yes,1.0
+CASE_00426,Manslaughter,1.0,Yes,1.0
+CASE_00427,Murder,2.0,Yes,1.0
+CASE_00428,Murder,2.0,Yes,1.0
+CASE_00429,Murder,2.0,Yes,1.0
+CASE_00430,Murder,2.0,Yes,1.0
+CASE_00431,Manslaughter,1.0,Yes,1.0
+CASE_00432,Murder,2.0,Yes,1.0
+CASE_00433,Murder,2.0,Yes,1.0
+CASE_00434,Murder,2.0,Yes,1.0
+CASE_00435,Murder,2.0,Yes,1.0
+CASE_00436,Murder,2.0,Yes,1.0
+CASE_00437,Murder,2.0,Yes,1.0
+CASE_00438,Murder,2.0,Yes,1.0
+CASE_00439,Murder,2.0,Yes,1.0
+CASE_00440,Murder,2.0,Yes,1.0
+CASE_00441,Murder,2.0,Yes,1.0
+CASE_00442,Murder,2.0,Yes,1.0
+CASE_00443,Manslaughter,1.0,Yes,1.0
+CASE_00444,Murder,2.0,Yes,1.0
+CASE_00445,Not Guilty,0.0,Yes,1.0
+CASE_00446,Not Guilty,0.0,Yes,1.0
+CASE_00447,Murder,2.0,Yes,1.0
+CASE_00448,Murder,2.0,Yes,1.0
+CASE_00449,Manslaughter,1.0,Yes,1.0
+CASE_00450,Manslaughter,1.0,Yes,1.0
+CASE_00451,Manslaughter,1.0,Yes,1.0
+CASE_00452,Murder,2.0,Yes,1.0
+CASE_00453,Murder,2.0,Yes,1.0
+CASE_00454,Murder,2.0,Yes,1.0
+CASE_00455,Not Guilty,0.0,Yes,1.0
+CASE_00456,Murder,2.0,Yes,1.0
+CASE_00457,Murder,2.0,Yes,1.0
+CASE_00458,Not Guilty,0.0,No,0.0
+CASE_00459,Manslaughter,1.0,Yes,1.0
+CASE_00460,Not Guilty,0.0,No,0.0
+CASE_00461,Manslaughter,1.0,Yes,1.0
+CASE_00462,Manslaughter,1.0,Yes,1.0
+CASE_00463,Murder,2.0,Yes,1.0
+CASE_00464,Murder,2.0,Yes,1.0
+CASE_00465,Murder,2.0,Yes,1.0
+CASE_00466,Murder,2.0,Yes,1.0
+CASE_00467,Murder,2.0,Yes,1.0
+CASE_00468,Murder,2.0,Yes,1.0
+CASE_00469,Murder,2.0,Yes,1.0
+CASE_00470,Unknown,,No,0.0
+CASE_00471,Murder,2.0,Yes,1.0
+CASE_00472,Not Guilty,0.0,Yes,1.0
+CASE_00473,Murder,2.0,Yes,1.0
+CASE_00474,Murder,2.0,Yes,1.0
+CASE_00475,Not Guilty,0.0,Yes,1.0
+CASE_00476,Murder,2.0,Yes,1.0
+CASE_00477,Murder,2.0,Yes,1.0
+CASE_00478,Murder,2.0,Yes,1.0
+CASE_00479,Murder,2.0,Yes,1.0
+CASE_00480,Murder,2.0,Yes,1.0
+CASE_00481,Not Guilty,0.0,No,0.0
+CASE_00482,Manslaughter,1.0,Yes,1.0
+CASE_00483,Murder,2.0,Yes,1.0
+CASE_00484,Murder,2.0,Yes,1.0
+CASE_00485,Murder,2.0,Yes,1.0
+CASE_00486,Murder,2.0,Yes,1.0
+CASE_00487,Not Guilty,0.0,Yes,1.0
+CASE_00488,Murder,2.0,Yes,1.0
+CASE_00489,Murder,2.0,Yes,1.0
+CASE_00490,Manslaughter,1.0,Yes,1.0
+CASE_00491,Murder,2.0,Yes,1.0
+CASE_00492,Murder,2.0,Yes,1.0
+CASE_00493,Manslaughter,1.0,Yes,1.0
+CASE_00494,Manslaughter,1.0,Yes,1.0
+CASE_00495,Manslaughter,1.0,No,0.0
+CASE_00496,Murder,2.0,Yes,1.0
+CASE_00497,Murder,2.0,Yes,1.0
+CASE_00498,Murder,2.0,Yes,1.0
+CASE_00499,Unknown,,Yes,1.0
+CASE_00500,Murder,2.0,Yes,1.0
+CASE_00501,Murder,2.0,Yes,1.0
+CASE_00502,Murder,2.0,Yes,1.0
+CASE_00503,Murder,2.0,Yes,1.0
+CASE_00504,Murder,2.0,Yes,1.0
+CASE_00505,Manslaughter,1.0,Yes,1.0
+CASE_00506,Murder,2.0,Yes,1.0
+CASE_00507,Not Guilty,0.0,Yes,1.0
+CASE_00508,Murder,2.0,Yes,1.0
+CASE_00509,Not Guilty,0.0,Yes,1.0
+CASE_00510,Manslaughter,1.0,Yes,1.0
+CASE_00511,Murder,2.0,Yes,1.0
+CASE_00512,Unknown,,Yes,1.0
+CASE_00513,Murder,2.0,Yes,1.0
+CASE_00514,Murder,2.0,Yes,1.0
+CASE_00515,Murder,2.0,Yes,1.0
+CASE_00516,Manslaughter,1.0,Yes,1.0
+CASE_00517,Murder,2.0,Yes,1.0
+CASE_00518,Murder,2.0,Yes,1.0
+CASE_00519,Murder,2.0,Yes,1.0
+CASE_00520,Murder,2.0,Yes,1.0
+CASE_00521,Murder,2.0,Yes,1.0
+CASE_00522,Murder,2.0,Yes,1.0
+CASE_00523,Murder,2.0,Yes,1.0
+CASE_00524,Murder,2.0,Yes,1.0
+CASE_00525,Murder,2.0,Yes,1.0
+CASE_00526,Murder,2.0,Yes,1.0
+CASE_00527,Not Guilty,0.0,No,0.0
+CASE_00528,Not Guilty,0.0,No,0.0
+CASE_00529,Murder,2.0,Yes,1.0
+CASE_00530,Unknown,,Unclear,
+CASE_00531,Manslaughter,1.0,Yes,1.0
+CASE_00532,Murder,2.0,Yes,1.0
+CASE_00533,Not Guilty,0.0,No,0.0
+CASE_00534,Murder,2.0,Yes,1.0
+CASE_00535,Murder,2.0,Yes,1.0
+CASE_00536,Manslaughter,1.0,Yes,1.0
+CASE_00537,Manslaughter,1.0,Yes,1.0
+CASE_00538,Murder,2.0,Yes,1.0
+CASE_00539,Not Guilty,0.0,Yes,1.0
+CASE_00540,Murder,2.0,Yes,1.0
+CASE_00541,Murder,2.0,Yes,1.0
+CASE_00542,Not Guilty,0.0,No,0.0
+CASE_00543,Murder,2.0,Yes,1.0
+CASE_00544,Not Guilty,0.0,No,0.0
+CASE_00545,Murder,2.0,Yes,1.0
+CASE_00546,Murder,2.0,Yes,1.0
+CASE_00547,Murder,2.0,Yes,1.0
+CASE_00548,Murder,2.0,Yes,1.0
+CASE_00549,Murder,2.0,Yes,1.0
+CASE_00550,Murder,2.0,Yes,1.0
+CASE_00551,Murder,2.0,Yes,1.0
+CASE_00552,Manslaughter,1.0,Yes,1.0
+CASE_00553,Not Guilty,0.0,No,0.0
+CASE_00554,Not Guilty,0.0,Yes,1.0
+CASE_00555,Not Guilty,0.0,Yes,1.0
+CASE_00556,Murder,2.0,Yes,1.0
+CASE_00557,Manslaughter,1.0,Yes,1.0
+CASE_00558,Murder,2.0,Yes,1.0
+CASE_00559,Not Guilty,0.0,Yes,1.0
+CASE_00560,Unknown,,No,0.0
+CASE_00561,Murder,2.0,Yes,1.0
+CASE_00562,Murder,2.0,Yes,1.0
+CASE_00563,Murder,2.0,Yes,1.0
+CASE_00564,Murder,2.0,Yes,1.0
+CASE_00565,Not Guilty,0.0,No,0.0
+CASE_00566,Unknown,,Yes,1.0
+CASE_00567,Not Guilty,0.0,No,0.0
+CASE_00568,Murder,2.0,Yes,1.0
+CASE_00569,Murder,2.0,Yes,1.0
+CASE_00570,Murder,2.0,Yes,1.0
+CASE_00571,Not Guilty,0.0,Yes,1.0
+CASE_00572,Manslaughter,1.0,Yes,1.0
+CASE_00573,Murder,2.0,Yes,1.0
+CASE_00574,Manslaughter,1.0,Yes,1.0
+CASE_00575,Manslaughter,1.0,Yes,1.0
+CASE_00576,Manslaughter,1.0,Yes,1.0
+CASE_00577,Murder,2.0,Yes,1.0
+CASE_00578,Manslaughter,1.0,Yes,1.0
+CASE_00579,Manslaughter,1.0,Yes,1.0
+CASE_00580,Not Guilty,0.0,No,0.0
+CASE_00581,Murder,2.0,Yes,1.0
+CASE_00582,Unknown,,Yes,1.0
+CASE_00583,Murder,2.0,Yes,1.0
+CASE_00584,Unknown,,Unclear,
+CASE_00585,Not Guilty,0.0,Yes,1.0
+CASE_00586,Murder,2.0,Yes,1.0
+CASE_00587,Unknown,,Yes,1.0
+CASE_00588,Murder,2.0,Yes,1.0
+CASE_00589,Murder,2.0,Yes,1.0
+CASE_00590,Murder,2.0,Yes,1.0
+CASE_00591,Murder,2.0,Yes,1.0
+CASE_00592,Not Guilty,0.0,Yes,1.0
+CASE_00593,Murder,2.0,Yes,1.0
+CASE_00594,Manslaughter,1.0,Yes,1.0
+CASE_00595,Murder,2.0,Yes,1.0
+CASE_00596,Not Guilty,0.0,Yes,1.0
+CASE_00597,Murder,2.0,Yes,1.0
+CASE_00598,Murder,2.0,Yes,1.0
+CASE_00599,Murder,2.0,Yes,1.0
+CASE_00600,Murder,2.0,Yes,1.0
+CASE_00601,Manslaughter,1.0,Yes,1.0
+CASE_00602,Murder,2.0,Yes,1.0
+CASE_00603,Murder,2.0,Yes,1.0
+CASE_00604,Murder,2.0,Yes,1.0
+CASE_00605,Murder,2.0,Yes,1.0
+CASE_00606,Murder,2.0,Yes,1.0
+CASE_00607,Murder,2.0,Yes,1.0
+CASE_00608,Murder,2.0,Yes,1.0
+CASE_00609,Murder,2.0,Yes,1.0
+CASE_00610,Murder,2.0,Yes,1.0
+CASE_00611,Murder,2.0,Yes,1.0
+CASE_00612,Murder,2.0,Yes,1.0
+CASE_00613,Manslaughter,1.0,Yes,1.0
+CASE_00614,Murder,2.0,Yes,1.0
+CASE_00615,Murder,2.0,Yes,1.0
+CASE_00616,Murder,2.0,Yes,1.0
+CASE_00617,Unknown,,No,0.0
+CASE_00618,Murder,2.0,Yes,1.0
+CASE_00619,Murder,2.0,Yes,1.0
+CASE_00620,Murder,2.0,Yes,1.0
+CASE_00621,Murder,2.0,Yes,1.0
+CASE_00622,Murder,2.0,Yes,1.0
+CASE_00623,Murder,2.0,Yes,1.0
+CASE_00624,Murder,2.0,Yes,1.0
+CASE_00625,Murder,2.0,Yes,1.0
+CASE_00626,Manslaughter,1.0,Yes,1.0
+CASE_00627,Murder,2.0,Yes,1.0
+CASE_00628,Murder,2.0,Yes,1.0
+CASE_00629,Murder,2.0,Yes,1.0
+CASE_00630,Murder,2.0,Yes,1.0
+CASE_00631,Murder,2.0,Yes,1.0
+CASE_00632,Murder,2.0,Yes,1.0
+CASE_00633,Murder,2.0,Yes,1.0
+CASE_00634,Murder,2.0,Yes,1.0
+CASE_00635,Not Guilty,0.0,No,0.0
+CASE_00636,Not Guilty,0.0,No,0.0
+CASE_00637,Manslaughter,1.0,Yes,1.0
+CASE_00638,Murder,2.0,Yes,1.0
+CASE_00639,Murder,2.0,Yes,1.0
+CASE_00640,Manslaughter,1.0,Yes,1.0
+CASE_00641,Murder,2.0,Yes,1.0
+CASE_00642,Murder,2.0,Yes,1.0
+CASE_00643,Murder,2.0,Yes,1.0
+CASE_00644,Manslaughter,1.0,Yes,1.0
+CASE_00645,Manslaughter,1.0,Yes,1.0
+CASE_00646,Manslaughter,1.0,Yes,1.0
+CASE_00647,Manslaughter,1.0,Yes,1.0
+CASE_00648,Murder,2.0,Yes,1.0
+CASE_00649,Murder,2.0,Yes,1.0
+CASE_00650,Murder,2.0,Yes,1.0
+CASE_00651,Murder,2.0,Yes,1.0
+CASE_00652,Manslaughter,1.0,Yes,1.0
+CASE_00653,Unknown,,Yes,1.0
+CASE_00654,Unknown,,No,0.0
+CASE_00655,Murder,2.0,Yes,1.0
+CASE_00656,Murder,2.0,Yes,1.0
+CASE_00657,Murder,2.0,Yes,1.0
+CASE_00658,Not Guilty,0.0,No,0.0
+CASE_00659,Manslaughter,1.0,Yes,1.0
+CASE_00660,Manslaughter,1.0,Yes,1.0
+CASE_00661,Murder,2.0,Yes,1.0
+CASE_00662,Murder,2.0,Yes,1.0
+CASE_00663,Murder,2.0,Yes,1.0
+CASE_00664,Murder,2.0,Yes,1.0
+CASE_00665,Manslaughter,1.0,Yes,1.0
+CASE_00666,Murder,2.0,Yes,1.0
+CASE_00667,Manslaughter,1.0,Yes,1.0
+CASE_00668,Murder,2.0,Yes,1.0
+CASE_00669,Murder,2.0,Yes,1.0
+CASE_00670,Murder,2.0,Yes,1.0
+CASE_00671,Murder,2.0,Yes,1.0
+CASE_00672,Murder,2.0,Yes,1.0
+CASE_00673,Murder,2.0,Yes,1.0
+CASE_00674,Murder,2.0,Yes,1.0
+CASE_00675,Murder,2.0,Yes,1.0
+CASE_00676,Murder,2.0,Yes,1.0
+CASE_00677,Unknown,,No,0.0
+CASE_00678,Murder,2.0,Yes,1.0
+CASE_00679,Manslaughter,1.0,Yes,1.0
+CASE_00680,Murder,2.0,Yes,1.0
+CASE_00681,Not Guilty,0.0,No,0.0
+CASE_00682,Murder,2.0,Yes,1.0
+CASE_00683,Murder,2.0,Yes,1.0
+CASE_00684,Murder,2.0,Yes,1.0
+CASE_00685,Murder,2.0,Yes,1.0
+CASE_00686,Murder,2.0,Yes,1.0
+CASE_00687,Murder,2.0,Yes,1.0
+CASE_00688,Murder,2.0,Yes,1.0
+CASE_00689,Murder,2.0,Yes,1.0
+CASE_00690,Murder,2.0,Yes,1.0
+CASE_00691,Murder,2.0,Yes,1.0
+CASE_00692,Manslaughter,1.0,Yes,1.0
+CASE_00693,Not Guilty,0.0,Yes,1.0
+CASE_00694,Murder,2.0,Yes,1.0
+CASE_00695,Manslaughter,1.0,Yes,1.0
+CASE_00696,Murder,2.0,Yes,1.0
+CASE_00697,Murder,2.0,Yes,1.0
+CASE_00698,Murder,2.0,Yes,1.0
+CASE_00699,Murder,2.0,Yes,1.0
+CASE_00700,Murder,2.0,Yes,1.0
+CASE_00701,Unknown,,No,0.0
+CASE_00702,Murder,2.0,Yes,1.0
+CASE_00703,Murder,2.0,Yes,1.0
+CASE_00704,Murder,2.0,Yes,1.0
+CASE_00705,Murder,2.0,Yes,1.0
+CASE_00706,Murder,2.0,Yes,1.0
+CASE_00707,Murder,2.0,Yes,1.0
+CASE_00708,Murder,2.0,Yes,1.0
+CASE_00709,Manslaughter,1.0,Yes,1.0
+CASE_00710,Murder,2.0,Yes,1.0
+CASE_00711,Murder,2.0,Yes,1.0
+CASE_00712,Murder,2.0,Yes,1.0
+CASE_00713,Murder,2.0,Yes,1.0
+CASE_00714,Murder,2.0,Yes,1.0
+CASE_00715,Murder,2.0,Yes,1.0
+CASE_00716,Murder,2.0,Yes,1.0
+CASE_00717,Murder,2.0,Yes,1.0
+CASE_00718,Manslaughter,1.0,Yes,1.0
+CASE_00719,Manslaughter,1.0,Yes,1.0
+CASE_00720,Not Guilty,0.0,No,0.0
+CASE_00721,Not Guilty,0.0,No,0.0
+CASE_00722,Murder,2.0,Yes,1.0
+CASE_00723,Unknown,,No,0.0
+CASE_00724,Not Guilty,0.0,No,0.0
+CASE_00725,Murder,2.0,Yes,1.0
+CASE_00726,Murder,2.0,Yes,1.0
+CASE_00727,Manslaughter,1.0,Yes,1.0
+CASE_00728,Manslaughter,1.0,Yes,1.0
+CASE_00729,Not Guilty,0.0,No,0.0
+CASE_00730,Manslaughter,1.0,Yes,1.0
+CASE_00731,Not Guilty,0.0,No,0.0
+CASE_00732,Murder,2.0,Yes,1.0
+CASE_00733,Murder,2.0,Yes,1.0
+CASE_00734,Murder,2.0,Yes,1.0
+CASE_00735,Murder,2.0,Yes,1.0
+CASE_00736,Unknown,,Unclear,
+CASE_00737,Murder,2.0,Yes,1.0
+CASE_00738,Murder,2.0,Yes,1.0
+CASE_00739,Not Guilty,0.0,No,0.0
+CASE_00740,Murder,2.0,Yes,1.0
+CASE_00741,Murder,2.0,Yes,1.0
+CASE_00742,Murder,2.0,Yes,1.0
+CASE_00743,Murder,2.0,Yes,1.0
+CASE_00744,Murder,2.0,Yes,1.0
+CASE_00745,Murder,2.0,Yes,1.0
+CASE_00746,Murder,2.0,Yes,1.0
+CASE_00747,Murder,2.0,Yes,1.0
+CASE_00748,Murder,2.0,Yes,1.0
+CASE_00749,Murder,2.0,Yes,1.0
+CASE_00750,Murder,2.0,Yes,1.0
+CASE_00751,Unknown,,No,0.0
+CASE_00752,Murder,2.0,Yes,1.0
+CASE_00753,Not Guilty,0.0,Yes,1.0
+CASE_00754,Manslaughter,1.0,Yes,1.0
+CASE_00755,Murder,2.0,Yes,1.0
+CASE_00756,Manslaughter,1.0,Yes,1.0
+CASE_00757,Murder,2.0,Yes,1.0
+CASE_00758,Manslaughter,1.0,Yes,1.0
+CASE_00759,Manslaughter,1.0,Yes,1.0
+CASE_00760,Murder,2.0,Yes,1.0
+CASE_00761,Manslaughter,1.0,Yes,1.0
+CASE_00762,Manslaughter,1.0,Yes,1.0
+CASE_00763,Murder,2.0,Yes,1.0
+CASE_00764,Murder,2.0,Yes,1.0
+CASE_00765,Manslaughter,1.0,Yes,1.0
+CASE_00766,Manslaughter,1.0,Yes,1.0
+CASE_00767,Murder,2.0,Yes,1.0
+CASE_00768,Murder,2.0,Yes,1.0
+CASE_00769,Not Guilty,0.0,Yes,1.0
+CASE_00770,Not Guilty,0.0,Yes,1.0
+CASE_00771,Murder,2.0,Yes,1.0
+CASE_00772,Murder,2.0,Yes,1.0
+CASE_00773,Not Guilty,0.0,Yes,1.0
+CASE_00774,Murder,2.0,Yes,1.0
+CASE_00775,Murder,2.0,Yes,1.0
+CASE_00776,Murder,2.0,Yes,1.0
+CASE_00777,Murder,2.0,Yes,1.0
+CASE_00778,Not Guilty,0.0,Yes,1.0
+CASE_00779,Murder,2.0,Yes,1.0
+CASE_00780,Murder,2.0,Yes,1.0
+CASE_00781,Murder,2.0,Yes,1.0
+CASE_00782,Unknown,,No,0.0
+CASE_00783,Murder,2.0,Yes,1.0
+CASE_00784,Murder,2.0,Yes,1.0
+CASE_00785,Manslaughter,1.0,Yes,1.0
+CASE_00786,Murder,2.0,Yes,1.0
+CASE_00787,Not Guilty,0.0,No,0.0
+CASE_00788,Murder,2.0,Yes,1.0
+CASE_00789,Murder,2.0,Yes,1.0
+CASE_00790,Not Guilty,0.0,Yes,1.0
+CASE_00791,Murder,2.0,Yes,1.0
+CASE_00792,Not Guilty,0.0,Yes,1.0
+CASE_00793,Murder,2.0,Yes,1.0
+CASE_00794,Manslaughter,1.0,Yes,1.0
+CASE_00795,Manslaughter,1.0,Yes,1.0
+CASE_00796,Not Guilty,0.0,No,0.0
+CASE_00797,Manslaughter,1.0,Yes,1.0
+CASE_00798,Murder,2.0,Yes,1.0
+CASE_00799,Not Guilty,0.0,No,0.0
+CASE_00800,Murder,2.0,Yes,1.0
+CASE_00801,Manslaughter,1.0,Yes,1.0
+CASE_00802,Murder,2.0,Yes,1.0
+CASE_00803,Murder,2.0,Yes,1.0
+CASE_00804,Not Guilty,0.0,No,0.0
+CASE_00805,Murder,2.0,Yes,1.0
+CASE_00806,Murder,2.0,Yes,1.0
+CASE_00807,Murder,2.0,Yes,1.0
+CASE_00808,Not Guilty,0.0,Yes,1.0
+CASE_00809,Murder,2.0,Yes,1.0
+CASE_00810,Murder,2.0,Yes,1.0
+CASE_00811,Murder,2.0,Yes,1.0
+CASE_00812,Unknown,,No,0.0
+CASE_00813,Murder,2.0,Yes,1.0
+CASE_00814,Murder,2.0,Yes,1.0
+CASE_00815,Murder,2.0,Yes,1.0
+CASE_00816,Manslaughter,1.0,Yes,1.0
+CASE_00817,Murder,2.0,Yes,1.0
+CASE_00818,Murder,2.0,Yes,1.0
+CASE_00819,Manslaughter,1.0,Yes,1.0
+CASE_00820,Murder,2.0,Yes,1.0
+CASE_00821,Murder,2.0,Yes,1.0
+CASE_00822,Murder,2.0,Yes,1.0
+CASE_00823,Not Guilty,0.0,No,0.0
+CASE_00824,Not Guilty,0.0,No,0.0
+CASE_00825,Manslaughter,1.0,Yes,1.0
+CASE_00826,Murder,2.0,Yes,1.0
+CASE_00827,Murder,2.0,Yes,1.0
+CASE_00828,Not Guilty,0.0,No,0.0
+CASE_00829,Murder,2.0,Yes,1.0
+CASE_00830,Unknown,,No,0.0
+CASE_00831,Murder,2.0,Yes,1.0
+CASE_00832,Murder,2.0,Yes,1.0
+CASE_00833,Murder,2.0,Yes,1.0
+CASE_00834,Manslaughter,1.0,Yes,1.0
+CASE_00835,Not Guilty,0.0,No,0.0
+CASE_00836,Murder,2.0,Yes,1.0
+CASE_00837,Manslaughter,1.0,Yes,1.0
+CASE_00838,Manslaughter,1.0,Yes,1.0
+CASE_00839,Murder,2.0,Yes,1.0
+CASE_00840,Manslaughter,1.0,Yes,1.0
+CASE_00841,Not Guilty,0.0,No,0.0
+CASE_00842,Murder,2.0,Yes,1.0
+CASE_00843,Not Guilty,0.0,No,0.0
+CASE_00844,Unknown,,Yes,1.0
+CASE_00845,Murder,2.0,Yes,1.0
+CASE_00846,Murder,2.0,No,0.0
+CASE_00847,Murder,2.0,Yes,1.0
+CASE_00848,Unknown,,No,0.0
+CASE_00849,Unknown,,No,0.0
+CASE_00850,Murder,2.0,Yes,1.0
+CASE_00851,Murder,2.0,Yes,1.0
+CASE_00852,Murder,2.0,Yes,1.0
+CASE_00853,Murder,2.0,Yes,1.0
+CASE_00854,Murder,2.0,Yes,1.0
+CASE_00855,Murder,2.0,Yes,1.0
+CASE_00856,Manslaughter,1.0,Yes,1.0
+CASE_00857,Murder,2.0,Yes,1.0
+CASE_00858,Manslaughter,1.0,Yes,1.0
+CASE_00859,Manslaughter,1.0,Yes,1.0
+CASE_00860,Manslaughter,1.0,Yes,1.0
+CASE_00861,Murder,2.0,Yes,1.0
+CASE_00862,Murder,2.0,Yes,1.0
+CASE_00863,Murder,2.0,Yes,1.0
+CASE_00864,Murder,2.0,Yes,1.0
+CASE_00865,Murder,2.0,Yes,1.0
+CASE_00866,Not Guilty,0.0,No,0.0
+CASE_00867,Murder,2.0,Yes,1.0
+CASE_00868,Manslaughter,1.0,Yes,1.0
+CASE_00869,Not Guilty,0.0,No,0.0
+CASE_00870,Murder,2.0,Yes,1.0
+CASE_00871,Murder,2.0,Yes,1.0
+CASE_00872,Not Guilty,0.0,No,0.0
+CASE_00873,Not Guilty,0.0,No,0.0
+CASE_00874,Murder,2.0,Yes,1.0
+CASE_00875,Murder,2.0,Yes,1.0
+CASE_00876,Murder,2.0,Yes,1.0
+CASE_00877,Murder,2.0,Yes,1.0
+CASE_00878,Murder,2.0,Yes,1.0
+CASE_00879,Manslaughter,1.0,Yes,1.0
+CASE_00880,Murder,2.0,Yes,1.0
+CASE_00881,Murder,2.0,Yes,1.0
+CASE_00882,Murder,2.0,Yes,1.0
+CASE_00883,Not Guilty,0.0,No,0.0
+CASE_00884,Murder,2.0,Yes,1.0
+CASE_00885,Murder,2.0,Yes,1.0
+CASE_00886,Murder,2.0,Yes,1.0
+CASE_00887,Murder,2.0,Yes,1.0
+CASE_00888,Murder,2.0,Yes,1.0
+CASE_00889,Murder,2.0,Yes,1.0
+CASE_00890,Unknown,,No,0.0
+CASE_00891,Murder,2.0,Yes,1.0
+CASE_00892,Murder,2.0,Yes,1.0
+CASE_00893,Not Guilty,0.0,Yes,1.0
+CASE_00894,Murder,2.0,Yes,1.0
+CASE_00895,Murder,2.0,Yes,1.0
+CASE_00896,Not Guilty,0.0,Yes,1.0
+CASE_00897,Murder,2.0,Yes,1.0
+CASE_00898,Murder,2.0,Yes,1.0
+CASE_00899,Not Guilty,0.0,No,0.0
+CASE_00900,Murder,2.0,Yes,1.0
+CASE_00901,Murder,2.0,Yes,1.0
+CASE_00902,Manslaughter,1.0,Yes,1.0
+CASE_00903,Murder,2.0,Yes,1.0
+CASE_00904,Murder,2.0,Yes,1.0
+CASE_00905,Murder,2.0,Yes,1.0
+CASE_00906,Unknown,,No,0.0
+CASE_00907,Manslaughter,1.0,Yes,1.0
+CASE_00908,Manslaughter,1.0,Yes,1.0
+CASE_00909,Unknown,,No,0.0
+CASE_00910,Manslaughter,1.0,No,0.0
+CASE_00911,Manslaughter,1.0,Yes,1.0
+CASE_00912,Murder,2.0,Yes,1.0
+CASE_00913,Murder,2.0,Yes,1.0
+CASE_00914,Murder,2.0,Yes,1.0
+CASE_00915,Murder,2.0,Yes,1.0
+CASE_00916,Murder,2.0,Yes,1.0
+CASE_00917,Not Guilty,0.0,Yes,1.0
+CASE_00918,Murder,2.0,Yes,1.0
+CASE_00919,Murder,2.0,Yes,1.0
+CASE_00920,Murder,2.0,Yes,1.0
+CASE_00921,Murder,2.0,Yes,1.0
+CASE_00922,Not Guilty,0.0,No,0.0
+CASE_00923,Unknown,,Yes,1.0
+CASE_00924,Murder,2.0,Yes,1.0
+CASE_00925,Manslaughter,1.0,Yes,1.0
+CASE_00926,Murder,2.0,Yes,1.0
+CASE_00927,Not Guilty,0.0,Yes,1.0
+CASE_00928,Unknown,,Yes,1.0
+CASE_00929,Not Guilty,0.0,Yes,1.0
+CASE_00930,Murder,2.0,Yes,1.0
+CASE_00931,Murder,2.0,Yes,1.0
+CASE_00932,Unknown,,Unclear,
+CASE_00933,Manslaughter,1.0,Yes,1.0
+CASE_00934,Not Guilty,0.0,No,0.0
+CASE_00935,Murder,2.0,Yes,1.0
+CASE_00936,Murder,2.0,Yes,1.0
+CASE_00937,Murder,2.0,Yes,1.0
+CASE_00938,Unknown,,Yes,1.0
+CASE_00939,Murder,2.0,Yes,1.0
+CASE_00940,Unknown,,Unclear,
+CASE_00941,Not Guilty,0.0,No,0.0
+CASE_00942,Murder,2.0,Yes,1.0
+CASE_00943,Murder,2.0,Yes,1.0
+CASE_00944,Unknown,,Unclear,
+CASE_00945,Murder,2.0,Yes,1.0
+CASE_00946,Manslaughter,1.0,No,0.0
+CASE_00947,Murder,2.0,Yes,1.0
+CASE_00948,Manslaughter,1.0,Yes,1.0
+CASE_00949,Not Guilty,0.0,No,0.0
+CASE_00950,Murder,2.0,Yes,1.0
+CASE_00951,Unknown,,No,0.0
+CASE_00952,Manslaughter,1.0,Yes,1.0
+CASE_00953,Manslaughter,1.0,Yes,1.0
+CASE_00954,Not Guilty,0.0,Yes,1.0
+CASE_00955,Manslaughter,1.0,Yes,1.0
+CASE_00956,Murder,2.0,Yes,1.0
+CASE_00957,Unknown,,Yes,1.0
+CASE_00958,Not Guilty,0.0,No,0.0
+CASE_00959,Unknown,,No,0.0
+CASE_00960,Not Guilty,0.0,No,0.0
+CASE_00961,Not Guilty,0.0,Yes,1.0
+CASE_00962,Murder,2.0,Yes,1.0
+CASE_00963,Murder,2.0,Yes,1.0
+CASE_00964,Murder,2.0,Yes,1.0
+CASE_00965,Murder,2.0,Yes,1.0
+CASE_00966,Manslaughter,1.0,Yes,1.0
+CASE_00967,Murder,2.0,Yes,1.0
+CASE_00968,Murder,2.0,Yes,1.0
+CASE_00969,Murder,2.0,Yes,1.0
+CASE_00970,Murder,2.0,Yes,1.0
+CASE_00971,Murder,2.0,Yes,1.0
+CASE_00972,Murder,2.0,Yes,1.0
+CASE_00973,Murder,2.0,Yes,1.0
+CASE_00974,Murder,2.0,Yes,1.0
+CASE_00975,Murder,2.0,Yes,1.0
+CASE_00976,Not Guilty,0.0,No,0.0
+CASE_00977,Murder,2.0,Yes,1.0
+CASE_00978,Manslaughter,1.0,Yes,1.0
+CASE_00979,Murder,2.0,Yes,1.0
+CASE_00980,Manslaughter,1.0,Yes,1.0
+CASE_00981,Manslaughter,1.0,Yes,1.0
+CASE_00982,Murder,2.0,Yes,1.0
+CASE_00983,Not Guilty,0.0,Yes,1.0
+CASE_00984,Murder,2.0,Yes,1.0
+CASE_00985,Murder,2.0,Yes,1.0
+CASE_00986,Murder,2.0,Yes,1.0
+CASE_00987,Unknown,,No,0.0
+CASE_00988,Murder,2.0,Yes,1.0
+CASE_00989,Murder,2.0,Yes,1.0
+CASE_00990,Murder,2.0,Yes,1.0
+CASE_00991,Murder,2.0,Yes,1.0
+CASE_00992,Not Guilty,0.0,No,0.0
+CASE_00993,Manslaughter,1.0,Yes,1.0
+CASE_00994,Manslaughter,1.0,Yes,1.0
+NEG_00000,Murder,2.0,Yes,1.0
+NEG_00001,Murder,2.0,Yes,1.0
+NEG_00002,Murder,2.0,Yes,1.0
+NEG_00003,Murder,2.0,Yes,1.0
+NEG_00004,Murder,2.0,Yes,1.0
+NEG_00005,Murder,2.0,Yes,1.0
+NEG_00006,Murder,2.0,Yes,1.0
+NEG_00007,Not Guilty,0.0,Yes,1.0
+NEG_00008,Not Guilty,0.0,Yes,1.0
+NEG_00009,Not Guilty,0.0,Yes,1.0
+NEG_00010,Not Guilty,0.0,Yes,1.0
+NEG_00011,Not Guilty,0.0,Yes,1.0
+NEG_00012,Manslaughter,1.0,Yes,1.0
+NEG_00013,Murder,2.0,Yes,1.0
+NEG_00014,Murder,2.0,Yes,1.0
+NEG_00015,Murder,2.0,Yes,1.0
+NEG_00016,Murder,2.0,Yes,1.0
+NEG_00017,Murder,2.0,Yes,1.0
+NEG_00018,Murder,2.0,Yes,1.0
+NEG_00019,Manslaughter,1.0,Yes,1.0
+NEG_00020,Murder,2.0,Yes,1.0
+NEG_00021,Murder,2.0,Yes,1.0
+NEG_00022,Murder,2.0,Yes,1.0
+NEG_00023,Murder,2.0,Yes,1.0
+NEG_00024,Murder,2.0,Yes,1.0
+NEG_00025,Murder,2.0,Yes,1.0
+NEG_00026,Manslaughter,1.0,Yes,1.0
+NEG_00027,Manslaughter,1.0,Yes,1.0
+NEG_00028,Manslaughter,1.0,Yes,1.0
+NEG_00029,Murder,2.0,Yes,1.0
+NEG_00030,Murder,2.0,Yes,1.0
+NEG_00031,Murder,2.0,Yes,1.0
+NEG_00032,Manslaughter,1.0,Yes,1.0
+NEG_00033,Murder,2.0,Yes,1.0
+NEG_00034,Manslaughter,1.0,Yes,1.0
+NEG_00035,Murder,2.0,Yes,1.0
+NEG_00036,Murder,2.0,Yes,1.0
+NEG_00037,Murder,2.0,Yes,1.0
+NEG_00038,Not Guilty,0.0,No,0.0
+NEG_00039,Murder,2.0,Yes,1.0
+NEG_00040,Murder,2.0,Yes,1.0
+NEG_00041,Murder,2.0,Yes,1.0
+NEG_00042,Murder,2.0,Yes,1.0
+NEG_00043,Murder,2.0,Yes,1.0
+NEG_00044,Murder,2.0,Yes,1.0
+NEG_00045,Murder,2.0,Yes,1.0
+NEG_00046,Murder,2.0,Yes,1.0
+NEG_00047,Murder,2.0,Yes,1.0
+NEG_00048,Murder,2.0,Yes,1.0
+NEG_00049,Murder,2.0,Yes,1.0
+NEG_00050,Murder,2.0,Yes,1.0
+NEG_00051,Murder,2.0,Yes,1.0
+NEG_00052,Murder,2.0,Yes,1.0
+NEG_00053,Murder,2.0,Yes,1.0
+NEG_00054,Murder,2.0,Yes,1.0
+NEG_00055,Murder,2.0,Yes,1.0
+NEG_00056,Murder,2.0,Yes,1.0
+NEG_00057,Murder,2.0,Yes,1.0
+NEG_00058,Murder,2.0,Yes,1.0
+NEG_00059,Murder,2.0,Yes,1.0
+NEG_00060,Manslaughter,1.0,Yes,1.0
+NEG_00061,Murder,2.0,Yes,1.0
+NEG_00062,Murder,2.0,Yes,1.0
+NEG_00063,Murder,2.0,Yes,1.0
+NEG_00064,Murder,2.0,Yes,1.0
+NEG_00065,Murder,2.0,Yes,1.0
+NEG_00066,Murder,2.0,Yes,1.0
+NEG_00067,Manslaughter,1.0,Yes,1.0
+NEG_00068,Murder,2.0,Yes,1.0
+NEG_00069,Manslaughter,1.0,Yes,1.0
+NEG_00070,Murder,2.0,Yes,1.0
+NEG_00071,Manslaughter,1.0,Yes,1.0
+NEG_00072,Murder,2.0,Yes,1.0
+NEG_00073,Murder,2.0,Yes,1.0
+NEG_00074,Murder,2.0,Yes,1.0
+NEG_00075,Murder,2.0,Yes,1.0
+NEG_00076,Not Guilty,0.0,Yes,1.0
+NEG_00077,Murder,2.0,Yes,1.0
+NEG_00078,Murder,2.0,Yes,1.0
+NEG_00079,Murder,2.0,Yes,1.0
+NEG_00080,Murder,2.0,Yes,1.0
+NEG_00081,Murder,2.0,Yes,1.0
+NEG_00082,Not Guilty,0.0,No,0.0
+NEG_00083,Murder,2.0,Yes,1.0
+NEG_00084,Murder,2.0,Yes,1.0
+NEG_00085,Murder,2.0,Yes,1.0
+NEG_00086,Murder,2.0,Yes,1.0
+NEG_00087,Murder,2.0,Yes,1.0
+NEG_00088,Murder,2.0,Yes,1.0
+NEG_00089,Murder,2.0,Yes,1.0
+NEG_00090,Murder,2.0,Yes,1.0
+NEG_00091,Murder,2.0,Yes,1.0
+NEG_00092,Not Guilty,0.0,No,0.0
+NEG_00093,Murder,2.0,Yes,1.0
+NEG_00094,Murder,2.0,Yes,1.0
+NEG_00095,Murder,2.0,Yes,1.0
+NEG_00096,Manslaughter,1.0,Yes,1.0
+NEG_00097,Manslaughter,1.0,Yes,1.0
+NEG_00098,Manslaughter,1.0,Yes,1.0
+NEG_00099,Murder,2.0,Yes,1.0
+NEG_00100,Not Guilty,0.0,No,0.0
+NEG_00101,Not Guilty,0.0,No,0.0

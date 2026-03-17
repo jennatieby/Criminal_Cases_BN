@@ -1,0 +1,110 @@
+network unknown {
+}
+variable DeathOfHumanBeing {
+    type discrete [ 2 ] { 0, 1 };
+}
+variable Defences {
+    type discrete [ 2 ] { 0, 1 };
+}
+variable DiminishedResponsibility {
+    type discrete [ 2 ] { 0, 1 };
+}
+variable FactualCausation {
+    type discrete [ 2 ] { 0, 1 };
+}
+variable IntentToCauseGBH {
+    type discrete [ 2 ] { 0, 1 };
+}
+variable IntentToKill {
+    type discrete [ 2 ] { 0, 1 };
+}
+variable LegalCausation {
+    type discrete [ 2 ] { 0, 1 };
+}
+variable LossOfControl {
+    type discrete [ 2 ] { 0, 1 };
+}
+variable MaliceAforethought {
+    type discrete [ 2 ] { 0, 1 };
+}
+variable MensReaIntent {
+    type discrete [ 2 ] { 0, 1 };
+}
+variable UnlawfulKilling {
+    type discrete [ 2 ] { 0, 1 };
+}
+variable Verdict {
+    type discrete [ 3 ] { Manslaughter, Murder, Not Guilty };
+}
+variable VoluntaryAct {
+    type discrete [ 2 ] { 0, 1 };
+}
+probability ( DeathOfHumanBeing ) {
+    table 0.09898477157360407, 0.9010152284263959 ;
+}
+probability ( Defences | DiminishedResponsibility, LossOfControl ) {
+    ( 0, 0 ) 0.8170651817884048, 0.18293481821159516;
+    ( 0, 1 ) 0.36666666666666664, 0.6333333333333333;
+    ( 1, 0 ) 0.6702970297029703, 0.3297029702970297;
+    ( 1, 1 ) 0.37261146496815284, 0.6273885350318471;
+
+}
+probability ( DiminishedResponsibility ) {
+    table 0.8319796954314721, 0.16802030456852793 ;
+}
+probability ( FactualCausation | VoluntaryAct ) {
+    ( 0 ) 0.9574898785425101, 0.04251012145748988;
+    ( 1 ) 0.7687173534532792, 0.23128264654672084;
+
+}
+probability ( IntentToCauseGBH ) {
+    table 0.8258883248730965, 0.17411167512690356 ;
+}
+probability ( IntentToKill ) {
+    table 0.7395939086294416, 0.26040609137055837 ;
+}
+probability ( LegalCausation | FactualCausation ) {
+    ( 0 ) 0.7152466367713004, 0.28475336322869954;
+    ( 1 ) 0.5831295843520783, 0.41687041564792177;
+
+}
+probability ( LossOfControl ) {
+    table 0.9030456852791878, 0.09695431472081219 ;
+}
+probability ( MaliceAforethought | MensReaIntent ) {
+    ( 0 ) 0.5056925996204934, 0.49430740037950666;
+    ( 1 ) 0.4161469161469161, 0.5838530838530839;
+
+}
+probability ( MensReaIntent | IntentToCauseGBH, IntentToKill ) {
+    ( 0, 0 ) 0.3062766369624177, 0.6937233630375823;
+    ( 0, 1 ) 0.17013372956909362, 0.8298662704309064;
+    ( 1, 0 ) 0.22372372372372373, 0.7762762762762763;
+    ( 1, 1 ) 0.21104815864022664, 0.7889518413597734;
+
+}
+probability ( UnlawfulKilling | DeathOfHumanBeing, FactualCausation, LegalCausation ) {
+    ( 0, 0, 0 ) 0.684070796460177, 0.315929203539823;
+    ( 0, 0, 1 ) 0.212, 0.788;
+    ( 0, 1, 0 ) 0.6967213114754098, 0.30327868852459017;
+    ( 0, 1, 1 ) 0.08620689655172414, 0.9137931034482759;
+    ( 1, 0, 0 ) 0.34516790566521405, 0.654832094334786;
+    ( 1, 0, 1 ) 0.07894736842105263, 0.9210526315789473;
+    ( 1, 1, 0 ) 0.21780515117581187, 0.7821948488241881;
+    ( 1, 1, 1 ) 0.06508422664624809, 0.9349157733537519;
+
+}
+probability ( Verdict | Defences, MaliceAforethought, UnlawfulKilling ) {
+    ( 0, 0, 0 ) 0.14379730174399474, 0.6097400460677855, 0.24646265218821983;
+    ( 0, 0, 1 ) 0.15633479440617823, 0.7374243372991024, 0.10624086829471924;
+    ( 0, 1, 0 ) 0.058225869480265736, 0.7241109808518953, 0.217663149667839;
+    ( 0, 1, 1 ) 0.14232059020791415, 0.7636485580147552, 0.09403085177733064;
+    ( 1, 0, 0 ) 0.20404040404040402, 0.591919191919192, 0.20404040404040402;
+    ( 1, 0, 1 ) 0.22174122174122177, 0.7412217412217413, 0.03703703703703704;
+    ( 1, 1, 0 ) 0.18203309692671396, 0.806146572104019, 0.01182033096926714;
+    ( 1, 1, 1 ) 0.22472311539835657, 0.7134690961057522, 0.06180778849589139;
+
+}
+probability ( VoluntaryAct ) {
+    table 0.12538071065989848, 0.8746192893401015 ;
+}
