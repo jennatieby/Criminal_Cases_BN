@@ -58,7 +58,8 @@ EDGES = {
     "Defences": ["Verdict"],
 }
 
-VERDICT_LABELS = {0: "Not Guilty", 1: "Manslaughter", 2: "Murder"}
+# IMPORTANT: Avoid spaces in BIF state names (BIFReader treats them as separators).
+VERDICT_LABELS = {0: "Not_Guilty", 1: "Manslaughter", 2: "Murder"}
 
 
 def edges_to_tuples(edges: dict[str, list[str]]) -> list[tuple[str, str]]:
