@@ -1,0 +1,8 @@
+metric,before,after
+total_cases,980,1068
+verdict_distribution,"{'verdict_0_Not_Guilty': 118, 'verdict_1_Manslaughter': 151, 'verdict_2_Murder': 711}","{'verdict_0_Not_Guilty': 126, 'verdict_1_Manslaughter': 165, 'verdict_2_Murder': 777}"
+overall_accuracy_FULL_EVIDENCE,0.7255102040816327,0.7275280898876404
+brier_murder,0.1967648443147117,0.19698566282012392
+ece_murder,0.006016724713861629,0.004507412209122948
+MAP_dominance_all_Murder,True,True
+mean_JS_divergence_t0.60,0.005905719354696159,0.006437549282461256

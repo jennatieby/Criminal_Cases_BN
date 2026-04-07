@@ -1,0 +1,705 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Homicide Reasoning Network Visualiser</title>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <style>
+    :root {
+      --bg: #071a2f;
+      --panel: #0d2745;
+      --panel-2: #102e52;
+      --text: #f6f8fb;
+      --muted: #b8c6d8;
+      --accent: #5aa7ff;
+      --ok: #22c55e;
+      --warn: #f59e0b;
+      --edge: #6f86a5;
+      --node-grey: #6f7f93;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, #061528 0%, #081d35 100%);
+      color: var(--text);
+      font-family: Inter, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    }
+    .header {
+      padding: 14px 20px 8px 20px;
+      border-bottom: 1px solid #21446d;
+    }
+    .title {
+      font-size: 22px;
+      font-weight: 650;
+      letter-spacing: 0.2px;
+    }
+    .subtitle {
+      margin-top: 3px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .layout {
+      display: grid;
+      grid-template-columns: 320px 1fr 320px;
+      gap: 10px;
+      min-height: calc(100vh - 72px);
+      padding: 10px;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid #1f436b;
+      border-radius: 10px;
+      padding: 12px;
+      overflow: auto;
+    }
+    .panel h3 {
+      margin: 4px 0 10px;
+      font-size: 15px;
+      color: #dbe9ff;
+    }
+    .group-title {
+      margin: 12px 0 6px;
+      font-size: 12px;
+      letter-spacing: 0.7px;
+      color: #9dc2ee;
+      font-weight: 700;
+    }
+    .control-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    .node-name {
+      font-size: 13px;
+      color: #e8f0fb;
+    }
+    .tri-toggle {
+      display: inline-flex;
+      border: 1px solid #2d4e75;
+      border-radius: 7px;
+      overflow: hidden;
+      background: var(--panel-2);
+    }
+    .tri-toggle button {
+      border: 0;
+      background: transparent;
+      color: #c7d8ee;
+      font-size: 11px;
+      padding: 5px 7px;
+      cursor: pointer;
+      min-width: 34px;
+    }
+    .tri-toggle button.active {
+      background: #3f78b3;
+      color: #ffffff;
+      font-weight: 700;
+    }
+    .case-loader {
+      margin-bottom: 8px;
+      padding: 10px;
+      border-radius: 8px;
+      background: #0f2d50;
+      border: 1px solid #274d78;
+    }
+    .case-loader select, .case-loader button {
+      width: 100%;
+      margin-top: 6px;
+      background: #12365f;
+      border: 1px solid #335b8c;
+      color: #f5f8fc;
+      border-radius: 6px;
+      padding: 6px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    .main {
+      background: var(--panel);
+      border: 1px solid #1f436b;
+      border-radius: 10px;
+      padding: 6px;
+      display: flex;
+      flex-direction: column;
+    }
+    #graph {
+      width: 100%;
+      height: 100%;
+      min-height: 700px;
+      background: #09213d;
+      border-radius: 8px;
+    }
+    .legend {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding-left: 4px;
+    }
+    .verdict-map {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 14px;
+      padding: 10px;
+      border-radius: 8px;
+      background: #0f2d50;
+      border: 1px solid #2f5787;
+      text-align: center;
+    }
+    .bar-wrap {
+      margin-bottom: 12px;
+    }
+    .bar-label {
+      font-size: 13px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 4px;
+      color: #d7e6fa;
+    }
+    .bar-bg {
+      height: 20px;
+      background: #163557;
+      border: 1px solid #35608e;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    .bar-fill {
+      height: 100%;
+      width: 0%;
+      transition: width 120ms linear;
+    }
+    .murder { background: #2563eb; }
+    .manslaughter { background: #0ea5a2; }
+    .notguilty { background: #64748b; }
+    .small-note {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+    .footer-actions button {
+      margin-top: 8px;
+      width: 100%;
+      background: #1c4b7e;
+      color: #fff;
+      border: 1px solid #3e74ad;
+      border-radius: 7px;
+      padding: 8px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="title">Homicide Reasoning Network — Probabilistic Legal Inference Visualiser</div>
+    <div class="subtitle">England and Wales | Bayesian Network Model</div>
+  </div>
+
+  <div class="layout">
+    <aside class="panel" id="left-panel">
+      <h3>Evidence Panel</h3>
+      <div class="case-loader">
+        <div style="font-size:12px;color:#b8cbe4;">Preset Cases</div>
+        <select id="case-select">
+          <option value="">Select Case A / B / C</option>
+        </select>
+        <button id="load-case">Load selected case</button>
+        <button id="clear-evidence">Clear all evidence</button>
+      </div>
+      <div id="controls"></div>
+    </aside>
+
+    <main class="main">
+      <svg id="graph"></svg>
+      <div class="legend">
+        <div>Node color: blue intensity = posterior probability of state 1 (observed nodes).</div>
+        <div>Grey nodes: currently unobserved evidence.</div>
+        <div>Edge thickness: conditional influence strength.</div>
+      </div>
+    </main>
+
+    <aside class="panel">
+      <h3>Verdict Panel</h3>
+      <div class="verdict-map" id="map-verdict">MAP: Murder</div>
+
+      <div class="bar-wrap">
+        <div class="bar-label"><span>Murder</span><span id="p-murder">0.0000</span></div>
+        <div class="bar-bg"><div class="bar-fill murder" id="bar-murder"></div></div>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-label"><span>Manslaughter</span><span id="p-mans">0.0000</span></div>
+        <div class="bar-bg"><div class="bar-fill manslaughter" id="bar-mans"></div></div>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-label"><span>Not Guilty</span><span id="p-ng">0.0000</span></div>
+        <div class="bar-bg"><div class="bar-fill notguilty" id="bar-ng"></div></div>
+      </div>
+
+      <div class="small-note">
+        Inference uses exact probabilistic marginalisation (equivalent to variable elimination for this DAG).
+        Toggle evidence states to see posterior propagation through actus reus, mens rea, defences, and verdict.
+      </div>
+    </aside>
+  </div>
+
+  <script>
+    const nodes = [
+      "VoluntaryAct","DeathOfHumanBeing","IntentToKill","IntentToCauseGBH","LossOfControl","DiminishedResponsibility",
+      "FactualCausation","MensReaIntent",
+      "LegalCausation","MaliceAforethought","Defences",
+      "UnlawfulKilling","Verdict"
+    ];
+
+    const nonVerdictNodes = nodes.filter(n => n !== "Verdict");
+
+    const edges = {
+      "VoluntaryAct": ["FactualCausation"],
+      "DeathOfHumanBeing": ["UnlawfulKilling"],
+      "FactualCausation": ["UnlawfulKilling", "LegalCausation"],
+      "LegalCausation": ["UnlawfulKilling"],
+      "UnlawfulKilling": ["Verdict"],
+      "IntentToKill": ["MensReaIntent"],
+      "IntentToCauseGBH": ["MensReaIntent"],
+      "MensReaIntent": ["MaliceAforethought"],
+      "MaliceAforethought": ["Verdict"],
+      "LossOfControl": ["Defences"],
+      "DiminishedResponsibility": ["Defences"],
+      "Defences": ["Verdict"]
+    };
+
+    const parents = {
+      VoluntaryAct: [],
+      DeathOfHumanBeing: [],
+      IntentToKill: [],
+      IntentToCauseGBH: [],
+      LossOfControl: [],
+      DiminishedResponsibility: [],
+      FactualCausation: ["VoluntaryAct"],
+      LegalCausation: ["FactualCausation"],
+      UnlawfulKilling: ["DeathOfHumanBeing","FactualCausation","LegalCausation"],
+      MensReaIntent: ["IntentToKill","IntentToCauseGBH"],
+      MaliceAforethought: ["MensReaIntent"],
+      Defences: ["DiminishedResponsibility","LossOfControl"],
+      Verdict: ["UnlawfulKilling","MaliceAforethought","Defences"]
+    };
+
+    const topologicalOrder = [
+      "VoluntaryAct","DeathOfHumanBeing","IntentToKill","IntentToCauseGBH","LossOfControl","DiminishedResponsibility",
+      "FactualCausation","LegalCausation","UnlawfulKilling",
+      "MensReaIntent","MaliceAforethought","Defences"
+    ];
+
+    // CPT: p(node=1 | parents)
+    const CPT = {
+      VoluntaryAct: () => 0.8746,
+      DeathOfHumanBeing: () => 0.9010,
+      IntentToKill: () => 0.2604,
+      IntentToCauseGBH: () => 0.1741,
+      LossOfControl: () => 0.0970,
+      DiminishedResponsibility: () => 0.1680,
+      FactualCausation: (a) => a.VoluntaryAct === 0 ? 0.0425 : 0.2313,
+      LegalCausation: (a) => a.FactualCausation === 0 ? 0.2848 : 0.4169,
+      UnlawfulKilling: (a) => {
+        const k = `${a.DeathOfHumanBeing}${a.FactualCausation}${a.LegalCausation}`;
+        const t = {
+          "000": 0.3159, "001": 0.7880, "010": 0.3033, "011": 0.7857,
+          "100": 0.6548, "101": 0.9211, "110": 0.7822, "111": 0.9349
+        };
+        return t[k];
+      },
+      MensReaIntent: (a) => {
+        const k = `${a.IntentToKill}${a.IntentToCauseGBH}`;
+        const t = {"00": 0.6937, "10": 0.8299, "01": 0.7763, "11": 0.7890};
+        return t[k];
+      },
+      MaliceAforethought: (a) => a.MensReaIntent === 0 ? 0.4943 : 0.5839,
+      Defences: (a) => {
+        const k = `${a.DiminishedResponsibility}${a.LossOfControl}`;
+        const t = {"00": 0.1829, "01": 0.6333, "10": 0.3297, "11": 0.6274};
+        return t[k];
+      }
+    };
+
+    const verdictTable = {
+      "000": {m: 0.6097, ms: 0.1438},
+      "100": {m: 0.7374, ms: 0.1563},
+      "010": {m: 0.7241, ms: 0.0582},
+      "110": {m: 0.7636, ms: 0.1423},
+      "001": {m: 0.5919, ms: 0.2040},
+      "101": {m: 0.7412, ms: 0.2217},
+      "011": {m: 0.8061, ms: 0.1820},
+      "111": {m: 0.7135, ms: 0.2247}
+    };
+
+    function verdictDistribution(a) {
+      const k = `${a.UnlawfulKilling}${a.MaliceAforethought}${a.Defences}`;
+      const row = verdictTable[k];
+      const m = row.m;
+      const ms = row.ms;
+      const ng = 1 - m - ms;
+      return {Murder: m, Manslaughter: ms, Not_Guilty: ng};
+    }
+
+    // Evidence state: null = unobserved, 0 = absent, 1 = present
+    const evidence = {};
+    nonVerdictNodes.forEach(n => evidence[n] = null);
+
+    const presets = [
+      {
+        id: "A",
+        label: "Case A (Murder profile)",
+        values: {"VoluntaryAct":1,"DeathOfHumanBeing":1,"FactualCausation":1,"LegalCausation":1,"UnlawfulKilling":1,"IntentToKill":1,"IntentToCauseGBH":0,"MensReaIntent":1,"MaliceAforethought":1,"LossOfControl":0,"DiminishedResponsibility":0,"Defences":0}
+      },
+      {
+        id: "B",
+        label: "Case B (Manslaughter profile)",
+        values: {"VoluntaryAct":1,"DeathOfHumanBeing":1,"FactualCausation":0,"LegalCausation":0,"UnlawfulKilling":1,"IntentToKill":0,"IntentToCauseGBH":0,"MensReaIntent":0,"MaliceAforethought":1,"LossOfControl":0,"DiminishedResponsibility":0,"Defences":0}
+      },
+      {
+        id: "C",
+        label: "Case C (Not Guilty profile)",
+        values: {"VoluntaryAct":1,"DeathOfHumanBeing":0,"FactualCausation":0,"LegalCausation":0,"UnlawfulKilling":0,"IntentToKill":0,"IntentToCauseGBH":0,"MensReaIntent":1,"MaliceAforethought":1,"LossOfControl":0,"DiminishedResponsibility":0,"Defences":0}
+      }
+    ];
+
+    function pNodeGivenAssignment(node, assignment) {
+      const p1 = CPT[node](assignment);
+      return assignment[node] === 1 ? p1 : (1 - p1);
+    }
+
+    function isEvidenceConsistent(assignment) {
+      for (const n of nonVerdictNodes) {
+        const e = evidence[n];
+        if (e === null) continue;
+        if (assignment[n] !== e) return false;
+      }
+      return true;
+    }
+
+    function enumerateAssignments(callback) {
+      const vars = nonVerdictNodes;
+      const n = vars.length;
+      const total = 1 << n;
+      for (let mask = 0; mask < total; mask++) {
+        const a = {};
+        for (let i = 0; i < n; i++) {
+          a[vars[i]] = (mask >> i) & 1;
+        }
+        callback(a);
+      }
+    }
+
+    function inferPosteriors() {
+      let Z = 0;
+      const marg1 = {};
+      nonVerdictNodes.forEach(n => marg1[n] = 0);
+      let vM = 0, vMS = 0, vNG = 0;
+
+      enumerateAssignments((a) => {
+        if (!isEvidenceConsistent(a)) return;
+        let jp = 1;
+        for (const n of topologicalOrder) {
+          jp *= pNodeGivenAssignment(n, a);
+        }
+        Z += jp;
+        for (const n of nonVerdictNodes) {
+          if (a[n] === 1) marg1[n] += jp;
+        }
+        const vd = verdictDistribution(a);
+        vM += jp * vd.Murder;
+        vMS += jp * vd.Manslaughter;
+        vNG += jp * vd.Not_Guilty;
+      });
+
+      if (Z <= 0) {
+        return null;
+      }
+
+      const post = {};
+      nonVerdictNodes.forEach(n => post[n] = marg1[n] / Z);
+      const verdict = {
+        Murder: vM / Z,
+        Manslaughter: vMS / Z,
+        Not_Guilty: vNG / Z
+      };
+      return {post, verdict};
+    }
+
+    function computeEdgeStrength(parent, child) {
+      // Average absolute delta in p(child=1) when flipping parent, marginal over other parents.
+      const pset = parents[child];
+      if (!pset || pset.length === 0 || !pset.includes(parent) || child === "Verdict") return 0.6;
+
+      const others = pset.filter(x => x !== parent);
+      const n = others.length;
+      let totalDiff = 0;
+      let count = 0;
+      for (let mask = 0; mask < (1 << n); mask++) {
+        const base0 = {};
+        const base1 = {};
+        for (let i = 0; i < n; i++) {
+          const v = (mask >> i) & 1;
+          base0[others[i]] = v;
+          base1[others[i]] = v;
+        }
+        base0[parent] = 0;
+        base1[parent] = 1;
+        const p0 = CPT[child](base0);
+        const p1 = CPT[child](base1);
+        totalDiff += Math.abs(p1 - p0);
+        count += 1;
+      }
+      return totalDiff / Math.max(1, count);
+    }
+
+    function verdictStrength(parent) {
+      // For verdict parents, use average change in P(Murder).
+      const others = ["UnlawfulKilling","MaliceAforethought","Defences"].filter(x => x !== parent);
+      let total = 0;
+      let count = 0;
+      for (let mask = 0; mask < (1 << others.length); mask++) {
+        const a0 = {}, a1 = {};
+        for (let i = 0; i < others.length; i++) {
+          const v = (mask >> i) & 1;
+          a0[others[i]] = v; a1[others[i]] = v;
+        }
+        a0[parent] = 0; a1[parent] = 1;
+        const p0 = verdictDistribution(a0).Murder;
+        const p1 = verdictDistribution(a1).Murder;
+        total += Math.abs(p1 - p0);
+        count += 1;
+      }
+      return total / Math.max(1, count);
+    }
+
+    const graphLinks = [];
+    Object.entries(edges).forEach(([s, targets]) => {
+      targets.forEach(t => {
+        const raw = t === "Verdict" ? verdictStrength(s) : computeEdgeStrength(s, t);
+        graphLinks.push({source: s, target: t, strength: raw});
+      });
+    });
+
+    const pos = {
+      VoluntaryAct: [90, 70],
+      DeathOfHumanBeing: [250, 70],
+      IntentToKill: [420, 70],
+      IntentToCauseGBH: [590, 70],
+      LossOfControl: [760, 70],
+      DiminishedResponsibility: [930, 70],
+      FactualCausation: [250, 250],
+      MensReaIntent: [520, 250],
+      LegalCausation: [250, 420],
+      MaliceAforethought: [520, 420],
+      Defences: [760, 420],
+      UnlawfulKilling: [390, 570],
+      Verdict: [520, 730]
+    };
+
+    function addControls() {
+      const groups = [
+        {
+          title: "ACTUS REUS",
+          vars: ["VoluntaryAct","DeathOfHumanBeing","FactualCausation","LegalCausation","UnlawfulKilling"]
+        },
+        {
+          title: "MENS REA",
+          vars: ["IntentToKill","IntentToCauseGBH","MensReaIntent","MaliceAforethought"]
+        },
+        {
+          title: "DEFENCES",
+          vars: ["LossOfControl","DiminishedResponsibility","Defences"]
+        }
+      ];
+      const root = document.getElementById("controls");
+      root.innerHTML = "";
+
+      groups.forEach(g => {
+        const gt = document.createElement("div");
+        gt.className = "group-title";
+        gt.textContent = g.title;
+        root.appendChild(gt);
+
+        g.vars.forEach(v => {
+          const row = document.createElement("div");
+          row.className = "control-row";
+
+          const label = document.createElement("div");
+          label.className = "node-name";
+          label.textContent = v;
+
+          const tri = document.createElement("div");
+          tri.className = "tri-toggle";
+          const states = [
+            {txt: "U", val: null},
+            {txt: "1", val: 1},
+            {txt: "0", val: 0}
+          ];
+          states.forEach(s => {
+            const btn = document.createElement("button");
+            btn.textContent = s.txt;
+            if (evidence[v] === s.val) btn.classList.add("active");
+            btn.addEventListener("click", () => {
+              evidence[v] = s.val;
+              addControls();
+              updateAll();
+            });
+            tri.appendChild(btn);
+          });
+          row.appendChild(label);
+          row.appendChild(tri);
+          root.appendChild(row);
+        });
+      });
+    }
+
+    function setupCaseLoader() {
+      const select = document.getElementById("case-select");
+      presets.forEach(p => {
+        const opt = document.createElement("option");
+        opt.value = p.id;
+        opt.textContent = p.label;
+        select.appendChild(opt);
+      });
+
+      document.getElementById("load-case").addEventListener("click", () => {
+        const id = select.value;
+        const p = presets.find(x => x.id === id);
+        if (!p) return;
+        nonVerdictNodes.forEach(n => evidence[n] = p.values[n]);
+        addControls();
+        updateAll();
+      });
+
+      document.getElementById("clear-evidence").addEventListener("click", () => {
+        nonVerdictNodes.forEach(n => evidence[n] = null);
+        addControls();
+        updateAll();
+      });
+    }
+
+    // D3 graph
+    const svg = d3.select("#graph");
+    const width = 1040;
+    const height = 820;
+    svg.attr("viewBox", `0 0 ${width} ${height}`);
+
+    svg.append("defs").append("marker")
+      .attr("id", "arrow")
+      .attr("viewBox", "0 -5 10 10")
+      .attr("refX", 24)
+      .attr("refY", 0)
+      .attr("markerWidth", 6)
+      .attr("markerHeight", 6)
+      .attr("orient", "auto")
+      .append("path")
+      .attr("d", "M0,-5L10,0L0,5")
+      .attr("fill", "#89a5c8");
+
+    const linkScale = d3.scaleLinear()
+      .domain([0, d3.max(graphLinks, d => d.strength) || 1])
+      .range([1.4, 6.0]);
+
+    const gLinks = svg.append("g");
+    const gNodes = svg.append("g");
+
+    const linkSel = gLinks.selectAll("line")
+      .data(graphLinks)
+      .enter()
+      .append("line")
+      .attr("x1", d => pos[d.source][0])
+      .attr("y1", d => pos[d.source][1])
+      .attr("x2", d => pos[d.target][0])
+      .attr("y2", d => pos[d.target][1])
+      .attr("stroke", "var(--edge)")
+      .attr("stroke-opacity", 0.85)
+      .attr("stroke-width", d => linkScale(d.strength))
+      .attr("marker-end", "url(#arrow)");
+
+    const nodeData = nodes.map(n => ({id: n}));
+    const nodeG = gNodes.selectAll("g.node")
+      .data(nodeData)
+      .enter()
+      .append("g")
+      .attr("class", "node")
+      .attr("transform", d => `translate(${pos[d.id][0]},${pos[d.id][1]})`);
+
+    nodeG.append("circle")
+      .attr("r", d => d.id === "Verdict" ? 48 : 40)
+      .attr("fill", "#6f7f93")
+      .attr("stroke", "#e8f2ff")
+      .attr("stroke-width", 1.3);
+
+    nodeG.append("text")
+      .attr("text-anchor", "middle")
+      .attr("dy", "-0.2em")
+      .attr("fill", "#f5fbff")
+      .style("font-size", d => d.id.length > 15 ? "9.5px" : "10.5px")
+      .style("font-weight", 650)
+      .text(d => d.id);
+
+    nodeG.append("text")
+      .attr("class", "prob")
+      .attr("text-anchor", "middle")
+      .attr("dy", "1.2em")
+      .attr("fill", "#c8dcf7")
+      .style("font-size", "10px")
+      .text(d => d.id === "Verdict" ? "" : "P=0.000");
+
+    function probToBlue(p) {
+      return d3.interpolateBlues(0.2 + 0.78 * Math.max(0, Math.min(1, p)));
+    }
+
+    function updateVerdictPanel(v) {
+      const map = Object.entries(v).sort((a,b) => b[1] - a[1])[0][0];
+      const mapLabel = map === "Not_Guilty" ? "Not Guilty" : map;
+      document.getElementById("map-verdict").textContent = `MAP: ${mapLabel}`;
+      document.getElementById("p-murder").textContent = v.Murder.toFixed(4);
+      document.getElementById("p-mans").textContent = v.Manslaughter.toFixed(4);
+      document.getElementById("p-ng").textContent = v.Not_Guilty.toFixed(4);
+      document.getElementById("bar-murder").style.width = `${(v.Murder * 100).toFixed(2)}%`;
+      document.getElementById("bar-mans").style.width = `${(v.Manslaughter * 100).toFixed(2)}%`;
+      document.getElementById("bar-ng").style.width = `${(v.Not_Guilty * 100).toFixed(2)}%`;
+    }
+
+    function updateNodes(post, verdict) {
+      nodeG.select("circle")
+        .attr("fill", d => {
+          if (d.id === "Verdict") return probToBlue(verdict.Murder);
+          if (evidence[d.id] === null) return "var(--node-grey)";
+          return probToBlue(post[d.id] || 0);
+        })
+        .attr("stroke-width", d => (d.id !== "Verdict" && evidence[d.id] !== null) ? 2.1 : 1.3)
+        .attr("stroke", d => (d.id !== "Verdict" && evidence[d.id] !== null) ? "#ffffff" : "#d5e5fa");
+
+      nodeG.select("text.prob")
+        .text(d => {
+          if (d.id === "Verdict") return "";
+          const p = post[d.id] || 0;
+          const ev = evidence[d.id];
+          const suffix = ev === null ? " (U)" : ` (obs=${ev})`;
+          return `P(1)=${p.toFixed(3)}${suffix}`;
+        });
+    }
+
+    function updateAll() {
+      const out = inferPosteriors();
+      if (!out) {
+        alert("Inconsistent evidence produced zero probability mass.");
+        return;
+      }
+      updateNodes(out.post, out.verdict);
+      updateVerdictPanel(out.verdict);
+    }
+
+    addControls();
+    setupCaseLoader();
+    updateAll();
+  </script>
+</body>
+</html>
+

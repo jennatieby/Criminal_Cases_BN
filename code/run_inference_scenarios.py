@@ -26,6 +26,7 @@ Run:
 
 from __future__ import annotations
 
+import argparse
 from pathlib import Path
 
 import numpy as np
@@ -45,6 +46,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BIF_PATH = ROOT / "homicide_bn.bif"
 MATRIX_PATH = ROOT / "case_node_matrix.csv"
 OUT_CSV = ROOT / "outputs" / "scenario_results.csv"
+OUT_CSV_FULL = ROOT / "outputs" / "scenario_results_full.csv"
 OUT_CLEAN_BIF = ROOT / "outputs" / "homicide_bn_clean.bif"
 
 CAUSE_NODE = "LegalCausation"  # interpret \"Causation\" in prompt as this DAG node
@@ -53,19 +55,37 @@ CAUSE_NODE = "LegalCausation"  # interpret \"Causation\" in prompt as this DAG n
 VERDICT_CODE_TO_LABEL = {2: "Murder", 1: "Manslaughter", 0: "Not_Guilty"}
 VERDICT_LABELS = ["Murder", "Manslaughter", "Not_Guilty"]
 
+# Keep output schema stable across runs.
+# (Matches existing outputs/scenario_results.csv header used elsewhere in the repo.)
+OUTPUT_COLUMNS = [
+    "case_id",
+    "scenario",
+    "P(Murder)",
+    "P(Manslaughter)",
+    "P(Not Guilty)",
+    "MAP_verdict",
+    "actual_verdict",
+    "correct",
+    "delta_P(Murder)",
+    "delta_P(Manslaughter)",
+    "delta_P(Not Guilty)",
+    "counterfactual_shifted",
+    "p_murder_delta",
+    "p_murder_baseline",
+]
 
-def load_model():
-    if not BIF_PATH.exists():
-        raise FileNotFoundError(f"Missing BIF model: {BIF_PATH}")
-    # BIFReader splits states on whitespace; fix legacy state name "Not Guilty" -> "Not_Guilty"
-    bif_text = BIF_PATH.read_text(encoding="utf-8", errors="ignore")
+
+def load_model(bif_path: Path) -> object:
+    if not bif_path.exists():
+        raise FileNotFoundError(f"Missing BIF model: {bif_path}")
+    bif_text = bif_path.read_text(encoding="utf-8", errors="ignore")
     if "Not Guilty" in bif_text:
         bif_text = bif_text.replace("Not Guilty", "Not_Guilty")
         OUT_CLEAN_BIF.parent.mkdir(parents=True, exist_ok=True)
         OUT_CLEAN_BIF.write_text(bif_text, encoding="utf-8")
         reader = BIFReader(str(OUT_CLEAN_BIF))
     else:
-        reader = BIFReader(str(BIF_PATH))
+        reader = BIFReader(str(bif_path))
     return reader.get_model()
 
 
@@ -122,35 +142,13 @@ def query_verdict(infer: VariableElimination, evidence: dict[str, str]) -> dict:
     }
 
 
-def main() -> None:
-    model = load_model()
-    infer = VariableElimination(model)
-    df = load_matrix()
-
-    # Evidence variables = all model variables except Verdict
-    model_vars = [v for v in model.nodes() if v != "Verdict"]
-    missing = [v for v in model_vars + ["Verdict"] if v not in df.columns]
-    if missing:
-        raise ValueError(f"Matrix missing required columns for model: {missing}")
-
-    # Deterministic sampling for repeatability
-    rng = np.random.default_rng(42)
-
-    # 20 cases for full/partial evidence
-    sample20 = df.sample(n=min(20, len(df)), random_state=42).copy()
-
+def run_full_evidence_all_cases(infer: VariableElimination, df: pd.DataFrame, model_vars: list[str]) -> pd.DataFrame:
     results: list[dict] = []
-
-    # Cache full-evidence posteriors for delta comparisons in partial scenario
-    full_post_by_case: dict[str, dict] = {}
-
-    # Scenario 1: FULL EVIDENCE
-    for _, row in sample20.iterrows():
+    for _, row in df.iterrows():
         case_id = row["case_id"]
         actual = verdict_label_from_row(row)
         evidence = encode_evidence_row(row, model_vars)
         res = query_verdict(infer, evidence)
-        full_post_by_case[case_id] = res
         results.append(
             {
                 "case_id": case_id,
@@ -161,6 +159,49 @@ def main() -> None:
                 "correct": bool(actual is not None and res["MAP_verdict"] == actual),
             }
         )
+    out = pd.DataFrame(results)
+    for c in OUTPUT_COLUMNS:
+        if c not in out.columns:
+            out[c] = np.nan
+    return out[OUTPUT_COLUMNS]
+
+
+def run_sampled_scenarios(
+    infer: VariableElimination,
+    df: pd.DataFrame,
+    model_vars: list[str],
+    rng: np.random.Generator,
+    *,
+    append_full_evidence_rows: bool = True,
+) -> pd.DataFrame:
+    """
+    Stratified sample (20) full/partial evidence + counterfactual rows (10 Murder).
+    Always computes full-evidence posteriors for the 20 sampled cases (for partial deltas).
+    If append_full_evidence_rows is False, those rows are omitted from the output (e.g. when
+    corpus-wide FULL_EVIDENCE is written separately).
+    """
+    sample20 = df.sample(n=min(20, len(df)), random_state=42).copy()
+
+    results: list[dict] = []
+    full_post_by_case: dict[str, dict] = {}
+
+    for _, row in sample20.iterrows():
+        case_id = row["case_id"]
+        actual = verdict_label_from_row(row)
+        evidence = encode_evidence_row(row, model_vars)
+        res = query_verdict(infer, evidence)
+        full_post_by_case[case_id] = res
+        if append_full_evidence_rows:
+            results.append(
+                {
+                    "case_id": case_id,
+                    "scenario": "FULL_EVIDENCE",
+                    **{k: res[k] for k in ["P(Murder)", "P(Manslaughter)", "P(Not Guilty)"]},
+                    "MAP_verdict": res["MAP_verdict"],
+                    "actual_verdict": actual,
+                    "correct": bool(actual is not None and res["MAP_verdict"] == actual),
+                }
+            )
 
     # Scenario 2: PARTIAL EVIDENCE (disputed causation)
     # Important: if we keep UnlawfulKilling in evidence, LegalCausation becomes irrelevant to Verdict
@@ -292,12 +333,14 @@ def main() -> None:
             )
 
     out = pd.DataFrame(results)
-    OUT_CSV.parent.mkdir(parents=True, exist_ok=True)
-    out.to_csv(OUT_CSV, index=False, encoding="utf-8")
+    for c in OUTPUT_COLUMNS:
+        if c not in out.columns:
+            out[c] = np.nan
+    return out[OUTPUT_COLUMNS]
 
-    # Summary: accuracy and mean posterior probabilities per scenario
+
+def print_scenario_summary(out: pd.DataFrame, out_path: Path) -> None:
     def _acc(x: pd.Series) -> float:
-        # treat None as incorrect
         if x.empty:
             return float("nan")
         return float(x.fillna(False).mean())
@@ -314,11 +357,10 @@ def main() -> None:
         .reset_index()
     )
 
-    print(f"Wrote results to: {OUT_CSV}")
+    print(f"Wrote results to: {out_path}")
     print("\nSummary (accuracy + mean posteriors):")
     print(summary.to_string(index=False))
 
-    # Counterfactual diagnostics: compare NO_INTENT to COUNTERFACTUAL_BASELINE
     cf = out[out["scenario"] == "COUNTERFACTUAL_NO_INTENT"].copy()
     base = out[out["scenario"] == "COUNTERFACTUAL_BASELINE"].copy()
     if not cf.empty and not base.empty:
@@ -332,7 +374,6 @@ def main() -> None:
         print(f"  Mean P(Murder) baseline:  {mean_p_base:.4f}")
         print(f"  Mean P(Murder) no_intent: {mean_p_cf:.4f}")
 
-    # Strong counterfactual diagnostics (NO_INTENT_STRONG): use per-row baseline stored in p_murder_baseline
     strong = out[out["scenario"] == "COUNTERFACTUAL_NO_INTENT_STRONG"].copy()
     if not strong.empty:
         shifted_prop = float(strong["counterfactual_shifted"].fillna(False).mean())
@@ -346,6 +387,69 @@ def main() -> None:
         print(f"  Mean P(Murder) no_intent: {mean_p_cf:.4f}")
         print("\nPer-case deltas (NO_INTENT_STRONG):")
         print(strong[["case_id", "p_murder_baseline", "P(Murder)", "p_murder_delta", "counterfactual_shifted"]].to_string(index=False))
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--bif",
+        type=str,
+        default=str(BIF_PATH),
+        help="Path to fitted .bif model (default: homicide_bn.bif)",
+    )
+    parser.add_argument(
+        "--full-evidence-all",
+        action="store_true",
+        help="Run FULL_EVIDENCE for all cases and write scenario_results_full.csv (no sampled scenarios).",
+    )
+    parser.add_argument(
+        "--complete-scenarios-full",
+        action="store_true",
+        help="FULL_EVIDENCE for all cases plus partial/counterfactual sampled rows -> scenario_results_full.csv",
+    )
+    parser.add_argument(
+        "--out",
+        type=str,
+        default=None,
+        help="Optional output path (defaults depend on mode)",
+    )
+    args = parser.parse_args()
+
+    bif_path = Path(args.bif)
+    model = load_model(bif_path)
+    infer = VariableElimination(model)
+    df = load_matrix()
+
+    model_vars = [v for v in model.nodes() if v != "Verdict"]
+    missing = [v for v in model_vars + ["Verdict"] if v not in df.columns]
+    if missing:
+        raise ValueError(f"Matrix missing required columns for model: {missing}")
+
+    rng = np.random.default_rng(42)
+
+    if args.complete_scenarios_full:
+        full_part = run_full_evidence_all_cases(infer, df, model_vars)
+        extra = run_sampled_scenarios(infer, df, model_vars, rng, append_full_evidence_rows=False)
+        out = pd.concat([full_part, extra], ignore_index=True)
+        out_path = Path(args.out) if args.out else OUT_CSV_FULL
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out.to_csv(out_path, index=False, encoding="utf-8")
+        print_scenario_summary(out, out_path)
+        return
+
+    if args.full_evidence_all:
+        out = run_full_evidence_all_cases(infer, df, model_vars)
+        out_path = Path(args.out) if args.out else OUT_CSV_FULL
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out.to_csv(out_path, index=False, encoding="utf-8")
+        print(f"Wrote results to: {out_path}")
+        return
+
+    out = run_sampled_scenarios(infer, df, model_vars, rng, append_full_evidence_rows=True)
+    out_path = Path(args.out) if args.out else OUT_CSV
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out.to_csv(out_path, index=False, encoding="utf-8")
+    print_scenario_summary(out, out_path)
 
 
 if __name__ == "__main__":

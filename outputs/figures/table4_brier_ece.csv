@@ -1,0 +1,6 @@
+class,brier_score,interpretation
+Murder,0.1969856628201239,moderate
+Manslaughter,0.1286632767687376,moderate
+Not Guilty,0.1005836787564248,moderate
+Overall multiclass,0.4262326183452863,poor
+ECE Murder,0.0045074122091227,well calibrated
